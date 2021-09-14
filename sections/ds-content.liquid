@@ -1,0 +1,26 @@
+<!-- DESKTOP -->
+<div id="{{section.settings.section-id}}" style="
+          background: {{section.settings.background-color}} 
+            {% if section.settings.hasBackground %} 
+               url('{{section.settings.background-image | img_url: 'master'}}') no-repeat center center; background-size: cover 
+            {% endif %}
+          ;" class="lp-content {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
+    <div class="Container {{section.settings.padding}} {{section.settings.no-padding}}" style="align-self: {{section.settings.vertical-align-content}};">
+        <div class="center_content container-{{section.settings.container-width}} flex-column">
+
+            <div class="content justify-{{section.settings.align-content}}">
+                {% for block in section.blocks %} {% case block.type %} {%- when '@app' -%} {% endcase %} {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %} { "name": "Dropsmart Landing Page ", "class": "lp-content", "max_blocks": 10, "presets": [ { "category": "Dropsmart Sections", "name": "Conteúdo 1 Coluna", "settings": {}, "blocks": [ { "type": "h1" }, { "type": "paragraph" }, { "type": "cta"
+} ] } ], "settings": [ { "id": "section-id", "type": "text", "label": "Seção" }, { "type": "color", "id": "background-color", "label": "Cor de Fundo", "default": "#f2f4f5" }, { "id": "hasBackground", "type": "checkbox", "label": "Usar Imagem de Fundo",
+"default": false }, { "id": "reverse-on-mobile", "type": "checkbox", "label": "Ordem reversa no dispositível móvel", "default": false }, { "id": "background-image", "type": "image_picker", "label": "Imagem de Fundo" }, { "type": "select", "id": "align-content",
+"options": [ { "value": "center", "label": "Centralizado"}, { "value": "left", "label": "Esquerda"}, { "value": "right", "label": "Direita"} ], "default": "center", "label": "Alinhamento Horizontal" }, { "type": "select", "id": "vertical-align-content",
+"options": [ { "value": "center", "label": "Centralizado"}, { "value": "flex-start", "label": "Superior"}, { "value": "flex-end", "label": "Inferior"} ], "default": "flex-start", "label": "Alinhamento Vertical" }, { "type": "select", "id": "padding",
+"options": [ { "value": "space-around-small", "label": "Pequeno"}, { "value": "regular", "label": "Médio"}, { "value": "space-around", "label": "Grande"} ], "default": "regular", "label": "Espaçamento da Seção" }, { "type": "select", "id": "no-padding",
+"options": [ { "value": "no-padding-bottom", "label": "Remover Inferior"}, { "value": "no-padding-top", "label": "Remover Superior"}, { "value": "no-padding", "label": "Remover Ambos"}, { "value": "", "label": "Não Remover"} ], "default": "", "label":
+"Remover Espaçamento" }, { "type": "select", "id": "container-width", "options": [ { "value": "full", "label": "Grande"}, { "value": "medium", "label": "Médio"}, { "value": "small", "label": "Pequeno"} ], "default": "medium", "label": "Largura" } ] }
+{% endschema %} {% stylesheet %} {% endstylesheet %} {% javascript %} {% endjavascript %}

@@ -1,0 +1,458 @@
+/* MAIN-CONFIG */
+
+body {
+    font-size: 18px !important;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px !important;
+    }
+}
+
+section {
+    margin: auto;
+}
+
+.shopify-section:nth-child(1) {
+    order: 1;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(1).mobile-reverse {
+        order: 3;
+    }
+}
+
+.shopify-section:nth-child(2) {
+    order: 2;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(2).mobile-reverse {
+        order: 4;
+    }
+}
+
+.shopify-section:nth-child(3) {
+    order: 3;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(3).mobile-reverse {
+        order: 5;
+    }
+}
+
+.shopify-section:nth-child(4) {
+    order: 4;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(4).mobile-reverse {
+        order: 6;
+    }
+}
+
+.shopify-section:nth-child(5) {
+    order: 5;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(5).mobile-reverse {
+        order: 7;
+    }
+}
+
+.shopify-section:nth-child(6) {
+    order: 6;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(6).mobile-reverse {
+        order: 8;
+    }
+}
+
+.shopify-section:nth-child(7) {
+    order: 7;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(7).mobile-reverse {
+        order: 9;
+    }
+}
+
+.shopify-section:nth-child(8) {
+    order: 8;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(8).mobile-reverse {
+        order: 10;
+    }
+}
+
+.shopify-section:nth-child(9) {
+    order: 9;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(9).mobile-reverse {
+        order: 11;
+    }
+}
+
+.shopify-section:nth-child(10) {
+    order: 10;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(10).mobile-reverse {
+        order: 12;
+    }
+}
+
+.shopify-section:nth-child(11) {
+    order: 11;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(11).mobile-reverse {
+        order: 13;
+    }
+}
+
+.shopify-section:nth-child(12) {
+    order: 12;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(12).mobile-reverse {
+        order: 14;
+    }
+}
+
+.shopify-section:nth-child(13) {
+    order: 13;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(13).mobile-reverse {
+        order: 15;
+    }
+}
+
+.shopify-section:nth-child(14) {
+    order: 14;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(14).mobile-reverse {
+        order: 16;
+    }
+}
+
+.shopify-section:nth-child(15) {
+    order: 15;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(15).mobile-reverse {
+        order: 17;
+    }
+}
+
+.shopify-section:nth-child(16) {
+    order: 16;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(16).mobile-reverse {
+        order: 18;
+    }
+}
+
+.shopify-section:nth-child(17) {
+    order: 17;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(17).mobile-reverse {
+        order: 19;
+    }
+}
+
+.shopify-section:nth-child(18) {
+    order: 18;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(18).mobile-reverse {
+        order: 20;
+    }
+}
+
+.shopify-section:nth-child(19) {
+    order: 19;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(19).mobile-reverse {
+        order: 21;
+    }
+}
+
+.shopify-section:nth-child(20) {
+    order: 20;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(20).mobile-reverse {
+        order: 22;
+    }
+}
+
+.shopify-section:nth-child(21) {
+    order: 21;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(21).mobile-reverse {
+        order: 23;
+    }
+}
+
+.shopify-section:nth-child(22) {
+    order: 22;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(22).mobile-reverse {
+        order: 24;
+    }
+}
+
+.shopify-section:nth-child(23) {
+    order: 23;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(23).mobile-reverse {
+        order: 25;
+    }
+}
+
+.shopify-section:nth-child(24) {
+    order: 24;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(24).mobile-reverse {
+        order: 26;
+    }
+}
+
+.shopify-section:nth-child(25) {
+    order: 25;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(25).mobile-reverse {
+        order: 27;
+    }
+}
+
+.shopify-section:nth-child(26) {
+    order: 26;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(26).mobile-reverse {
+        order: 28;
+    }
+}
+
+.shopify-section:nth-child(27) {
+    order: 27;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(27).mobile-reverse {
+        order: 29;
+    }
+}
+
+.shopify-section:nth-child(28) {
+    order: 28;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(28).mobile-reverse {
+        order: 30;
+    }
+}
+
+.shopify-section:nth-child(29) {
+    order: 29;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(29).mobile-reverse {
+        order: 31;
+    }
+}
+
+.shopify-section:nth-child(30) {
+    order: 30;
+}
+
+@media (max-width: 768px) {
+    .shopify-section:nth-child(30).mobile-reverse {
+        order: 32;
+    }
+}
+
+main#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: auto;
+    /* END MAIN-CONFIG */
+}
+
+@media (max-width: 768px) {
+    main#main {
+        background-position: top center;
+    }
+}
+
+main#main .center_content {
+    max-width: 1280px;
+    margin: auto;
+}
+
+main#main .absolute {
+    position: absolute;
+    top: 0;
+}
+
+main#main .shopify-section {
+    display: flex;
+    width: 100%;
+}
+
+main#main .shopify-section>div {
+    display: flex;
+    width: 100%;
+}
+
+main#main .shopify-section>div .Container {
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    main#main .mobile-hide {
+        display: none;
+        opacity: 0;
+        position: absolute;
+        height: 0px !important;
+    }
+}
+
+main#main .desktop-hide {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    height: 0px;
+}
+
+@media (max-width: 768px) {
+    main#main .desktop-hide {
+        display: inherit;
+        position: relative;
+        opacity: 1;
+        height: auto;
+    }
+}
+
+main#main .absolute {
+    position: absolute;
+    width: 100%;
+}
+
+main#main section.shopify-section {
+    margin: 0;
+    width: 50%;
+}
+
+main#main section.shopify-section:nth-of-type(even)>div {
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    justify-content: flex-start;
+}
+
+main#main section.shopify-section:nth-of-type(even)>div .Container {
+    padding-left: 16px;
+}
+
+@media (max-width: 768px) {
+    main#main section.shopify-section:nth-of-type(even)>div .Container {
+        padding-left: 32px;
+        padding-top: 32px;
+    }
+}
+
+main#main section.shopify-section:nth-of-type(odd)>div {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    justify-content: flex-end;
+}
+
+main#main section.shopify-section:nth-of-type(odd)>div .Container {
+    padding-right: 16px;
+}
+
+@media (max-width: 768px) {
+    main#main section.shopify-section:nth-of-type(odd)>div .Container {
+        padding-right: 32px;
+        padding-bottom: 32px;
+    }
+}
+
+main#main section.shopify-section>div {
+    display: flex;
+}
+
+main#main section.shopify-section>div .Container {
+    max-width: 620px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    main#main section.shopify-section {
+        width: 100%;
+    }
+    main#main section.shopify-section:nth-of-type(odd)>div .Container {
+        padding-bottom: 32px;
+    }
+    main#main section.shopify-section:nth-of-type(even)>div .Container {
+        padding-top: 32px;
+    }
+    main#main section.shopify-section:nth-child(even)>div,
+    main#main section.shopify-section:nth-child(odd)>div {
+        justify-content: center;
+    }
+    main#main section.shopify-section:nth-child(even)>div .Container,
+    main#main section.shopify-section:nth-child(odd)>div .Container {
+        margin: 0 auto;
+        max-width: 768px;
+    }
+}
