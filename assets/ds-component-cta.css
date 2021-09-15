@@ -1,0 +1,42 @@
+main#MainContent .component-cta {
+    display: inline-block;
+    margin-top: 0;
+    padding: 0.5em 1.5em;
+    font-weight: 700;
+    text-align: center;
+    transition: 0.4s;
+    border-radius: 4px;
+    text-decoration: none;
+    box-shadow: 0px 0.25em 0.5em 0px rgba(0, 0, 0, 0.1), 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+main#MainContent .component-cta:hover,
+main#MainContent .component-cta:focus {
+    transform: scale(1.05);
+    box-shadow: 0px 0.25em 0.75em 0px rgba(0, 0, 0, 0.075), 0px 6px 12px 0px rgba(0, 0, 0, 0.15), 0px 0px 8px 0px rgba(0, 0, 0, 0.03);
+}
+
+@media (max-width: 768px) {
+    main#MainContent .component-cta {
+        padding: 0.25em 10%;
+    }
+}
+
+main#MainContent .component-cta.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+}

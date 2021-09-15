@@ -1,29 +1,29 @@
 /* FLEX */
 
-main#main .grow-0 {
+main#MainContent .grow-0 {
     flex-grow: 0 !important;
 }
 
-main#main .justify-left {
+main#MainContent .justify-left {
     justify-content: flex-start !important;
     align-content: flex-start;
     text-align: left;
     align-self: flex-start;
 }
 
-main#main .justify-space-evenly {
+main#MainContent .justify-space-evenly {
     justify-content: space-evenly !important;
     align-content: center;
 }
 
-main#main .justify-right {
+main#MainContent .justify-right {
     justify-content: flex-end !important;
     align-content: flex-end;
     text-align: right;
     align-self: flex-end;
 }
 
-main#main .justify-center {
+main#MainContent .justify-center {
     justify-content: center !important;
     align-content: center;
     text-align: center;
@@ -31,54 +31,54 @@ main#main .justify-center {
     align-self: center;
 }
 
-main#main .flex {
+main#MainContent .flex {
     display: flex;
     flex-direction: row;
     position: relative;
 }
 
 @media (max-width: 768px) {
-    main#main .flex {
+    main#MainContent .flex {
         flex-direction: column;
     }
 }
 
-main#main .flex>div {
+main#MainContent .flex>div {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
 }
 
-main#main .flex-reverse {
+main#MainContent .flex-reverse {
     display: flex;
     flex-direction: row-reverse;
 }
 
 @media (max-width: 768px) {
-    main#main .flex-reverse {
+    main#MainContent .flex-reverse {
         flex-direction: column-reverse;
     }
 }
 
-main#main .flex-reverse>div {
+main#MainContent .flex-reverse>div {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
 }
 
-main#main .flex-row {
+main#MainContent .flex-row {
     flex-direction: row !important;
     align-items: end;
     align-self: center;
 }
 
-main#main .flex-column {
+main#MainContent .flex-column {
     flex-direction: column !important;
     align-items: center;
 }
 
 @media (max-width: 768px) {
-    main#main .mobile-flex-row {
+    main#MainContent .mobile-flex-row {
         align-self: center;
         flex-direction: row !important;
         align-items: center;
@@ -86,32 +86,32 @@ main#main .flex-column {
 }
 
 @media (max-width: 768px) {
-    main#main .mobile-flex-column {
+    main#MainContent .mobile-flex-column {
         flex-direction: column !important;
         align-items: center;
     }
 }
 
-main#main .flex-basis-1 {
+main#MainContent .flex-basis-1 {
     flex-basis: calc(50% - 32px);
 }
 
-main#main .flex-basis-2 {
+main#MainContent .flex-basis-2 {
     flex-basis: calc(50% - 32px);
 }
 
-main#main .flex-basis-3 {
+main#MainContent .flex-basis-3 {
     flex-basis: calc(33% - 32px);
 }
 
-main#main .flex-basis-4 {
+main#MainContent .flex-basis-4 {
     flex-basis: calc(25% - 32px);
 }
 
-main#main .flex-basis-5 {
+main#MainContent .flex-basis-5 {
     flex-basis: calc(20% - 32px);
 }
 
-main#main .flex-basis {
+main#MainContent .flex-basis {
     flex-basis: 0;
 }

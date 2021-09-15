@@ -1,82 +1,75 @@
-main#main .lp-content {
+main#MainContent .ds-lp-content {
     height: 100%;
 }
 
-main#main .lp-content .content {
+main#MainContent .ds-lp-content .content {
     padding: 0;
     margin: 0;
 }
 
-main#main .lp-content .content h1,
-main#main .lp-content .content h2,
-main#main .lp-content .content h3,
-main#main .lp-content .content paragraph {
-    margin-bottom: 32px;
-}
-
-main#main .lp-content .paragraph p {
+main#MainContent .ds-lp-content .paragraph p {
     color: inherit !important;
 }
 
-main#main .lp-content .features {
+main#MainContent .ds-lp-content .features {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-main#main .lp-content .features.flex-column .component-feature {
+main#MainContent .ds-lp-content .features.flex-column .component-feature {
     align-self: flex-start;
     padding: 32px 32px 16px !important;
     margin-bottom: 16px !important;
 }
 
-main#main .lp-content .features.flex-column .component-feature.shadow {
+main#MainContent .ds-lp-content .features.flex-column .component-feature.shadow {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1), 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
-main#main .lp-content .features.flex-column .component-feature img {
+main#MainContent .ds-lp-content .features.flex-column .component-feature img {
     margin-left: 0 !important;
 }
 
 @media (max-width: 768px) {
-    main#main .lp-content .features.flex-column .component-feature.mobile-flex-row {
+    main#MainContent .ds-lp-content .features.flex-column .component-feature.mobile-flex-row {
         align-self: center;
     }
 }
 
 @media (max-width: 768px) {
-    main#main .lp-content .features.flex-column .component-feature {
+    main#MainContent .ds-lp-content .features.flex-column .component-feature {
         margin: 0 !important;
         margin-bottom: 16px !important;
     }
 }
 
-main#main .lp-content .features.flex-row .component-feature {
+main#MainContent .ds-lp-content .features.flex-row .component-feature {
     align-self: center;
     margin: 0 16px 16px;
     padding: 32px 32px 16px !important;
     margin-bottom: 16px !important;
 }
 
-main#main .lp-content .features.flex-row .component-feature.shadow {
+main#MainContent .ds-lp-content .features.flex-row .component-feature.shadow {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1), 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
 @media (max-width: 768px) {
-    main#main .lp-content .features.flex-row .component-feature.mobile-flex-column {
+    main#MainContent .ds-lp-content .features.flex-row .component-feature.mobile-flex-column {
         align-self: flex-start;
     }
 }
 
 @media (max-width: 768px) {
-    main#main .lp-content .features.flex-row .component-feature {
+    main#MainContent .ds-lp-content .features.flex-row .component-feature {
         margin: 0 !important;
         margin-bottom: 16px !important;
     }
 }
 
 @media (max-width: 768px) {
-    main#main .lp-content .features {
+    main#MainContent .ds-lp-content .features {
         flex-direction: column;
     }
 }

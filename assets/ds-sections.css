@@ -1,5 +1,3 @@
-/* MAIN-CONFIG */
-
 body {
     font-size: 18px !important;
 }
@@ -10,354 +8,374 @@ body {
     }
 }
 
-section {
-    margin: auto;
-}
-
-.shopify-section:nth-child(1) {
+main#MainContent .shopify-section:nth-child(1) {
     order: 1;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(1).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(1).mobile-reverse {
         order: 3;
     }
 }
 
-.shopify-section:nth-child(2) {
+main#MainContent .shopify-section:nth-child(2) {
     order: 2;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(2).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(2).mobile-reverse {
         order: 4;
     }
 }
 
-.shopify-section:nth-child(3) {
+main#MainContent .shopify-section:nth-child(3) {
     order: 3;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(3).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(3).mobile-reverse {
         order: 5;
     }
 }
 
-.shopify-section:nth-child(4) {
+main#MainContent .shopify-section:nth-child(4) {
     order: 4;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(4).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(4).mobile-reverse {
         order: 6;
     }
 }
 
-.shopify-section:nth-child(5) {
+main#MainContent .shopify-section:nth-child(5) {
     order: 5;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(5).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(5).mobile-reverse {
         order: 7;
     }
 }
 
-.shopify-section:nth-child(6) {
+main#MainContent .shopify-section:nth-child(6) {
     order: 6;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(6).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(6).mobile-reverse {
         order: 8;
     }
 }
 
-.shopify-section:nth-child(7) {
+main#MainContent .shopify-section:nth-child(7) {
     order: 7;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(7).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(7).mobile-reverse {
         order: 9;
     }
 }
 
-.shopify-section:nth-child(8) {
+main#MainContent .shopify-section:nth-child(8) {
     order: 8;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(8).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(8).mobile-reverse {
         order: 10;
     }
 }
 
-.shopify-section:nth-child(9) {
+main#MainContent .shopify-section:nth-child(9) {
     order: 9;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(9).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(9).mobile-reverse {
         order: 11;
     }
 }
 
-.shopify-section:nth-child(10) {
+main#MainContent .shopify-section:nth-child(10) {
     order: 10;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(10).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(10).mobile-reverse {
         order: 12;
     }
 }
 
-.shopify-section:nth-child(11) {
+main#MainContent .shopify-section:nth-child(11) {
     order: 11;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(11).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(11).mobile-reverse {
         order: 13;
     }
 }
 
-.shopify-section:nth-child(12) {
+main#MainContent .shopify-section:nth-child(12) {
     order: 12;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(12).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(12).mobile-reverse {
         order: 14;
     }
 }
 
-.shopify-section:nth-child(13) {
+main#MainContent .shopify-section:nth-child(13) {
     order: 13;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(13).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(13).mobile-reverse {
         order: 15;
     }
 }
 
-.shopify-section:nth-child(14) {
+main#MainContent .shopify-section:nth-child(14) {
     order: 14;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(14).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(14).mobile-reverse {
         order: 16;
     }
 }
 
-.shopify-section:nth-child(15) {
+main#MainContent .shopify-section:nth-child(15) {
     order: 15;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(15).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(15).mobile-reverse {
         order: 17;
     }
 }
 
-.shopify-section:nth-child(16) {
+main#MainContent .shopify-section:nth-child(16) {
     order: 16;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(16).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(16).mobile-reverse {
         order: 18;
     }
 }
 
-.shopify-section:nth-child(17) {
+main#MainContent .shopify-section:nth-child(17) {
     order: 17;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(17).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(17).mobile-reverse {
         order: 19;
     }
 }
 
-.shopify-section:nth-child(18) {
+main#MainContent .shopify-section:nth-child(18) {
     order: 18;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(18).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(18).mobile-reverse {
         order: 20;
     }
 }
 
-.shopify-section:nth-child(19) {
+main#MainContent .shopify-section:nth-child(19) {
     order: 19;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(19).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(19).mobile-reverse {
         order: 21;
     }
 }
 
-.shopify-section:nth-child(20) {
+main#MainContent .shopify-section:nth-child(20) {
     order: 20;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(20).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(20).mobile-reverse {
         order: 22;
     }
 }
 
-.shopify-section:nth-child(21) {
+main#MainContent .shopify-section:nth-child(21) {
     order: 21;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(21).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(21).mobile-reverse {
         order: 23;
     }
 }
 
-.shopify-section:nth-child(22) {
+main#MainContent .shopify-section:nth-child(22) {
     order: 22;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(22).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(22).mobile-reverse {
         order: 24;
     }
 }
 
-.shopify-section:nth-child(23) {
+main#MainContent .shopify-section:nth-child(23) {
     order: 23;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(23).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(23).mobile-reverse {
         order: 25;
     }
 }
 
-.shopify-section:nth-child(24) {
+main#MainContent .shopify-section:nth-child(24) {
     order: 24;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(24).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(24).mobile-reverse {
         order: 26;
     }
 }
 
-.shopify-section:nth-child(25) {
+main#MainContent .shopify-section:nth-child(25) {
     order: 25;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(25).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(25).mobile-reverse {
         order: 27;
     }
 }
 
-.shopify-section:nth-child(26) {
+main#MainContent .shopify-section:nth-child(26) {
     order: 26;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(26).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(26).mobile-reverse {
         order: 28;
     }
 }
 
-.shopify-section:nth-child(27) {
+main#MainContent .shopify-section:nth-child(27) {
     order: 27;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(27).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(27).mobile-reverse {
         order: 29;
     }
 }
 
-.shopify-section:nth-child(28) {
+main#MainContent .shopify-section:nth-child(28) {
     order: 28;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(28).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(28).mobile-reverse {
         order: 30;
     }
 }
 
-.shopify-section:nth-child(29) {
+main#MainContent .shopify-section:nth-child(29) {
     order: 29;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(29).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(29).mobile-reverse {
         order: 31;
     }
 }
 
-.shopify-section:nth-child(30) {
+main#MainContent .shopify-section:nth-child(30) {
     order: 30;
 }
 
 @media (max-width: 768px) {
-    .shopify-section:nth-child(30).mobile-reverse {
+    main#MainContent .shopify-section:nth-child(30).mobile-reverse {
         order: 32;
     }
 }
 
-main#main {
+main#MainContent {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    position: relative;
     justify-content: center;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: auto;
-    /* END MAIN-CONFIG */
+}
+
+main#MainContent>.spaced-section {
+    margin-top: 5rem;
+}
+
+main#MainContent>.spaced-section--full-width:first-child {
+    margin-top: 0;
 }
 
 @media (max-width: 768px) {
-    main#main {
+    main#MainContent {
         background-position: top center;
     }
 }
 
-main#main .center_content {
+main#MainContent .center_content {
     max-width: 1280px;
     margin: auto;
 }
 
-main#main .absolute {
+main#MainContent .absolute {
     position: absolute;
     top: 0;
 }
 
-main#main .shopify-section {
+main#MainContent .shopify-section,
+main#MainContent .shopify-section {
     display: flex;
-    width: 100%;
 }
 
-main#main .shopify-section>div {
-    display: flex;
-    width: 100%;
+main#MainContent .shopify-section>div,
+main#MainContent .shopify-section>section {
+    width: 98vw;
 }
 
-main#main .shopify-section>div .Container {
+main#MainContent .shopify-section>div.two-col,
+main#MainContent .shopify-section>section.two-col {
+    width: 49vw;
+}
+
+@media (max-width: 768px) {
+    main#MainContent .shopify-section>div,
+    main#MainContent .shopify-section>section {
+        width: 100vw;
+    }
+    main#MainContent .shopify-section>div.two-col,
+    main#MainContent .shopify-section>section.two-col {
+        width: 100vw;
+    }
+}
+
+main#MainContent .shopify-section>div .Container {
     margin: 0 auto;
 }
 
 @media (max-width: 768px) {
-    main#main .mobile-hide {
+    main#MainContent .mobile-hide {
         display: none;
         opacity: 0;
         position: absolute;
@@ -365,7 +383,7 @@ main#main .shopify-section>div .Container {
     }
 }
 
-main#main .desktop-hide {
+main#MainContent .desktop-hide {
     display: none;
     position: absolute;
     opacity: 0;
@@ -373,7 +391,7 @@ main#main .desktop-hide {
 }
 
 @media (max-width: 768px) {
-    main#main .desktop-hide {
+    main#MainContent .desktop-hide {
         display: inherit;
         position: relative;
         opacity: 1;
@@ -381,77 +399,72 @@ main#main .desktop-hide {
     }
 }
 
-main#main .absolute {
+main#MainContent .absolute {
     position: absolute;
     width: 100%;
 }
 
-main#main section.shopify-section {
-    margin: 0;
-    width: 50%;
-}
-
-main#main section.shopify-section:nth-of-type(even)>div {
+main#MainContent .shopify-section:nth-of-type(even)>div.two-col {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: contain;
     justify-content: flex-start;
 }
 
-main#main section.shopify-section:nth-of-type(even)>div .Container {
-    padding-left: 16px;
-}
-
 @media (max-width: 768px) {
-    main#main section.shopify-section:nth-of-type(even)>div .Container {
-        padding-left: 32px;
-        padding-top: 32px;
+    main#MainContent .shopify-section:nth-of-type(even)>div.two-col .Container {
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 }
 
-main#main section.shopify-section:nth-of-type(odd)>div {
+main#MainContent .shopify-section:nth-of-type(odd)>div.two-col {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
     justify-content: flex-end;
 }
 
-main#main section.shopify-section:nth-of-type(odd)>div .Container {
-    padding-right: 16px;
+main#MainContent .shopify-section:nth-of-type(odd)>div.two-col .Container {
+    padding-right: 2.5rem;
+}
+
+main#MainContent .shopify-section:nth-of-type(even)>div.two-col .Container {
+    padding-left: 2.5rem;
 }
 
 @media (max-width: 768px) {
-    main#main section.shopify-section:nth-of-type(odd)>div .Container {
-        padding-right: 32px;
-        padding-bottom: 32px;
+    main#MainContent .shopify-section:nth-of-type(odd)>div.two-col .Container {
+        padding-right: 3rem;
+        padding-left: 3rem;
     }
 }
 
-main#main section.shopify-section>div {
+main#MainContent .shopify-section>div.two-col {
     display: flex;
 }
 
-main#main section.shopify-section>div .Container {
+main#MainContent .shopify-section>div.two-col .Container {
     max-width: 620px;
     margin: 0;
 }
 
 @media (max-width: 768px) {
-    main#main section.shopify-section {
+    main#MainContent .shopify-section {
         width: 100%;
     }
-    main#main section.shopify-section:nth-of-type(odd)>div .Container {
-        padding-bottom: 32px;
+    main#MainContent .shopify-section:nth-of-type(odd)>div .Container {
+        padding-bottom: 3rem;
     }
-    main#main section.shopify-section:nth-of-type(even)>div .Container {
-        padding-top: 32px;
+    main#MainContent .shopify-section:nth-of-type(even)>div .Container {
+        padding-top: 3rem;
     }
-    main#main section.shopify-section:nth-child(even)>div,
-    main#main section.shopify-section:nth-child(odd)>div {
+    main#MainContent .shopify-section:nth-child(even)>div,
+    main#MainContent .shopify-section:nth-child(odd)>div {
         justify-content: center;
     }
-    main#main section.shopify-section:nth-child(even)>div .Container,
-    main#main section.shopify-section:nth-child(odd)>div .Container {
+    main#MainContent .shopify-section:nth-child(even)>div .Container,
+    main#MainContent .shopify-section:nth-child(odd)>div .Container {
         margin: 0 auto;
         max-width: 768px;
     }

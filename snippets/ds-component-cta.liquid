@@ -1,0 +1,12 @@
+<div class="justify-{{align}} grow-0">    
+    <a  
+        style="font-size: {{fontSize}}em; border-radius: {{borderRadius}}; background-color:{{backgroundColor}}; border: 2px solid {{backgroundColor}}; {% if pulse %} color: {{backgroundColor}}77 {% endif %};"
+        class="component-cta justify-{{align}} {% if pulse %} pulse {% endif %}" 
+        href="{{link}}"
+        onclick="{% if onclick != empty %} ctaFired {% else %} {{onclick}} {% endif %}" 
+    >
+      <span style="color:{{fontColor}};">
+        {{text}}
+      </span>
+  </a>
+</div>
