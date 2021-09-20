@@ -422,7 +422,7 @@ main#MainContent .shopify-section:nth-of-type(odd)>div.two-col {
     background-repeat: no-repeat;
     background-position: left center;
     background-size: contain;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 main#MainContent .shopify-section:nth-of-type(odd)>div.two-col .Container {

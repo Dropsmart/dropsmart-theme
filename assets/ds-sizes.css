@@ -48,6 +48,13 @@ main#MainContent .Container {
     padding-right: 5rem;
 }
 
+@media (max-width: 768px) {
+    main#MainContent .Container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
 main#MainContent .Container .content,
 main#MainContent .regular .content {
     padding: 0;
@@ -70,7 +77,7 @@ main#MainContent .Container span>p,
 main#MainContent .Container div>.component-cta,
 main#MainContent .Container img {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 main#MainContent .space-around-regular {

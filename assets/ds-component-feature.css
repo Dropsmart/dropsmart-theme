@@ -1,0 +1,61 @@
+main#MainContent .ds-feature {
+    flex: 1;
+}
+
+main#MainContent .ds-feature.flex-row {
+    min-width: 100%;
+}
+
+main#MainContent .ds-feature {
+    flex: 1;
+}
+
+main#MainContent .component-feature {
+    flex: 1;
+    align-self: center;
+    margin-bottom: 1rem !important;
+}
+
+main#MainContent .component-feature.full-width {
+    width: calc(100% - 3rem);
+}
+
+main#MainContent .component-feature.auto-width {
+    width: fit-content;
+}
+
+main#MainContent .component-feature:last-child {
+    margin-bottom: 1rem !important;
+}
+
+main#MainContent .component-feature.flex-row span,
+main#MainContent .component-feature.flex-row h3 {
+    padding-right: 0 !important;
+}
+
+main#MainContent .component-feature.flex-row .image-wrapper img {
+    margin-bottom: 1rem !important;
+}
+
+main#MainContent .component-feature .image-wrapper {
+    padding: 0 1.5rem;
+}
+
+@media (max-width: 768px) {
+    main#MainContent .component-feature {
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+    main#MainContent .component-feature:last-child {
+        margin-bottom: 0;
+    }
+    main#MainContent .component-feature p {
+        margin-bottom: 1.5rem !important;
+    }
+    main#MainContent .ds-feature {
+        min-width: 100%;
+    }
+    main#MainContent .component-feature {
+        min-width: 100%;
+    }
+}
