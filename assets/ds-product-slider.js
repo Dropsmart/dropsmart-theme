@@ -912,6 +912,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
         cover: true,
     });
 
+    console.log('a');
     // Set the thumbnails slider as a sync target and then call mount.
     primarySlider.sync(secondarySlider).mount();
+
+    document.querySelector('input[name="id"]').addEventListener('change', function() {
+        if (document.querySelector('.splide-' + document.querySelector('input[name="id"]').value).dataset.position) {
+            primarySlider.go(document.querySelector('.splide-' + document.querySelector('input[name="id"]').value).dataset.position - 1);
+        }
+    });
 });
