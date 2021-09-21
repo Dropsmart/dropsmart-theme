@@ -193,17 +193,30 @@
         "1632252676ac892627-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Para ter acesso a todos os componentes do tema Dropsmart, obtenha o app Starter<p>",
+            "text": "<p>Para ter acesso a todos os componentes do tema Dropsmart, obtenha o app Starter. Para ter acesso a todos os componentes do tema Dropsmart, obtenha o app Starter, <\/p><p><br\/><br\/><\/p>",
             "font-color": "#000000",
             "font-weight": "400",
             "font-size": "1",
             "align": "center"
           }
+        },
+        "0381c21a-9aa6-4aee-b94f-4f426f224a05": {
+          "type": "cta",
+          "settings": {
+            "border-radius": "20px",
+            "link": "http:\/\/globo.com",
+            "text": "Aperte aqui",
+            "font-size": "1.25",
+            "pulse": true,
+            "font-color": "#FFFFFF",
+            "background-color": "#000000"
+          }
         }
       },
       "block_order": [
         "1632252676ac892627-0",
-        "1632252676ac892627-1"
+        "1632252676ac892627-1",
+        "0381c21a-9aa6-4aee-b94f-4f426f224a05"
       ],
       "settings": {
         "heading": "",
@@ -218,6 +231,7 @@
     },
     "163225270581f629d7": {
       "type": "ds-features",
+      "disabled": true,
       "blocks": {
         "d4b7e64c-d583-4622-adda-eb56572885a7": {
           "type": "feature",
