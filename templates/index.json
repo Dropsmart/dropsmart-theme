@@ -183,7 +183,7 @@
         "163215913527b01a1b-0": {
           "type": "h1",
           "settings": {
-            "text": "Lorem Ipsum",
+            "text": "Título Dropsmart",
             "font-size": "3",
             "font-color": "#000000",
             "align": "center",
@@ -206,7 +206,7 @@
         "163215913527b01a1b-1"
       ],
       "settings": {
-        "section-id": "",
+        "heading": "",
         "background-color": "#f2f4f5",
         "col-number": "one-col",
         "reverse-on-mobile": false,
