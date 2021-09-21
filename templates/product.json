@@ -27,32 +27,6 @@
           "settings": {
           }
         },
-        "e0d2cbb4-f6dc-4a60-86fc-128623892fa9": {
-          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/product-reviews\/79c7781a-151c-4a0b-8787-33d3543aaddc",
-          "settings": {
-            "stars_fill_color": "#b1af1c",
-            "star_size": 28,
-            "padding_x": 50,
-            "padding_y": 0,
-            "heading": "Customer Reviews",
-            "no_reviews_action_text": "Be the first to review this product.",
-            "existing_reviews_action_text": "Write Review",
-            "allow_unverified_reviews": false,
-            "product": "{{product}}"
-          }
-        },
-        "f55aef28-4047-4532-a902-b950694f8a52": {
-          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/average-rating\/79c7781a-151c-4a0b-8787-33d3543aaddc",
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 24,
-            "padding_x": 0,
-            "padding_y": 0,
-            "show_heading": true,
-            "heading": "Average Score",
-            "product": "{{product}}"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -80,6 +54,13 @@
           "type": "share",
           "settings": {
           }
+        },
+        "df5d63a2-5c27-4813-8dda-737239cd72cc": {
+          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+          "settings": {
+            "content-image": "shopify:\/\/shop_images\/Simbolo_DS.png",
+            "mobile-content-image": "shopify:\/\/shop_images\/Simbolo_DS.png"
+          }
         }
       },
       "block_order": [
@@ -87,13 +68,12 @@
         "title",
         "subtitle",
         "price",
-        "e0d2cbb4-f6dc-4a60-86fc-128623892fa9",
-        "f55aef28-4047-4532-a902-b950694f8a52",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "df5d63a2-5c27-4813-8dda-737239cd72cc"
       ],
       "settings": {
         "enable_sticky_info": true,
