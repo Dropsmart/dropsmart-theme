@@ -38,6 +38,13 @@
           "settings": {
           }
         },
+        "df5d63a2-5c27-4813-8dda-737239cd72cc": {
+          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+          "settings": {
+            "content-image": "shopify:\/\/shop_images\/Simbolo_DS.png",
+            "mobile-content-image": "shopify:\/\/shop_images\/Simbolo_DS.png"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -54,13 +61,6 @@
           "type": "share",
           "settings": {
           }
-        },
-        "df5d63a2-5c27-4813-8dda-737239cd72cc": {
-          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
-          "settings": {
-            "content-image": "shopify:\/\/shop_images\/Simbolo_DS.png",
-            "mobile-content-image": "shopify:\/\/shop_images\/Simbolo_DS.png"
-          }
         }
       },
       "block_order": [
@@ -70,10 +70,10 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "df5d63a2-5c27-4813-8dda-737239cd72cc",
         "buy_buttons",
         "description",
-        "share",
-        "df5d63a2-5c27-4813-8dda-737239cd72cc"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
