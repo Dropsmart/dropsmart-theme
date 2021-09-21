@@ -13,7 +13,7 @@ main#MainContent .ds-feature {
 main#MainContent .component-feature {
     flex: 1;
     align-self: center;
-    margin-bottom: 1rem !important;
+    margin-bottom: 0rem !important;
 }
 
 main#MainContent .component-feature.full-width {

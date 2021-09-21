@@ -47,7 +47,7 @@ main#MainContent .ds-lp-content .features.flex-column .component-feature img {
 main#MainContent .ds-lp-content .features.flex-row .component-feature {
     align-self: center;
     margin: 0 1.5rem 1.5rem;
-    padding: 3rem 3rem 1.5rem !important;
+    padding: 3rem 3rem 0 !important;
     margin-bottom: 1.5rem !important;
 }
 

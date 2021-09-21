@@ -1,5 +1,5 @@
 <!-- DESKTOP -->
-<div id="{{section.settings.section-id}}" style="
+<div id="{{section.settings.heading}}" style="
           background: {{section.settings.background-color}} 
             {% if section.settings.background-image %} 
                url('{{section.settings.background-image | img_url: 'master'}}') no-repeat center center; background-size: cover 
@@ -319,12 +319,12 @@
                     "type": "select",
                     "id": "cta-font-size",
                     "options": [
-                       { "value": "1.25", "label": "Pequeno"},
-                       { "value": "1.5", "label": "Médio"},
-                       { "value": "2", "label": "Grande"},
-                       { "value": "2.5", "label": "Muito Grande"}
+                       { "value": "1", "label": "Pequeno"},
+                       { "value": "1.25", "label": "Médio"},
+                       { "value": "1.75", "label": "Grande"},
+                       { "value": "2", "label": "Muito Grande"}
                     ],
-                    "default": "1.5",
+                    "default": "1.25",
                     "label": "Tamanho da Fonte"
                 },
                 {
@@ -361,13 +361,13 @@
     ],
     "settings":[
        {
-          "id":"section-id",
+          "id":"heading",
           "type":"text",
           "label":"Identificação da Seção"
        },
        {
          "type": "paragraph",
-         "content": "A identificação da seção tem como objetivo utilizar botões de ancoragem para a seção. Ex: Para o caso da identifação da seção ser 'novidades', no campo link do Botão, inserir '#novidades'"
+         "content": "Não utilize espaços! A identificação da seção tem como objetivo utilizar botões de ancoragem para a seção. Ex: Para o caso da identifação da seção ser 'novidades', no campo link do Botão, inserir '#novidades'"
        },
        {
          "type": "header",
