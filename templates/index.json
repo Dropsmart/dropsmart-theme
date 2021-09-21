@@ -177,27 +177,20 @@
         "swipe_on_mobile": false
       }
     },
-    "163215913527b01a1b": {
+    "1632252676ac892627": {
       "type": "ds-content",
       "blocks": {
-        "163215913527b01a1b-0": {
+        "1632252676ac892627-0": {
           "type": "h1",
           "settings": {
-            "text": "Título Dropsmart",
+            "text": "Lorem Ipsum",
             "font-size": "3",
             "font-color": "#000000",
             "align": "center",
             "font-weight": "600"
           }
         },
-        "57a21982-9390-42cc-99cc-3ede5ac198c7": {
-          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
-          "settings": {
-            "content-image": "shopify:\/\/shop_images\/Simbolo_DS.png",
-            "mobile-content-image": "shopify:\/\/shop_images\/Simbolo_DS.png"
-          }
-        },
-        "163215913527b01a1b-1": {
+        "1632252676ac892627-1": {
           "type": "paragraph",
           "settings": {
             "text": "<p>Para ter acesso a todos os componentes do tema Dropsmart, obtenha o app Starter<p>",
@@ -209,9 +202,8 @@
         }
       },
       "block_order": [
-        "163215913527b01a1b-0",
-        "57a21982-9390-42cc-99cc-3ede5ac198c7",
-        "163215913527b01a1b-1"
+        "1632252676ac892627-0",
+        "1632252676ac892627-1"
       ],
       "settings": {
         "heading": "",
@@ -219,6 +211,59 @@
         "col-number": "one-col",
         "reverse-on-mobile": false,
         "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "163225270581f629d7": {
+      "type": "ds-features",
+      "blocks": {
+        "d4b7e64c-d583-4622-adda-eb56572885a7": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "center",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "auto-width",
+            "border-radius": "0px",
+            "has-shadow": false,
+            "has-icon": false,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "",
+            "title-font-color": "#000000",
+            "font-size": "1.5",
+            "align": "center",
+            "font-weight": "400",
+            "description-text": "<p>Lorem ipsum<\/p><p><\/p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.75",
+            "has-cta": false,
+            "cta-border-radius": "4px",
+            "link": "#combo",
+            "cta-text": "Click here",
+            "cta-font-size": "1.25",
+            "cta-align": "center",
+            "cta-pulse": false,
+            "cta-font-color": "#FFFfff",
+            "cta-background-color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "d4b7e64c-d583-4622-adda-eb56572885a7"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#f2f4f5",
+        "col-number": "one-col",
+        "reverse-on-mobile": false,
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium"
@@ -232,6 +277,7 @@
     "collage",
     "video",
     "multi_column",
-    "163215913527b01a1b"
+    "1632252676ac892627",
+    "163225270581f629d7"
   ]
 }
