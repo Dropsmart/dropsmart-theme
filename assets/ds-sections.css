@@ -362,11 +362,11 @@ main#MainContent .shopify-section>section.two-col {
 @media (max-width: 768px) {
     main#MainContent .shopify-section>div,
     main#MainContent .shopify-section>section {
-        width: 100vw;
+        width: 95vw;
     }
     main#MainContent .shopify-section>div.two-col,
     main#MainContent .shopify-section>section.two-col {
-        width: 100vw;
+        width: 95vw;
     }
 }
 

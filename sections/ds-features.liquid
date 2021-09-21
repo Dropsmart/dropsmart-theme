@@ -10,8 +10,10 @@
         <div class="features  flex flex-row mobile-flex-row justify-{{section.settings.align-features}}">
             {% for block in section.blocks %}
               {% case block.type %}
+                  {%- when '@app' -%}
+                     {% render block %}
             
-                {% when 'feature' %}
+                  {% when 'feature' %}
                     {% include 'ds-component-feature' %}
       
               {% endcase %}

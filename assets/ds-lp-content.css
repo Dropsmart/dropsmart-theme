@@ -51,6 +51,15 @@ main#MainContent .ds-lp-content .features.flex-row .component-feature {
     margin-bottom: 1.5rem !important;
 }
 
+@media (max-width: 768px) {
+    main#MainContent .ds-lp-content .features.flex-row .component-feature {
+        align-self: center;
+        margin: 0 1.5rem 1.5rem;
+        padding: 3rem 3rem 1rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+}
+
 main#MainContent .ds-lp-content .features.flex-row .component-feature.shadow {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1), 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
 }
