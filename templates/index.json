@@ -190,6 +190,13 @@
             "font-weight": "600"
           }
         },
+        "57a21982-9390-42cc-99cc-3ede5ac198c7": {
+          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+          "settings": {
+            "content-image": "shopify:\/\/shop_images\/Simbolo_DS.png",
+            "mobile-content-image": "shopify:\/\/shop_images\/Simbolo_DS.png"
+          }
+        },
         "163215913527b01a1b-1": {
           "type": "paragraph",
           "settings": {
@@ -199,19 +206,12 @@
             "font-size": "1",
             "align": "center"
           }
-        },
-        "57a21982-9390-42cc-99cc-3ede5ac198c7": {
-          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
-          "settings": {
-            "content-image": "shopify:\/\/shop_images\/Simbolo_DS.png",
-            "mobile-content-image": "shopify:\/\/shop_images\/Simbolo_DS.png"
-          }
         }
       },
       "block_order": [
         "163215913527b01a1b-0",
-        "163215913527b01a1b-1",
-        "57a21982-9390-42cc-99cc-3ede5ac198c7"
+        "57a21982-9390-42cc-99cc-3ede5ac198c7",
+        "163215913527b01a1b-1"
       ],
       "settings": {
         "heading": "",
