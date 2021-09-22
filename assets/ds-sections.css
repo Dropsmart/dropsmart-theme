@@ -408,7 +408,8 @@ main#MainContent .shopify-section:nth-of-type(even)>div.two-col {
     background-repeat: no-repeat;
     background-position: right center;
     background-size: contain;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 @media (max-width: 768px) {
@@ -427,10 +428,12 @@ main#MainContent .shopify-section:nth-of-type(odd)>div.two-col {
 
 main#MainContent .shopify-section:nth-of-type(odd)>div.two-col .Container {
     padding-right: 2.5rem;
+    padding-left: 2.5rem;
 }
 
 main#MainContent .shopify-section:nth-of-type(even)>div.two-col .Container {
     padding-left: 2.5rem;
+    padding-right: 2.5rem;
 }
 
 @media (max-width: 768px) {
@@ -445,7 +448,6 @@ main#MainContent .shopify-section>div.two-col {
 }
 
 main#MainContent .shopify-section>div.two-col .Container {
-    max-width: 620px;
     margin: 0;
 }
 
@@ -453,18 +455,18 @@ main#MainContent .shopify-section>div.two-col .Container {
     main#MainContent .shopify-section {
         width: 100%;
     }
-    main#MainContent .shopify-section:nth-of-type(odd)>div .Container {
+    main#MainContent .shopify-section:nth-of-type(odd)>div.two-col .Container {
         padding-bottom: 3rem;
     }
-    main#MainContent .shopify-section:nth-of-type(even)>div .Container {
+    main#MainContent .shopify-section:nth-of-type(even)>div.two-col .Container {
         padding-top: 3rem;
     }
-    main#MainContent .shopify-section:nth-child(even)>div,
-    main#MainContent .shopify-section:nth-child(odd)>div {
+    main#MainContent .shopify-section:nth-child(even)>div.two-col,
+    main#MainContent .shopify-section:nth-child(odd)>div.two-col {
         justify-content: center;
     }
-    main#MainContent .shopify-section:nth-child(even)>div .Container,
-    main#MainContent .shopify-section:nth-child(odd)>div .Container {
+    main#MainContent .shopify-section:nth-child(even)>div.two-col .Container,
+    main#MainContent .shopify-section:nth-child(odd)>div.two-col .Container {
         margin: 0 auto;
         max-width: 768px;
     }

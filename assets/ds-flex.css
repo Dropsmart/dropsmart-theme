@@ -93,25 +93,31 @@ main#MainContent .flex-column {
 }
 
 main#MainContent .flex-basis-1 {
-    flex-basis: calc(50% - 32px);
+    flex-basis: calc(100% - 3rem) !important;
+    flex-grow: 0 !important;
 }
 
 main#MainContent .flex-basis-2 {
-    flex-basis: calc(50% - 32px);
+    flex-basis: calc(50% - 3rem) !important;
+    flex-grow: 0 !important;
 }
 
 main#MainContent .flex-basis-3 {
-    flex-basis: calc(33% - 32px);
+    flex-basis: calc(33% - 3rem) !important;
+    flex-grow: 0 !important;
 }
 
 main#MainContent .flex-basis-4 {
-    flex-basis: calc(25% - 32px);
+    flex-basis: calc(25% - 3rem) !important;
+    flex-grow: 0 !important;
 }
 
 main#MainContent .flex-basis-5 {
-    flex-basis: calc(20% - 32px);
+    flex-basis: calc(20% - 3rem) !important;
+    flex-grow: 0 !important;
 }
 
-main#MainContent .flex-basis {
+main#MainContent .flex-basis-0 {
     flex-basis: 0;
+    flex-grow: 1;
 }

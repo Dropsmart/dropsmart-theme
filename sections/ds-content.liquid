@@ -36,7 +36,7 @@
                               fontSize: block.settings.font-size, 
                               link: block.settings.link,
                               borderRadius: block.settings.border-radius,
-                              align: block.settings.align,
+                              align: block.settings.cta-align,
                               text: block.settings.text,
                               pulse: block.settings.pulse,
                            -%}
@@ -208,6 +208,17 @@
                "default": "1",
                "label": "Tamanho da Fonte"
            },
+           {
+            "type": "select",
+            "id": "cta-align",
+            "options": [
+               { "value": "center", "label": "Centralizado"},
+               { "value": "left", "label": "Esquerda"},
+               { "value": "right", "label": "Direita"}
+            ],
+            "default": "center",
+            "label": "Alinhamento"
+          },
            {
                "type":"checkbox",
                "id": "pulse",

@@ -6,8 +6,8 @@
             {% endif %}
           ;" class="ds-lp-content {{ section.settings.col-number }} {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
     <div class="Container {{section.settings.padding}} {{section.settings.no-padding}}">
-        
-        <div class="features  flex flex-row mobile-flex-row justify-{{section.settings.align-features}}">
+      <div class="center_content container-{{section.settings.container-width}} flex-column">  
+        <div class="features flex flex-row mobile-flex-row justify-center">
             {% for block in section.blocks %}
               {% case block.type %}
                   {%- when '@app' -%}
@@ -19,7 +19,7 @@
               {% endcase %}
             {% endfor %}
         </div>
-        
+      </div>  
     </div>
 </div>
 
@@ -389,6 +389,16 @@
        {
          "type": "header",
          "content": "Configurações de formatos"
+       },
+       {
+         "type": "range",
+         "id": "feature-basis",
+         "min": 0,
+         "max": 5,
+         "step": 1,
+         "unit": "blc",
+         "label": "Blocos por linha",
+         "default": 4
        },
        {
          "type":"select",
