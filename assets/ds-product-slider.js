@@ -896,10 +896,31 @@ document.addEventListener("DOMContentLoaded", function(event) {
         gap: 0,
         pagination: false,
         cover: true,
+        direction: 'ttb',
+        height: '100',
         breakpoints: {
             '600': {
                 fixedWidth: 66,
                 fixedHeight: 66,
+                direction: 'ltr'
+            }
+        }
+    }).mount();
+
+    var mobileSlider = new Splide('#mobile-slider', {
+        rewind: true,
+        fixedWidth: 100,
+        fixedHeight: 100,
+        isNavigation: true,
+        gap: 0,
+        pagination: false,
+        cover: true,
+        height: '100',
+        breakpoints: {
+            '600': {
+                fixedWidth: 66,
+                fixedHeight: 66,
+                direction: 'ltr'
             }
         }
     }).mount();
@@ -907,14 +928,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // Create the main slider.
     var primarySlider = new Splide('#primary-slider', {
         type: 'fade',
+        width: 460,
         pagination: false,
         arrows: false,
         cover: true,
     });
 
-    console.log('a');
     // Set the thumbnails slider as a sync target and then call mount.
     primarySlider.sync(secondarySlider).mount();
+    primarySlider.sync(mobileSlider).mount();
 
     document.querySelector('input[name="id"]').addEventListener('change', function() {
         if (document.querySelector('.splide-' + document.querySelector('input[name="id"]').value).dataset.position) {
