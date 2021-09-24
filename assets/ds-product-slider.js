@@ -912,7 +912,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fixedWidth: 100,
         fixedHeight: 100,
         isNavigation: true,
-        gap: 0,
+        gap: 5,
         pagination: false,
         cover: true,
         height: '100',

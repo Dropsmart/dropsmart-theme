@@ -1,5 +1,7 @@
 .product ul {
     margin-top: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .product .grid__item {
@@ -10,6 +12,12 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+    .ds-product-slider {
+        padding: 0 1rem;
+    }
 }
 
 .ds-product-slider #primary-slider {
@@ -23,8 +31,8 @@
 }
 
 #mobile-slider {
-    max-width: calc(100vw - 3rem);
-    padding-right: 2rem;
+    max-width: calc(100vw - 4rem);
+    padding-top: 0.5rem;
 }
 
 #secondary-slider .splide__track {
