@@ -94,10 +94,50 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "16325083541026c24e": {
+      "type": "ds-content",
+      "blocks": {
+        "16325083541026c24e-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-size": "3",
+            "font-color": "#000000",
+            "align": "center",
+            "font-weight": "600"
+          }
+        },
+        "16325083541026c24e-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Para ter acesso a todos os componentes do tema Dropsmart, obtenha o app Starter<p>",
+            "font-color": "#000000",
+            "font-weight": "400",
+            "font-size": "1",
+            "align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16325083541026c24e-0",
+        "16325083541026c24e-1"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#f2f4f5",
+        "col-number": "one-col",
+        "reverse-on-mobile": false,
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "16325083541026c24e"
   ]
 }
