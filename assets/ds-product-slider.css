@@ -18,6 +18,8 @@
 
 #secondary-slider {
     width: 100px;
+    min-width: 100px;
+    margin-right: 1rem;
 }
 
 #mobile-slider {
@@ -27,8 +29,8 @@
 
 #secondary-slider .splide__track {
     position: absolute;
-    height: calc(100% - 2em);
-    top: 1em;
+    height: calc(100%);
+    padding-right: left;
 }
 
 @media (max-width: 768px) {

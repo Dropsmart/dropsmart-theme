@@ -893,7 +893,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         fixedWidth: 100,
         fixedHeight: 100,
         isNavigation: true,
-        gap: 0,
+        gap: 10,
         pagination: false,
         cover: true,
         direction: 'ttb',
@@ -928,7 +928,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
     // Create the main slider.
     var primarySlider = new Splide('#primary-slider', {
         type: 'fade',
-        width: 460,
         pagination: false,
         arrows: false,
         cover: true,
