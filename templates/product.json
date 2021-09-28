@@ -551,6 +551,64 @@
         "no-padding": "",
         "container-width": "medium"
       }
+    },
+    "1632858253710a5a3b": {
+      "type": "ds-features",
+      "blocks": {
+        "19fc7d4f-518f-42fb-88d5-f1ca6a23275c": {
+          "type": "product",
+          "settings": {
+            "product-item": "nome-do-produto-9",
+            "background-color": "#ffffff",
+            "vertical-align-content": "center",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "20px",
+            "has-shadow": true,
+            "has-icon": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "align": "center",
+            "font-weight": "600",
+            "price-font-color": "#000000",
+            "price-font-size": "1.25",
+            "price-align": "center",
+            "price-font-weight": "600",
+            "description-text": "<p>3x de R$69,90<\/p>",
+            "description-font-color": "#eac21c",
+            "description-align": "center",
+            "description-font-weight": "600",
+            "description-font-size": "1",
+            "cart-button": false,
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
+            "cta-text": "Comprar",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "19fc7d4f-518f-42fb-88d5-f1ca6a23275c"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#f2f4f5",
+        "feature-basis": 4,
+        "col-number": "one-col",
+        "reverse-on-mobile": false,
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
     }
   },
   "order": [
@@ -561,6 +619,7 @@
     "163285648864371482",
     "1632857318843c741d",
     "163285734128697c84",
-    "1632858237cbc57346"
+    "1632858237cbc57346",
+    "1632858253710a5a3b"
   ]
 }
