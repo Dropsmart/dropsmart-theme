@@ -439,11 +439,26 @@
             "font-size": "1",
             "align": "right"
           }
+        },
+        "b1676718-42fc-445b-a544-f6033c9728fc": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19c149",
+            "link": "#combo",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "right",
+            "border-radius": "4px",
+            "pulse": false
+          }
         }
       },
       "block_order": [
         "163285734128697c84-0",
-        "163285734128697c84-1"
+        "163285734128697c84-1",
+        "b1676718-42fc-445b-a544-f6033c9728fc"
       ],
       "settings": {
         "heading": "",
@@ -458,10 +473,46 @@
     },
     "1632858237cbc57346": {
       "type": "ds-features",
+      "blocks": {
+        "3ba5b268-87a1-4504-b8f7-800c15406b75": {
+          "type": "testimonial",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "center",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "0px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "icon-image": "shopify:\/\/shop_images\/YQx4zPWG_400x400_9cfcba37-e2c2-4715-94df-72069b0a1483.jpg",
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "stars_fill_color": "#eac21c",
+            "star_size": 24,
+            "star_rating": 4,
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<\/p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85",
+            "text": "Eduardo Porath",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "align": "center",
+            "font-weight": "600"
+          }
+        }
+      },
+      "block_order": [
+        "3ba5b268-87a1-4504-b8f7-800c15406b75"
+      ],
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "feature-basis": 4,
+        "feature-basis": 2,
         "col-number": "two-col",
         "reverse-on-mobile": false,
         "padding": "space-around-regular",
