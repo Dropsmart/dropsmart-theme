@@ -693,6 +693,19 @@
         "no-padding": "",
         "container-width": "medium"
       }
+    },
+    "163285981166944db0": {
+      "type": "ds-features",
+      "settings": {
+        "heading": "",
+        "background-color": "#f2f4f5",
+        "feature-basis": 4,
+        "col-number": "one-col",
+        "reverse-on-mobile": false,
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
     }
   },
   "order": [
@@ -704,6 +717,7 @@
     "1632857318843c741d",
     "163285734128697c84",
     "1632858237cbc57346",
-    "1632858253710a5a3b"
+    "1632858253710a5a3b",
+    "163285981166944db0"
   ]
 }
