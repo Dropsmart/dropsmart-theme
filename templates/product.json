@@ -696,6 +696,49 @@
     },
     "163285981166944db0": {
       "type": "ds-features",
+      "blocks": {
+        "112f4a50-828b-4635-b2d8-5f1588abaf82": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "center",
+            "feature-display": "flex-row",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "20px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "icon-image": "shopify:\/\/shop_images\/Frame_68_975bebf6-5c11-4125-bbc6-41b28b8b8975.png",
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "align": "left",
+            "font-weight": "600",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo, eget tempus massa eleifend quis. Phasellus accumsan malesuada sollicitudin.<\/p>",
+            "description-font-color": "#000000",
+            "description-align": "left",
+            "description-font-weight": "400",
+            "description-font-size": "0.85",
+            "has-cta": false,
+            "cta-font-color": "#FFFfff",
+            "cta-background-color": "#000000",
+            "cta-text": "Click here",
+            "link": "#combo",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "4px",
+            "cta-pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "112f4a50-828b-4635-b2d8-5f1588abaf82"
+      ],
       "settings": {
         "heading": "",
         "background-color": "#f2f4f5",
