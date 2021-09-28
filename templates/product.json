@@ -69,7 +69,7 @@
           "settings": {
             "installment-number": "3",
             "fee": "1",
-            "installment_without_fee": ""
+            "installment_without_fee": 3
           }
         }
       },
