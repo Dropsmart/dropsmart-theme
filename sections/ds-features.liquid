@@ -15,6 +15,12 @@
             
                   {% when 'feature' %}
                     {% include 'ds-component-feature' %}
+
+                  {% when 'product' %}
+                     {% include 'ds-component-product-card' %}  
+
+                  {% when 'testimonial' %}
+                     {% include 'ds-component-testimonial' %}  
       
               {% endcase %}
             {% endfor %}
@@ -25,382 +31,1344 @@
 
 {% schema %}
 {
-    "name":"Dropsmart Listas",
-    "class":"lp-content",
-    "presets": [
+   "name":"Dropsmart Listas",
+   "class":"lp-content",
+   "presets":[
       {
-        "name": "Dropsmart - Listas",
-        "blocks": [
+         "name":"Dropsmart - Listas",
+         "blocks":[
+            
          ]
       }
-    ],
-    "blocks":[
-        {
-            "type": "@app"
-        },
-        {
-            "type": "feature",
-            "name": "Bloco",
-            "settings": [
-               {
-                  "type": "header",
-                  "content": "Aparência"
-                },
-                {
-                  "id": "background-color",
-                  "type": "color",
-                  "label": "Cor de fundo",
-                  "default": "#FFFFFF"
-                },
-                {
-                  "type":"select",
-                  "id":"vertical-align-content",
-                  "options":[
-                     {
-                        "value":"center",
-                        "label":"Centralizado"
-                     },
-                     {
-                        "value":"flex-start",
-                        "label":"Superior"
-                     },
-                     {
-                        "value":"flex-end",
-                        "label":"Inferior"
-                     }
-                  ],
-                  "default":"center",
-                  "label":"Alinhamento Vertical"
-                },
-                {
-                  "type":"select",
-                  "id":"feature-display",
-                  "options":[
-                     {
-                        "value":"flex-row",
-                        "label":"Linha"
-                     },
-                     {
-                        "value":"flex-column",
-                        "label":"Coluna"
-                     }
-                  ],
-                  "default":"flex-column",
-                  "label":"Aparência do bloco"
-                },
-                {
-                  "type":"select",
-                  "id":"mobile-feature-display",
-                  "options":[
-                     {
-                        "value":"mobile-flex-row",
-                        "label":"Linha"
-                     },
-                     {
-                        "value":"mobile-flex-column",
-                        "label":"Coluna"
-                     }
-                  ],
-                  "default":"mobile-flex-row",
-                  "label":"Aparência do bloco em dispositivos móveis"
-                },
-                {
-                  "type":"select",
-                  "id":"feature-width",
-                  "options":[
-                     {
-                        "value":"full-width",
-                        "label":"Máximo Possível"
-                     },
-                     {
-                        "value":"auto-width",
-                        "label":"Menor Possível"
-                     }
-                  ],
-                  "default":"full-width",
-                  "label":"Largura do bloco"
-                },
-                {
-                  "id": "border-radius",
-                  "type": "text",
-                  "label": "Borda arredondada",
-                  "default": "0px"
-                },
-                {
-                  "id": "has-shadow",
-                  "type": "checkbox",
-                  "label": "Com Sombra?",
-                  "default": false
-                },
-                {
-                  "type": "header",
-                  "content": "Ícone"
-                },
-                {
-                  "id": "has-icon",
-                  "type": "checkbox",
-                  "label": "Utilizar Ícone"
-                },
-                {
-                  "id": "has-icon-mobile",
-                  "type": "checkbox",
-                  "label": "Utilizar Ícone diferente para dispositivo móveis"
-                },
-                {
-                    "id": "icon-image",
-                    "type": "image_picker",
-                    "label": "Imagem do Ícone"
-                },
-                {
-                    "id": "mobile-icon-image",
-                    "type": "image_picker",
-                    "label": "Imagem do Ícone no dispositivo Móvel"
-                },
-                {
-                   "type": "select",
-                   "id": "image-align",
-                   "options": [
-                      { "value": "center", "label": "Centralizado"},
-                      { "value": "left", "label": "Esquerda"},
-                      { "value": "right", "label": "Direita"}
-                   ],
-                   "default": "center",
-                   "label": "Alinhamento do ícone"
-                },
-                {
-                  "type": "select",
-                  "id": "icon-size",
-                  "options": [
-                    { "value": "64", "label": "pequeno"},
-                    { "value": "96", "label": "médio"},
-                    { "value": "128", "label": "grande"}
-                  ],
-                  "default": "96",
-                  "label": "Tamanho do ícone"
-                },
-                {
-                  "type": "select",
-                  "id": "mobile-icon-size",
-                  "options": [
-                    { "value": "32", "label": "pequeno"},
-                    { "value": "64", "label": "médio"},
-                    { "value": "96", "label": "grande"}
-                  ],
-                  "default": "64",
-                  "label": "Tamanho do ícone no dispositivo móvel"
-                },
-                {
-                  "type": "header",
-                  "content": "Título"
-                },
-                {
-                  "id": "text",
-                  "type": "text",
-                  "label": "Título"
-                },
-                {
-                  "type": "color",
-                  "id": "title-font-color",
-                  "label": "Cor da Fonte",
-                  "default": "#000000"
-                },
-                {
-                  "type": "select",
-                  "id": "font-size",
-                  "options": [
-                     { "value": "1", "label": "Pequeno"},
-                     { "value": "1.25", "label": "Médio"},
-                     { "value": "1.5", "label": "Grande"},
-                     { "value": "2", "label": "Muito Grande"}
-                  ],
-                  "default": "1.5",
-                  "label": "Tamanho da fonte"
-                },
-                {
-                   "type": "select",
-                   "id": "align",
-                   "options": [
-                      { "value": "center", "label": "Centralizado"},
-                      { "value": "left", "label": "Esquerda"},
-                      { "value": "right", "label": "Direita"}
-                   ],
-                   "default": "center",
-                   "label": "Alinhamento"
-                },
-                {
-                   "type": "select",
-                   "id": "font-weight",
-                   "options": [
-                      { "value": "300", "label": "300"},
-                      { "value": "400", "label": "400"},
-                      { "value": "600", "label": "600"},
-                      { "value": "900", "label": "900"}
-                   ],
-                   "default": "400",
-                   "label": "Peso da Fonte"
-                },
-                {
-                  "type": "header",
-                  "content": "Descrição"
-                },
-                {
-                  "id": "description-text",
-                  "type": "richtext",
-                  "label": "Descrição",
-                  "default": "<p>Lorem ipsum<p>"
-                },
-                {
-                  "type": "color",
-                  "id": "description-font-color",
-                  "label": "Cor da Fonte",
-                  "default": "#000000"
-                },
-                {
-                   "type": "select",
-                   "id": "description-align",
-                   "options": [
-                      { "value": "center", "label": "Centralizado"},
-                      { "value": "left", "label": "Esquerda"},
-                      { "value": "right", "label": "Direita"}
-                   ],
-                   "default": "center",
-                   "label": "Alinhamento"
-                },
-                {
-                   "type": "select",
-                   "id": "description-font-weight",
-                   "options": [
-                      { "value": "300", "label": "300"},
-                      { "value": "400", "label": "400"},
-                      { "value": "600", "label": "600"},
-                      { "value": "900", "label": "900"}
-                   ],
-                   "default": "400",
-                   "label": "Peso da Fonte"
-                },
-                {
-                    "type": "select",
-                    "id": "description-font-size",
-                    "options": [
-                       { "value": "0.5", "label": "Small"},
-                       { "value": "0.75", "label": "Medium"},
-                       { "value": "1", "label": "Large"},
-                       { "value": "1.5", "label": "Extra Large"}
-                    ],
-                    "default": "0.75",
-                    "label": "Tamanho da Fonte"
-                },
-                {
-                  "type": "header",
-                  "content": "Botão (CTA)"
-                },
-                {
-                  "id": "has-cta",
-                  "type": "checkbox",
-                  "label": "Utilizar Botão"
-                },
-                {
-                  "id": "cta-border-radius",
-                  "type": "text",
-                  "label": "Arredondamento de Borda",
-                  "default": "4px"
-                },
-                {
-                  "id": "link",
-                  "type": "text",
-                  "label": "Link do Botão",
-                  "default": "#combo"
-                },
-                {
-                  "id": "cta-text",
-                  "type": "text",
-                  "label": "Texto do Botão",
-                  "default": "Click here"
-                },
-                {
-                    "type": "select",
-                    "id": "cta-font-size",
-                    "options": [
-                       { "value": "1", "label": "Pequeno"},
-                       { "value": "1.25", "label": "Médio"},
-                       { "value": "1.75", "label": "Grande"},
-                       { "value": "2", "label": "Muito Grande"}
-                    ],
-                    "default": "1.25",
-                    "label": "Tamanho da Fonte"
-                },
-                {
-                  "type": "select",
-                  "id": "cta-align",
-                  "options": [
-                     { "value": "center", "label": "Centralizado"},
-                     { "value": "left", "label": "Esquerda"},
-                     { "value": "right", "label": "Direita"}
-                  ],
-                  "default": "center",
-                  "label": "Alinhamento"
-                },
-                {
-                    "type":"checkbox",
-                    "id": "cta-pulse",
-                    "label": "Botão animado (pulsante)",
-                    "default": false
-                },
-                {
-                  "type": "color",
-                  "id": "cta-font-color",
-                  "label": "Cor da Fonte",
-                  "default": "#FFFfff"
-                },
-                {
-                  "type": "color",
-                  "id": "cta-background-color",
-                  "label": "Cor de Fundo",
-                  "default": "#000000"
-                }
-            ]
-        }
-    ],
-    "settings":[
-       {
-          "id":"heading",
-          "type":"text",
-          "label":"Identificação da Seção"
-       },
-       {
-         "type": "paragraph",
-         "content": "Não utilize espaços! A identificação da seção tem como objetivo utilizar botões de ancoragem para a seção. Ex: Para o caso da identifação da seção ser 'novidades', no campo link do Botão, inserir '#novidades'"
-       },
-       {
-         "type": "header",
-         "content": "Configurações de Fundo"
-       },
-       {
-          "type":"color",
-          "id":"background-color",
-          "label":"Cor de Fundo",
-          "default":"#f2f4f5"
-       },
-       {
-          "id":"background-image",
-          "type":"image_picker",
-          "label":"Imagem de Fundo"
-       },
-       {
-         "type": "header",
-         "content": "Configurações de formatos"
-       },
-       {
-         "type": "range",
-         "id": "feature-basis",
-         "min": 0,
-         "max": 5,
-         "step": 1,
-         "unit": "blc",
-         "label": "Blocos por linha",
-         "default": 4
-       },
-       {
+   ],
+   "blocks":[
+      {
+         "type":"@app"
+      },
+      {
+         "type":"feature",
+         "name":"Bloco",
+         "settings":[
+            {
+               "type":"header",
+               "content":"Aparência"
+            },
+            {
+               "id":"background-color",
+               "type":"color",
+               "label":"Cor de fundo",
+               "default":"#FFFFFF"
+            },
+            {
+               "type":"select",
+               "id":"vertical-align-content",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"flex-start",
+                     "label":"Superior"
+                  },
+                  {
+                     "value":"flex-end",
+                     "label":"Inferior"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento Vertical"
+            },
+            {
+               "type":"select",
+               "id":"feature-display",
+               "options":[
+                  {
+                     "value":"flex-row",
+                     "label":"Linha"
+                  },
+                  {
+                     "value":"flex-column",
+                     "label":"Coluna"
+                  }
+               ],
+               "default":"flex-column",
+               "label":"Aparência do bloco"
+            },
+            {
+               "type":"select",
+               "id":"mobile-feature-display",
+               "options":[
+                  {
+                     "value":"mobile-flex-row",
+                     "label":"Linha"
+                  },
+                  {
+                     "value":"mobile-flex-column",
+                     "label":"Coluna"
+                  }
+               ],
+               "default":"mobile-flex-row",
+               "label":"Aparência do bloco em dispositivos móveis"
+            },
+            {
+               "type":"select",
+               "id":"feature-width",
+               "options":[
+                  {
+                     "value":"full-width",
+                     "label":"Máximo Possível"
+                  },
+                  {
+                     "value":"auto-width",
+                     "label":"Menor Possível"
+                  }
+               ],
+               "default":"full-width",
+               "label":"Largura do bloco"
+            },
+            {
+               "id":"border-radius",
+               "type":"text",
+               "label":"Borda arredondada",
+               "default":"0px"
+            },
+            {
+               "id":"has-shadow",
+               "type":"checkbox",
+               "label":"Aplicar Sombra",
+               "default":false
+            },
+            {
+               "type":"header",
+               "content":"Ícone"
+            },
+            {
+               "id":"has-icon",
+               "type":"checkbox",
+               "label":"Utilizar Ícone"
+            },
+            {
+               "id":"has-icon-mobile",
+               "type":"checkbox",
+               "label":"Utilizar Ícone diferente para dispositivo móveis"
+            },
+            {
+               "id":"icon-image",
+               "type":"image_picker",
+               "label":"Imagem do Ícone"
+            },
+            {
+               "id":"mobile-icon-image",
+               "type":"image_picker",
+               "label":"Imagem do Ícone no dispositivo Móvel"
+            },
+            {
+               "type":"select",
+               "id":"image-align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento do ícone"
+            },
+            {
+               "type":"select",
+               "id":"icon-size",
+               "options":[
+                  {
+                     "value":"64",
+                     "label":"pequeno"
+                  },
+                  {
+                     "value":"96",
+                     "label":"médio"
+                  },
+                  {
+                     "value":"128",
+                     "label":"grande"
+                  }
+               ],
+               "default":"96",
+               "label":"Tamanho do ícone"
+            },
+            {
+               "type":"select",
+               "id":"mobile-icon-size",
+               "options":[
+                  {
+                     "value":"32",
+                     "label":"pequeno"
+                  },
+                  {
+                     "value":"64",
+                     "label":"médio"
+                  },
+                  {
+                     "value":"96",
+                     "label":"grande"
+                  }
+               ],
+               "default":"64",
+               "label":"Tamanho do ícone no dispositivo móvel"
+            },
+            {
+               "type":"header",
+               "content":"Título"
+            },
+            {
+               "id":"text",
+               "type":"text",
+               "label":"Título"
+            },
+            {
+               "type":"color",
+               "id":"title-font-color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"font-size",
+               "options":[
+                  {
+                     "value":"1",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"1.25",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"1.5",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"1.25",
+               "label":"Tamanho da fonte"
+            },
+            {
+               "type":"select",
+               "id":"align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
+            },
+            {
+               "type":"select",
+               "id":"font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  }
+               ],
+               "default":"600",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"header",
+               "content":"Descrição"
+            },
+            {
+               "id":"description-text",
+               "type":"richtext",
+               "label":"Descrição",
+               "default":"<p>Lorem ipsum<p>"
+            },
+            {
+               "type":"color",
+               "id":"description-font-color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"description-align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
+            },
+            {
+               "type":"select",
+               "id":"description-font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  }
+               ],
+               "default":"400",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"select",
+               "id":"description-font-size",
+               "options":[
+                  {
+                     "value":"0.7",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"0.85",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"1",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"0.85",
+               "label":"Tamanho da Fonte"
+            },
+            {
+               "type":"header",
+               "content":"Botão (CTA)"
+            },
+            {
+               "id":"has-cta",
+               "type":"checkbox",
+               "label":"Utilizar Botão"
+            },
+            {
+               "type":"color",
+               "id":"cta-font-color",
+               "label":"Cor da Fonte",
+               "default":"#FFFfff"
+            },
+            {
+               "type":"color",
+               "id":"cta-background-color",
+               "label":"Cor de Fundo",
+               "default":"#000000"
+            },
+            {
+               "id":"cta-text",
+               "type":"text",
+               "label":"Texto do Botão",
+               "default":"Click here"
+            },
+            {
+               "id":"link",
+               "type":"text",
+               "label":"Link do Botão",
+               "default":"#combo"
+            },
+            {
+               "type":"select",
+               "id":"cta-font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  }
+               ],
+               "default":"400",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"select",
+               "id":"cta-font-size",
+               "options":[
+                  {
+                     "value":"0.75",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"1",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"1.25",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"1",
+               "label":"Tamanho da Fonte"
+            },
+            {
+               "type":"select",
+               "id":"cta-align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
+            },
+            {
+               "id":"cta-border-radius",
+               "type":"text",
+               "label":"Arredondamento de Borda",
+               "default":"4px"
+            },
+            {
+               "type":"checkbox",
+               "id":"cta-pulse",
+               "label":"Botão animado (pulsante)",
+               "default":false
+            }
+         ]
+      },
+      {
+         "type":"product",
+         "name":"Produto",
+         "settings":[
+            {
+               "id":"product-item",
+               "type":"product",
+               "label":"Produto"
+            },
+            {
+               "type":"header",
+               "content":"Aparência"
+            },
+            {
+               "id":"background-color",
+               "type":"color",
+               "label":"Cor de fundo",
+               "default":"#FFFFFF"
+            },
+            {
+               "type":"select",
+               "id":"vertical-align-content",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"flex-start",
+                     "label":"Superior"
+                  },
+                  {
+                     "value":"flex-end",
+                     "label":"Inferior"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento Vertical"
+            },
+            {
+               "type":"select",
+               "id":"feature-display",
+               "options":[
+                  {
+                     "value":"flex-row",
+                     "label":"Linha"
+                  },
+                  {
+                     "value":"flex-column",
+                     "label":"Coluna"
+                  }
+               ],
+               "default":"flex-column",
+               "label":"Aparência do bloco"
+            },
+            {
+               "type":"select",
+               "id":"mobile-feature-display",
+               "options":[
+                  {
+                     "value":"mobile-flex-row",
+                     "label":"Linha"
+                  },
+                  {
+                     "value":"mobile-flex-column",
+                     "label":"Coluna"
+                  }
+               ],
+               "default":"mobile-flex-row",
+               "label":"Aparência do bloco em dispositivos móveis"
+            },
+            {
+               "type":"select",
+               "id":"feature-width",
+               "options":[
+                  {
+                     "value":"full-width",
+                     "label":"Máximo Possível"
+                  },
+                  {
+                     "value":"auto-width",
+                     "label":"Menor Possível"
+                  }
+               ],
+               "default":"full-width",
+               "label":"Largura do bloco"
+            },
+            {
+               "id":"border-radius",
+               "type":"text",
+               "label":"Borda arredondada",
+               "default":"0px"
+            },
+            {
+               "id":"has-shadow",
+               "type":"checkbox",
+               "label":"Aplicar Sombra",
+               "default":false
+            },
+            {
+               "type":"header",
+               "content":"Ícone"
+            },
+            {
+               "id":"has-icon",
+               "type":"checkbox",
+               "label":"Utilizar Ícone"
+            },
+            {
+               "type":"select",
+               "id":"image-align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento do ícone"
+            },
+            {
+               "type":"select",
+               "id":"icon-size",
+               "options":[
+                  {
+                     "value":"64",
+                     "label":"pequeno"
+                  },
+                  {
+                     "value":"96",
+                     "label":"médio"
+                  },
+                  {
+                     "value":"128",
+                     "label":"grande"
+                  }
+               ],
+               "default":"96",
+               "label":"Tamanho do ícone"
+            },
+            {
+               "type":"select",
+               "id":"mobile-icon-size",
+               "options":[
+                  {
+                     "value":"32",
+                     "label":"pequeno"
+                  },
+                  {
+                     "value":"64",
+                     "label":"médio"
+                  },
+                  {
+                     "value":"96",
+                     "label":"grande"
+                  }
+               ],
+               "default":"64",
+               "label":"Tamanho do ícone no dispositivo móvel"
+            },
+            {
+               "type":"header",
+               "content":"Título"
+            },
+            {
+               "id":"text",
+               "type":"text",
+               "label":"Título"
+            },
+            {
+               "type":"color",
+               "id":"title-font-color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"font-size",
+               "options":[
+                  {
+                     "value":"1",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"1.25",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"1.5",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"1.25",
+               "label":"Tamanho da fonte"
+            },
+            {
+               "type":"select",
+               "id":"align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
+            },
+            {
+               "type":"select",
+               "id":"font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  }
+               ],
+               "default":"600",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"header",
+               "content":"Preço"
+            },
+            {
+               "type":"color",
+               "id":"price-font-color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"price-font-size",
+               "options":[
+                  {
+                     "value":"1",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"1.25",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"1.5",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"1.25",
+               "label":"Tamanho da fonte"
+            },
+            {
+               "type":"select",
+               "id":"price-align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
+            },
+            {
+               "type":"select",
+               "id":"price-font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  }
+               ],
+               "default":"600",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"header",
+               "content":"Descrição"
+            },
+            {
+               "id":"description-text",
+               "type":"richtext",
+               "label":"Descrição",
+               "default":"<p>Lorem ipsum<p>"
+            },
+            {
+               "type":"color",
+               "id":"description-font-color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"description-align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
+            },
+            {
+               "type":"select",
+               "id":"description-font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  }
+               ],
+               "default":"400",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"select",
+               "id":"description-font-size",
+               "options":[
+                  {
+                     "value":"0.7",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"0.85",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"1",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"0.85",
+               "label":"Tamanho da Fonte"
+            },
+            {
+               "type":"header",
+               "content":"Botão (CTA)"
+            },
+            {
+               "id":"cart-button",
+               "type":"checkbox",
+               "label":"Ativar Botão Carrinho"
+            },
+            {
+               "type":"color",
+               "id":"cta-font-color",
+               "label":"Cor da Fonte",
+               "default":"#FFFFFF"
+            },
+            {
+               "type":"color",
+               "id":"cta-background-color",
+               "label":"Cor de Fundo",
+               "default":"#000000"
+            },
+            {
+               "id":"cta-text",
+               "type":"text",
+               "label":"Texto do Botão",
+               "default":"Click here"
+            },
+            {
+               "type":"select",
+               "id":"cta-font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  }
+               ],
+               "default":"400",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"select",
+               "id":"cta-font-size",
+               "options":[
+                  {
+                     "value":"0.75",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"1",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"1.25",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"1",
+               "label":"Tamanho da Fonte"
+            },
+            {
+               "type":"select",
+               "id":"cta-align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
+            },
+            {
+               "id":"cta-border-radius",
+               "type":"text",
+               "label":"Arredondamento de Borda",
+               "default":"4px"
+            },
+            {
+               "type":"checkbox",
+               "id":"cta-pulse",
+               "label":"Botão animado (pulsante)",
+               "default":false
+            }
+         ]
+      },
+      {
+         "type":"testimonial",
+         "name":"Depoimento",
+         "settings":[
+            {
+               "type":"header",
+               "content":"Aparência"
+            },
+            {
+               "id":"background-color",
+               "type":"color",
+               "label":"Cor de fundo",
+               "default":"#FFFFFF"
+            },
+            {
+               "type":"select",
+               "id":"vertical-align-content",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"flex-start",
+                     "label":"Superior"
+                  },
+                  {
+                     "value":"flex-end",
+                     "label":"Inferior"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento Vertical"
+            },
+            {
+               "type":"select",
+               "id":"feature-display",
+               "options":[
+                  {
+                     "value":"flex-row",
+                     "label":"Linha"
+                  },
+                  {
+                     "value":"flex-column",
+                     "label":"Coluna"
+                  }
+               ],
+               "default":"flex-column",
+               "label":"Aparência do bloco"
+            },
+            {
+               "type":"select",
+               "id":"mobile-feature-display",
+               "options":[
+                  {
+                     "value":"mobile-flex-row",
+                     "label":"Linha"
+                  },
+                  {
+                     "value":"mobile-flex-column",
+                     "label":"Coluna"
+                  }
+               ],
+               "default":"mobile-flex-row",
+               "label":"Aparência do bloco em dispositivos móveis"
+            },
+            {
+               "type":"select",
+               "id":"feature-width",
+               "options":[
+                  {
+                     "value":"full-width",
+                     "label":"Máximo Possível"
+                  },
+                  {
+                     "value":"auto-width",
+                     "label":"Menor Possível"
+                  }
+               ],
+               "default":"full-width",
+               "label":"Largura do bloco"
+            },
+            {
+               "id":"border-radius",
+               "type":"text",
+               "label":"Borda arredondada",
+               "default":"0px"
+            },
+            {
+               "id":"has-shadow",
+               "type":"checkbox",
+               "label":"Aplicar Sombra",
+               "default":false
+            },
+            {
+               "type":"header",
+               "content":"Foto"
+            },
+            {
+               "id":"has-icon",
+               "type":"checkbox",
+               "label":"Utilizar Foto"
+            },
+            {
+               "id":"has-icon-mobile",
+               "type":"checkbox",
+               "label":"Utilizar foto diferente para dispositivo móveis"
+            },
+            {
+               "id":"icon-image",
+               "type":"image_picker",
+               "label":"Imagem da foto"
+            },
+            {
+               "id":"mobile-icon-image",
+               "type":"image_picker",
+               "label":"Imagem da foto no dispositivo Móvel"
+            },
+            {
+               "type":"select",
+               "id":"image-align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento do ícone"
+            },
+            {
+               "type":"select",
+               "id":"icon-size",
+               "options":[
+                  {
+                     "value":"64",
+                     "label":"pequeno"
+                  },
+                  {
+                     "value":"96",
+                     "label":"médio"
+                  },
+                  {
+                     "value":"128",
+                     "label":"grande"
+                  }
+               ],
+               "default":"96",
+               "label":"Tamanho da foto"
+            },
+            {
+               "type":"select",
+               "id":"mobile-icon-size",
+               "options":[
+                  {
+                     "value":"32",
+                     "label":"pequeno"
+                  },
+                  {
+                     "value":"64",
+                     "label":"médio"
+                  },
+                  {
+                     "value":"96",
+                     "label":"grande"
+                  }
+               ],
+               "default":"64",
+               "label":"Tamanho da foto no dispositivo móvel"
+            },
+            {
+               "type":"header",
+               "content":"Nota/Estrelas"
+            },
+            {
+               "type": "color",
+               "id": "stars_fill_color",
+               "label": "Cor da estrela",
+               "default": "#000000"
+             },
+             {
+               "type": "number",
+               "id": "star_size",
+               "label": "Tamanho da estrela",
+               "default": 24
+             },
+            {
+               "type":"range",
+               "id":"star_rating",
+               "min":0,
+               "max":5,
+               "step":0.5,
+               "unit":"un.",
+               "label":"Valor da nota",
+               "default":4
+            },
+            {
+               "type":"header",
+               "content":"Depoimento"
+            },
+            {
+               "id":"description-text",
+               "type":"richtext",
+               "label":"Depoimento",
+               "default":"<p>Lorem ipsum<p>"
+            },
+            {
+               "type":"color",
+               "id":"description-font-color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"description-align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
+            },
+            {
+               "type":"select",
+               "id":"description-font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  }
+               ],
+               "default":"400",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"select",
+               "id":"description-font-size",
+               "options":[
+                  {
+                     "value":"0.7",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"0.85",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"1",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"0.85",
+               "label":"Tamanho da Fonte"
+            },
+            {
+               "type":"header",
+               "content":"Nome"
+            },
+            {
+               "id":"text",
+               "type":"text",
+               "label":"Nome"
+            },
+            {
+               "type":"color",
+               "id":"title-font-color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"font-size",
+               "options":[
+                  {
+                     "value":"1",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"1.25",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"1.5",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"1.25",
+               "label":"Tamanho da fonte"
+            },
+            {
+               "type":"select",
+               "id":"align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
+            },
+            {
+               "type":"select",
+               "id":"font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  }
+               ],
+               "default":"600",
+               "label":"Peso da Fonte"
+            }
+         ]
+      }
+   ],
+   "settings":[
+      {
+         "id":"heading",
+         "type":"text",
+         "label":"Identificação da Seção"
+      },
+      {
+         "type":"paragraph",
+         "content":"Não utilize espaços! A identificação da seção tem como objetivo utilizar botões de ancoragem para a seção. Ex: Para o caso da identifação da seção ser 'novidades', no campo link do Botão, inserir '#novidades'"
+      },
+      {
+         "type":"header",
+         "content":"Configurações de Fundo"
+      },
+      {
+         "type":"color",
+         "id":"background-color",
+         "label":"Cor de Fundo",
+         "default":"#f2f4f5"
+      },
+      {
+         "id":"background-image",
+         "type":"image_picker",
+         "label":"Imagem de Fundo"
+      },
+      {
+         "type":"header",
+         "content":"Configurações de formatos"
+      },
+      {
+         "type":"range",
+         "id":"feature-basis",
+         "min":0,
+         "max":5,
+         "step":1,
+         "unit":"un.",
+         "label":"Blocos por linha",
+         "default":4
+      },
+      {
          "type":"select",
          "id":"col-number",
          "label":"Tamanho da Seção",
@@ -414,88 +1382,88 @@
                "label":"1/2 Coluna"
             }
          ],
-         "default": "one-col"
-       },
-       {
+         "default":"one-col"
+      },
+      {
          "id":"reverse-on-mobile",
          "type":"checkbox",
          "label":"Ordem reversa no dispositível móvel",
          "default":false
-       },
-       {
-         "type": "paragraph",
-         "content": "É possível criar linhas com duas colunas utilizando essa opção, e também controlar a posição das colunas quando em dispositivos móveis"
-       },
-       {
-         "type": "header",
-         "content": "Configurações de tamanhos"
-       },
-       {
-          "type":"select",
-          "id":"padding",
-          "options":[
-             {
-                "value":"space-around-small",
-                "label":"Pequeno"
-             },
-             {
-                "value":"space-around-regular",
-                "label":"Médio"
-             },
-             {
-                "value":"space-around-large",
-                "label":"Grande"
-             }
-          ],
-          "default":"space-around-regular",
-          "label":"Espaçamento da Seção"
-       },
-       {
-          "type":"select",
-          "id":"no-padding",
-          "options":[
-             {
-                "value":"no-padding-bottom",
-                "label":"Remover Inferior"
-             },
-             {
-                "value":"no-padding-top",
-                "label":"Remover Superior"
-             },
-             {
-                "value":"no-padding",
-                "label":"Remover Ambos"
-             },
-             {
-                "value":"",
-                "label":"Não Remover"
-             }
-          ],
-          "default":"",
-          "label":"Remover Espaçamento"
-       },
-       {
-          "type":"select",
-          "id":"container-width",
-          "options":[
-             {
-                "value":"full",
-                "label":"Grande"
-             },
-             {
-                "value":"medium",
-                "label":"Médio"
-             },
-             {
-                "value":"small",
-                "label":"Pequeno"
-             }
-          ],
-          "default":"medium",
-          "label":"Largura do conteúdo"
-       }
-    ]
- }
+      },
+      {
+         "type":"paragraph",
+         "content":"É possível criar linhas com duas colunas utilizando essa opção, e também controlar a posição das colunas quando em dispositivos móveis"
+      },
+      {
+         "type":"header",
+         "content":"Configurações de tamanhos"
+      },
+      {
+         "type":"select",
+         "id":"padding",
+         "options":[
+            {
+               "value":"space-around-small",
+               "label":"Pequeno"
+            },
+            {
+               "value":"space-around-regular",
+               "label":"Médio"
+            },
+            {
+               "value":"space-around-large",
+               "label":"Grande"
+            }
+         ],
+         "default":"space-around-regular",
+         "label":"Espaçamento da Seção"
+      },
+      {
+         "type":"select",
+         "id":"no-padding",
+         "options":[
+            {
+               "value":"no-padding-bottom",
+               "label":"Remover Inferior"
+            },
+            {
+               "value":"no-padding-top",
+               "label":"Remover Superior"
+            },
+            {
+               "value":"no-padding",
+               "label":"Remover Ambos"
+            },
+            {
+               "value":"",
+               "label":"Não Remover"
+            }
+         ],
+         "default":"",
+         "label":"Remover Espaçamento"
+      },
+      {
+         "type":"select",
+         "id":"container-width",
+         "options":[
+            {
+               "value":"full",
+               "label":"Grande"
+            },
+            {
+               "value":"medium",
+               "label":"Médio"
+            },
+            {
+               "value":"small",
+               "label":"Pequeno"
+            }
+         ],
+         "default":"medium",
+         "label":"Largura do conteúdo"
+      }
+   ]
+}
 {% endschema %}
 
 {% stylesheet %} {% endstylesheet %}

@@ -33,7 +33,8 @@
                            {%- render 'ds-component-cta',
                               backgroundColor: block.settings.background-color, 
                               fontColor: block.settings.font-color, 
-                              fontSize: block.settings.font-size, 
+                              fontSize: block.settings.font-size,
+                              fontWeight: block.settings.font-weight 
                               link: block.settings.link,
                               borderRadius: block.settings.border-radius,
                               align: block.settings.cta-align,
@@ -82,12 +83,11 @@
                "type": "select",
                "id": "font-size",
                "options": [
-                  { "value": "2", "label": "Pequeno"},
-                  { "value": "2.5", "label": "Médio"},
-                  { "value": "3", "label": "Grande"},
-                  { "value": "4", "label": "Muito Grande"}
+                  { "value": "1.5", "label": "Pequeno"},
+                  { "value": "2", "label": "Médio"},
+                  { "value": "2.5", "label": "Grande"}
                ],
-               "default": "3",
+               "default": "2",
                "label": "Tamanho da Fonte"
            },
            {
@@ -153,10 +153,9 @@
                "type": "select",
                "id": "font-size",
                "options": [
-                  { "value": "1", "label": "Pequeno"},
-                  { "value": "1.25", "label": "Médio"},
-                  { "value": "1.5", "label": "Grande"},
-                  { "value": "2", "label": "Muito Grande"}
+                  { "value": "0.85", "label": "Pequeno"},
+                  { "value": "1", "label": "Médio"},
+                  { "value": "1.25", "label": "Grande"}
                ],
                "default": "1",
                "label": "Tamanho da Fonte"
@@ -179,10 +178,16 @@
          "name": "Botão (CTA)",
          "settings": [
            {
-             "id": "border-radius",
-             "type": "text",
-             "label": "Arredondamento de Borda",
-             "default": "4px"
+             "type": "color",
+             "id": "font-color",
+             "label": "Cor da Fonte",
+             "default": "#FFFFFF"
+           },
+           {
+             "type": "color",
+             "id": "background-color",
+             "label": "Cor de Fundo",
+             "default": "#000000"
            },
            {
              "id": "link",
@@ -200,13 +205,24 @@
                "type": "select",
                "id": "font-size",
                "options": [
-                  { "value": "1", "label": "Pequeno"},
-                  { "value": "1.25", "label": "Médio"},
-                  { "value": "1.75", "label": "Grande"},
-                  { "value": "2", "label": "Muito Grande"}
+                  { "value": "0.75", "label": "Pequeno"},
+                  { "value": "1", "label": "Médio"},
+                  { "value": "1.25", "label": "Grande"}
                ],
                "default": "1",
                "label": "Tamanho da Fonte"
+           },
+           {
+            "type": "select",
+            "id": "font-weight",
+            "options": [
+               { "value": "300", "label": "Fino"},
+               { "value": "400", "label": "Normal"},
+               { "value": "600", "label": "Negrito"},
+               { "value": "900", "label": "Extra Negrito"}
+            ],
+            "default": "400",
+            "label": "Peso da Fonte"
            },
            {
             "type": "select",
@@ -219,23 +235,17 @@
             "default": "center",
             "label": "Alinhamento"
           },
+          {
+            "id": "border-radius",
+            "type": "text",
+            "label": "Arredondamento de Borda",
+            "default": "4px"
+          },
            {
                "type":"checkbox",
                "id": "pulse",
                "label": "Botão animado (pulsante)",
                "default": false
-           },
-           {
-             "type": "color",
-             "id": "font-color",
-             "label": "Cor da Fonte",
-             "default": "#FFFFFF"
-           },
-           {
-             "type": "color",
-             "id": "background-color",
-             "label": "Cor de Fundo",
-             "default": "#000000"
            }
          ]
       }

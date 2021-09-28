@@ -4,6 +4,17 @@ main#MainContent .ds-feature {
 
 main#MainContent .ds-feature.flex-row {
     min-width: 100%;
+    max-width: 70%;
+}
+
+main#MainContent .ds-feature.flex-column {
+    max-width: 40%;
+}
+
+@media (max-width: 768px) {
+    main#MainContent .ds-feature.flex-column {
+        max-width: 60%;
+    }
 }
 
 main#MainContent .ds-feature {
@@ -38,7 +49,7 @@ main#MainContent .component-feature.flex-row .image-wrapper img {
 }
 
 main#MainContent .component-feature .image-wrapper {
-    padding: 0 1.5rem;
+    padding: 0 0.5rem;
 }
 
 @media (max-width: 768px) {

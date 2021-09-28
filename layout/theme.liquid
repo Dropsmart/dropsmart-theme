@@ -46,6 +46,8 @@
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
       :root {
+        --font-body-size: {{ settings.base-font-size }}px;
+        --font-body-size-mobile: {{ settings.mobile-font-size }}px;
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
@@ -106,7 +108,9 @@
     {{ 'ds-lp-content.css' | asset_url | stylesheet_tag }}
     {{ 'ds-component-cta.css' | asset_url | stylesheet_tag }}
     {{ 'ds-component-feature.css' | asset_url | stylesheet_tag }}
-
+    {{ 'ds-collection.css' | asset_url | stylesheet_tag }}
+    {{ 'ds-component-price.css' | asset_url | stylesheet_tag }}
+    
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
     {%- endunless -%}

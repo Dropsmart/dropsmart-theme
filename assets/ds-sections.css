@@ -1,10 +1,10 @@
 body {
-    font-size: 18px !important;
+    font-size: var(--font-body-size) !important;
 }
 
 @media (max-width: 768px) {
     body {
-        font-size: 14px !important;
+        font-size: var(--font-body-size-mobile) !important;
     }
 }
 
