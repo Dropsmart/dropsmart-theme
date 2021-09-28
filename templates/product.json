@@ -68,7 +68,9 @@
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
             "installment_number": "5",
-            "installment_without_fee": 1
+            "interest_rate": "",
+            "installment_without_fee": 1,
+            "compound_interest": false
           }
         }
       },
@@ -129,7 +131,7 @@
         "b92388a3-5f26-430b-8b52-f46a0e39205e": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
+            "font-color": "#ffffff",
             "background-color": "#19c149",
             "link": "#combo",
             "text": "Saiba mais",
@@ -191,7 +193,7 @@
         "81948469-5906-4726-913d-32d9b441a7d7": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
+            "font-color": "#ffffff",
             "background-color": "#19c149",
             "link": "#combo",
             "text": "Saiba mais",
@@ -250,7 +252,7 @@
         "5b64cb37-6f72-45e0-b3d3-7eacd1cd7513": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "center",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -274,7 +276,7 @@
             "description-font-weight": "400",
             "description-font-size": "0.85",
             "has-cta": false,
-            "cta-font-color": "#FFFfff",
+            "cta-font-color": "#ffffff",
             "cta-background-color": "#000000",
             "cta-text": "Click here",
             "link": "#combo",
@@ -288,7 +290,7 @@
         "56d2da9d-e041-41b6-ae65-f4fbbda3116e": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "center",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -312,7 +314,7 @@
             "description-font-weight": "400",
             "description-font-size": "0.85",
             "has-cta": false,
-            "cta-font-color": "#FFFfff",
+            "cta-font-color": "#ffffff",
             "cta-background-color": "#000000",
             "cta-text": "Click here",
             "link": "#combo",
@@ -326,7 +328,7 @@
         "f6c08819-637c-4823-9b9b-80e2468bcb83": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "center",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -350,7 +352,7 @@
             "description-font-weight": "400",
             "description-font-size": "0.85",
             "has-cta": false,
-            "cta-font-color": "#FFFfff",
+            "cta-font-color": "#ffffff",
             "cta-background-color": "#000000",
             "cta-text": "Click here",
             "link": "#combo",
@@ -364,7 +366,7 @@
         "8beffca3-a610-47ae-be94-cf0d763fe720": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "center",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -388,7 +390,7 @@
             "description-font-weight": "400",
             "description-font-size": "0.85",
             "has-cta": false,
-            "cta-font-color": "#FFFfff",
+            "cta-font-color": "#ffffff",
             "cta-background-color": "#000000",
             "cta-text": "Click here",
             "link": "#combo",
@@ -443,7 +445,7 @@
         "b1676718-42fc-445b-a544-f6033c9728fc": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
+            "font-color": "#ffffff",
             "background-color": "#19c149",
             "link": "#combo",
             "text": "Saiba mais",
@@ -477,7 +479,7 @@
         "3ba5b268-87a1-4504-b8f7-800c15406b75": {
           "type": "testimonial",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "center",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -508,7 +510,7 @@
         "82100cd6-6423-4fc6-b7a0-23311fc21ec3": {
           "type": "testimonial",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "center",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -594,10 +596,92 @@
             "cta-border-radius": "20px",
             "cta-pulse": false
           }
+        },
+        "c1606abc-aeaa-4cb4-9f8d-65f9030b9b7e": {
+          "type": "product",
+          "settings": {
+            "product-item": "",
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "center",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "0px",
+            "has-shadow": false,
+            "has-icon": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "align": "center",
+            "font-weight": "600",
+            "price-font-color": "#000000",
+            "price-font-size": "1.25",
+            "price-align": "center",
+            "price-font-weight": "600",
+            "description-text": "<p>Lorem ipsum<p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85",
+            "cart-button": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#000000",
+            "cta-text": "Click here",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "4px",
+            "cta-pulse": false
+          }
+        },
+        "09fcb4bb-9242-4ace-9c96-fc8f7705fd6f": {
+          "type": "product",
+          "settings": {
+            "product-item": "",
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "center",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "0px",
+            "has-shadow": false,
+            "has-icon": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "align": "center",
+            "font-weight": "600",
+            "price-font-color": "#000000",
+            "price-font-size": "1.25",
+            "price-align": "center",
+            "price-font-weight": "600",
+            "description-text": "<p>Lorem ipsum<p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85",
+            "cart-button": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#000000",
+            "cta-text": "Click here",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "4px",
+            "cta-pulse": false
+          }
         }
       },
       "block_order": [
-        "19fc7d4f-518f-42fb-88d5-f1ca6a23275c"
+        "19fc7d4f-518f-42fb-88d5-f1ca6a23275c",
+        "c1606abc-aeaa-4cb4-9f8d-65f9030b9b7e",
+        "09fcb4bb-9242-4ace-9c96-fc8f7705fd6f"
       ],
       "settings": {
         "heading": "",
