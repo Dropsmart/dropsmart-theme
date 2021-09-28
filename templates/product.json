@@ -416,6 +416,58 @@
         "no-padding": "",
         "container-width": "full"
       }
+    },
+    "163285734128697c84": {
+      "type": "ds-content",
+      "blocks": {
+        "163285734128697c84-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-size": "2",
+            "font-color": "#000000",
+            "align": "right",
+            "font-weight": "600"
+          }
+        },
+        "163285734128697c84-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
+            "font-color": "#000000",
+            "font-weight": "400",
+            "font-size": "1",
+            "align": "right"
+          }
+        }
+      },
+      "block_order": [
+        "163285734128697c84-0",
+        "163285734128697c84-1"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#ffffff",
+        "col-number": "two-col",
+        "reverse-on-mobile": false,
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "1632858237cbc57346": {
+      "type": "ds-features",
+      "settings": {
+        "heading": "",
+        "background-color": "#ffffff",
+        "feature-basis": 4,
+        "col-number": "two-col",
+        "reverse-on-mobile": false,
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
     }
   },
   "order": [
@@ -424,6 +476,8 @@
     "16328560812a41d9e6",
     "163285634993f8d10c",
     "163285648864371482",
-    "1632857318843c741d"
+    "1632857318843c741d",
+    "163285734128697c84",
+    "1632858237cbc57346"
   ]
 }
