@@ -859,12 +859,12 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#f2f4f5",
+        "background-color": "#fff",
         "col-number": "one-col",
         "reverse-on-mobile": false,
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
-        "no-padding": "",
+        "no-padding": "no-padding-bottom",
         "container-width": "medium"
       }
     },
