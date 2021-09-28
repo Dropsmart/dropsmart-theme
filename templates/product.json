@@ -465,7 +465,7 @@
         "background-color": "#ffffff",
         "col-number": "two-col",
         "reverse-on-mobile": false,
-        "vertical-align-content": "flex-start",
+        "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium"
