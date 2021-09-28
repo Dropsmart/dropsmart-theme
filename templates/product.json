@@ -27,6 +27,13 @@
           "settings": {
           }
         },
+        "2bde157b-d294-4ace-89b7-6f567a946bdd": {
+          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+          "settings": {
+            "installment-number": "3",
+            "valor-juros": "10"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -70,6 +77,7 @@
         "title",
         "subtitle",
         "price",
+        "2bde157b-d294-4ace-89b7-6f567a946bdd",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
