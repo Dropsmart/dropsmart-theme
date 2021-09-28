@@ -601,7 +601,7 @@
           "type": "product",
           "settings": {
             "product-item": "nome-do-produto-9",
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "center",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -627,7 +627,7 @@
             "description-font-weight": "600",
             "description-font-size": "1",
             "cart-button": false,
-            "cta-font-color": "#FFFFFF",
+            "cta-font-color": "#ffffff",
             "cta-background-color": "#19c149",
             "cta-text": "Comprar",
             "cta-font-weight": "400",
@@ -641,7 +641,7 @@
           "type": "product",
           "settings": {
             "product-item": "nome-do-produto-9",
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "center",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -667,7 +667,7 @@
             "description-font-weight": "600",
             "description-font-size": "1",
             "cart-button": false,
-            "cta-font-color": "#FFFFFF",
+            "cta-font-color": "#ffffff",
             "cta-background-color": "#19c149",
             "cta-text": "Comprar",
             "cta-font-weight": "400",
@@ -700,7 +700,7 @@
         "112f4a50-828b-4635-b2d8-5f1588abaf82": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "center",
             "feature-display": "flex-row",
             "mobile-feature-display": "mobile-flex-row",
@@ -724,7 +724,7 @@
             "description-font-weight": "400",
             "description-font-size": "0.85",
             "has-cta": false,
-            "cta-font-color": "#FFFfff",
+            "cta-font-color": "#ffffff",
             "cta-background-color": "#000000",
             "cta-text": "Click here",
             "link": "#combo",
@@ -738,7 +738,7 @@
         "8a2a325d-cff7-4511-baf8-677acd269198": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "center",
             "feature-display": "flex-row",
             "mobile-feature-display": "mobile-flex-row",
@@ -762,7 +762,7 @@
             "description-font-weight": "400",
             "description-font-size": "0.85",
             "has-cta": false,
-            "cta-font-color": "#FFFfff",
+            "cta-font-color": "#ffffff",
             "cta-background-color": "#000000",
             "cta-text": "Click here",
             "link": "#combo",
@@ -776,7 +776,7 @@
         "af26040e-950b-4e8b-b43a-2c0f2f5e3b5c": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "center",
             "feature-display": "flex-row",
             "mobile-feature-display": "mobile-flex-row",
@@ -800,7 +800,7 @@
             "description-font-weight": "400",
             "description-font-size": "0.85",
             "has-cta": false,
-            "cta-font-color": "#FFFfff",
+            "cta-font-color": "#ffffff",
             "cta-background-color": "#000000",
             "cta-text": "Click here",
             "link": "#combo",
@@ -859,7 +859,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#fff",
+        "background-color": "#ffffff",
         "col-number": "one-col",
         "reverse-on-mobile": false,
         "vertical-align-content": "flex-start",
@@ -871,30 +871,10 @@
     "1632860390ac093171": {
       "type": "ds-content",
       "blocks": {
-        "1632860390ac093171-0": {
-          "type": "h1",
-          "settings": {
-            "text": "Lorem Ipsum",
-            "font-size": "1.5",
-            "font-color": "#000000",
-            "align": "left",
-            "font-weight": "600"
-          }
-        },
-        "1632860390ac093171-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo, eget tempus massa eleifend quis. Phasellus accumsan malesuada sollicitudin.<\/p>",
-            "font-color": "#000000",
-            "font-weight": "400",
-            "font-size": "1",
-            "align": "left"
-          }
-        },
         "04654059-f5c1-44f0-87fa-b978356715dc": {
           "type": "h1",
           "settings": {
-            "text": "Lorem Ipsum",
+            "text": "Perguntas Frequentes",
             "font-size": "1.5",
             "font-color": "#000000",
             "align": "left",
@@ -904,7 +884,7 @@
         "aa08e51e-ad80-49ec-af8e-0c30be282c89": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo, eget tempus massa eleifend quis. Phasellus accumsan malesuada sollicitudin.<\/p>",
+            "text": "<p><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<\/p><p><\/p><p><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<\/p><p><\/p><p><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<\/p>",
             "font-color": "#000000",
             "font-weight": "400",
             "font-size": "1",
@@ -913,14 +893,82 @@
         }
       },
       "block_order": [
-        "1632860390ac093171-0",
-        "1632860390ac093171-1",
         "04654059-f5c1-44f0-87fa-b978356715dc",
         "aa08e51e-ad80-49ec-af8e-0c30be282c89"
       ],
       "settings": {
         "heading": "",
-        "background-color": "#fff",
+        "background-color": "#ffffff",
+        "col-number": "two-col",
+        "reverse-on-mobile": false,
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "1632860561b15c7cfe": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1632860561b15c7cfe-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1632860561b15c7cfe-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1632860561b15c7cfe-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1632860561b15c7cfe-0",
+        "1632860561b15c7cfe-1",
+        "1632860561b15c7cfe-2"
+      ],
+      "settings": {
+        "title": "Perguntas Frequentes",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "swipe_on_mobile": false
+      }
+    },
+    "16328605733cd2b562": {
+      "type": "ds-content",
+      "blocks": {
+        "16328605733cd2b562-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<\/p>",
+            "font-color": "#000000",
+            "font-weight": "400",
+            "font-size": "1",
+            "align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "16328605733cd2b562-1"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#ffffff",
         "col-number": "two-col",
         "reverse-on-mobile": false,
         "vertical-align-content": "flex-start",
@@ -942,6 +990,8 @@
     "1632858253710a5a3b",
     "163285981166944db0",
     "1632860078eb80171d",
-    "1632860390ac093171"
+    "1632860390ac093171",
+    "1632860561b15c7cfe",
+    "16328605733cd2b562"
   ]
 }
