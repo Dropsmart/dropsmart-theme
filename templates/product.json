@@ -480,7 +480,7 @@
           "type": "testimonial",
           "settings": {
             "background-color": "#ffffff",
-            "vertical-align-content": "center",
+            "vertical-align-content": "flex-start",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
             "feature-width": "full-width",
@@ -495,7 +495,7 @@
             "stars_fill_color": "#eac21c",
             "star_size": 24,
             "star_rating": 4,
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<br\/><br\/><\/p>",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<\/p>",
             "description-font-color": "#000000",
             "description-align": "center",
             "description-font-weight": "400",
@@ -511,7 +511,7 @@
           "type": "testimonial",
           "settings": {
             "background-color": "#ffffff",
-            "vertical-align-content": "center",
+            "vertical-align-content": "flex-start",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
             "feature-width": "full-width",
