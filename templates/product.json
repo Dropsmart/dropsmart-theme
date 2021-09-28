@@ -827,6 +827,107 @@
         "no-padding": "",
         "container-width": "medium"
       }
+    },
+    "1632860078eb80171d": {
+      "type": "ds-content",
+      "blocks": {
+        "1632860078eb80171d-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Perguntas Frequentes",
+            "font-size": "2",
+            "font-color": "#000000",
+            "align": "center",
+            "font-weight": "600"
+          }
+        },
+        "1632860078eb80171d-1": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Para ter acesso a todos os componentes do tema Dropsmart, obtenha o app Starter<p>",
+            "font-color": "#000000",
+            "font-weight": "400",
+            "font-size": "1",
+            "align": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1632860078eb80171d-0",
+        "1632860078eb80171d-1"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#f2f4f5",
+        "col-number": "one-col",
+        "reverse-on-mobile": false,
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "1632860390ac093171": {
+      "type": "ds-content",
+      "blocks": {
+        "1632860390ac093171-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-size": "1.5",
+            "font-color": "#000000",
+            "align": "left",
+            "font-weight": "600"
+          }
+        },
+        "1632860390ac093171-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo, eget tempus massa eleifend quis. Phasellus accumsan malesuada sollicitudin.<\/p>",
+            "font-color": "#000000",
+            "font-weight": "400",
+            "font-size": "1",
+            "align": "left"
+          }
+        },
+        "04654059-f5c1-44f0-87fa-b978356715dc": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-size": "1.5",
+            "font-color": "#000000",
+            "align": "left",
+            "font-weight": "600"
+          }
+        },
+        "aa08e51e-ad80-49ec-af8e-0c30be282c89": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo, eget tempus massa eleifend quis. Phasellus accumsan malesuada sollicitudin.<\/p>",
+            "font-color": "#000000",
+            "font-weight": "400",
+            "font-size": "1",
+            "align": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1632860390ac093171-0",
+        "1632860390ac093171-1",
+        "04654059-f5c1-44f0-87fa-b978356715dc",
+        "aa08e51e-ad80-49ec-af8e-0c30be282c89"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#fff",
+        "col-number": "two-col",
+        "reverse-on-mobile": false,
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
     }
   },
   "order": [
@@ -839,6 +940,8 @@
     "163285734128697c84",
     "1632858237cbc57346",
     "1632858253710a5a3b",
-    "163285981166944db0"
+    "163285981166944db0",
+    "1632860078eb80171d",
+    "1632860390ac093171"
   ]
 }
