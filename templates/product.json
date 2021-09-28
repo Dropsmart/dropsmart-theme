@@ -126,6 +126,20 @@
             "align": "center"
           }
         },
+        "b92388a3-5f26-430b-8b52-f46a0e39205e": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19c149",
+            "link": "#combo",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "4px",
+            "pulse": false
+          }
+        },
         "ee0c5ddd-58b0-437e-8aa2-0ad92f73fcbc": {
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
@@ -137,6 +151,7 @@
       "block_order": [
         "16328560812a41d9e6-0",
         "16328560812a41d9e6-1",
+        "b92388a3-5f26-430b-8b52-f46a0e39205e",
         "ee0c5ddd-58b0-437e-8aa2-0ad92f73fcbc"
       ],
       "settings": {
