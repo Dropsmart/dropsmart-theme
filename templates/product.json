@@ -67,9 +67,9 @@
         "d6063731-39db-43ff-8db1-c1bcc282dbb0": {
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
-            "installment-number": "5",
+            "installment-number": "3",
             "fee": "1",
-            "installment_without_fee": 3
+            "installment_without_fee": 0
           }
         }
       },
