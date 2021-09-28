@@ -414,7 +414,7 @@
         "reverse-on-mobile": false,
         "padding": "space-around-regular",
         "no-padding": "",
-        "container-width": "medium"
+        "container-width": "full"
       }
     }
   },
