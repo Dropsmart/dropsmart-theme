@@ -600,7 +600,7 @@
         "c1606abc-aeaa-4cb4-9f8d-65f9030b9b7e": {
           "type": "product",
           "settings": {
-            "product-item": "",
+            "product-item": "nome-do-produto-9",
             "background-color": "#FFFFFF",
             "vertical-align-content": "center",
             "feature-display": "flex-column",
@@ -621,7 +621,7 @@
             "price-font-size": "1.25",
             "price-align": "center",
             "price-font-weight": "600",
-            "description-text": "<p>Lorem ipsum<p>",
+            "description-text": "<p>Lorem ipsum<\/p><p><\/p>",
             "description-font-color": "#000000",
             "description-align": "center",
             "description-font-weight": "400",
@@ -640,7 +640,7 @@
         "09fcb4bb-9242-4ace-9c96-fc8f7705fd6f": {
           "type": "product",
           "settings": {
-            "product-item": "",
+            "product-item": "nome-do-produto-9",
             "background-color": "#FFFFFF",
             "vertical-align-content": "center",
             "feature-display": "flex-column",
@@ -661,7 +661,7 @@
             "price-font-size": "1.25",
             "price-align": "center",
             "price-font-weight": "600",
-            "description-text": "<p>Lorem ipsum<p>",
+            "description-text": "<p>Lorem ipsum<\/p><p><\/p>",
             "description-font-color": "#000000",
             "description-align": "center",
             "description-font-weight": "400",
