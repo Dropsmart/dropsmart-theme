@@ -82,8 +82,8 @@ main#MainContent {
     line-height: 1;
 }
 
-.Container .ds-component,
-.Container .ds-block {
+.ds-component,
+.ds-block {
     margin-bottom: 3rem;
 }
 
