@@ -27,6 +27,15 @@
           "settings": {
           }
         },
+        "d6063731-39db-43ff-8db1-c1bcc282dbb0": {
+          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+          "settings": {
+            "installment_number": "5",
+            "interest_rate": "",
+            "installment_without_fee": 1,
+            "compound_interest": false
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -63,15 +72,6 @@
           "disabled": true,
           "settings": {
           }
-        },
-        "d6063731-39db-43ff-8db1-c1bcc282dbb0": {
-          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
-          "settings": {
-            "installment_number": "5",
-            "interest_rate": "",
-            "installment_without_fee": 1,
-            "compound_interest": false
-          }
         }
       },
       "block_order": [
@@ -79,13 +79,13 @@
         "title",
         "subtitle",
         "price",
+        "d6063731-39db-43ff-8db1-c1bcc282dbb0",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
         "df5d63a2-5c27-4813-8dda-737239cd72cc",
-        "share",
-        "d6063731-39db-43ff-8db1-c1bcc282dbb0"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
