@@ -33,7 +33,7 @@
             "installment_number": "5",
             "interest_rate": "0",
             "installment_no_interest": 0,
-            "compound_interest": false
+            "compound_interest": true
           }
         },
         "variant_picker": {
