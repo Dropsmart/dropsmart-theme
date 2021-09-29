@@ -31,9 +31,7 @@
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
             "installment_number": "5",
-            "interest_rate": "2",
-            "installment_no_interest": 0,
-            "compound_interest": false
+            "installment_price": "13"
           }
         },
         "variant_picker": {
