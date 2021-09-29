@@ -32,10 +32,10 @@
           "settings": {
             "installment_number": "5",
             "installment_number_font_color": "#000000",
-            "installment_number_font_size": "0.75",
+            "installment_number_font_size": "0.85",
             "installment_price": "1399",
             "installment_price_font_color": "#19c149",
-            "installment_price_font_size": "1.25"
+            "installment_price_font_size": "1.75"
           }
         },
         "variant_picker": {
