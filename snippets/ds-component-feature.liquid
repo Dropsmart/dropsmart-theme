@@ -1,94 +1,89 @@
 <div
-  style="
-    align-self: {{block.settings.vertical-align-content}};
-  "
-  class="lp-content ds-feature flex flex-basis-{{section.settings.feature-basis}} {{block.settings.feature-display}}"
+  style="align-self: {{block.settings.vertical-align-content}};"
+  class="ds-component ds-component-feature flex flex-basis-{{section.settings.feature-basis}} justify-{{block.settings.align}} {{block.settings.feature-display}}"
 >
-<div
-    style="
-      background: {{block.settings.background-color}};
-      border-radius: {{block.settings.border-radius}};
-    "
-   class="flex {{block.settings.feature-width}} component-feature {{block.settings.feature-display}} {{block.settings.mobile-feature-display}} isCard regular-small no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
-  > 
-    {% if block.settings.has-icon %}
-    <div class="flex image-wrapper grow-0 justify-center align-items-{{block.settings.image-align}}">
-      <img loading="lazy" class="mobile-hide" style="
-          width: auto;
-          height: {{block.settings.icon-size}}px;
-          min-height: {{block.settings.icon-size}}px;
-          max-height: {{block.settings.icon-size}}px;
-        " 
-        src="
-        {% if block.settings.has-icon %}
-            {{ block.settings.icon-image | img_url: 'medium'}}
-        {% else %}
-            {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }}
-        {% endif %}"
-      />
-      <img loading="lazy" class="desktop-hide" style="
-          display: flex !important;
-          height: auto;
-          width: {{block.settings.mobile-icon-size}}px;
-          min-width: {{block.settings.mobile-icon-size}}px;
-          max-width: {{block.settings.mobile-icon-size}}px;
-        " 
-        src="
-            {% if block.settings.has-icon-mobile %}
-                {{ block.settings.mobile-icon-image | img_url: 'medium'}}
-            {% else %}    
-                {% if block.settings.has-icon %}
-                    {{ block.settings.icon-image | img_url: 'medium'}} 
-                {% else %}
-                    {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }} 
-                {% endif %}
-            {% endif %}
-        "
-      />
-    </div>
-    {% endif %}
-    {% if block.settings.text != empty or block.settings.description-text != empty %}
-      <div class="content flex justify-{{block.settings.image-align}}">
-        {% if block.settings.text != empty %}
-          {%- render 'ds-component-h3', 
-            fontColor: block.settings.title-font-color, 
-            backgroundColor: block.settings.background-color,
-            fontSize: block.settings.font-size, 
-            fontFamily: block.settings.font-family, 
-            align: block.settings.align,
-            fontWeight: block.settings.font-weight,
-            text: block.settings.text
-          -%}
-        {% endif %}
-        {% if block.settings.description-text != empty %}
-          {%- render 'ds-component-paragraph', 
-            fontColor: block.settings.description-font-color, 
-            backgroundColor: block.settings.description-background-color,
-            fontSize: block.settings.description-font-size, 
-            fontFamily: block.settings.description-font-family, 
-            align: block.settings.description-align,
-            fontWeight: block.settings.description-font-weight,
-            text: block.settings.description-text
-          -%}
-        {% endif %}
-        {% if block.settings.has-cta %}
-          {%- render 'ds-component-cta',
-            backgroundColor: block.settings.cta-background-color, 
-            fontColor: block.settings.cta-font-color, 
-            fontSize: block.settings.cta-font-size, 
-            fontWeight: block.settings.cta-font-weight, 
-            link: block.settings.link,
-            borderRadius: block.settings.cta-border-radius,
-            align: block.settings.cta-align,
-            text: block.settings.cta-text,
-            pulse: block.settings.cta-pulse,
-          -%}
-        {% endif %}
+  <div
+      style="
+        background: {{block.settings.background-color}};
+        border-radius: {{block.settings.border-radius}};
+      "
+    class="grow-0 flex justify-center {{block.settings.feature-width}} component-feature {{featureDisplay}} {{block.settings.mobile-feature-display}} isCard regular-small no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
+    > 
+      {% if block.settings.has-icon %}
+      <div class="flex image-wrapper grow-0 justify-center align-items-{{block.settings.image-align}}">
+        <img loading="lazy" class="mobile-hide" style="
+            width: auto;
+            height: {{block.settings.icon-size}}px;
+            min-height: {{block.settings.icon-size}}px;
+            max-height: {{block.settings.icon-size}}px;
+          " 
+          src="
+          {% if block.settings.has-icon %}
+              {{ block.settings.icon-image | img_url: 'medium'}}
+          {% else %}
+              {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }}
+          {% endif %}"
+        />
+        <img loading="lazy" class="desktop-hide" style="
+            display: flex !important;
+            height: auto;
+            width: {{block.settings.mobile-icon-size}}px;
+            min-width: {{block.settings.mobile-icon-size}}px;
+            max-width: {{block.settings.mobile-icon-size}}px;
+          " 
+          src="
+              {% if block.settings.has-icon-mobile %}
+                  {{ block.settings.mobile-icon-image | img_url: 'medium'}}
+              {% else %}    
+                  {% if block.settings.has-icon %}
+                      {{ block.settings.icon-image | img_url: 'medium'}} 
+                  {% else %}
+                      {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }} 
+                  {% endif %}
+              {% endif %}
+          "
+        />
       </div>
-    {% endif %}
-    {% if block.settings.has-cta %}
-
-    {% endif %}
+      {% endif %}
+      {% if block.settings.text != empty or block.settings.description-text != empty %}
+        <div class="content flex justify-center">
+          {% if block.settings.text != empty %}
+            {%- render 'ds-component-h3', 
+              fontColor: block.settings.title-font-color, 
+              backgroundColor: block.settings.background-color,
+              fontSize: block.settings.font-size, 
+              fontFamily: block.settings.font-family, 
+              align: block.settings.align,
+              fontWeight: block.settings.font-weight,
+              text: block.settings.text
+            -%}
+          {% endif %}
+          {% if block.settings.description-text != empty %}
+            {%- render 'ds-component-paragraph', 
+              fontColor: block.settings.description-font-color, 
+              backgroundColor: block.settings.description-background-color,
+              fontSize: block.settings.description-font-size, 
+              fontFamily: block.settings.description-font-family, 
+              align: block.settings.description-align,
+              fontWeight: block.settings.description-font-weight,
+              text: block.settings.description-text
+            -%}
+          {% endif %}
+          {% if block.settings.has-cta %}
+            {%- render 'ds-component-cta',
+              backgroundColor: block.settings.cta-background-color, 
+              fontColor: block.settings.cta-font-color, 
+              fontSize: block.settings.cta-font-size, 
+              fontWeight: block.settings.cta-font-weight, 
+              link: block.settings.link,
+              borderRadius: block.settings.cta-border-radius,
+              align: block.settings.cta-align,
+              text: block.settings.cta-text,
+              pulse: block.settings.cta-pulse,
+            -%}
+          {% endif %}
+        </div>
+      {% endif %}
   </div>
 </div>
   

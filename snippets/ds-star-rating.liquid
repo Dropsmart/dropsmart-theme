@@ -1,6 +1,6 @@
 {% assign fillColor = fill %}
 
-<div class="ds-star-rating flex-row">
+<div class="ds-component ds-star-rating flex-row">
   {% for i in (1..5) %}
     {% assign half = i | minus: 0.5 %}
     {% if rating >= i %}

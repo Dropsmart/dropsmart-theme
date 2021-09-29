@@ -1,144 +1,140 @@
-main#MainContent .ds-feature {
+/* DS Component Feature */
+
+.Container .ds-component.ds-component-feature {
+    margin-bottom: 3rem;
+}
+
+.ds-component-feature {
     flex: 1;
 }
 
-main#MainContent .ds-feature.flex-row {
+.ds-component-feature.flex-row {
     min-width: 100%;
     max-width: 70%;
 }
 
-main#MainContent .ds-feature.flex-column {
+.ds-component-feature.flex-column {
     max-width: 40%;
 }
 
 @media (max-width: 768px) {
-    main#MainContent .ds-feature.flex-column {
+    .ds-component-feature.flex-column {
         max-width: 60%;
     }
 }
 
-main#MainContent .ds-feature {
-    flex: 1;
-}
-
-main#MainContent .component-feature {
+.component-feature {
     flex: 1;
     align-self: center;
     margin-bottom: 0rem !important;
 }
 
-main#MainContent .component-feature.full-width {
+.component-feature.full-width {
     width: calc(100% - 3rem);
 }
 
-main#MainContent .component-feature.auto-width {
+.component-feature.auto-width {
     width: fit-content;
 }
 
-main#MainContent .component-feature:last-child {
+.ds-component-feature .ds-h3 {
+    padding: 0 2rem;
+}
+
+
+/* Lists flex-row */
+
+.flex-row.component-feature {
+    align-self: flex-start;
+    padding: 1rem 1rem !important;
+}
+
+.component-feature.flex-row .image-wrapper img {
     margin-bottom: 1rem !important;
 }
 
-main#MainContent .component-feature.flex-row span,
-main#MainContent .component-feature.flex-row h3 {
-    padding-right: 0 !important;
-}
-
-main#MainContent .component-feature.flex-row .image-wrapper img {
-    margin-bottom: 3rem !important;
-}
-
-main#MainContent .component-feature .image-wrapper {
-    padding: 0 0.5rem;
-}
-
 @media (max-width: 768px) {
-    main#MainContent .component-feature {
-        margin: 0;
-        margin-bottom: 1.5rem;
-    }
-    main#MainContent .component-feature:last-child {
-        margin-bottom: 0;
-    }
-    main#MainContent .component-feature p {
-        margin-bottom: 1.5rem !important;
-    }
-    main#MainContent .ds-feature {
-        min-width: 100%;
-    }
-    main#MainContent .component-feature {
-        min-width: 100%;
-    }
-}
-
-main#MainContent .ds-lp-content .features {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-main#MainContent .ds-lp-content .features.flex-column .component-feature {
-    align-self: flex-start;
-    padding: 3rem 3rem 0rem !important;
-    margin-bottom: 1.5rem !important;
-}
-
-main#MainContent .ds-lp-content .features.flex-column .component-feature.shadow {
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1), 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
-}
-
-main#MainContent .ds-lp-content .features.flex-column .component-feature img {
-    margin-left: 0 !important;
-}
-
-@media (max-width: 768px) {
-    main#MainContent .ds-lp-content .features.flex-column .component-feature.mobile-flex-row {
-        align-self: center;
-    }
-}
-
-@media (max-width: 768px) {
-    main#MainContent .ds-lp-content .features.flex-column .component-feature {
-        margin: 0 !important;
-        margin-bottom: 1.5rem !important;
-    }
-}
-
-main#MainContent .ds-lp-content .features.flex-row .component-feature {
-    align-self: center;
-    margin: 0 1rem 1.5rem;
-    padding: 3rem 3rem 0 !important;
-    margin-bottom: 1.5rem !important;
-}
-
-@media (max-width: 768px) {
-    main#MainContent .ds-lp-content .features.flex-row .component-feature {
-        align-self: center;
-        margin: 0 1rem 1.5rem;
-        padding: 3rem 3rem 1rem !important;
-        margin-bottom: 1.5rem !important;
-    }
-}
-
-main#MainContent .ds-lp-content .features.flex-row .component-feature.shadow {
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1), 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
-}
-
-@media (max-width: 768px) {
-    main#MainContent .ds-lp-content .features.flex-row .component-feature.mobile-flex-column {
+    .features.flex-row .component-feature.mobile-flex-column {
         align-self: flex-start;
     }
 }
 
 @media (max-width: 768px) {
-    main#MainContent .ds-lp-content .features.flex-row .component-feature {
+    .features.flex-row .component-feature {
         margin: 0 !important;
         margin-bottom: 1.5rem !important;
     }
 }
 
+
+/* Cards flex-column */
+
+.flex-column.component-feature {
+    align-self: flex-start;
+    padding: 3rem 3rem !important;
+    margin: 0 1.5rem;
+}
+
+.flex-column.component-feature.shadow {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1), 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+.flex-column.component-feature .image-wrapper img {
+    margin-bottom: 2rem !important;
+}
+
 @media (max-width: 768px) {
-    main#MainContent .ds-lp-content .features {
+    .flex-column.component-feature.mobile-flex-row {
+        align-self: center;
+    }
+    .flex-column.component-feature {
+        margin: 0 !important;
+        margin-bottom: 1.5rem !important;
+    }
+}
+
+
+/* Mobile adjustments */
+
+@media (max-width: 768px) {
+    .component-feature {
+        margin: 0;
+    }
+    .component-feature:last-child {
+        margin-bottom: 0;
+    }
+    .ds-component-feature {
+        min-width: 100%;
+    }
+    .component-feature {
+        min-width: 100%;
+    }
+    .component-feature.flex-row {
+        min-width: auto;
+    }
+}
+
+.ds-lp-content .features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    .flex-row .component-feature {
+        align-self: center;
+        margin: 0 1rem 1.5rem;
+        padding: 3rem 3rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+}
+
+.component-feature.shadow {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1), 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+    .ds-lp-content .features {
         flex-direction: column;
     }
 }

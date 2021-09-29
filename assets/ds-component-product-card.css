@@ -1,0 +1,14 @@
+.ds-component-product-card .image-wrapper {
+    width: 100%;
+    padding: 0 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .ds-component-product-card .image-wrapper {
+        padding: 0;
+    }
+}
+
+.ds-component-product-card .image-wrapper img {
+    width: 100%;
+}

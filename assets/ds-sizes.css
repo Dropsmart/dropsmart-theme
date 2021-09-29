@@ -3,263 +3,154 @@ main#MainContent {
     /* END SIZES */
 }
 
-main#MainContent .container-full {
+.container-full {
     max-width: 1280px;
     margin: auto;
 }
 
-main#MainContent .container-medium {
+.container-medium {
     max-width: 980px;
     margin: auto;
 }
 
-main#MainContent .container-small {
+.container-small {
     max-width: 720px;
     margin: auto;
 }
 
-main#MainContent .container-x-small {
+.container-x-small {
     max-width: 480px;
     margin: auto;
 }
 
-main#MainContent .weight-300 {
+.weight-300 {
     font-weight: 300 !important;
 }
 
-main#MainContent .weight-400 {
+.weight-400 {
     font-weight: 400 !important;
 }
 
-main#MainContent .weight-600 {
+.weight-600 {
     font-weight: 800 !important;
 }
 
-main#MainContent .weight-800 {
+.weight-800 {
     font-weight: 800 !important;
 }
 
-main#MainContent .weight-900 {
+.weight-900 {
     font-weight: 900 !important;
 }
 
-main#MainContent .Container {
+
+/* DEFINE PADDING IN CONTAINER */
+
+.Container {
     padding-left: 5rem;
     padding-right: 5rem;
 }
 
+
+/* DEFINE PADDING IN CONTAINER MOBILE*/
+
 @media (max-width: 768px) {
-    main#MainContent .Container {
+    .Container {
         padding-left: 2rem;
         padding-right: 2rem;
     }
 }
 
-main#MainContent .Container .content,
-main#MainContent .regular .content {
+.Container * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Container .content {
     padding: 0;
     margin: 0;
     width: 100%;
 }
 
-main#MainContent .Container h1,
-main#MainContent .Container h2,
-main#MainContent .Container h3,
-main#MainContent .Container h4 {
+
+/* Elements Spacing */
+
+.Container h1,
+.Container h2,
+.Container h3,
+.Container h4 {
     line-height: 1;
 }
 
-main#MainContent .Container h1,
-main#MainContent .Container h2,
-main#MainContent .Container h3,
-main#MainContent .Container h4,
-main#MainContent .Container span>p,
-main#MainContent .Container div>.component-cta,
-main#MainContent .Container img {
-    margin-top: 0;
+.Container .ds-component,
+.Container .ds-block {
     margin-bottom: 3rem;
 }
 
-main#MainContent .space-around-regular {
-    padding-top: 6rem !important;
-    padding-bottom: 3rem !important;
+.Container .ds-component .ds-h3 {
+    margin-bottom: 1.5rem;
 }
 
-main#MainContent .space-around-regular .content>div h1,
-main#MainContent .space-around-regular .features>div h1,
-main#MainContent .space-around-regular .content>div h2,
-main#MainContent .space-around-regular .features>div h2,
-main#MainContent .space-around-regular .content>div h3,
-main#MainContent .space-around-regular .features>div h3,
-main#MainContent .space-around-regular .content>div h4,
-main#MainContent .space-around-regular .features>div h4,
-main#MainContent .space-around-regular .content>span p,
-main#MainContent .space-around-regular .features>span p,
-main#MainContent .space-around-regular .content>.component-cta,
-main#MainContent .space-around-regular .features>.component-cta,
-main#MainContent .space-around-regular .content>img,
-main#MainContent .space-around-regular .features>img,
-main#MainContent .space-around-regular .content>figure img,
-main#MainContent .space-around-regular .features>figure img,
-main#MainContent .space-around-regular .content .component-cta,
-main#MainContent .space-around-regular .features .component-cta,
-main#MainContent .space-around-regular .content .ProductForm__Option,
-main#MainContent .space-around-regular .features .ProductForm__Option {
-    margin-bottom: 3rem;
-}
-
-@media (max-width: 768px) {
-    main#MainContent .space-around-regular {
-        padding-top: 5rem !important;
-        padding-bottom: 3rem !important;
-    }
-    main#MainContent .space-around-regular .content>div h1,
-    main#MainContent .space-around-regular .features>div h1,
-    main#MainContent .space-around-regular .content>div h2,
-    main#MainContent .space-around-regular .features>div h2,
-    main#MainContent .space-around-regular .content>div h3,
-    main#MainContent .space-around-regular .features>div h3,
-    main#MainContent .space-around-regular .content>div h4,
-    main#MainContent .space-around-regular .features>div h4,
-    main#MainContent .space-around-regular .content>span p,
-    main#MainContent .space-around-regular .features>span p,
-    main#MainContent .space-around-regular .content>.component-cta,
-    main#MainContent .space-around-regular .features>.component-cta,
-    main#MainContent .space-around-regular .content>img,
-    main#MainContent .space-around-regular .features>img,
-    main#MainContent .space-around-regular .content>figure img,
-    main#MainContent .space-around-regular .features>figure img,
-    main#MainContent .space-around-regular .content .component-cta,
-    main#MainContent .space-around-regular .features .component-cta,
-    main#MainContent .space-around-regular .content .ProductForm__Option,
-    main#MainContent .space-around-regular .features .ProductForm__Option {
-        margin-bottom: 2rem;
-    }
-}
-
-main#MainContent .space-around-small {
-    padding-top: 4rem !important;
-    padding-bottom: 2rem !important;
-}
-
-main#MainContent .space-around-small .content>div h1,
-main#MainContent .space-around-small .features>div h1,
-main#MainContent .space-around-small .content>div h2,
-main#MainContent .space-around-small .features>div h2,
-main#MainContent .space-around-small .content>div h3,
-main#MainContent .space-around-small .features>div h3,
-main#MainContent .space-around-small .content>div h4,
-main#MainContent .space-around-small .features>div h4,
-main#MainContent .space-around-small .content>span p,
-main#MainContent .space-around-small .features>span p,
-main#MainContent .space-around-small .content>.component-cta,
-main#MainContent .space-around-small .features>.component-cta,
-main#MainContent .space-around-small .content>img,
-main#MainContent .space-around-small .features>img,
-main#MainContent .space-around-small .content>figure img,
-main#MainContent .space-around-small .features>figure img,
-main#MainContent .space-around-small .content .component-cta,
-main#MainContent .space-around-small .features .component-cta,
-main#MainContent .space-around-small .content .ProductForm__Option,
-main#MainContent .space-around-small .features .ProductForm__Option {
+.Container .ds-component .ds-star-rating {
     margin-bottom: 2rem;
 }
 
-@media (max-width: 768px) {
-    main#MainContent .space-around-small {
-        padding-top: 3rem !important;
-        padding-bottom: 2rem !important;
-    }
-    main#MainContent .space-around-small .content>div h1,
-    main#MainContent .space-around-small .features>div h1,
-    main#MainContent .space-around-small .content>div h2,
-    main#MainContent .space-around-small .features>div h2,
-    main#MainContent .space-around-small .content>div h3,
-    main#MainContent .space-around-small .features>div h3,
-    main#MainContent .space-around-small .content>div h4,
-    main#MainContent .space-around-small .features>div h4,
-    main#MainContent .space-around-small .content>span p,
-    main#MainContent .space-around-small .features>span p,
-    main#MainContent .space-around-small .content>.component-cta,
-    main#MainContent .space-around-small .features>.component-cta,
-    main#MainContent .space-around-small .content>img,
-    main#MainContent .space-around-small .features>img,
-    main#MainContent .space-around-small .content>figure img,
-    main#MainContent .space-around-small .features>figure img,
-    main#MainContent .space-around-small .content .component-cta,
-    main#MainContent .space-around-small .features .component-cta,
-    main#MainContent .space-around-small .content .ProductForm__Option,
-    main#MainContent .space-around-small .features .ProductForm__Option {
-        margin-bottom: 1rem;
-    }
+.Container .ds-component:last-child,
+.Container .ds-block:last-child {
+    margin-bottom: 0 !important;
 }
 
-main#MainContent .space-around-large {
-    padding-top: 10rem !important;
+
+/* Section Spacing */
+
+.space-around-regular {
+    padding-top: 6rem !important;
     padding-bottom: 6rem !important;
 }
 
-main#MainContent .space-around-large .content>div h1,
-main#MainContent .space-around-large .features>div h1,
-main#MainContent .space-around-large .content>div h2,
-main#MainContent .space-around-large .features>div h2,
-main#MainContent .space-around-large .content>div h3,
-main#MainContent .space-around-large .features>div h3,
-main#MainContent .space-around-large .content>div h4,
-main#MainContent .space-around-large .features>div h4,
-main#MainContent .space-around-large .content>span p,
-main#MainContent .space-around-large .features>span p,
-main#MainContent .space-around-large .content>.component-cta,
-main#MainContent .space-around-large .features>.component-cta,
-main#MainContent .space-around-large .content>img,
-main#MainContent .space-around-large .features>img,
-main#MainContent .space-around-large .content>figure img,
-main#MainContent .space-around-large .features>figure img,
-main#MainContent .space-around-large .content .component-cta,
-main#MainContent .space-around-large .features .component-cta,
-main#MainContent .space-around-large .content .ProductForm__Option,
-main#MainContent .space-around-large .features .ProductForm__Option {
-    margin-bottom: 4rem;
+@media (max-width: 768px) {
+    .space-around-regular {
+        padding-top: 5rem !important;
+        padding-bottom: 5rem !important;
+    }
+}
+
+.space-around-small {
+    padding-top: 4rem !important;
+    padding-bottom: 4rem !important;
 }
 
 @media (max-width: 768px) {
-    main#MainContent .space-around-large {
-        padding-top: 8rem !important;
-        padding-bottom: 5rem !important;
-    }
-    main#MainContent .space-around-large .content>div h1,
-    main#MainContent .space-around-large .features>div h1,
-    main#MainContent .space-around-large .content>div h2,
-    main#MainContent .space-around-large .features>div h2,
-    main#MainContent .space-around-large .content>div h3,
-    main#MainContent .space-around-large .features>div h3,
-    main#MainContent .space-around-large .content>div h4,
-    main#MainContent .space-around-large .features>div h4,
-    main#MainContent .space-around-large .content>span p,
-    main#MainContent .space-around-large .features>span p,
-    main#MainContent .space-around-large .content>.component-cta,
-    main#MainContent .space-around-large .features>.component-cta,
-    main#MainContent .space-around-large .content>img,
-    main#MainContent .space-around-large .features>img,
-    main#MainContent .space-around-large .content>figure img,
-    main#MainContent .space-around-large .features>figure img,
-    main#MainContent .space-around-large .content .component-cta,
-    main#MainContent .space-around-large .features .component-cta,
-    main#MainContent .space-around-large .content .ProductForm__Option,
-    main#MainContent .space-around-large .features .ProductForm__Option {
-        margin-bottom: 3rem;
+    .space-around-small {
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important;
     }
 }
 
-main#MainContent .no-padding-bottom {
+.space-around-large {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+}
+
+@media (max-width: 768px) {
+    .space-around-large {
+        padding-top: 8rem !important;
+        padding-bottom: 8rem !important;
+    }
+}
+
+
+/* Paddings */
+
+.no-padding-bottom {
     padding-bottom: 0 !important;
 }
 
-main#MainContent .no-padding-top {
+.no-padding-top {
     padding-top: 0 !important;
 }
 
-main#MainContent .no-padding {
+.no-padding {
     margin-bottom: -1rem !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
