@@ -95,6 +95,10 @@ main#MainContent {
     margin-bottom: 2rem;
 }
 
+.Container .ds-component p {
+    line-height: 160%;
+}
+
 .Container .ds-component:last-child,
 .Container .ds-block:last-child {
     margin-bottom: 0 !important;

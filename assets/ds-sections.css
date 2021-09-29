@@ -356,7 +356,8 @@ main#MainContent .shopify-section>section {
 
 main#MainContent .shopify-section>div.two-col,
 main#MainContent .shopify-section>section.two-col {
-    width: 49vw;
+    width: 42vw;
+    max-width: 600px;
 }
 
 @media (max-width: 768px) {
@@ -427,13 +428,13 @@ main#MainContent .shopify-section:nth-of-type(odd)>div.two-col {
 }
 
 main#MainContent .shopify-section:nth-of-type(odd)>div.two-col .Container {
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 main#MainContent .shopify-section:nth-of-type(even)>div.two-col .Container {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 @media (max-width: 768px) {

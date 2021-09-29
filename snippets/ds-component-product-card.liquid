@@ -20,6 +20,10 @@
         background: {{block.settings.background-color}};
         border-bottom-right-radius: {{block.settings.border-radius}};
         border-bottom-left-radius: {{block.settings.border-radius}};
+        {% if block.settings.has-icon == false %}
+          border-top-right-radius: {{block.settings.border-radius}};
+          border-top-left-radius: {{block.settings.border-radius}};
+        {% endif %}
       "
       class="flex auto-width component-feature flex-column no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
     > 
