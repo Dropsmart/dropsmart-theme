@@ -30,10 +30,10 @@
         "d6063731-39db-43ff-8db1-c1bcc282dbb0": {
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
-            "installment_number": "5",
-            "interest_rate": "5",
-            "installment_without_fee": 1,
-            "compound_interest": false
+            "installment_number": "1",
+            "interest_rate": "1",
+            "installment_no_interest": 1,
+            "compound_interest": true
           }
         },
         "variant_picker": {
