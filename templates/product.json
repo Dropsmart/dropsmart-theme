@@ -675,7 +675,7 @@
       "settings": {
         "heading": "",
         "background-color": "#f4f4f4",
-        "feature-basis": 4,
+        "feature-basis": 3,
         "col-number": "one-col",
         "reverse-on-mobile": false,
         "padding": "space-around-regular",
