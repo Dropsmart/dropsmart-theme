@@ -437,13 +437,8 @@
       },
       {
          "type":"product",
-         "name":"Produto",
+         "name":"Produto Customizado",
          "settings":[
-            {
-               "id":"product-item",
-               "type":"product",
-               "label":"Produto"
-            },
             {
                "type":"header",
                "content":"Aparência"
@@ -488,72 +483,22 @@
             },
             {
                "type":"header",
-               "content":"Ícone"
+               "content":"Foto do Produto"
             },
             {
                "id":"has-icon",
                "type":"checkbox",
-               "label":"Utilizar Ícone"
+               "label":"Utilizar Foto do Produto"
             },
             {
-               "type":"select",
-               "id":"image-align",
-               "options":[
-                  {
-                     "value":"center",
-                     "label":"Centralizado"
-                  },
-                  {
-                     "value":"left",
-                     "label":"Esquerda"
-                  },
-                  {
-                     "value":"right",
-                     "label":"Direita"
-                  }
-               ],
-               "default":"center",
-               "label":"Alinhamento do ícone"
+               "id":"icon-image",
+               "type":"image_picker",
+               "label":"Imagem do Ícone"
             },
             {
-               "type":"select",
-               "id":"icon-size",
-               "options":[
-                  {
-                     "value":"64",
-                     "label":"pequeno"
-                  },
-                  {
-                     "value":"96",
-                     "label":"médio"
-                  },
-                  {
-                     "value":"128",
-                     "label":"grande"
-                  }
-               ],
-               "default":"96",
-               "label":"Tamanho do ícone"
-            },
-            {
-               "type":"select",
-               "id":"mobile-icon-size",
-               "options":[
-                  {
-                     "value":"32",
-                     "label":"pequeno"
-                  },
-                  {
-                     "value":"64",
-                     "label":"médio"
-                  },
-                  {
-                     "value":"96",
-                     "label":"grande"
-                  }
-               ],
-               "default":"64",
-               "label":"Tamanho do ícone no dispositivo móvel"
+               "id":"mobile-icon-image",
+               "type":"image_picker",
+               "label":"Imagem do Ícone no dispositivo Móvel"
             },
             {
                "type":"header",
@@ -592,26 +537,6 @@
             },
             {
                "type":"select",
-               "id":"align",
-               "options":[
-                  {
-                     "value":"center",
-                     "label":"Centralizado"
-                  },
-                  {
-                     "value":"left",
-                     "label":"Esquerda"
-                  },
-                  {
-                     "value":"right",
-                     "label":"Direita"
-                  }
-               ],
-               "default":"center",
-               "label":"Alinhamento"
-            },
-            {
-               "type":"select",
                "id":"font-weight",
                "options":[
                   {
@@ -633,6 +558,11 @@
             {
                "type":"header",
                "content":"Preço"
+            },
+            {
+               "id":"price-value",
+               "type":"text",
+               "label":"Título"
             },
             {
                "type":"color",
@@ -659,26 +589,6 @@
                ],
                "default":"1.25",
                "label":"Tamanho da fonte"
-            },
-            {
-               "type":"select",
-               "id":"price-align",
-               "options":[
-                  {
-                     "value":"center",
-                     "label":"Centralizado"
-                  },
-                  {
-                     "value":"left",
-                     "label":"Esquerda"
-                  },
-                  {
-                     "value":"right",
-                     "label":"Direita"
-                  }
-               ],
-               "default":"center",
-               "label":"Alinhamento"
             },
             {
                "type":"select",
@@ -781,9 +691,9 @@
                "content":"Botão (CTA)"
             },
             {
-               "id":"cart-button",
-               "type":"checkbox",
-               "label":"Ativar Botão Carrinho"
+               "id":"product-link",
+               "type":"text",
+               "label":"Link do checkout"
             },
             {
                "type":"color",
@@ -842,26 +752,6 @@
                ],
                "default":"1",
                "label":"Tamanho da Fonte"
-            },
-            {
-               "type":"select",
-               "id":"cta-align",
-               "options":[
-                  {
-                     "value":"center",
-                     "label":"Centralizado"
-                  },
-                  {
-                     "value":"left",
-                     "label":"Esquerda"
-                  },
-                  {
-                     "value":"right",
-                     "label":"Direita"
-                  }
-               ],
-               "default":"center",
-               "label":"Alinhamento"
             },
             {
                "id":"cta-border-radius",

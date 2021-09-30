@@ -11,4 +11,9 @@
 
 .ds-component-product-card .image-wrapper img {
     width: 100%;
+    max-width: 280px;
+}
+
+.ds-component-product-card .component-feature {
+    max-width: 280px;
 }

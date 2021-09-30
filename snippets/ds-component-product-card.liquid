@@ -2,47 +2,59 @@
     style="align-self: {{block.settings.vertical-align-content}};"
     class="ds-component ds-component-feature ds-component-product-card flex flex-basis-{{section.settings.feature-basis}} flex-column"
 >
+  <div
+    style="
+      background: {{block.settings.background-color}};
+      border-radius: {{block.settings.border-radius}};
+    "
+    class="flex full-width component-feature flex-column no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
+  > 
     {% if block.settings.has-icon %}
-      <div class="flex image-wrapper grow-0 justify-center align-items-{{block.settings.image-align}}"
-        style="
-          border-top-right-radius: {{block.settings.border-radius}};
-          border-top-left-radius: {{block.settings.border-radius}};
-        "
-      >
-          <img style="
-            border-top-right-radius: {{block.settings.border-radius}};
+        <img loading="lazy" class="mobile-hide" style="
+            border-top-right-radius:{{block.settings.border-radius}};
             border-top-left-radius: {{block.settings.border-radius}};
-          " loading="lazy" src="{{ block.settings.product-item.featured_image | img_url: 'medium'}}" />
-      </div>
-    {% endif %}
-    <div
-      style="
-        background: {{block.settings.background-color}};
-        border-bottom-right-radius: {{block.settings.border-radius}};
-        border-bottom-left-radius: {{block.settings.border-radius}};
-        {% if block.settings.has-icon == false %}
-          border-top-right-radius: {{block.settings.border-radius}};
-          border-top-left-radius: {{block.settings.border-radius}};
-        {% endif %}
-      "
-      class="flex auto-width component-feature flex-column no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
-    > 
+          " 
+          src="
+          {% if block.settings.has-icon %}
+              {{ block.settings.icon-image | img_url: 'medium'}}
+          {% else %}
+              {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }}
+          {% endif %}"
+        />
+        <img loading="lazy" class="desktop-hide" style="
+            display: flex !important;
+            border-top-right-radius:{{block.settings.border-radius}};
+            border-top-left-radius: {{block.settings.border-radius}};
+          "
+          src="
+              {% if block.settings.has-icon-mobile %}
+                  {{ block.settings.mobile-icon-image | img_url: 'medium'}}
+              {% else %}    
+                  {% if block.settings.has-icon %}
+                      {{ block.settings.icon-image | img_url: 'medium'}} 
+                  {% else %}
+                      {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }} 
+                  {% endif %}
+              {% endif %}
+          "
+        />
+      {% endif %}
       {% if block.settings.text != empty or block.settings.description-text != empty %}
-        <div class="content flex justify-{{block.settings.image-align}}">
+        <div class="content flex justify-center">
             {%- render 'ds-component-h3', 
               fontColor: block.settings.title-font-color, 
               backgroundColor: block.settings.background-color,
               fontSize: block.settings.font-size, 
-              align: block.settings.align,
+              align: "center",
               fontWeight: block.settings.font-weight,
-              text: block.settings.product-item.title
+              text: block.settings.text
             -%}
             {% if block.settings.description-text != empty %}
               {%- render 'ds-component-paragraph', 
               fontColor: block.settings.description-font-color, 
               backgroundColor: block.settings.description-background-color,
               fontSize: block.settings.description-font-size, 
-              align: block.settings.description-align,
+              align: "center",
               fontWeight: block.settings.description-font-weight,
               text: block.settings.description-text
               -%}
@@ -51,20 +63,20 @@
                 fontColor: block.settings.price-font-color, 
                 backgroundColor: block.settings.price-background-color,
                 fontSize: block.settings.price-font-size, 
-                align: block.settings.price-align,
+                align: "center",
                 fontWeight: block.settings.price-font-weight,
-                product: block.settings.product-item
+                product: block.settings.price-value,
             -%}
             {%- render 'ds-component-cta',
-            backgroundColor: block.settings.cta-background-color, 
-            fontColor: block.settings.cta-font-color, 
-            fontSize: block.settings.cta-font-size, 
-            fontWeight: block.settings.cta-font-weight, 
-            link: block.settings.product-item.url,
-            borderRadius: block.settings.cta-border-radius,
-            align: block.settings.cta-align,
-            text: block.settings.cta-text,
-            pulse: block.settings.cta-pulse,
+              backgroundColor: block.settings.cta-background-color, 
+              fontColor: block.settings.cta-font-color, 
+              fontSize: block.settings.cta-font-size, 
+              fontWeight: block.settings.cta-font-weight, 
+              link: block.settings.product-item.url,
+              borderRadius: block.settings.cta-border-radius,
+              align: "center",
+              text: block.settings.cta-text,
+              pulse: block.settings.cta-pulse,
             -%}
         </div>
       {% endif %}
