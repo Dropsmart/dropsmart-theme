@@ -62,17 +62,11 @@
           "settings": {
           }
         },
-        "df5d63a2-5c27-4813-8dda-737239cd72cc": {
+        "663c3229-407f-485c-9149-0ffaa06be6c6": {
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
-            "content-image": "shopify:\/\/shop_images\/Simbolo_DS.png",
-            "mobile-content-image": "shopify:\/\/shop_images\/Simbolo_DS.png"
-          }
-        },
-        "e833e0b3-710c-4889-b208-8e5693349a87": {
-          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
-          "settings": {
-            "content-image": "shopify:\/\/shop_images\/Frame_21.png"
+            "content-image": "shopify:\/\/shop_images\/Screenshot_4.jpg",
+            "mobile-content-image": "shopify:\/\/shop_images\/Screenshot_4.jpg"
           }
         },
         "share": {
@@ -92,8 +86,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "df5d63a2-5c27-4813-8dda-737239cd72cc",
-        "e833e0b3-710c-4889-b208-8e5693349a87",
+        "663c3229-407f-485c-9149-0ffaa06be6c6",
         "share"
       ],
       "settings": {
