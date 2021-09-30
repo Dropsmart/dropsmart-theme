@@ -634,7 +634,7 @@
           "settings": {
             "product-item": "nome-do-produto-9",
             "background-color": "#ffffff",
-            "vertical-align-content": "center",
+            "vertical-align-content": "flex-start",
             "border-radius": "20px",
             "has-shadow": true,
             "has-icon": true,
