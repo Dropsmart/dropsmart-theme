@@ -71,7 +71,7 @@
             "type": "text",
             "settings": {
               "heading": "Nome da Empresa",
-              "subtext": "<p><strong><br\/>Entre em contato:<\/strong><br\/>email@email.com.br<br\/>(00) 00000-0000<\/p>"
+              "subtext": "<p><strong>CNPJ:<br\/><\/strong>00. 000. 000\/0000-00<br\/><strong><br\/>Entre em contato:<\/strong><br\/>email@email.com.br<br\/>(00) 00000-0000<\/p>"
             }
           }
         },
