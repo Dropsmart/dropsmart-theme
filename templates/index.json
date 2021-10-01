@@ -2,30 +2,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "medium"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
       "settings": {
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
@@ -184,10 +160,10 @@
           "type": "h1",
           "settings": {
             "text": "Lorem Ipsum",
-            "font-size": "2",
             "font-color": "#000000",
-            "align": "center",
-            "font-weight": "600"
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
           }
         },
         "1632252676ac892627-1": {
@@ -195,8 +171,8 @@
           "settings": {
             "text": "<p>Para ter acesso a todos os componentes do tema Dropsmart, obtenha o app Starter. Para ter acesso a todos os componentes do tema Dropsmart, obtenha o app Starter.<br\/><\/p>",
             "font-color": "#000000",
-            "font-weight": "400",
             "font-size": "1",
+            "font-weight": "400",
             "align": "center"
           }
         },
@@ -224,7 +200,6 @@
         "heading": "",
         "background-color": "#f2f4f5",
         "col-number": "one-col",
-        "reverse-on-mobile": false,
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -250,13 +225,13 @@
             "text": "",
             "title-font-color": "#000000",
             "font-size": "1.5",
-            "align": "center",
             "font-weight": "400",
+            "align": "center",
             "description-text": "<p>Lorem ipsum<\/p><p><\/p>",
             "description-font-color": "#000000",
-            "description-align": "center",
-            "description-font-weight": "400",
             "description-font-size": "0.75",
+            "description-font-weight": "400",
+            "description-align": "center",
             "has-cta": false,
             "cta-font-color": "#ffffff",
             "cta-background-color": "#000000",
@@ -278,7 +253,6 @@
         "background-color": "#f2f4f5",
         "feature-basis": 4,
         "col-number": "one-col",
-        "reverse-on-mobile": false,
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium"
