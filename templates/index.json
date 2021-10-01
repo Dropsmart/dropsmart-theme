@@ -1,7 +1,74 @@
 {
   "sections": {
+    "1633123715c795bc8d": {
+      "type": "ds-content",
+      "blocks": {
+        "1633123715c795bc8d-0": {
+          "type": "h1",
+          "disabled": true,
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "1633123715c795bc8d-1": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "1633123715c795bc8d-2": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        },
+        "9d4d8135-b9ee-463f-8ea4-04f286352a23": {
+          "type": "content-image",
+          "settings": {
+            "image_align": "center",
+            "content_image": "shopify:\/\/shop_images\/Mar-de-Amor---Banner-ecommerce_1.png",
+            "desktop_content_image_size": "100%",
+            "mobile_content_image_size": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "1633123715c795bc8d-0",
+        "1633123715c795bc8d-1",
+        "1633123715c795bc8d-2",
+        "9d4d8135-b9ee-463f-8ea4-04f286352a23"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "col-number": "one-col",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "full"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
@@ -12,43 +79,88 @@
         "show_text_below": true
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "16331238336e353f8a": {
+      "type": "ds-content",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "d4c74abf-6d0a-46d1-8389-e472949cb04c": {
+          "type": "content-image",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "image_align": "center",
+            "content_image": "shopify:\/\/shop_images\/Image-content-800-600.png",
+            "desktop_content_image_size": "100%",
+            "mobile_content_image_size": "75%"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "d4c74abf-6d0a-46d1-8389-e472949cb04c"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "col-number": "two-col",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "1633123366ee39d20d": {
+      "type": "ds-content",
+      "blocks": {
+        "1633123366ee39d20d-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "1633123366ee39d20d-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "1633123366ee39d20d-2": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "1633123366ee39d20d-0",
+        "1633123366ee39d20d-1",
+        "1633123366ee39d20d-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "col-number": "two-col",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
       }
     },
     "featured_products": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "collection": "all",
@@ -260,8 +372,10 @@
     }
   },
   "order": [
+    "1633123715c795bc8d",
     "image_banner",
-    "rich_text",
+    "16331238336e353f8a",
+    "1633123366ee39d20d",
     "featured_products",
     "collage",
     "video",
