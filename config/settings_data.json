@@ -13,6 +13,12 @@
     "type_header_font": "montserrat_n7",
     "type_body_font": "montserrat_n4",
     "page_width": "1600",
+    "social_twitter_link": "https:\/\/twitter.com\/",
+    "social_facebook_link": "https:\/\/facebook.com\/",
+    "social_pinterest_link": "https:\/\/pinterest.com\/",
+    "social_instagram_link": "http:\/\/instagram.com\/",
+    "social_tiktok_link": "https:\/\/tiktok.com\/",
+    "social_youtube_link": "https:\/\/www.youtube.com\/",
     "currency_code_enabled": false,
     "sections": {
       "announcement-bar": {
@@ -50,27 +56,35 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Links rápidos",
               "menu": "footer"
             }
           },
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "Lorem Ipsum",
+              "subtext": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p>"
+            }
+          },
+          "7f61e009-e8b0-4023-a9ed-5509e0d960a8": {
+            "type": "text",
+            "settings": {
+              "heading": "Nome da Empresa",
+              "subtext": "<p><strong><br\/>Entre em contato:<\/strong><br\/>email@email.com.br<br\/>(00) 00000-0000<\/p>"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1"
+          "footer-1",
+          "7f61e009-e8b0-4023-a9ed-5509e0d960a8"
         ],
         "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "color_scheme": "background-2",
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true
