@@ -42,8 +42,8 @@
           "type": "cta",
           "disabled": true,
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Saiba mais",
             "font-size": "1",
@@ -71,7 +71,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
@@ -180,7 +180,7 @@
         "16331250446d3efe43-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "colecao-3"
           }
         }
       },
@@ -216,7 +216,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "col-number": "two-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
@@ -250,8 +250,8 @@
         "1633123366ee39d20d-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Saiba mais",
             "font-size": "1",
@@ -269,7 +269,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "col-number": "two-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
@@ -283,7 +283,7 @@
         "1633124247b46225fe-0": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -303,8 +303,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -317,7 +317,7 @@
         "1633124247b46225fe-1": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -337,8 +337,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -351,7 +351,7 @@
         "1633124247b46225fe-2": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -371,8 +371,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -390,7 +390,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "feature-basis": 3,
         "col-number": "one-col",
         "padding": "space-around-regular",
@@ -404,7 +404,7 @@
         "1633124760eaf99c18-0": {
           "type": "testimonial",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -421,7 +421,7 @@
             "align": "center",
             "font-size": "1.25",
             "font-weight": "400",
-            "stars_fill_color": "#EAC21C",
+            "stars_fill_color": "#eac21c",
             "star_size": 21,
             "star_rating": 5,
             "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<p>",
@@ -434,7 +434,7 @@
         "1633124760eaf99c18-1": {
           "type": "testimonial",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -451,7 +451,7 @@
             "align": "center",
             "font-size": "1.25",
             "font-weight": "400",
-            "stars_fill_color": "#EAC21C",
+            "stars_fill_color": "#eac21c",
             "star_size": 21,
             "star_rating": 5,
             "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<p>",
@@ -464,7 +464,7 @@
         "1633124760eaf99c18-2": {
           "type": "testimonial",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -481,7 +481,7 @@
             "align": "center",
             "font-size": "1.25",
             "font-weight": "400",
-            "stars_fill_color": "#EAC21C",
+            "stars_fill_color": "#eac21c",
             "star_size": 21,
             "star_rating": 5,
             "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<p>",
@@ -499,7 +499,7 @@
       ],
       "settings": {
         "heading": "provaSocial",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "feature-basis": 3,
         "col-number": "one-col",
         "padding": "space-around-regular",
@@ -514,7 +514,7 @@
         "16331247747ff6493c-0": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -534,8 +534,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -548,7 +548,7 @@
         "16331247747ff6493c-1": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -568,8 +568,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -582,7 +582,7 @@
         "16331247747ff6493c-2": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -602,8 +602,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -621,7 +621,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "feature-basis": 3,
         "col-number": "one-col",
         "padding": "space-around-regular",
