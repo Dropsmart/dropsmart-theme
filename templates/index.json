@@ -158,6 +158,174 @@
         "show_view_all": false
       }
     },
+    "1633124760eaf99c18": {
+      "type": "ds-testimonial",
+      "blocks": {
+        "1633124760eaf99c18-0": {
+          "type": "testimonial",
+          "settings": {
+            "background-color": "#ffffff",
+            "vertical-align-content": "flex-start",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "icon-image": "shopify:\/\/shop_images\/Prova-social.png",
+            "mobile-icon-image": "shopify:\/\/shop_images\/Prova-social.png",
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Nome do Cliente",
+            "title-font-color": "#000000",
+            "align": "center",
+            "font-size": "1.25",
+            "font-weight": "400",
+            "stars_fill_color": "#eac21c",
+            "star_size": 21,
+            "star_rating": 5,
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<\/p><p><\/p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85"
+          }
+        },
+        "1633124760eaf99c18-1": {
+          "type": "testimonial",
+          "settings": {
+            "background-color": "#ffffff",
+            "vertical-align-content": "flex-start",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "icon-image": "shopify:\/\/shop_images\/Prova-social.png",
+            "mobile-icon-image": "shopify:\/\/shop_images\/Prova-social.png",
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Nome do Cliente",
+            "title-font-color": "#000000",
+            "align": "center",
+            "font-size": "1.25",
+            "font-weight": "400",
+            "stars_fill_color": "#eac21c",
+            "star_size": 21,
+            "star_rating": 5,
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<\/p><p><\/p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85"
+          }
+        },
+        "1633124760eaf99c18-2": {
+          "type": "testimonial",
+          "settings": {
+            "background-color": "#ffffff",
+            "vertical-align-content": "flex-start",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "icon-image": "shopify:\/\/shop_images\/Prova-social.png",
+            "mobile-icon-image": "shopify:\/\/shop_images\/Prova-social.png",
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Nome do Cliente",
+            "title-font-color": "#000000",
+            "align": "center",
+            "font-size": "1.25",
+            "font-weight": "400",
+            "stars_fill_color": "#eac21c",
+            "star_size": 21,
+            "star_rating": 5,
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<\/p><p><\/p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85"
+          }
+        }
+      },
+      "block_order": [
+        "1633124760eaf99c18-0",
+        "1633124760eaf99c18-1",
+        "1633124760eaf99c18-2"
+      ],
+      "settings": {
+        "heading": "provaSocial",
+        "background-color": "#ffffff",
+        "feature-basis": 3,
+        "col-number": "one-col",
+        "padding": "space-around-large",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "1633125475d8c2cf40": {
+      "type": "ds-content",
+      "blocks": {
+        "1633125475d8c2cf40-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "1633125475d8c2cf40-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "1633125475d8c2cf40-2": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "1633125475d8c2cf40-0",
+        "1633125475d8c2cf40-1",
+        "1633125475d8c2cf40-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "col-number": "one-col",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
     "1633124247b46225fe": {
       "type": "ds-features",
       "blocks": {
@@ -278,237 +446,6 @@
         "no-padding": "",
         "container-width": "medium"
       }
-    },
-    "1633124760eaf99c18": {
-      "type": "ds-testimonial",
-      "blocks": {
-        "1633124760eaf99c18-0": {
-          "type": "testimonial",
-          "settings": {
-            "background-color": "#ffffff",
-            "vertical-align-content": "flex-start",
-            "feature-display": "flex-column",
-            "mobile-feature-display": "mobile-flex-row",
-            "feature-width": "full-width",
-            "border-radius": "15px",
-            "has-shadow": true,
-            "has-icon": true,
-            "has-icon-mobile": false,
-            "image-align": "center",
-            "icon-size": "96",
-            "mobile-icon-size": "64",
-            "text": "Nome do Cliente",
-            "title-font-color": "#000000",
-            "align": "center",
-            "font-size": "1.25",
-            "font-weight": "400",
-            "stars_fill_color": "#eac21c",
-            "star_size": 21,
-            "star_rating": 5,
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<p>",
-            "description-font-color": "#000000",
-            "description-align": "center",
-            "description-font-weight": "400",
-            "description-font-size": "0.85"
-          }
-        },
-        "1633124760eaf99c18-1": {
-          "type": "testimonial",
-          "settings": {
-            "background-color": "#ffffff",
-            "vertical-align-content": "flex-start",
-            "feature-display": "flex-column",
-            "mobile-feature-display": "mobile-flex-row",
-            "feature-width": "full-width",
-            "border-radius": "15px",
-            "has-shadow": true,
-            "has-icon": true,
-            "has-icon-mobile": false,
-            "image-align": "center",
-            "icon-size": "96",
-            "mobile-icon-size": "64",
-            "text": "Nome do Cliente",
-            "title-font-color": "#000000",
-            "align": "center",
-            "font-size": "1.25",
-            "font-weight": "400",
-            "stars_fill_color": "#eac21c",
-            "star_size": 21,
-            "star_rating": 5,
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<p>",
-            "description-font-color": "#000000",
-            "description-align": "center",
-            "description-font-weight": "400",
-            "description-font-size": "0.85"
-          }
-        },
-        "1633124760eaf99c18-2": {
-          "type": "testimonial",
-          "settings": {
-            "background-color": "#ffffff",
-            "vertical-align-content": "flex-start",
-            "feature-display": "flex-column",
-            "mobile-feature-display": "mobile-flex-row",
-            "feature-width": "full-width",
-            "border-radius": "15px",
-            "has-shadow": true,
-            "has-icon": true,
-            "has-icon-mobile": false,
-            "image-align": "center",
-            "icon-size": "96",
-            "mobile-icon-size": "64",
-            "text": "Nome do Cliente",
-            "title-font-color": "#000000",
-            "align": "center",
-            "font-size": "1.25",
-            "font-weight": "400",
-            "stars_fill_color": "#eac21c",
-            "star_size": 21,
-            "star_rating": 5,
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<p>",
-            "description-font-color": "#000000",
-            "description-align": "center",
-            "description-font-weight": "400",
-            "description-font-size": "0.85"
-          }
-        }
-      },
-      "block_order": [
-        "1633124760eaf99c18-0",
-        "1633124760eaf99c18-1",
-        "1633124760eaf99c18-2"
-      ],
-      "settings": {
-        "heading": "provaSocial",
-        "background-color": "#ffffff",
-        "feature-basis": 3,
-        "col-number": "one-col",
-        "padding": "space-around-large",
-        "no-padding": "",
-        "container-width": "medium"
-      }
-    },
-    "16331247747ff6493c": {
-      "type": "ds-features",
-      "disabled": true,
-      "blocks": {
-        "16331247747ff6493c-0": {
-          "type": "feature",
-          "settings": {
-            "background-color": "#ffffff",
-            "vertical-align-content": "flex-start",
-            "border-radius": "15px",
-            "has-shadow": true,
-            "has-icon": true,
-            "has-icon-mobile": false,
-            "image-align": "center",
-            "icon-size": "96",
-            "mobile-icon-size": "64",
-            "text": "Lorem Ipsum",
-            "title-font-color": "#000000",
-            "font-size": "1.25",
-            "font-weight": "600",
-            "align": "center",
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "description-font-color": "#000000",
-            "description-font-size": "0.85",
-            "description-font-weight": "400",
-            "description-align": "center",
-            "has-cta": false,
-            "cta-font-color": "#ffffff",
-            "cta-background-color": "#19c149",
-            "cta-text": "Saiba mais",
-            "link": "#",
-            "cta-font-weight": "400",
-            "cta-font-size": "1",
-            "cta-align": "center",
-            "cta-border-radius": "20px",
-            "cta-pulse": false
-          }
-        },
-        "16331247747ff6493c-1": {
-          "type": "feature",
-          "settings": {
-            "background-color": "#ffffff",
-            "vertical-align-content": "flex-start",
-            "border-radius": "15px",
-            "has-shadow": true,
-            "has-icon": true,
-            "has-icon-mobile": false,
-            "image-align": "center",
-            "icon-size": "96",
-            "mobile-icon-size": "64",
-            "text": "Lorem Ipsum",
-            "title-font-color": "#000000",
-            "font-size": "1.25",
-            "font-weight": "600",
-            "align": "center",
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "description-font-color": "#000000",
-            "description-font-size": "0.85",
-            "description-font-weight": "400",
-            "description-align": "center",
-            "has-cta": false,
-            "cta-font-color": "#ffffff",
-            "cta-background-color": "#19c149",
-            "cta-text": "Saiba mais",
-            "link": "#",
-            "cta-font-weight": "400",
-            "cta-font-size": "1",
-            "cta-align": "center",
-            "cta-border-radius": "20px",
-            "cta-pulse": false
-          }
-        },
-        "16331247747ff6493c-2": {
-          "type": "feature",
-          "settings": {
-            "background-color": "#ffffff",
-            "vertical-align-content": "flex-start",
-            "border-radius": "15px",
-            "has-shadow": true,
-            "has-icon": true,
-            "has-icon-mobile": false,
-            "image-align": "center",
-            "icon-size": "96",
-            "mobile-icon-size": "64",
-            "text": "Lorem Ipsum",
-            "title-font-color": "#000000",
-            "font-size": "1.25",
-            "font-weight": "600",
-            "align": "center",
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "description-font-color": "#000000",
-            "description-font-size": "0.85",
-            "description-font-weight": "400",
-            "description-align": "center",
-            "has-cta": false,
-            "cta-font-color": "#ffffff",
-            "cta-background-color": "#19c149",
-            "cta-text": "Saiba mais",
-            "link": "#",
-            "cta-font-weight": "400",
-            "cta-font-size": "1",
-            "cta-align": "center",
-            "cta-border-radius": "20px",
-            "cta-pulse": false
-          }
-        }
-      },
-      "block_order": [
-        "16331247747ff6493c-0",
-        "16331247747ff6493c-1",
-        "16331247747ff6493c-2"
-      ],
-      "settings": {
-        "heading": "",
-        "background-color": "#ffffff",
-        "feature-basis": 3,
-        "col-number": "one-col",
-        "padding": "space-around-regular",
-        "no-padding": "",
-        "container-width": "medium"
-      }
     }
   },
   "order": [
@@ -517,8 +454,8 @@
     "1633124748ff26461d",
     "1633125040f23b2f23",
     "16331250446d3efe43",
-    "1633124247b46225fe",
     "1633124760eaf99c18",
-    "16331247747ff6493c"
+    "1633125475d8c2cf40",
+    "1633124247b46225fe"
   ]
 }
