@@ -41,16 +41,15 @@
     padding: 0 2rem;
 }
 
+.component-feature .image-wrapper img {
+    margin-bottom: 1rem !important;
+}
 
 /* Lists flex-row */
 
 .flex-row.component-feature {
     align-self: flex-start;
     padding: 1rem 1rem !important;
-}
-
-.component-feature.flex-row .image-wrapper img {
-    margin-bottom: 1rem !important;
 }
 
 @media (max-width: 768px) {

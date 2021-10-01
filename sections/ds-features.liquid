@@ -502,6 +502,27 @@
             },
             {
                "type":"header",
+               "content":"Destaque"
+            },
+            {
+               "id":"emphasis",
+               "type":"text",
+               "label":"Frase do destaque"
+            },
+            {
+               "type":"color",
+               "id":"emphasis-background-color",
+               "label":"Cor do fundo",
+               "default":"#000000"
+            },
+            {
+               "type":"color",
+               "id":"emphasis-font-color",
+               "label":"Cor da Fonte",
+               "default":"#FFFFFF"
+            },
+            {
+               "type":"header",
                "content":"Título"
             },
             {
@@ -562,7 +583,7 @@
             {
                "id":"price-value",
                "type":"text",
-               "label":"Título"
+               "label":"Valor"
             },
             {
                "type":"color",
@@ -685,6 +706,74 @@
                ],
                "default":"0.85",
                "label":"Tamanho da Fonte"
+            },
+            {
+               "type":"header",
+               "content":"Parcelamento"
+            },
+            {
+               "type": "text",
+               "id": "installment_number",
+               "label": "Número de parcelas",
+               "default": "3"
+            },
+            {
+               "type":"color",
+               "id":"installment_number_font_color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"installment_number_font_size",
+               "options":[
+                  {
+                        "value":"0.75",
+                        "label":"Pequeno"
+                  },
+                  {
+                        "value":"0.85",
+                        "label":"Médio"
+                  },
+                  {
+                        "value":"1",
+                        "label":"Grande"
+                  }
+               ],
+               "default":"0.85",
+               "label":"Tamanho da fonte"
+            },
+            {
+               "type": "text",
+               "id": "installment_price",
+               "label": "Valor da parcela",
+               "default": "0000"
+            },
+            {
+               "type":"color",
+               "id":"installment_price_font_color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"installment_price_font_size",
+               "options":[
+               {
+                     "value":"1.25",
+                     "label":"Pequeno"
+               },
+               {
+                     "value":"1.5",
+                     "label":"Médio"
+               },
+               {
+                     "value":"1.75",
+                     "label":"Grande"
+               }
+               ],
+               "default":"1.5",
+               "label":"Tamanho da fonte"
             },
             {
                "type":"header",

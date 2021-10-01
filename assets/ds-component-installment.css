@@ -1,0 +1,9 @@
+.ds-component-installment .installment-number {
+  margin-right: 0.3rem;
+  line-height: 100%;
+}
+
+.ds-component-installment .ds-component-price {
+  line-height: 100%;
+  margin-bottom: -0.1em;
+}

@@ -1,0 +1,15 @@
+   
+{{ 'ds-component-installment.css' | asset_url | stylesheet_tag }}
+
+<div class="ds-component ds-component-installment flex mobile-flex-row">
+    <div class=" grow-0 weight-600 justify-right installment-number" style="color:{{installment_number_font_color}}; font-size:{{installment_number_font_size}}em;">
+      {{ installment_number }}x de
+    </div>
+    <div class="grow-0 justify-right ds-component-price">
+      {% render "ds-component-manual-price",
+        value: installment_price,
+        font_size: installment_price_font_size,
+        font_color: installment_price_font_color
+      %}
+    </div>
+</div>

@@ -2,12 +2,17 @@
     style="align-self: {{block.settings.vertical-align-content}};"
     class="ds-component ds-component-feature ds-component-product-card flex flex-basis-{{section.settings.feature-basis}} flex-column"
 >
+  {% if block.settings.emphasis != empty %}
+    <span class="emphasis" style="background: {{block.settings.emphasis-background-color}}; color: {{block.settings.emphasis-font-color}};">
+      {{block.settings.emphasis}}
+    </span>
+  {% endif %}
   <div
     style="
       background: {{block.settings.background-color}};
       border-radius: {{block.settings.border-radius}};
     "
-    class="flex full-width component-feature flex-column no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
+    class="flex full-width flex-column no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
   > 
     {% if block.settings.has-icon %}
         <img loading="lazy" class="mobile-hide" style="
@@ -39,8 +44,7 @@
           "
         />
       {% endif %}
-      {% if block.settings.text != empty or block.settings.description-text != empty %}
-        <div class="content flex justify-center">
+        <div class="component-product-card justify-center">
             {%- render 'ds-component-h3', 
               fontColor: block.settings.title-font-color, 
               backgroundColor: block.settings.background-color,
@@ -59,13 +63,21 @@
               text: block.settings.description-text
               -%}
             {% endif %}
-            {%- render 'ds-component-price', 
+            {%- render 'ds-component-manual-price', 
                 fontColor: block.settings.price-font-color, 
                 backgroundColor: block.settings.price-background-color,
                 fontSize: block.settings.price-font-size, 
                 align: "center",
                 fontWeight: block.settings.price-font-weight,
-                product: block.settings.price-value,
+                value: block.settings.price-value,
+            -%}
+            {%- render 'ds-component-installment' 
+              installment_number: block.settings.installment_number
+              installment_number_font_color: block.settings.installment_number_font_color
+              installment_number_font_size: block.settings.installment_number_font_size
+              installment_price: block.settings.installment_price
+              installment_price_font_color: block.settings.installment_price_font_color
+              installment_price_font_size: block.settings.installment_price_font_size
             -%}
             {%- render 'ds-component-cta',
               backgroundColor: block.settings.cta-background-color, 
@@ -79,7 +91,6 @@
               pulse: block.settings.cta-pulse,
             -%}
         </div>
-      {% endif %}
     </div>
   </div>
     

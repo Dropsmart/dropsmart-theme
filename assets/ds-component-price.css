@@ -2,3 +2,7 @@
     color: inherit !important;
     font-size: inherit !important;
 }
+
+.ds-component-price {
+    margin-bottom: 2rem;
+}
