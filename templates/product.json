@@ -486,6 +486,59 @@
         "container-width": "medium"
       }
     },
+    "16331281596266f19b": {
+      "type": "ds-content",
+      "blocks": {
+        "16331281596266f19b-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "16331281596266f19b-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "16331281596266f19b-2": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "16331281596266f19b-0",
+        "16331281596266f19b-1",
+        "16331281596266f19b-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "col-number": "one-col",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
     "1632860390ac093171": {
       "type": "ds-content",
       "blocks": {
@@ -572,6 +625,7 @@
     "16331279802ef961e9",
     "1633128154584e0ea6",
     "16331280472170462e",
+    "16331281596266f19b",
     "1632860390ac093171",
     "16328605733cd2b562"
   ]
