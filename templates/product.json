@@ -316,10 +316,20 @@
     "16328605733cd2b562": {
       "type": "ds-content",
       "blocks": {
+        "55f7b861-e1eb-4ddc-8de8-5d6ed9d09f57": {
+          "type": "h1",
+          "settings": {
+            "text": "Especificações técnicas",
+            "font-color": "#000000",
+            "font-size": "1.5",
+            "font-weight": "600",
+            "align": "left"
+          }
+        },
         "16328605733cd2b562-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<\/p>",
+            "text": "<p><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -328,6 +338,7 @@
         }
       },
       "block_order": [
+        "55f7b861-e1eb-4ddc-8de8-5d6ed9d09f57",
         "16328605733cd2b562-1"
       ],
       "settings": {
