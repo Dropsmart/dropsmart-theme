@@ -539,6 +539,118 @@
         "container-width": "medium"
       }
     },
+    "16331284866b5b8180": {
+      "type": "ds-testimonial",
+      "blocks": {
+        "16331284866b5b8180-0": {
+          "type": "testimonial",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "icon-image": "shopify:\/\/shop_images\/Prova-social.png",
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Nome do Cliente",
+            "title-font-color": "#000000",
+            "align": "center",
+            "font-size": "1.25",
+            "font-weight": "400",
+            "stars_fill_color": "#EAC21C",
+            "star_size": 21,
+            "star_rating": 5,
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<\/p><p><\/p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85"
+          }
+        },
+        "16331284866b5b8180-1": {
+          "type": "testimonial",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "icon-image": "shopify:\/\/shop_images\/Prova-social.png",
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Nome do Cliente",
+            "title-font-color": "#000000",
+            "align": "center",
+            "font-size": "1.25",
+            "font-weight": "400",
+            "stars_fill_color": "#EAC21C",
+            "star_size": 21,
+            "star_rating": 5,
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<\/p><p><\/p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85"
+          }
+        },
+        "16331284866b5b8180-2": {
+          "type": "testimonial",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "icon-image": "shopify:\/\/shop_images\/Prova-social.png",
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Nome do Cliente",
+            "title-font-color": "#000000",
+            "align": "center",
+            "font-size": "1.25",
+            "font-weight": "400",
+            "stars_fill_color": "#EAC21C",
+            "star_size": 21,
+            "star_rating": 5,
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<\/p><p><\/p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85"
+          }
+        }
+      },
+      "block_order": [
+        "16331284866b5b8180-0",
+        "16331284866b5b8180-1",
+        "16331284866b5b8180-2"
+      ],
+      "settings": {
+        "heading": "provaSocial",
+        "background-color": "#FFFFFF",
+        "feature-basis": 3,
+        "col-number": "one-col",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
     "1632860390ac093171": {
       "type": "ds-content",
       "blocks": {
@@ -626,6 +738,7 @@
     "1633128154584e0ea6",
     "16331280472170462e",
     "16331281596266f19b",
+    "16331284866b5b8180",
     "1632860390ac093171",
     "16328605733cd2b562"
   ]
