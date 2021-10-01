@@ -10,3 +10,7 @@ main#MainContent .ds-lp-content .content {
 main#MainContent .ds-lp-content .paragraph p {
     color: inherit !important;
 }
+
+figure {
+    margin: 0;
+}

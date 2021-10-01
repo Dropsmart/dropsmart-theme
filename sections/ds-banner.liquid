@@ -1,0 +1,70 @@
+<div id="{{section.settings.heading}}" style="background: {{section.settings.background-color}} {% if section.settings.background-image %} url('{{section.settings.background-image | img_url: 'master'}}') no-repeat center center; background-size: cover {% endif %}
+          ;" class="ds-lp-content {{ section.settings.col-number }} {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
+    <div class="no-padding"
+        style="align-self: {{section.settings.vertical-align-content}};">
+
+      {% render "ds-component-content-image", 
+         contentImage: section.settings.content_image,
+         mobileContentImage: section.settings.mobile_content_image,
+         desktop_content_image_size: "100%",
+         mobile_content_image_size: "100%",
+         image_align: section.settings.image_align
+      %}
+
+    </div>
+</div>
+
+{% schema %}
+{
+    "name":"Dropsmart Banner",
+    "class":"lp-content",
+    "presets": [
+      {
+        "name": "Dropsmart - Banner"
+      }
+    ],
+    "settings":[
+       {
+          "id":"heading",
+          "type":"text",
+          "label":"Identificação da Seção"
+       },
+       {
+         "type": "paragraph",
+         "content": "Não utilize espaços! A identificação da seção tem como objetivo utilizar botões de ancoragem para a seção. Ex: Para o caso da identifação da seção ser 'novidades', no campo link do Botão, inserir '#novidades'"
+       },
+       {
+         "type": "header",
+         "content": "Configurações de Fundo"
+       },
+       {
+          "type":"color",
+          "id":"background-color",
+          "label":"Cor de Fundo",
+          "default":"#FFFFFF"
+       },
+      {
+         "type":"header",
+         "content":"Imagem em desktop"
+      },
+      {
+         "type": "image_picker",
+         "id": "content_image",
+         "label": "Imagem"
+      },
+      {
+         "type":"header",
+         "content":"Imagem em dispositivo móvel"
+      },
+      {
+         "type": "image_picker",
+         "id": "mobile_content_image",
+         "label": "Imagem"
+      }
+    ]
+ }
+{% endschema %}
+
+{% stylesheet %} {% endstylesheet %}
+
+{% javascript %} {% endjavascript %}

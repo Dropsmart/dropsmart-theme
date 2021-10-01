@@ -1,11 +1,11 @@
 /* DS Component Feature */
 
 .Container .ds-component.ds-component-feature {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 
 .Container .ds-component.ds-component-feature:last-child {
-    /* margin-bottom: 0!important; */
+    margin-bottom: 1rem!important;
 }
 
 .ds-component-feature {
