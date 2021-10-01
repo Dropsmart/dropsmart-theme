@@ -58,7 +58,7 @@
             "desktop_content_image_size": "50%",
             "mobile_content_image": "shopify:\/\/shop_images\/Screenshot_4.jpg",
             "mobile_content_image_size": "75%",
-            "image_align": "right"
+            "image_align": "center"
           }
         },
         "share": {
