@@ -10,7 +10,7 @@
     class="flex full-width flex-column no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
   > 
     {% if block.settings.emphasis != empty %}
-      <span class="emphasis" style="background: {{block.settings.emphasis-background-color}}; color: {{block.settings.emphasis-font-color}};">
+      <span class="emphasis weight-{{block.settings.emphasis-font-weight}}" style="background: {{block.settings.emphasis-background-color}}; color: {{block.settings.emphasis-font-color}}; font-size:{{block.settings.emphasis-font-size}}em;">
         {{block.settings.emphasis}}
       </span>
     {% endif %}
@@ -95,7 +95,7 @@
               fontColor: block.settings.cta-font-color, 
               fontSize: block.settings.cta-font-size, 
               fontWeight: block.settings.cta-font-weight, 
-              link: block.settings.product-item.url,
+              link: block.settings.product-link,
               borderRadius: block.settings.cta-border-radius,
               align: "center",
               text: block.settings.cta-text,

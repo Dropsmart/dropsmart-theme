@@ -10,13 +10,9 @@
         <div class="features flex flex-row mobile-flex-row justify-center">
             {% for block in section.blocks %}
               {% case block.type %}
-                  {%- when '@app' -%}
-                     {% render block %}
-            
-                  {% when 'feature' %}
-                    {% include 'ds-component-feature',
-                        featureDisplay: "flex-column"
-                    %}
+
+                  {% when 'testimonial' %}
+                     {% include 'ds-component-testimonial' %}  
       
               {% endcase %}
             {% endfor %}
@@ -27,28 +23,28 @@
 
 {% schema %}
 {
-   "name":"Dropsmart Cards",
+   "name":"Dropsmart - Prova Social",
    "class":"lp-content",
    "presets":[
       {
-         "name":"Dropsmart - Cards",
+         "name":"Dropsmart - Prova Social",
          "blocks":[
              {
-               "type": "feature"
+               "type": "testimonial"
             },
             {
-               "type": "feature"
+               "type": "testimonial"
             },
             {
-               "type": "feature"
+               "type": "testimonial"
             }
          ]
       }
    ],
    "blocks":[
       {
-         "type":"feature",
-         "name":"Card",
+         "type":"testimonial",
+         "name":"Depoimento",
          "settings":[
             {
                "type":"header",
@@ -81,6 +77,54 @@
                "label":"Alinhamento Vertical"
             },
             {
+               "type":"select",
+               "id":"feature-display",
+               "options":[
+                  {
+                     "value":"flex-row",
+                     "label":"Linha"
+                  },
+                  {
+                     "value":"flex-column",
+                     "label":"Coluna"
+                  }
+               ],
+               "default":"flex-column",
+               "label":"Aparência do bloco"
+            },
+            {
+               "type":"select",
+               "id":"mobile-feature-display",
+               "options":[
+                  {
+                     "value":"mobile-flex-row",
+                     "label":"Linha"
+                  },
+                  {
+                     "value":"mobile-flex-column",
+                     "label":"Coluna"
+                  }
+               ],
+               "default":"mobile-flex-row",
+               "label":"Aparência do bloco em dispositivos móveis"
+            },
+            {
+               "type":"select",
+               "id":"feature-width",
+               "options":[
+                  {
+                     "value":"full-width",
+                     "label":"Máximo Possível"
+                  },
+                  {
+                     "value":"auto-width",
+                     "label":"Menor Possível"
+                  }
+               ],
+               "default":"full-width",
+               "label":"Largura do bloco"
+            },
+            {
                "id":"border-radius",
                "type":"text",
                "label":"Borda arredondada",
@@ -94,28 +138,28 @@
             },
             {
                "type":"header",
-               "content":"Ícone"
+               "content":"Foto"
             },
             {
                "id":"has-icon",
                "type":"checkbox",
-               "label":"Utilizar Ícone",
+               "label":"Utilizar Foto",
                "default": true
             },
             {
                "id":"has-icon-mobile",
                "type":"checkbox",
-               "label":"Utilizar Ícone diferente para dispositivo móveis"
+               "label":"Utilizar foto diferente para dispositivo móveis"
             },
             {
                "id":"icon-image",
                "type":"image_picker",
-               "label":"Imagem do Ícone"
+               "label":"Imagem da foto"
             },
             {
                "id":"mobile-icon-image",
                "type":"image_picker",
-               "label":"Imagem do Ícone no dispositivo Móvel"
+               "label":"Imagem da foto no dispositivo Móvel"
             },
             {
                "type":"select",
@@ -155,7 +199,7 @@
                   }
                ],
                "default":"96",
-               "label":"Tamanho do ícone"
+               "label":"Tamanho da foto"
             },
             {
                "type":"select",
@@ -175,23 +219,43 @@
                   }
                ],
                "default":"64",
-               "label":"Tamanho do ícone no dispositivo móvel"
+               "label":"Tamanho da foto no dispositivo móvel"
             },
             {
                "type":"header",
-               "content":"Título"
+               "content":"Nome"
             },
             {
                "id":"text",
                "type":"text",
-               "label":"Título",
-               "default": "Lorem Ipsum"
+               "label":"Nome",
+               "default":"Nome do Cliente"
             },
             {
                "type":"color",
                "id":"title-font-color",
                "label":"Cor da Fonte",
                "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
             },
             {
                "type":"select",
@@ -230,12 +294,54 @@
                      "label":"Negrito"
                   }
                ],
-               "default":"600",
+               "default":"400",
                "label":"Peso da Fonte"
             },
             {
+               "type":"header",
+               "content":"Nota/Estrelas"
+            },
+            {
+               "type": "color",
+               "id": "stars_fill_color",
+               "label": "Cor da estrela",
+               "default": "#EAC21C"
+             },
+             {
+               "type": "number",
+               "id": "star_size",
+               "label": "Tamanho da estrela",
+               "default": 21
+             },
+            {
+               "type":"range",
+               "id":"star_rating",
+               "min":0,
+               "max":5,
+               "step":0.5,
+               "unit":"un.",
+               "label":"Valor da nota",
+               "default":5
+            },
+            {
+               "type":"header",
+               "content":"Depoimento"
+            },
+            {
+               "id":"description-text",
+               "type":"richtext",
+               "label":"Depoimento",
+               "default":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<p>"
+            },
+            {
+               "type":"color",
+               "id":"description-font-color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
                "type":"select",
-               "id":"align",
+               "id":"description-align",
                "options":[
                   {
                      "value":"center",
@@ -252,42 +358,6 @@
                ],
                "default":"center",
                "label":"Alinhamento"
-            },
-            {
-               "type":"header",
-               "content":"Descrição"
-            },
-            {
-               "id":"description-text",
-               "type":"richtext",
-               "label":"Descrição",
-               "default":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>"
-            },
-            {
-               "type":"color",
-               "id":"description-font-color",
-               "label":"Cor da Fonte",
-               "default":"#000000"
-            },
-            {
-               "type":"select",
-               "id":"description-font-size",
-               "options":[
-                  {
-                     "value":"0.7",
-                     "label":"Pequeno"
-                  },
-                  {
-                     "value":"0.85",
-                     "label":"Médio"
-                  },
-                  {
-                     "value":"1",
-                     "label":"Grande"
-                  }
-               ],
-               "default":"0.85",
-               "label":"Tamanho da Fonte"
             },
             {
                "type":"select",
@@ -311,132 +381,23 @@
             },
             {
                "type":"select",
-               "id":"description-align",
+               "id":"description-font-size",
                "options":[
                   {
-                     "value":"center",
-                     "label":"Centralizado"
-                  },
-                  {
-                     "value":"left",
-                     "label":"Esquerda"
-                  },
-                  {
-                     "value":"right",
-                     "label":"Direita"
-                  }
-               ],
-               "default":"center",
-               "label":"Alinhamento"
-            },
-            {
-               "type":"header",
-               "content":"Botão (CTA)"
-            },
-            {
-               "id":"has-cta",
-               "type":"checkbox",
-               "label":"Utilizar Botão"
-            },
-            {
-               "type":"color",
-               "id":"cta-font-color",
-               "label":"Cor da Fonte",
-               "default":"#FFFFFF"
-            },
-            {
-               "type":"color",
-               "id":"cta-background-color",
-               "label":"Cor de Fundo",
-               "default":"#19C149"
-            },
-            {
-               "id":"cta-text",
-               "type":"text",
-               "label":"Texto do Botão",
-               "default":"Saiba mais"
-            },
-            {
-               "type":"paragraph",
-               "content":"Utilizar http:// ou https:// ao utilizar como link, e utilizar #(nome da seção) para âncora."
-            },
-            {
-               "id":"link",
-               "type":"text",
-               "label":"Link do Botão",
-               "default": "#"
-            },
-            {
-               "type":"select",
-               "id":"cta-font-weight",
-               "options":[
-                  {
-                     "value":"300",
-                     "label":"Fino"
-                  },
-                  {
-                     "value":"400",
-                     "label":"Normal"
-                  },
-                  {
-                     "value":"600",
-                     "label":"Negrito"
-                  }
-               ],
-               "default":"400",
-               "label":"Peso da Fonte"
-            },
-            {
-               "type":"select",
-               "id":"cta-font-size",
-               "options":[
-                  {
-                     "value":"0.75",
+                     "value":"0.7",
                      "label":"Pequeno"
                   },
                   {
-                     "value":"1",
+                     "value":"0.85",
                      "label":"Médio"
                   },
                   {
-                     "value":"1.25",
+                     "value":"1",
                      "label":"Grande"
                   }
                ],
-               "default":"1",
+               "default":"0.85",
                "label":"Tamanho da Fonte"
-            },
-            {
-               "type":"select",
-               "id":"cta-align",
-               "options":[
-                  {
-                     "value":"center",
-                     "label":"Centralizado"
-                  },
-                  {
-                     "value":"left",
-                     "label":"Esquerda"
-                  },
-                  {
-                     "value":"right",
-                     "label":"Direita"
-                  }
-               ],
-               "default":"center",
-               "label":"Alinhamento"
-            },
-            {
-               "id":"cta-border-radius",
-               "type":"text",
-               "label":"Arredondamento de Borda",
-               "default":"20px"
-            },
-            {
-               "type":"checkbox",
-               "id":"cta-pulse",
-               "label":"Botão animado (pulsante)",
-               "default":false
             }
          ]
       }
@@ -445,7 +406,8 @@
       {
          "id":"heading",
          "type":"text",
-         "label":"Identificação da Seção"
+         "label":"Identificação da Seção",
+         "default":"provaSocial"
       },
       {
          "type":"paragraph",

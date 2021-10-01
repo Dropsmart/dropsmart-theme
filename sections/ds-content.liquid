@@ -71,6 +71,9 @@
             },
             {
                "type": "paragraph"
+            },
+            {
+               "type": "cta"
             }
          ]
       }
@@ -90,6 +93,12 @@
                "default": "Lorem Ipsum"
            },
            {
+             "type": "color",
+             "id": "font-color",
+             "label": "Cor da Fonte",
+             "default": "#000000"
+           },
+           {
                "type": "select",
                "id": "font-size",
                "options": [
@@ -99,23 +108,6 @@
                ],
                "default": "2",
                "label": "Tamanho da Fonte"
-           },
-           {
-             "type": "color",
-             "id": "font-color",
-             "label": "Cor da Fonte",
-             "default": "#000000"
-           },
-           {
-              "type": "select",
-              "id": "align",
-              "options": [
-                 { "value": "center", "label": "Centralizado"},
-                 { "value": "left", "label": "Esquerda"},
-                 { "value": "right", "label": "Direita"}
-              ],
-              "default": "center",
-              "label": "Alinhamento"
            },
            {
               "type": "select",
@@ -128,6 +120,17 @@
               ],
               "default": "600",
               "label": "Peso da Fonte"
+           },
+           {
+              "type": "select",
+              "id": "align",
+              "options": [
+                 { "value": "center", "label": "Centralizado"},
+                 { "value": "left", "label": "Esquerda"},
+                 { "value": "right", "label": "Direita"}
+              ],
+              "default": "center",
+              "label": "Alinhamento"
            }
          ]
       },
@@ -139,13 +142,24 @@
              "id": "text",
              "type": "richtext",
              "label": "Texto",
-             "default": "<p>Para ter acesso a todos os componentes do tema Dropsmart, obtenha o app Starter<p>"
+             "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>"
            },
            {
                "type": "color",
                "id": "font-color",
                "label": "Cor da Fonte",
                "default": "#000000"
+           },
+           {
+               "type": "select",
+               "id": "font-size",
+               "options": [
+                  { "value": "0.85", "label": "Pequeno"},
+                  { "value": "1", "label": "Médio"},
+                  { "value": "1.25", "label": "Grande"}
+               ],
+               "default": "1",
+               "label": "Tamanho da Fonte"
            },
            {
               "type": "select",
@@ -158,17 +172,6 @@
               ],
               "default": "400",
               "label": "Peso da Fonte"
-           },
-           {
-               "type": "select",
-               "id": "font-size",
-               "options": [
-                  { "value": "0.85", "label": "Pequeno"},
-                  { "value": "1", "label": "Médio"},
-                  { "value": "1.25", "label": "Grande"}
-               ],
-               "default": "1",
-               "label": "Tamanho da Fonte"
            },
            {
               "type": "select",
@@ -189,36 +192,7 @@
          "settings": [
             {
                "type":"header",
-               "content":"Imagem em desktop"
-            },
-            {
-               "type": "image_picker",
-               "id": "content_image",
-               "label": "Imagem"
-            },
-            {
-               "type": "select",
-               "id": "desktop_content_image_size",
-               "options":[
-               {
-                     "value":"25%",
-                     "label":"Pequeno"
-               },
-               {
-                     "value":"50%",
-                     "label":"Médio"
-               },
-               {
-                     "value":"75%",
-                     "label":"Grande"
-               },
-               {
-                     "value":"100%",
-                     "label":"Máximo"
-               }
-               ],
-               "label": "Tamanho em Desktop",
-               "default": "75%"
+               "content":"Alinhamento"
             },
             {
                "type":"select",
@@ -242,17 +216,21 @@
             }, 
             {
                "type":"header",
-               "content":"Imagem em dispositivo móvel"
+               "content":"Imagem em desktop"
             },
             {
                "type": "image_picker",
-               "id": "mobile_content_image",
+               "id": "content_image",
                "label": "Imagem"
             },
             {
                "type": "select",
-               "id": "mobile_content_image_size",
+               "id": "desktop_content_image_size",
                "options":[
+               {
+                     "value":"10%",
+                     "label":"Ícone"
+               },
                {
                      "value":"25%",
                      "label":"Pequeno"
@@ -270,8 +248,45 @@
                      "label":"Máximo"
                }
                ],
-               "label": "Tamanho em Dispositivo Móvel",
+               "label": "Tamanho em Desktop",
                "default": "50%"
+            },
+            {
+               "type":"header",
+               "content":"Imagem em dispositivo móvel"
+            },
+            {
+               "type": "image_picker",
+               "id": "mobile_content_image",
+               "label": "Imagem"
+            },
+            {
+               "type": "select",
+               "id": "mobile_content_image_size",
+               "options":[
+               {
+                     "value":"25%",
+                     "label":"Ícone"
+               },
+               {
+                     "value":"40%",
+                     "label":"Pequeno"
+               },
+               {
+                     "value":"60%",
+                     "label":"Médio"
+               },
+               {
+                     "value":"75%",
+                     "label":"Grande"
+               },
+               {
+                     "value":"100%",
+                     "label":"Máximo"
+               }
+               ],
+               "label": "Tamanho em Dispositivo Móvel",
+               "default": "75%"
             }
          ]
       },
@@ -289,19 +304,19 @@
              "type": "color",
              "id": "background-color",
              "label": "Cor de Fundo",
-             "default": "#000000"
+             "default": "#19C149"
            },
            {
              "id": "link",
              "type": "text",
              "label": "Link do Botão",
-             "default": "#combo"
+             "default": "#MainContent"
            },
            {
              "id": "text",
              "type": "text",
              "label": "Texto do Botão",
-             "default": "Click here"
+             "default": "Saiba mais"
            },
            {
                "type": "select",
@@ -338,10 +353,10 @@
             "label": "Alinhamento"
           },
           {
-            "id": "border-radius",
-            "type": "text",
-            "label": "Arredondamento de Borda",
-            "default": "4px"
+               "id": "border-radius",
+               "type": "text",
+               "label": "Arredondamento de Borda",
+               "default": "20px"
           },
            {
                "type":"checkbox",
@@ -370,7 +385,7 @@
           "type":"color",
           "id":"background-color",
           "label":"Cor de Fundo",
-          "default":"#f2f4f5"
+          "default":"#FFFFFF"
        },
        {
           "id":"background-image",
@@ -396,16 +411,6 @@
             }
          ],
          "default": "one-col"
-       },
-       {
-         "id":"reverse-on-mobile",
-         "type":"checkbox",
-         "label":"Ordem reversa no dispositível móvel",
-         "default":false
-       },
-       {
-         "type": "paragraph",
-         "content": "É possível criar linhas com duas colunas utilizando essa opção, e também controlar a posição das colunas quando em dispositivos móveis"
        },
        {
          "type": "header",

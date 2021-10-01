@@ -10,13 +10,9 @@
         <div class="features flex flex-row mobile-flex-row justify-center">
             {% for block in section.blocks %}
               {% case block.type %}
-                  {%- when '@app' -%}
-                     {% render block %}
-            
-                  {% when 'feature' %}
-                    {% include 'ds-component-feature',
-                        featureDisplay: "flex-column"
-                    %}
+
+                  {% when 'product' %}
+                     {% include 'ds-component-product-card' %}
       
               {% endcase %}
             {% endfor %}
@@ -27,28 +23,28 @@
 
 {% schema %}
 {
-   "name":"Dropsmart Cards",
+   "name":"Dropsmart Combos",
    "class":"lp-content",
    "presets":[
       {
-         "name":"Dropsmart - Cards",
+         "name":"Dropsmart - Combos",
          "blocks":[
              {
-               "type": "feature"
+               "type": "product"
             },
             {
-               "type": "feature"
+               "type": "product"
             },
             {
-               "type": "feature"
+               "type": "product"
             }
          ]
       }
    ],
    "blocks":[
       {
-         "type":"feature",
-         "name":"Card",
+         "type":"product",
+         "name":"Produto Customizado",
          "settings":[
             {
                "type":"header",
@@ -90,22 +86,17 @@
                "id":"has-shadow",
                "type":"checkbox",
                "label":"Aplicar Sombra",
-               "default":true
+               "default": true
             },
             {
                "type":"header",
-               "content":"Ícone"
+               "content":"Foto do Produto"
             },
             {
                "id":"has-icon",
                "type":"checkbox",
-               "label":"Utilizar Ícone",
+               "label":"Utilizar Foto do Produto",
                "default": true
-            },
-            {
-               "id":"has-icon-mobile",
-               "type":"checkbox",
-               "label":"Utilizar Ícone diferente para dispositivo móveis"
             },
             {
                "id":"icon-image",
@@ -118,64 +109,66 @@
                "label":"Imagem do Ícone no dispositivo Móvel"
             },
             {
-               "type":"select",
-               "id":"image-align",
-               "options":[
-                  {
-                     "value":"center",
-                     "label":"Centralizado"
-                  },
-                  {
-                     "value":"left",
-                     "label":"Esquerda"
-                  },
-                  {
-                     "value":"right",
-                     "label":"Direita"
-                  }
-               ],
-               "default":"center",
-               "label":"Alinhamento do ícone"
+               "type":"header",
+               "content":"Destaque"
+            },
+            {
+               "id":"emphasis",
+               "type":"text",
+               "label":"Frase do destaque",
+               "default": "Mais vendido"
+            },
+            {
+               "type":"color",
+               "id":"emphasis-background-color",
+               "label":"Cor do fundo",
+               "default":"#19c149"
+            },
+            {
+               "type":"color",
+               "id":"emphasis-font-color",
+               "label":"Cor da Fonte",
+               "default":"#FFFFFF"
             },
             {
                "type":"select",
-               "id":"icon-size",
+               "id":"emphasis-font-size",
                "options":[
                   {
-                     "value":"64",
-                     "label":"pequeno"
+                     "value":"0.75",
+                     "label":"Pequeno"
                   },
                   {
-                     "value":"96",
-                     "label":"médio"
+                     "value":"0.85",
+                     "label":"Médio"
                   },
                   {
-                     "value":"128",
-                     "label":"grande"
+                     "value":"1",
+                     "label":"Grande"
                   }
                ],
-               "default":"96",
-               "label":"Tamanho do ícone"
+               "default":"0.85",
+               "label":"Tamanho da fonte"
             },
             {
                "type":"select",
-               "id":"mobile-icon-size",
+               "id":"emphasis-font-weight",
                "options":[
                   {
-                     "value":"32",
-                     "label":"pequeno"
+                     "value":"300",
+                     "label":"Fino"
                   },
                   {
-                     "value":"64",
-                     "label":"médio"
+                     "value":"400",
+                     "label":"Normal"
                   },
                   {
-                     "value":"96",
-                     "label":"grande"
+                     "value":"600",
+                     "label":"Negrito"
                   }
                ],
-               "default":"64",
-               "label":"Tamanho do ícone no dispositivo móvel"
+               "default":"400",
+               "label":"Peso da Fonte"
             },
             {
                "type":"header",
@@ -185,7 +178,7 @@
                "id":"text",
                "type":"text",
                "label":"Título",
-               "default": "Lorem Ipsum"
+               "default":"Nome do Produto"
             },
             {
                "type":"color",
@@ -234,8 +227,24 @@
                "label":"Peso da Fonte"
             },
             {
+               "type":"header",
+               "content":"Descrição"
+            },
+            {
+               "id":"description-text",
+               "type":"richtext",
+               "label":"Descrição",
+               "default":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<p>"
+            },
+            {
+               "type":"color",
+               "id":"description-font-color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
                "type":"select",
-               "id":"align",
+               "id":"description-align",
                "options":[
                   {
                      "value":"center",
@@ -252,22 +261,6 @@
                ],
                "default":"center",
                "label":"Alinhamento"
-            },
-            {
-               "type":"header",
-               "content":"Descrição"
-            },
-            {
-               "id":"description-text",
-               "type":"richtext",
-               "label":"Descrição",
-               "default":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>"
-            },
-            {
-               "type":"color",
-               "id":"description-font-color",
-               "label":"Cor da Fonte",
-               "default":"#000000"
             },
             {
                "type":"select",
@@ -310,33 +303,197 @@
                "label":"Peso da Fonte"
             },
             {
+               "type":"header",
+               "content":"Preço Sem Desconto"
+            },
+            {
+               "id":"full-price-value",
+               "type":"text",
+               "label":"Valor",
+               "default": "R$ 000,00"
+            },
+            {
+               "type":"color",
+               "id":"full-price-font-color",
+               "label":"Cor da Fonte",
+               "default":"#E63635"
+            },
+            {
                "type":"select",
-               "id":"description-align",
+               "id":"full-price-font-size",
                "options":[
                   {
-                     "value":"center",
-                     "label":"Centralizado"
+                     "value":"0.75",
+                     "label":"Pequeno"
                   },
                   {
-                     "value":"left",
-                     "label":"Esquerda"
+                     "value":"1",
+                     "label":"Médio"
                   },
                   {
-                     "value":"right",
-                     "label":"Direita"
+                     "value":"1.25",
+                     "label":"Grande"
                   }
                ],
-               "default":"center",
-               "label":"Alinhamento"
+               "default":"1",
+               "label":"Tamanho da fonte"
+            },
+            {
+               "type":"select",
+               "id":"full-price-font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  }
+               ],
+               "default":"400",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"header",
+               "content":"Preço Final"
+            },
+            {
+               "id":"price-value",
+               "type":"text",
+               "label":"Valor",
+               "default": "R$ 000,00"
+            },
+            {
+               "type":"color",
+               "id":"price-font-color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"price-font-size",
+               "options":[
+                  {
+                     "value":"1",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"1.25",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"1.5",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"1.25",
+               "label":"Tamanho da fonte"
+            },
+            {
+               "type":"select",
+               "id":"price-font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  }
+               ],
+               "default":"400",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"header",
+               "content":"Parcelamento"
+            },
+            {
+               "type": "text",
+               "id": "installment_number",
+               "label": "Número de parcelas",
+               "default": "3"
+            },
+            {
+               "type":"color",
+               "id":"installment_number_font_color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"installment_number_font_size",
+               "options":[
+                  {
+                        "value":"0.75",
+                        "label":"Pequeno"
+                  },
+                  {
+                        "value":"0.85",
+                        "label":"Médio"
+                  },
+                  {
+                        "value":"1",
+                        "label":"Grande"
+                  }
+               ],
+               "default":"0.85",
+               "label":"Tamanho da fonte"
+            },
+            {
+               "type": "text",
+               "id": "installment_price",
+               "label": "Valor da parcela",
+               "default": "R$ 00,00"
+            },
+            {
+               "type":"color",
+               "id":"installment_price_font_color",
+               "label":"Cor da Fonte",
+               "default":"#19C149"
+            },
+            {
+               "type":"select",
+               "id":"installment_price_font_size",
+               "options":[
+               {
+                     "value":"1.25",
+                     "label":"Pequeno"
+               },
+               {
+                     "value":"1.5",
+                     "label":"Médio"
+               },
+               {
+                     "value":"1.75",
+                     "label":"Grande"
+               }
+               ],
+               "default":"1.5",
+               "label":"Tamanho da fonte"
             },
             {
                "type":"header",
                "content":"Botão (CTA)"
             },
             {
-               "id":"has-cta",
-               "type":"checkbox",
-               "label":"Utilizar Botão"
+               "type":"paragraph",
+               "content":"Utilizar http:// ou https:// ao utilizar o campo link"
+            },
+            {
+               "id":"product-link",
+               "type":"text",
+               "label":"Link do checkout"
             },
             {
                "type":"color",
@@ -354,37 +511,7 @@
                "id":"cta-text",
                "type":"text",
                "label":"Texto do Botão",
-               "default":"Saiba mais"
-            },
-            {
-               "type":"paragraph",
-               "content":"Utilizar http:// ou https:// ao utilizar como link, e utilizar #(nome da seção) para âncora."
-            },
-            {
-               "id":"link",
-               "type":"text",
-               "label":"Link do Botão",
-               "default": "#"
-            },
-            {
-               "type":"select",
-               "id":"cta-font-weight",
-               "options":[
-                  {
-                     "value":"300",
-                     "label":"Fino"
-                  },
-                  {
-                     "value":"400",
-                     "label":"Normal"
-                  },
-                  {
-                     "value":"600",
-                     "label":"Negrito"
-                  }
-               ],
-               "default":"400",
-               "label":"Peso da Fonte"
+               "default":"Click here"
             },
             {
                "type":"select",
@@ -408,23 +535,23 @@
             },
             {
                "type":"select",
-               "id":"cta-align",
+               "id":"cta-font-weight",
                "options":[
                   {
-                     "value":"center",
-                     "label":"Centralizado"
+                     "value":"300",
+                     "label":"Fino"
                   },
                   {
-                     "value":"left",
-                     "label":"Esquerda"
+                     "value":"400",
+                     "label":"Normal"
                   },
                   {
-                     "value":"right",
-                     "label":"Direita"
+                     "value":"600",
+                     "label":"Negrito"
                   }
                ],
-               "default":"center",
-               "label":"Alinhamento"
+               "default":"400",
+               "label":"Peso da Fonte"
             },
             {
                "id":"cta-border-radius",
@@ -445,7 +572,8 @@
       {
          "id":"heading",
          "type":"text",
-         "label":"Identificação da Seção"
+         "label":"Identificação da Seção",
+         "default":"combos"
       },
       {
          "type":"paragraph",

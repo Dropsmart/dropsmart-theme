@@ -3,23 +3,43 @@ main#MainContent {
     /* END SIZES */
 }
 
-.container-full {
-    max-width: 1280px;
+main#MainContent .container-full {
+    max-width: 1280px !important;
     margin: auto;
 }
 
-.container-medium {
-    max-width: 980px;
+main#MainContent .container-medium {
+    max-width: 960px !important;
     margin: auto;
 }
 
-.container-small {
-    max-width: 720px;
+main#MainContent .container-small {
+    max-width: 720px !important;
     margin: auto;
 }
 
-.container-x-small {
-    max-width: 480px;
+main#MainContent .container-x-small {
+    max-width: 480px !important;
+    margin: auto;
+}
+
+main#MainContent .two-col .container-full {
+    max-width: 500px !important;
+    margin: auto;
+}
+
+main#MainContent .two-col .container-medium {
+    max-width: 400px !important;
+    margin: auto;
+}
+
+main#MainContent .two-col .container-small {
+    max-width: 300px !important;
+    margin: auto;
+}
+
+main#MainContent .two-col.container-x-small {
+    max-width: 240px !important;
     margin: auto;
 }
 

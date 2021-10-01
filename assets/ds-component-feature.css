@@ -4,6 +4,10 @@
     margin-bottom: 0;
 }
 
+.Container .ds-component.ds-component-feature:last-child {
+    /* margin-bottom: 0!important; */
+}
+
 .ds-component-feature {
     flex: 1;
 }
@@ -48,7 +52,7 @@
 }
 
 .ds-component-feature .ds-h3 {
-    padding: 0 2rem;
+    padding: 0 0.5rem;
 }
 
 .component-feature .image-wrapper img {
@@ -85,7 +89,7 @@
 }
 
 .flex-column.component-feature.shadow {
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1), 0px 4px 8px 0px rgba(0, 0, 0, 0.15), 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1), 0px 4px 8px 0px rgba(0, 0, 0, 0.01), 0px 0px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
 .flex-column.component-feature .image-wrapper img {
@@ -106,6 +110,9 @@
 /* Mobile adjustments */
 
 @media (max-width: 768px) {
+    .ds-component-feature {
+        font-size: 1.15em;
+    }
     .component-feature {
         margin: 0;
     }
