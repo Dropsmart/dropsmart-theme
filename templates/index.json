@@ -318,7 +318,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#f1f1f1",
         "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
