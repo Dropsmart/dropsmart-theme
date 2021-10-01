@@ -355,6 +355,17 @@ main#MainContent .shopify-section>section {
     overflow-y: hidden;
 }
 
+main#MainContent .shopify-section>div,
+main#MainContent .shopify-section>section {
+    width: 98.6vw;
+    overflow-y: hidden;
+}
+
+main#MainContent .shopify-section>.ds-section-banner {
+    width: 100%;
+    overflow-y: hidden;
+}
+
 main#MainContent .shopify-section>div.two-col,
 main#MainContent .shopify-section>section.two-col {
     width: 42vw;
