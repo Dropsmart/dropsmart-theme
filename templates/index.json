@@ -1,5 +1,18 @@
 {
   "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "adapt_height_first_image": false,
+        "desktop_text_box_position": "flex-end",
+        "show_text_box": true,
+        "image_overlay_opacity": 0,
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1633123715c795bc8d": {
       "type": "ds-content",
       "blocks": {
@@ -64,19 +77,6 @@
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "full"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "16331238336e353f8a": {
@@ -158,166 +158,6 @@
         "container-width": "medium"
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "collection": "all",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
-      }
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
-      }
-    },
-    "1632252676ac892627": {
-      "type": "ds-content",
-      "blocks": {
-        "1632252676ac892627-0": {
-          "type": "h1",
-          "settings": {
-            "text": "Lorem Ipsum",
-            "font-color": "#000000",
-            "font-size": "2",
-            "font-weight": "600",
-            "align": "center"
-          }
-        },
-        "1632252676ac892627-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Para ter acesso a todos os componentes do tema Dropsmart, obtenha o app Starter. Para ter acesso a todos os componentes do tema Dropsmart, obtenha o app Starter.<br\/><\/p>",
-            "font-color": "#000000",
-            "font-size": "1",
-            "font-weight": "400",
-            "align": "center"
-          }
-        },
-        "0381c21a-9aa6-4aee-b94f-4f426f224a05": {
-          "type": "cta",
-          "settings": {
-            "font-color": "#ffffff",
-            "background-color": "#000000",
-            "link": "http:\/\/globo.com",
-            "text": "Aperte aqui",
-            "font-size": "1.25",
-            "font-weight": "400",
-            "cta-align": "center",
-            "border-radius": "20px",
-            "pulse": true
-          }
-        }
-      },
-      "block_order": [
-        "1632252676ac892627-0",
-        "1632252676ac892627-1",
-        "0381c21a-9aa6-4aee-b94f-4f426f224a05"
-      ],
-      "settings": {
-        "heading": "",
-        "background-color": "#f2f4f5",
-        "col-number": "one-col",
-        "vertical-align-content": "flex-start",
-        "padding": "space-around-regular",
-        "no-padding": "",
-        "container-width": "small"
-      }
-    },
     "163225270581f629d7": {
       "type": "ds-features",
       "disabled": true,
@@ -369,18 +209,135 @@
         "no-padding": "",
         "container-width": "medium"
       }
+    },
+    "1633124247b46225fe": {
+      "type": "ds-features",
+      "blocks": {
+        "1633124247b46225fe-0": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "font-weight": "600",
+            "align": "center",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-font-color": "#000000",
+            "description-font-size": "0.85",
+            "description-font-weight": "400",
+            "description-align": "center",
+            "has-cta": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#19C149",
+            "cta-text": "Saiba mais",
+            "link": "#",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
+        },
+        "1633124247b46225fe-1": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "font-weight": "600",
+            "align": "center",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-font-color": "#000000",
+            "description-font-size": "0.85",
+            "description-font-weight": "400",
+            "description-align": "center",
+            "has-cta": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#19C149",
+            "cta-text": "Saiba mais",
+            "link": "#",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
+        },
+        "1633124247b46225fe-2": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "font-weight": "600",
+            "align": "center",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-font-color": "#000000",
+            "description-font-size": "0.85",
+            "description-font-weight": "400",
+            "description-align": "center",
+            "has-cta": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#19C149",
+            "cta-text": "Saiba mais",
+            "link": "#",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "1633124247b46225fe-0",
+        "1633124247b46225fe-1",
+        "1633124247b46225fe-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "feature-basis": 3,
+        "col-number": "one-col",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
     }
   },
   "order": [
-    "1633123715c795bc8d",
     "image_banner",
+    "1633123715c795bc8d",
     "16331238336e353f8a",
     "1633123366ee39d20d",
-    "featured_products",
-    "collage",
-    "video",
-    "multi_column",
-    "1632252676ac892627",
-    "163225270581f629d7"
+    "163225270581f629d7",
+    "1633124247b46225fe"
   ]
 }
