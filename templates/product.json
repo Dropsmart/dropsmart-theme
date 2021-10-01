@@ -55,7 +55,7 @@
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
             "content_image": "shopify:\/\/shop_images\/Screenshot_4.jpg",
-            "desktop_content_image_size": "50%",
+            "desktop_content_image_size": "25%",
             "mobile_content_image": "shopify:\/\/shop_images\/Screenshot_4.jpg",
             "mobile_content_image_size": "75%",
             "image_align": "left"
