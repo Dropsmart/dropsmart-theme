@@ -502,47 +502,15 @@
             "align": "center",
             "font-weight": "600"
           }
-        },
-        "82100cd6-6423-4fc6-b7a0-23311fc21ec3": {
-          "type": "testimonial",
-          "settings": {
-            "background-color": "#ffffff",
-            "vertical-align-content": "flex-start",
-            "feature-display": "flex-column",
-            "mobile-feature-display": "mobile-flex-row",
-            "feature-width": "full-width",
-            "border-radius": "20px",
-            "has-shadow": true,
-            "has-icon": true,
-            "has-icon-mobile": false,
-            "icon-image": "shopify:\/\/shop_images\/YQx4zPWG_400x400_9cfcba37-e2c2-4715-94df-72069b0a1483.jpg",
-            "image-align": "center",
-            "icon-size": "96",
-            "mobile-icon-size": "64",
-            "stars_fill_color": "#eac21c",
-            "star_size": 18,
-            "star_rating": 4.5,
-            "description-text": "<p>Consegui criar minha Loja de forma muito mais rápida e eficiente! Já realizei venda!<\/p>",
-            "description-font-color": "#000000",
-            "description-align": "center",
-            "description-font-weight": "400",
-            "description-font-size": "0.85",
-            "text": "Eduardo Porath",
-            "title-font-color": "#000000",
-            "font-size": "1.25",
-            "align": "center",
-            "font-weight": "600"
-          }
         }
       },
       "block_order": [
-        "3ba5b268-87a1-4504-b8f7-800c15406b75",
-        "82100cd6-6423-4fc6-b7a0-23311fc21ec3"
+        "3ba5b268-87a1-4504-b8f7-800c15406b75"
       ],
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "feature-basis": 2,
+        "feature-basis": 1,
         "col-number": "two-col",
         "reverse-on-mobile": false,
         "padding": "space-around-regular",
