@@ -28,17 +28,6 @@
           "settings": {
           }
         },
-        "d6063731-39db-43ff-8db1-c1bcc282dbb0": {
-          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
-          "settings": {
-            "installment_number": "5",
-            "installment_number_font_color": "#000000",
-            "installment_number_font_size": "0.85",
-            "installment_price": "5000",
-            "installment_price_font_color": "#19c149",
-            "installment_price_font_size": "1.75"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -65,10 +54,9 @@
         "663c3229-407f-485c-9149-0ffaa06be6c6": {
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
-            "content-image": "shopify:\/\/shop_images\/Screenshot_4.jpg",
-            "content-image-size": "75%",
-            "mobile-content-image": "shopify:\/\/shop_images\/Screenshot_4.jpg",
-            "content-mobile-image-size": "75%"
+            "content_image": "shopify:\/\/shop_images\/Screenshot_4.jpg",
+            "desktop_content_image_size": "100%",
+            "mobile_content_image_size": "50%"
           }
         },
         "share": {
@@ -83,7 +71,6 @@
         "title",
         "subtitle",
         "price",
-        "d6063731-39db-43ff-8db1-c1bcc282dbb0",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -149,10 +136,8 @@
         "ee0c5ddd-58b0-437e-8aa2-0ad92f73fcbc": {
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
-            "content-image": "shopify:\/\/shop_images\/download_20_3.png",
-            "content-image-size": "75%",
-            "mobile-content-image": "shopify:\/\/shop_images\/download_20_1.png",
-            "content-mobile-image-size": "75%"
+            "desktop_content_image_size": "75%",
+            "mobile_content_image_size": "50%"
           }
         }
       },
@@ -233,10 +218,8 @@
         "bd34a4bd-7170-420e-949e-8d1fcd7d489b": {
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
-            "content-image": "shopify:\/\/shop_images\/download_20_2.png",
-            "content-image-size": "75%",
-            "mobile-content-image": "shopify:\/\/shop_images\/download_20_2.png",
-            "content-mobile-image-size": "75%"
+            "desktop_content_image_size": "75%",
+            "mobile_content_image_size": "50%"
           }
         }
       },
