@@ -1,5 +1,12 @@
 .ds-component-product-card {
+    padding: 0 2rem;
     margin-bottom: 3rem !important;
+}
+
+@media (max-width: 768px) {
+    .ds-component-product-card {
+        padding: 0;
+    }
 }
 
 .ds-component-product-card {

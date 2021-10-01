@@ -2,11 +2,6 @@
     style="align-self: {{block.settings.vertical-align-content}};"
     class="ds-component ds-component-feature ds-component-product-card flex flex-basis-{{section.settings.feature-basis}} flex-column"
 >
-  {% if block.settings.emphasis != empty %}
-    <span class="emphasis" style="background: {{block.settings.emphasis-background-color}}; color: {{block.settings.emphasis-font-color}};">
-      {{block.settings.emphasis}}
-    </span>
-  {% endif %}
   <div
     style="
       background: {{block.settings.background-color}};
@@ -14,6 +9,11 @@
     "
     class="flex full-width flex-column no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
   > 
+    {% if block.settings.emphasis != empty %}
+      <span class="emphasis" style="background: {{block.settings.emphasis-background-color}}; color: {{block.settings.emphasis-font-color}};">
+        {{block.settings.emphasis}}
+      </span>
+    {% endif %}
     {% if block.settings.has-icon %}
         <img loading="lazy" class="mobile-hide" style="
             border-top-right-radius:{{block.settings.border-radius}};
