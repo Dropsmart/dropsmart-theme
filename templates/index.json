@@ -16,57 +16,17 @@
     "1633123715c795bc8d": {
       "type": "ds-content",
       "blocks": {
-        "1633123715c795bc8d-0": {
-          "type": "h1",
-          "disabled": true,
-          "settings": {
-            "text": "Lorem Ipsum",
-            "font-color": "#000000",
-            "font-size": "2",
-            "font-weight": "600",
-            "align": "center"
-          }
-        },
-        "1633123715c795bc8d-1": {
-          "type": "paragraph",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "font-color": "#000000",
-            "font-size": "1",
-            "font-weight": "400",
-            "align": "center"
-          }
-        },
-        "1633123715c795bc8d-2": {
-          "type": "cta",
-          "disabled": true,
-          "settings": {
-            "font-color": "#ffffff",
-            "background-color": "#19c149",
-            "link": "#MainContent",
-            "text": "Saiba mais",
-            "font-size": "1",
-            "font-weight": "400",
-            "cta-align": "center",
-            "border-radius": "20px",
-            "pulse": false
-          }
-        },
         "9d4d8135-b9ee-463f-8ea4-04f286352a23": {
           "type": "content-image",
           "settings": {
             "image_align": "center",
-            "content_image": "shopify:\/\/shop_images\/Mar-de-Amor---Banner-ecommerce_1.png",
+            "content_image": "shopify:\/\/shop_images\/Banner-1920-600.png",
             "desktop_content_image_size": "100%",
             "mobile_content_image_size": "100%"
           }
         }
       },
       "block_order": [
-        "1633123715c795bc8d-0",
-        "1633123715c795bc8d-1",
-        "1633123715c795bc8d-2",
         "9d4d8135-b9ee-463f-8ea4-04f286352a23"
       ],
       "settings": {
@@ -75,7 +35,7 @@
         "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
-        "no-padding": "",
+        "no-padding": "no-padding",
         "container-width": "full"
       }
     },
