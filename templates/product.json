@@ -117,7 +117,7 @@
         "1633126998b7f565f1-0": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -139,8 +139,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -153,7 +153,7 @@
         "1633126998b7f565f1-1": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -175,8 +175,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -189,7 +189,7 @@
         "1633126998b7f565f1-2": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -211,8 +211,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -225,7 +225,7 @@
         "8828beb1-5695-45f2-93d6-b6d5c18589e8": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -247,8 +247,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -301,8 +301,8 @@
         "16331271661a2536dc-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Saiba mais",
             "font-size": "1",
@@ -346,7 +346,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "col-number": "two-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
@@ -380,8 +380,8 @@
         "16331279802ef961e9-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Saiba mais",
             "font-size": "1",
@@ -399,7 +399,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "col-number": "two-col",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
@@ -433,8 +433,8 @@
         "1633128154584e0ea6-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Saiba mais",
             "font-size": "1",
@@ -452,7 +452,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "col-number": "two-col",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
@@ -478,7 +478,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "col-number": "two-col",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
@@ -512,8 +512,8 @@
         "16331281596266f19b-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Saiba mais",
             "font-size": "1",
@@ -531,7 +531,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#f7f7f7",
+        "background-color": "#e4e4e4",
         "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
@@ -545,7 +545,7 @@
         "16331284866b5b8180-0": {
           "type": "testimonial",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -563,7 +563,7 @@
             "align": "center",
             "font-size": "1.25",
             "font-weight": "400",
-            "stars_fill_color": "#EAC21C",
+            "stars_fill_color": "#eac21c",
             "star_size": 21,
             "star_rating": 5,
             "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<\/p><p><\/p>",
@@ -576,7 +576,7 @@
         "16331284866b5b8180-1": {
           "type": "testimonial",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -594,7 +594,7 @@
             "align": "center",
             "font-size": "1.25",
             "font-weight": "400",
-            "stars_fill_color": "#EAC21C",
+            "stars_fill_color": "#eac21c",
             "star_size": 21,
             "star_rating": 5,
             "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<\/p><p><\/p>",
@@ -607,7 +607,7 @@
         "16331284866b5b8180-2": {
           "type": "testimonial",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "feature-display": "flex-column",
             "mobile-feature-display": "mobile-flex-row",
@@ -625,7 +625,7 @@
             "align": "center",
             "font-size": "1.25",
             "font-weight": "400",
-            "stars_fill_color": "#EAC21C",
+            "stars_fill_color": "#eac21c",
             "star_size": 21,
             "star_rating": 5,
             "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<\/p><p><\/p>",
@@ -643,7 +643,7 @@
       ],
       "settings": {
         "heading": "provaSocial",
-        "background-color": "#e9e9e9",
+        "background-color": "#f7f7f7",
         "feature-basis": 3,
         "col-number": "one-col",
         "padding": "space-around-regular",
