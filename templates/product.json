@@ -335,8 +335,8 @@
           "type": "content-image",
           "settings": {
             "image_align": "center",
-            "content_image": "shopify:\/\/shop_images\/Product-image_aba8b93a-954a-4c3d-a094-1bca96c56999.png",
-            "desktop_content_image_size": "75%",
+            "content_image": "shopify:\/\/shop_images\/Image-content-800-600.png",
+            "desktop_content_image_size": "100%",
             "mobile_content_image_size": "75%"
           }
         }
