@@ -184,7 +184,7 @@
           "type": "h1",
           "settings": {
             "text": "Lorem Ipsum",
-            "font-size": "3",
+            "font-size": "2",
             "font-color": "#000000",
             "align": "center",
             "font-weight": "600"
@@ -228,7 +228,7 @@
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
-        "container-width": "medium"
+        "container-width": "small"
       }
     },
     "163225270581f629d7": {
@@ -240,9 +240,6 @@
           "settings": {
             "background-color": "#ffffff",
             "vertical-align-content": "center",
-            "feature-display": "flex-column",
-            "mobile-feature-display": "mobile-flex-row",
-            "feature-width": "auto-width",
             "border-radius": "0px",
             "has-shadow": false,
             "has-icon": false,
