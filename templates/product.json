@@ -643,7 +643,7 @@
       ],
       "settings": {
         "heading": "provaSocial",
-        "background-color": "#FFFFFF",
+        "background-color": "#e9e9e9",
         "feature-basis": 3,
         "col-number": "one-col",
         "padding": "space-around-regular",
