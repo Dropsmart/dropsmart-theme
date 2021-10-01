@@ -79,6 +79,125 @@
         "container-width": "full"
       }
     },
+    "1633124748ff26461d": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Nossos produtos",
+        "collection": "",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
+    "1633125040f23b2f23": {
+      "type": "featured-product",
+      "blocks": {
+        "1633125040f23b2f23-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1633125040f23b2f23-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1633125040f23b2f23-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1633125040f23b2f23-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1633125040f23b2f23-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1633125040f23b2f23-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1633125040f23b2f23-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1633125040f23b2f23-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1633125040f23b2f23-0",
+        "1633125040f23b2f23-1",
+        "1633125040f23b2f23-2",
+        "1633125040f23b2f23-3",
+        "1633125040f23b2f23-4",
+        "1633125040f23b2f23-5",
+        "1633125040f23b2f23-6",
+        "1633125040f23b2f23-7"
+      ],
+      "settings": {
+        "product": "nome-do-produto-9",
+        "secondary_background": false,
+        "enable_video_looping": false
+      }
+    },
+    "16331250446d3efe43": {
+      "type": "collection-list",
+      "blocks": {
+        "16331250446d3efe43-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "16331250446d3efe43-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "16331250446d3efe43-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16331250446d3efe43-0",
+        "16331250446d3efe43-1",
+        "16331250446d3efe43-2"
+      ],
+      "settings": {
+        "title": "Confira nossas coleções",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
+    },
     "16331238336e353f8a": {
       "type": "ds-content",
       "blocks": {
@@ -158,58 +277,6 @@
         "container-width": "medium"
       }
     },
-    "163225270581f629d7": {
-      "type": "ds-features",
-      "disabled": true,
-      "blocks": {
-        "d4b7e64c-d583-4622-adda-eb56572885a7": {
-          "type": "feature",
-          "settings": {
-            "background-color": "#ffffff",
-            "vertical-align-content": "center",
-            "border-radius": "0px",
-            "has-shadow": false,
-            "has-icon": false,
-            "has-icon-mobile": false,
-            "image-align": "center",
-            "icon-size": "96",
-            "mobile-icon-size": "64",
-            "text": "",
-            "title-font-color": "#000000",
-            "font-size": "1.5",
-            "font-weight": "400",
-            "align": "center",
-            "description-text": "<p>Lorem ipsum<\/p><p><\/p>",
-            "description-font-color": "#000000",
-            "description-font-size": "0.75",
-            "description-font-weight": "400",
-            "description-align": "center",
-            "has-cta": false,
-            "cta-font-color": "#ffffff",
-            "cta-background-color": "#000000",
-            "cta-text": "Click here",
-            "link": "#combo",
-            "cta-font-weight": "400",
-            "cta-font-size": "1.25",
-            "cta-align": "center",
-            "cta-border-radius": "4px",
-            "cta-pulse": false
-          }
-        }
-      },
-      "block_order": [
-        "d4b7e64c-d583-4622-adda-eb56572885a7"
-      ],
-      "settings": {
-        "heading": "",
-        "background-color": "#f2f4f5",
-        "feature-basis": 4,
-        "col-number": "one-col",
-        "padding": "space-around-regular",
-        "no-padding": "",
-        "container-width": "medium"
-      }
-    },
     "1633124247b46225fe": {
       "type": "ds-features",
       "blocks": {
@@ -225,12 +292,12 @@
             "image-align": "center",
             "icon-size": "96",
             "mobile-icon-size": "64",
-            "text": "Lorem Ipsum",
+            "text": "Entrega garantida",
             "title-font-color": "#000000",
             "font-size": "1.25",
             "font-weight": "600",
             "align": "center",
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
             "description-font-color": "#000000",
             "description-font-size": "0.85",
             "description-font-weight": "400",
@@ -259,12 +326,12 @@
             "image-align": "center",
             "icon-size": "96",
             "mobile-icon-size": "64",
-            "text": "Lorem Ipsum",
+            "text": "Frete para todo o Brasil",
             "title-font-color": "#000000",
             "font-size": "1.25",
             "font-weight": "600",
             "align": "center",
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
             "description-font-color": "#000000",
             "description-font-size": "0.85",
             "description-font-weight": "400",
@@ -293,12 +360,12 @@
             "image-align": "center",
             "icon-size": "96",
             "mobile-icon-size": "64",
-            "text": "Lorem Ipsum",
+            "text": "Pagamento seguro",
             "title-font-color": "#000000",
             "font-size": "1.25",
             "font-weight": "600",
             "align": "center",
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
             "description-font-color": "#000000",
             "description-font-size": "0.85",
             "description-font-weight": "400",
@@ -330,14 +397,249 @@
         "no-padding": "",
         "container-width": "medium"
       }
+    },
+    "1633124760eaf99c18": {
+      "type": "ds-testimonial",
+      "blocks": {
+        "1633124760eaf99c18-0": {
+          "type": "testimonial",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Nome do Cliente",
+            "title-font-color": "#000000",
+            "align": "center",
+            "font-size": "1.25",
+            "font-weight": "400",
+            "stars_fill_color": "#EAC21C",
+            "star_size": 21,
+            "star_rating": 5,
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85"
+          }
+        },
+        "1633124760eaf99c18-1": {
+          "type": "testimonial",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Nome do Cliente",
+            "title-font-color": "#000000",
+            "align": "center",
+            "font-size": "1.25",
+            "font-weight": "400",
+            "stars_fill_color": "#EAC21C",
+            "star_size": 21,
+            "star_rating": 5,
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85"
+          }
+        },
+        "1633124760eaf99c18-2": {
+          "type": "testimonial",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "feature-display": "flex-column",
+            "mobile-feature-display": "mobile-flex-row",
+            "feature-width": "full-width",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Nome do Cliente",
+            "title-font-color": "#000000",
+            "align": "center",
+            "font-size": "1.25",
+            "font-weight": "400",
+            "stars_fill_color": "#EAC21C",
+            "star_size": 21,
+            "star_rating": 5,
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque.<p>",
+            "description-font-color": "#000000",
+            "description-align": "center",
+            "description-font-weight": "400",
+            "description-font-size": "0.85"
+          }
+        }
+      },
+      "block_order": [
+        "1633124760eaf99c18-0",
+        "1633124760eaf99c18-1",
+        "1633124760eaf99c18-2"
+      ],
+      "settings": {
+        "heading": "provaSocial",
+        "background-color": "#FFFFFF",
+        "feature-basis": 3,
+        "col-number": "one-col",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "16331247747ff6493c": {
+      "type": "ds-features",
+      "disabled": true,
+      "blocks": {
+        "16331247747ff6493c-0": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "font-weight": "600",
+            "align": "center",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-font-color": "#000000",
+            "description-font-size": "0.85",
+            "description-font-weight": "400",
+            "description-align": "center",
+            "has-cta": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#19C149",
+            "cta-text": "Saiba mais",
+            "link": "#",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
+        },
+        "16331247747ff6493c-1": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "font-weight": "600",
+            "align": "center",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-font-color": "#000000",
+            "description-font-size": "0.85",
+            "description-font-weight": "400",
+            "description-align": "center",
+            "has-cta": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#19C149",
+            "cta-text": "Saiba mais",
+            "link": "#",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
+        },
+        "16331247747ff6493c-2": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "font-weight": "600",
+            "align": "center",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-font-color": "#000000",
+            "description-font-size": "0.85",
+            "description-font-weight": "400",
+            "description-align": "center",
+            "has-cta": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#19C149",
+            "cta-text": "Saiba mais",
+            "link": "#",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "16331247747ff6493c-0",
+        "16331247747ff6493c-1",
+        "16331247747ff6493c-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "feature-basis": 3,
+        "col-number": "one-col",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
     }
   },
   "order": [
     "image_banner",
     "1633123715c795bc8d",
+    "1633124748ff26461d",
+    "1633125040f23b2f23",
+    "16331250446d3efe43",
     "16331238336e353f8a",
     "1633123366ee39d20d",
-    "163225270581f629d7",
-    "1633124247b46225fe"
+    "1633124247b46225fe",
+    "1633124760eaf99c18",
+    "16331247747ff6493c"
   ]
 }
