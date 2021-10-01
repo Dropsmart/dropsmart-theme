@@ -267,12 +267,65 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#f5f5f5",
         "feature-basis": 4,
         "col-number": "one-col",
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "full"
+      }
+    },
+    "16331271661a2536dc": {
+      "type": "ds-content",
+      "blocks": {
+        "16331271661a2536dc-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "16331271661a2536dc-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "16331271661a2536dc-2": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "16331271661a2536dc-0",
+        "16331271661a2536dc-1",
+        "16331271661a2536dc-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#ffffff",
+        "col-number": "one-col",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
       }
     },
     "1632860390ac093171": {
@@ -356,6 +409,7 @@
     "main",
     "product-recommendations",
     "1633126998b7f565f1",
+    "16331271661a2536dc",
     "1632860390ac093171",
     "16328605733cd2b562"
   ]
