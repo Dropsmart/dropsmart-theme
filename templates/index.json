@@ -1,18 +1,5 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-end",
-        "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "1633123715c795bc8d": {
       "type": "ds-content",
       "blocks": {
@@ -455,7 +442,6 @@
     }
   },
   "order": [
-    "image_banner",
     "1633123715c795bc8d",
     "1633124748ff26461d",
     "1633125040f23b2f23",
