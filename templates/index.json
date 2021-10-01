@@ -1,7 +1,17 @@
 {
   "sections": {
+    "1633128999076b0139": {
+      "type": "ds-banner",
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "content_image": "shopify:\/\/shop_images\/Banner-1920-600.png",
+        "mobile_content_image": "shopify:\/\/shop_images\/Image-content-800-600.png"
+      }
+    },
     "1633123715c795bc8d": {
       "type": "ds-content",
+      "disabled": true,
       "blocks": {
         "9d4d8135-b9ee-463f-8ea4-04f286352a23": {
           "type": "content-image",
@@ -286,8 +296,8 @@
         "1633125475d8c2cf40-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Saiba mais",
             "font-size": "1",
@@ -442,6 +452,7 @@
     }
   },
   "order": [
+    "1633128999076b0139",
     "1633123715c795bc8d",
     "1633124748ff26461d",
     "1633125040f23b2f23",
