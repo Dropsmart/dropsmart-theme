@@ -6,3 +6,11 @@
 .ds-component-price {
     margin-bottom: 2rem;
 }
+
+.ds-component-price.line-through-price {
+    margin-bottom: .75rem;
+}
+
+.ds-component-price.line-through-price h3 {
+    text-decoration: line-through;
+}

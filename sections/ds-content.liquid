@@ -35,7 +35,9 @@
                               mobileContentImage: block.settings.mobile_content_image,
                               desktop_content_image_size: block.settings.desktop_content_image_size,
                               mobile_content_image_size: block.settings.mobile_content_image_size
+                              image_align: block.settings.image_align
                            %}
+
 
                         {% when 'cta' %}
                            {%- render 'ds-component-cta',
@@ -270,29 +272,9 @@
                ],
                "label": "Tamanho em Dispositivo Móvel",
                "default": "50%"
-            },
-            {
-               "type":"select",
-               "id":"mobile_image_align",
-               "options":[
-                  {
-                     "value":"center",
-                     "label":"Centralizado"
-                  },
-                  {
-                     "value":"left",
-                     "label":"Esquerda"
-                  },
-                  {
-                     "value":"right",
-                     "label":"Direita"
-                  }
-               ],
-               "default":"center",
-               "label":"Alinhamento da imagem"
-            }, 
+            }
          ]
-      }
+      },
       {
          "type": "cta",
          "name": "Botão (CTA)",

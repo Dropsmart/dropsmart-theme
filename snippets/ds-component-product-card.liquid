@@ -63,12 +63,23 @@
               text: block.settings.description-text
               -%}
             {% endif %}
+            {% if block.settings.full-price-value != empty %}
+              {%- render 'ds-component-manual-price', 
+                  font_color: block.settings.full-price-font-color, 
+                  background_color: block.settings.full-price-background-color,
+                  font_size: block.settings.full-price-font-size, 
+                  align: "center",
+                  line_through: true,
+                  font_weight: block.settings.full-price-font-weight,
+                  value: block.settings.full-price-value,
+              -%}
+            {% endif %}
             {%- render 'ds-component-manual-price', 
-                fontColor: block.settings.price-font-color, 
-                backgroundColor: block.settings.price-background-color,
-                fontSize: block.settings.price-font-size, 
+                font_color: block.settings.price-font-color, 
+                background_color: block.settings.price-background-color,
+                font_size: block.settings.price-font-size, 
                 align: "center",
-                fontWeight: block.settings.price-font-weight,
+                font_weight: block.settings.price-font-weight,
                 value: block.settings.price-value,
             -%}
             {%- render 'ds-component-installment' 
