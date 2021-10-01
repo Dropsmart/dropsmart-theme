@@ -1,0 +1,25 @@
+<div class="ds-component-content-image image">
+  <figure>
+    <img 
+      loading="lazy"
+      class="{% if mobileContentImage != empty %} mobile-hide {% endif %}" src="{{ contentImage | img_url: 'master' }}"
+      data-src="{{ contentImage | img_url: 'master' }} "
+      alt="Component Content Image"
+      height="{{block.settings.desktop_content_image_size}}"
+      width="{{block.settings.desktop_content_image_size}}"
+      style="{{justify-{{block.settings.image_align}}"
+    />
+    {% if mobileContentImage != empty %}
+    <img 
+      loading="lazy" 
+      class="desktop-hide" 
+      src="{{ mobileContentImage | img_url: 'master' }}"
+      data-src="{{ mobileContentImage | img_url: 'master' }}" 
+      alt="Component Content Image"
+      height="{{block.settings.mobile_content_image_size}}"
+      width="{{block.settings.mobile_content_image_size}}"
+      style="{{justify-{{block.settings.mobile_image_align}}"
+    />
+    {% endif %}
+  </figure>
+</div>

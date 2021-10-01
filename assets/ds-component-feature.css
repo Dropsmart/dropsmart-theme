@@ -17,6 +17,16 @@
     max-width: 40%;
 }
 
+.two-col .ds-component-feature.flex-column {
+    max-width: 75%;
+}
+
+@media (max-width: 768px) {
+    .two-col .ds-component-feature.flex-column {
+        max-width: 100%;
+    }
+}
+
 @media (max-width: 768px) {
     .ds-component-feature.flex-column {
         max-width: 60%;

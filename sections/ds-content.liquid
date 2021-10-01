@@ -29,6 +29,14 @@
                               text: block.settings.text
                            -%}
 
+                        {% when 'content-image' %}
+                           {% render "ds-component-content-image" style="size:{{block.settings.desktop_content_image_size}}em;", 
+                              contentImage: block.settings.content_image,
+                              mobileContentImage: block.settings.mobile_content_image,
+                              desktop_content_image_size: block.settings.desktop_content_image_size,
+                              mobile_content_image_size: block.settings.mobile_content_image_size
+                           %}
+
                         {% when 'cta' %}
                            {%- render 'ds-component-cta',
                               backgroundColor: block.settings.background-color, 
@@ -173,6 +181,118 @@
            }
          ]
       },
+      {
+         "type": "content-image",
+         "name": "Imagem no conteúdo",
+         "settings": [
+            {
+               "type":"header",
+               "content":"Imagem em desktop"
+            },
+            {
+               "type": "image_picker",
+               "id": "content_image",
+               "label": "Imagem"
+            },
+            {
+               "type": "select",
+               "id": "desktop_content_image_size",
+               "options":[
+               {
+                     "value":"25%",
+                     "label":"Pequeno"
+               },
+               {
+                     "value":"50%",
+                     "label":"Médio"
+               },
+               {
+                     "value":"75%",
+                     "label":"Grande"
+               },
+               {
+                     "value":"100%",
+                     "label":"Máximo"
+               }
+               ],
+               "label": "Tamanho em Desktop",
+               "default": "75%"
+            },
+            {
+               "type":"select",
+               "id":"image_align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento da imagem"
+            }, 
+            {
+               "type":"header",
+               "content":"Imagem em dispositivo móvel"
+            },
+            {
+               "type": "image_picker",
+               "id": "mobile_content_image",
+               "label": "Imagem"
+            },
+            {
+               "type": "select",
+               "id": "mobile_content_image_size",
+               "options":[
+               {
+                     "value":"25%",
+                     "label":"Pequeno"
+               },
+               {
+                     "value":"50%",
+                     "label":"Médio"
+               },
+               {
+                     "value":"75%",
+                     "label":"Grande"
+               },
+               {
+                     "value":"100%",
+                     "label":"Máximo"
+               }
+               ],
+               "label": "Tamanho em Dispositivo Móvel",
+               "default": "50%"
+            },
+            {
+               "type":"select",
+               "id":"mobile_image_align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento da imagem"
+            }, 
+         ]
+      }
       {
          "type": "cta",
          "name": "Botão (CTA)",
