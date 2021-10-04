@@ -101,8 +101,8 @@
         "settings": {
           "phone_number": "48991669292",
           "default_message": "Olá, tenho uma dúvida.",
-          "whatsapp_button_color": "#95DC77",
-          "whatsapp_logo_color": "#95dc77"
+          "whatsapp_button_color": "#95dc77",
+          "whatsapp_logo_color": "#fff"
         }
       }
     }
