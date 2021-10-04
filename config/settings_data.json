@@ -99,8 +99,8 @@
         "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-whatsapp-floating-button\/79c7781a-151c-4a0b-8787-33d3543aaddc",
         "disabled": false,
         "settings": {
-          "phone_number": "",
-          "default_message": ""
+          "phone_number": "48991669292",
+          "default_message": "Olá, tenho uma dúvida."
         }
       }
     }
