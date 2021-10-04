@@ -93,7 +93,17 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "1633367376afb61833": {
+        "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-whatsapp-floating-button\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+        "disabled": false,
+        "settings": {
+          "phone_number": "",
+          "default_message": ""
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
