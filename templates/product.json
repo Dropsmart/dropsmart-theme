@@ -111,6 +111,71 @@
         "show_rating": false
       }
     },
+    "16335611852f6c4e87": {
+      "type": "ds-content",
+      "blocks": {
+        "16335611852f6c4e87-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "16335611852f6c4e87-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "16335611852f6c4e87-2": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        },
+        "9d2bb126-efa7-4c99-810e-c2d2ed1b1def": {
+          "type": "content-image",
+          "disabled": true,
+          "settings": {
+            "image_align": "center",
+            "content_image": "shopify:\/\/shop_images\/download_20_3.png",
+            "desktop_content_image_size": "50%",
+            "mobile_content_image_size": "75%"
+          }
+        }
+      },
+      "block_order": [
+        "16335611852f6c4e87-0",
+        "16335611852f6c4e87-1",
+        "16335611852f6c4e87-2",
+        "9d2bb126-efa7-4c99-810e-c2d2ed1b1def"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#e4e4e4",
+        "col-number": "one-col",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "no-padding-bottom",
+        "container-width": "small"
+      }
+    },
     "1633126998b7f565f1": {
       "type": "ds-features",
       "blocks": {
@@ -731,6 +796,7 @@
     },
     "163356011123de54d6": {
       "type": "ds-features",
+      "disabled": true,
       "blocks": {
         "163356011123de54d6-0": {
           "type": "feature",
@@ -857,6 +923,7 @@
   "order": [
     "main",
     "product-recommendations",
+    "16335611852f6c4e87",
     "1633126998b7f565f1",
     "16331271661a2536dc",
     "1633128043fab6d108",
