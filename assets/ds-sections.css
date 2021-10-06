@@ -352,18 +352,18 @@ main#MainContent .shopify-section {
 main#MainContent .shopify-section>div,
 main#MainContent .shopify-section>section {
     width: 98.6vw;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 main#MainContent .shopify-section>div,
 main#MainContent .shopify-section>section {
     width: 98.6vw;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 main#MainContent .shopify-section>.ds-section-banner {
     width: 100%;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 main#MainContent .shopify-section>div.two-col,
@@ -375,11 +375,11 @@ main#MainContent .shopify-section>section.two-col {
 @media (max-width: 768px) {
     main#MainContent .shopify-section>div,
     main#MainContent .shopify-section>section {
-        width: 95vw;
+        width: 100%;
     }
     main#MainContent .shopify-section>div.two-col,
     main#MainContent .shopify-section>section.two-col {
-        width: 95vw;
+        width: 100%;
     }
 }
 
