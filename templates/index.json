@@ -4,7 +4,7 @@
       "type": "ds-banner",
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "content_image": "shopify:\/\/shop_images\/Banner-1920-600.png",
         "mobile_content_image": "shopify:\/\/shop_images\/Image-content-800-600.png"
       }
@@ -286,7 +286,7 @@
         "1633125475d8c2cf40-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -304,7 +304,7 @@
             "font-weight": "400",
             "cta-align": "center",
             "border-radius": "20px",
-            "pulse": false
+            "pulse": true
           }
         }
       },
