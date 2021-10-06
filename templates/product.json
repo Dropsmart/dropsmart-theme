@@ -919,19 +919,36 @@
         "container-width": "full"
       }
     },
-    "1633562495559ad7d4": {
+    "1633562526de5ae9dd": {
       "type": "ds-content",
       "blocks": {
-        "c02bf35d-542c-4290-b6e6-817de2f148e3": {
+        "d85c1465-74e3-4f4d-8445-cf8d105ca515": {
           "type": "content-image",
           "settings": {
             "image_align": "center",
-            "content_image": "shopify:\/\/shop_images\/1_bb1e6426-8df1-4ac3-8356-25f5f59c18a8.png",
-            "desktop_content_image_size": "50%",
-            "mobile_content_image": "shopify:\/\/shop_images\/icon.png",
-            "mobile_content_image_size": "25%"
+            "content_image": "shopify:\/\/shop_images\/download_20_3.png",
+            "desktop_content_image_size": "100%",
+            "mobile_content_image": "shopify:\/\/shop_images\/download_20_3.png",
+            "mobile_content_image_size": "100%"
           }
-        },
+        }
+      },
+      "block_order": [
+        "d85c1465-74e3-4f4d-8445-cf8d105ca515"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#ffffff",
+        "col-number": "two-col",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "1633562495559ad7d4": {
+      "type": "ds-content",
+      "blocks": {
         "1633562495559ad7d4-0": {
           "type": "h1",
           "settings": {
@@ -939,16 +956,6 @@
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
-            "align": "center"
-          }
-        },
-        "1483ab13-b580-4352-bac5-ea7c4c793a31": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Promoção válida para as compras até  15 de Outubro de 2021.<\/p>",
-            "font-color": "#e70d0d",
-            "font-size": "0.85",
-            "font-weight": "400",
             "align": "center"
           }
         },
@@ -978,17 +985,15 @@
         }
       },
       "block_order": [
-        "c02bf35d-542c-4290-b6e6-817de2f148e3",
         "1633562495559ad7d4-0",
-        "1483ab13-b580-4352-bac5-ea7c4c793a31",
         "1633562495559ad7d4-1",
         "1633562495559ad7d4-2"
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
-        "col-number": "one-col",
-        "vertical-align-content": "flex-start",
+        "background-color": "#ffffff",
+        "col-number": "two-col",
+        "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "small"
@@ -1010,6 +1015,7 @@
     "1632860390ac093171",
     "16328605733cd2b562",
     "163356011123de54d6",
+    "1633562526de5ae9dd",
     "1633562495559ad7d4"
   ]
 }
