@@ -167,7 +167,7 @@
         "9d2bb126-efa7-4c99-810e-c2d2ed1b1def"
       ],
       "settings": {
-        "heading": "",
+        "heading": "beneficios",
         "background-color": "#e4e4e4",
         "col-number": "one-col",
         "vertical-align-content": "flex-start",
@@ -974,7 +974,7 @@
           "settings": {
             "font-color": "#FFFFFF",
             "background-color": "#19C149",
-            "link": "#MainContent",
+            "link": "#beneficios",
             "text": "Saiba mais",
             "font-size": "1",
             "font-weight": "400",
