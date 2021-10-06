@@ -358,7 +358,7 @@
             "cta-font-weight": "400",
             "cta-font-size": "1",
             "cta-align": "center",
-            "cta-border-radius": "0px",
+            "cta-border-radius": "20px",
             "cta-pulse": false
           }
         },
