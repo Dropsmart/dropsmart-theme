@@ -352,18 +352,15 @@ main#MainContent .shopify-section {
 main#MainContent .shopify-section>div,
 main#MainContent .shopify-section>section {
     width: 98.6vw;
-    overflow-x: hidden;
 }
 
 main#MainContent .shopify-section>div,
 main#MainContent .shopify-section>section {
     width: 98.6vw;
-    overflow-x: hidden;
 }
 
 main#MainContent .shopify-section>.ds-section-banner {
     width: 100%;
-    overflow-x: hidden;
 }
 
 main#MainContent .shopify-section>div.two-col,
