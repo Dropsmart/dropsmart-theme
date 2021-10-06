@@ -26,6 +26,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Frete grátis para todo o Brasil",
               "color_scheme": "accent-2",
