@@ -101,14 +101,14 @@
         "disabled": false,
         "settings": {
           "phone_number": "48991669292",
-          "default_message": "Olá, tenho uma dúvida.",
+          "default_message": "Alguma dúvida sobre o produto? Entre em contato direto comigo pelo Whats App!",
           "whatsapp_button_color": "#19c149",
           "whatsapp_logo_color": "#ffffff",
           "whatsapp_button_shadow": false,
           "bubble_message": "",
-          "bubble_speech_box_color": "#FFFFFF",
-          "bubble_speech_font_color": "#19C149",
-          "bubble_speech_image": "shopify:\/\/shop_images\/Screenshot_9_cf68d4a2-625b-47a6-9e60-5fe751bbe9f7.png",
+          "bubble_speech_box_color": "#ffffff",
+          "bubble_speech_font_color": "#19c149",
+          "bubble_speech_image": "shopify:\/\/shop_images\/YQx4zPWG_400x400_9cfcba37-e2c2-4715-94df-72069b0a1483.jpg",
           "bubble_speech_shadow": false
         }
       }
