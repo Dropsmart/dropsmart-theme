@@ -100,15 +100,15 @@
         "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-whatsapp-floating-button\/79c7781a-151c-4a0b-8787-33d3543aaddc",
         "disabled": false,
         "settings": {
-          "phone_number": "48991669292",
-          "default_message": "Alguma dúvida sobre o produto? Entre em contato direto comigo pelo Whats App!",
+          "whatsapp_phone_number": "",
+          "default_whatsapp_message": "",
           "whatsapp_button_color": "#19c149",
           "whatsapp_logo_color": "#ffffff",
           "whatsapp_button_shadow": false,
-          "bubble_message": "",
+          "bubble_speech_image": "shopify:\/\/shop_images\/Frame_21.png",
+          "bubble_speech_text": "",
           "bubble_speech_box_color": "#ffffff",
           "bubble_speech_font_color": "#19c149",
-          "bubble_speech_image": "shopify:\/\/shop_images\/YQx4zPWG_400x400_9cfcba37-e2c2-4715-94df-72069b0a1483.jpg",
           "bubble_speech_shadow": false
         }
       }
