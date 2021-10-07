@@ -107,8 +107,8 @@
           "whatsapp_button_shadow": false,
           "bubble_speech_image": "shopify:\/\/shop_images\/Screenshot_9_cf68d4a2-625b-47a6-9e60-5fe751bbe9f7.png",
           "bubble_speech_text": "",
-          "bubble_speech_box_color": "#e22120",
-          "bubble_speech_border_color": "#e3e3e3",
+          "bubble_speech_box_color": "#ffffff",
+          "bubble_speech_border_color": "#ffffff",
           "bubble_speech_font_color": "#e22120",
           "bubble_speech_shadow": false
         }
