@@ -100,7 +100,7 @@
         "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-whatsapp-floating-button\/79c7781a-151c-4a0b-8787-33d3543aaddc",
         "disabled": false,
         "settings": {
-          "whatsapp_phone_number": "48 999999999",
+          "whatsapp_phone_number": "",
           "default_whatsapp_message": "Teste mensagem Whats App",
           "whatsapp_button_color": "#19c149",
           "whatsapp_logo_color": "#ffffff",
