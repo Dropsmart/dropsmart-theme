@@ -101,7 +101,7 @@
         "disabled": false,
         "settings": {
           "whatsapp_phone_number": "",
-          "default_whatsapp_message": "Teste mensagem Whats App",
+          "default_whatsapp_message": "",
           "whatsapp_button_color": "#19c149",
           "whatsapp_logo_color": "#ffffff",
           "whatsapp_button_shadow": false,
