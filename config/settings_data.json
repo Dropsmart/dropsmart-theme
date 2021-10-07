@@ -98,8 +98,18 @@
     "blocks": {
       "1633367376afb61833": {
         "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-whatsapp-floating-button\/79c7781a-151c-4a0b-8787-33d3543aaddc",
-        "disabled": true,
+        "disabled": false,
         "settings": {
+          "whatsapp_phone_number": "48 999999999",
+          "default_whatsapp_message": "Teste mensagem Whats App",
+          "whatsapp_button_color": "#19C149",
+          "whatsapp_logo_color": "#FFFFFF",
+          "whatsapp_button_shadow": false,
+          "bubble_speech_text": "Mensagem padrão do Bubble Speech",
+          "bubble_speech_box_color": "#FFFFFF",
+          "bubble_speech_border_color": "#e3e3e3",
+          "bubble_speech_font_color": "#000000",
+          "bubble_speech_shadow": false
         }
       }
     }
