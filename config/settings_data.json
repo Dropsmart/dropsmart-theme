@@ -98,19 +98,8 @@
     "blocks": {
       "1633367376afb61833": {
         "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-whatsapp-floating-button\/79c7781a-151c-4a0b-8787-33d3543aaddc",
-        "disabled": false,
+        "disabled": true,
         "settings": {
-          "whatsapp_phone_number": "",
-          "default_whatsapp_message": "",
-          "whatsapp_button_color": "#19c149",
-          "whatsapp_logo_color": "#ffffff",
-          "whatsapp_button_shadow": false,
-          "bubble_speech_image": "shopify:\/\/shop_images\/YQx4zPWG_400x400_9cfcba37-e2c2-4715-94df-72069b0a1483.jpg",
-          "bubble_speech_text": "",
-          "bubble_speech_box_color": "#eac21c",
-          "bubble_speech_border_color": "#e22120",
-          "bubble_speech_font_color": "#e22120",
-          "bubble_speech_shadow": false
         }
       }
     }
