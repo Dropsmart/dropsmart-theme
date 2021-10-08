@@ -101,7 +101,7 @@
         "disabled": false,
         "settings": {
           "whatsapp_phone_number": "4899999999",
-          "default_whatsapp_message": "Olá amigo",
+          "default_whatsapp_message": "Olá amigo!",
           "whatsapp_button_color": "#19c149",
           "whatsapp_logo_color": "#ffffff",
           "whatsapp_button_shadow": true,
