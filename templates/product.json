@@ -105,6 +105,11 @@
             "text_style": "subtitle"
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "088c6f73-dba4-481b-9670-37da7078a9a2": {
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-offer-tag\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
@@ -113,11 +118,6 @@
             "font_color": "#ffffff",
             "font_size": "0.85",
             "border_radius": "5px"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
           }
         },
         "8db4956e-9ae0-438f-a2d4-bfdbdec41923": {
@@ -175,8 +175,8 @@
         "vendor",
         "title",
         "subtitle",
-        "088c6f73-dba4-481b-9670-37da7078a9a2",
         "price",
+        "088c6f73-dba4-481b-9670-37da7078a9a2",
         "8db4956e-9ae0-438f-a2d4-bfdbdec41923",
         "variant_picker",
         "quantity_selector",
