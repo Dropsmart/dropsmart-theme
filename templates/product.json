@@ -110,6 +110,15 @@
           "settings": {
           }
         },
+        "088c6f73-dba4-481b-9670-37da7078a9a2": {
+          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-offer-tag\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+          "settings": {
+            "background_color": "#da2f20",
+            "sale_text": "ECONOMIZE",
+            "font_color": "#ffffff",
+            "border_radius": "5px"
+          }
+        },
         "8db4956e-9ae0-438f-a2d4-bfdbdec41923": {
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
@@ -159,15 +168,6 @@
             "mobile_content_image_size": "50%",
             "image_align": "left"
           }
-        },
-        "088c6f73-dba4-481b-9670-37da7078a9a2": {
-          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-offer-tag\/79c7781a-151c-4a0b-8787-33d3543aaddc",
-          "settings": {
-            "background_color": "#da2f20",
-            "sale_text": "ECONOMIZE",
-            "font_color": "#ffffff",
-            "border_radius": "5px"
-          }
         }
       },
       "block_order": [
@@ -175,14 +175,14 @@
         "title",
         "subtitle",
         "price",
+        "088c6f73-dba4-481b-9670-37da7078a9a2",
         "8db4956e-9ae0-438f-a2d4-bfdbdec41923",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "description",
         "share",
-        "663c3229-407f-485c-9149-0ffaa06be6c6",
-        "088c6f73-dba4-481b-9670-37da7078a9a2"
+        "663c3229-407f-485c-9149-0ffaa06be6c6"
       ],
       "settings": {
         "enable_sticky_info": true,
