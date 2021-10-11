@@ -164,7 +164,7 @@
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-offer-tag\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
             "background_color": "#da2f20",
-            "sale_text": "ECONOMIZE",
+            "sale_text": "SAVE",
             "font_color": "#ffffff",
             "border_radius": "5px"
           }
