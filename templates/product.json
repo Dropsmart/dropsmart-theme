@@ -159,6 +159,14 @@
             "mobile_content_image_size": "50%",
             "image_align": "left"
           }
+        },
+        "238783f0-1940-4081-a274-5b7a680f6539": {
+          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-offer-tag\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+          "settings": {
+            "background_color": "#eb1c1c",
+            "sale_text": "",
+            "border_radius": ""
+          }
         }
       },
       "block_order": [
@@ -172,7 +180,8 @@
         "buy_buttons",
         "description",
         "share",
-        "663c3229-407f-485c-9149-0ffaa06be6c6"
+        "663c3229-407f-485c-9149-0ffaa06be6c6",
+        "238783f0-1940-4081-a274-5b7a680f6539"
       ],
       "settings": {
         "enable_sticky_info": true,
