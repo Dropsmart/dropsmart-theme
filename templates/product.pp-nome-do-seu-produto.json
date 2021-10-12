@@ -1,87 +1,5 @@
 {
   "sections": {
-    "1633562495559ad7d4": {
-      "type": "ds-content",
-      "disabled": true,
-      "blocks": {
-        "1633562495559ad7d4-0": {
-          "type": "h1",
-          "settings": {
-            "text": "Lorem Ipsum",
-            "font-color": "#000000",
-            "font-size": "2",
-            "font-weight": "600",
-            "align": "center"
-          }
-        },
-        "1633562495559ad7d4-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
-            "font-color": "#000000",
-            "font-size": "1",
-            "font-weight": "400",
-            "align": "center"
-          }
-        },
-        "1633562495559ad7d4-2": {
-          "type": "cta",
-          "settings": {
-            "font-color": "#ffffff",
-            "background-color": "#19c149",
-            "link": "#combos",
-            "text": "Comprar agora",
-            "font-size": "1",
-            "font-weight": "400",
-            "cta-align": "center",
-            "border-radius": "20px",
-            "pulse": false
-          }
-        }
-      },
-      "block_order": [
-        "1633562495559ad7d4-0",
-        "1633562495559ad7d4-1",
-        "1633562495559ad7d4-2"
-      ],
-      "settings": {
-        "heading": "",
-        "background-color": "#ffffff",
-        "col-number": "two-col",
-        "vertical-align-content": "center",
-        "padding": "space-around-regular",
-        "no-padding": "",
-        "container-width": "small"
-      }
-    },
-    "1633562526de5ae9dd": {
-      "type": "ds-content",
-      "disabled": true,
-      "blocks": {
-        "d85c1465-74e3-4f4d-8445-cf8d105ca515": {
-          "type": "content-image",
-          "settings": {
-            "image_align": "center",
-            "content_image": "shopify:\/\/shop_images\/download_20_3.png",
-            "desktop_content_image_size": "100%",
-            "mobile_content_image": "shopify:\/\/shop_images\/download_20_3.png",
-            "mobile_content_image_size": "100%"
-          }
-        }
-      },
-      "block_order": [
-        "d85c1465-74e3-4f4d-8445-cf8d105ca515"
-      ],
-      "settings": {
-        "heading": "",
-        "background-color": "#ffffff",
-        "col-number": "two-col",
-        "vertical-align-content": "flex-start",
-        "padding": "space-around-regular",
-        "no-padding": "",
-        "container-width": "medium"
-      }
-    },
     "main": {
       "type": "ds-main-product",
       "blocks": {
@@ -1391,8 +1309,6 @@
     }
   },
   "order": [
-    "1633562495559ad7d4",
-    "1633562526de5ae9dd",
     "main",
     "product-recommendations",
     "16335611852f6c4e87",
