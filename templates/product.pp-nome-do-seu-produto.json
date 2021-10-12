@@ -424,6 +424,7 @@
     },
     "16331271661a2536dc": {
       "type": "ds-content",
+      "disabled": true,
       "blocks": {
         "16331271661a2536dc-0": {
           "type": "h1",
