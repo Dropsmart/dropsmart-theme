@@ -124,6 +124,7 @@
     },
     "16331271661a2536dc": {
       "type": "ds-content",
+      "disabled": true,
       "blocks": {
         "16331271661a2536dc-0": {
           "type": "h1",
@@ -135,8 +136,17 @@
             "align": "center"
           }
         },
+        "19f909f4-4b59-4906-b5c8-71ff3dafb9a2": {
+          "type": "content-image",
+          "settings": {
+            "image_align": "center",
+            "desktop_content_image_size": "50%",
+            "mobile_content_image_size": "75%"
+          }
+        },
         "16331271661a2536dc-1": {
           "type": "paragraph",
+          "disabled": true,
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
             "font-color": "#000000",
@@ -162,6 +172,7 @@
       },
       "block_order": [
         "16331271661a2536dc-0",
+        "19f909f4-4b59-4906-b5c8-71ff3dafb9a2",
         "16331271661a2536dc-1",
         "16331271661a2536dc-2"
       ],
@@ -169,6 +180,60 @@
         "heading": "",
         "background-color": "#f7f7f7",
         "col-number": "one-col",
+        "vertical-align-content": "center",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "16331279802ef961e9": {
+      "type": "ds-content",
+      "blocks": {
+        "16331279802ef961e9-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Proposta de valor do seu produto",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "16331279802ef961e9-1": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "16331279802ef961e9-2": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
+            "link": "#MainContent",
+            "text": "Comprar agora",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "16331279802ef961e9-0",
+        "16331279802ef961e9-1",
+        "16331279802ef961e9-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#ffffff",
+        "col-number": "two-col",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -202,48 +267,22 @@
         "container-width": "medium"
       }
     },
-    "16331279802ef961e9": {
+    "16331280472170462e": {
       "type": "ds-content",
       "blocks": {
-        "16331279802ef961e9-0": {
-          "type": "h1",
+        "ce539ea1-5fb8-4459-a2d8-63e646a7a546": {
+          "type": "content-image",
           "settings": {
-            "text": "Lorem Ipsum",
-            "font-color": "#000000",
-            "font-size": "2",
-            "font-weight": "600",
-            "align": "center"
-          }
-        },
-        "16331279802ef961e9-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "font-color": "#000000",
-            "font-size": "1",
-            "font-weight": "400",
-            "align": "center"
-          }
-        },
-        "16331279802ef961e9-2": {
-          "type": "cta",
-          "settings": {
-            "font-color": "#ffffff",
-            "background-color": "#19c149",
-            "link": "#MainContent",
-            "text": "Saiba mais",
-            "font-size": "1",
-            "font-weight": "400",
-            "cta-align": "center",
-            "border-radius": "20px",
-            "pulse": false
+            "image_align": "center",
+            "content_image": "shopify:\/\/shop_images\/Image-content-800-600.png",
+            "desktop_content_image_size": "100%",
+            "mobile_content_image": "shopify:\/\/shop_images\/Image-content-800-600.png",
+            "mobile_content_image_size": "100%"
           }
         }
       },
       "block_order": [
-        "16331279802ef961e9-0",
-        "16331279802ef961e9-1",
-        "16331279802ef961e9-2"
+        "ce539ea1-5fb8-4459-a2d8-63e646a7a546"
       ],
       "settings": {
         "heading": "",
@@ -261,7 +300,7 @@
         "1633128154584e0ea6-0": {
           "type": "h1",
           "settings": {
-            "text": "Lorem Ipsum",
+            "text": "Problema",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
@@ -308,28 +347,80 @@
         "container-width": "medium"
       }
     },
-    "16331280472170462e": {
+    "1634076078a37f165c": {
       "type": "ds-content",
       "blocks": {
-        "ce539ea1-5fb8-4459-a2d8-63e646a7a546": {
+        "1634076078a37f165c-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "1634076078a37f165c-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "1634076078a37f165c-2": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "1634076078a37f165c-0",
+        "1634076078a37f165c-1",
+        "1634076078a37f165c-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "col-number": "two-col",
+        "vertical-align-content": "center",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "1634077563068299f7": {
+      "type": "ds-content",
+      "blocks": {
+        "84803a96-2d75-47a2-8897-363df60e55a5": {
           "type": "content-image",
           "settings": {
             "image_align": "center",
             "content_image": "shopify:\/\/shop_images\/Image-content-800-600.png",
             "desktop_content_image_size": "100%",
-            "mobile_content_image": "shopify:\/\/shop_images\/Image-content-800-600.png",
-            "mobile_content_image_size": "100%"
+            "mobile_content_image_size": "75%"
           }
         }
       },
       "block_order": [
-        "ce539ea1-5fb8-4459-a2d8-63e646a7a546"
+        "84803a96-2d75-47a2-8897-363df60e55a5"
       ],
       "settings": {
         "heading": "",
-        "background-color": "#ffffff",
+        "background-color": "#FFFFFF",
         "col-number": "two-col",
-        "vertical-align-content": "center",
+        "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium"
@@ -1269,10 +1360,12 @@
     "product-recommendations",
     "main",
     "16331271661a2536dc",
-    "1633128043fab6d108",
     "16331279802ef961e9",
-    "1633128154584e0ea6",
+    "1633128043fab6d108",
     "16331280472170462e",
+    "1633128154584e0ea6",
+    "1634076078a37f165c",
+    "1634077563068299f7",
     "16335611852f6c4e87",
     "1633126998b7f565f1",
     "16331284866b5b8180",
