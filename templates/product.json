@@ -124,7 +124,6 @@
     },
     "16331271661a2536dc": {
       "type": "ds-content",
-      "disabled": true,
       "blocks": {
         "16331271661a2536dc-0": {
           "type": "h1",
@@ -140,15 +139,17 @@
           "type": "content-image",
           "settings": {
             "image_align": "center",
+            "content_image": "shopify:\/\/shop_images\/Image-content-800-600.png",
             "desktop_content_image_size": "50%",
-            "mobile_content_image_size": "75%"
+            "mobile_content_image": "shopify:\/\/shop_images\/Image-content-800-600.png",
+            "mobile_content_image_size": "100%"
           }
         },
         "16331271661a2536dc-1": {
           "type": "paragraph",
           "disabled": true,
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
