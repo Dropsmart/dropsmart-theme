@@ -1145,7 +1145,7 @@
         "aa08e51e-ad80-49ec-af8e-0c30be282c89": {
           "type": "paragraph",
           "settings": {
-            "text": "<p><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<\/p>",
+            "text": "<p><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<br\/><\/strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
