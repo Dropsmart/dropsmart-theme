@@ -62,7 +62,7 @@
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-offer-tag\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
             "background_color": "#eac21c",
-            "sale_text": "5% OFF NO PIX",
+            "sale_text": "Desconto de",
             "font_color": "#ffffff",
             "font_size": "0.75",
             "border_radius": "50px"
