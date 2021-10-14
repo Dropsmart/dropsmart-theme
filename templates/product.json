@@ -46,7 +46,7 @@
           "settings": {
             "background_color": "#eac21c",
             "sale_text_before": "",
-            "show_percentage": false,
+            "show_percentage": true,
             "sale_text_after": "OFF",
             "font_color": "#ffffff",
             "font_size": "0.75",
