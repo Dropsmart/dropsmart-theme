@@ -46,8 +46,8 @@
           "settings": {
             "background_color": "#eac21c",
             "sale_text_before": "PROMOÇÃO",
-            "show_percentage": false,
-            "sale_text_after": "",
+            "show_percentage": true,
+            "sale_text_after": "DE DESCONTO",
             "font_color": "#ffffff",
             "font_size": "0.75",
             "border_radius": "50px"
