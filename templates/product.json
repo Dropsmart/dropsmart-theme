@@ -45,9 +45,9 @@
           "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-offer-tag\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
             "background_color": "#eac21c",
-            "sale_text_before": "APENAS HOJE:",
-            "show_percentage": true,
-            "sale_text_after": "DE DESCONTO",
+            "sale_text_before": "12x SEM JUROS",
+            "show_percentage": false,
+            "sale_text_after": "",
             "font_color": "#ffffff",
             "font_size": "0.75",
             "border_radius": "50px"
