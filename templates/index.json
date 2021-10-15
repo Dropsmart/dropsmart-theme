@@ -132,7 +132,7 @@
       "type": "ds-content",
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-small",
@@ -155,7 +155,6 @@
         },
         "16342617969ada473b-1": {
           "type": "paragraph",
-          "disabled": true,
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
             "font-color": "#000000",
@@ -171,12 +170,12 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#fff",
+        "background-color": "#ffffff",
         "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
-        "container-width": "medium"
+        "container-width": "small"
       }
     },
     "1633124760eaf99c18": {
@@ -286,7 +285,7 @@
       ],
       "settings": {
         "heading": "provaSocial",
-        "background-color": "#fff",
+        "background-color": "#ffffff",
         "feature-basis": 3,
         "col-number": "one-col",
         "padding": "space-around-large",
@@ -374,8 +373,8 @@
           "type": "cta",
           "disabled": true,
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Saiba mais",
             "font-size": "1",
@@ -393,7 +392,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
