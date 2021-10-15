@@ -155,6 +155,18 @@
         "show_view_all": false
       }
     },
+    "16342620320f1c47e0": {
+      "type": "ds-content",
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "col-number": "one-col",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-small",
+        "no-padding": "no-padding-bottom",
+        "container-width": "medium"
+      }
+    },
     "16342617969ada473b": {
       "type": "ds-content",
       "blocks": {
@@ -550,6 +562,7 @@
     "1633124748ff26461d",
     "1633125040f23b2f23",
     "16331250446d3efe43",
+    "16342620320f1c47e0",
     "16342617969ada473b",
     "1633124760eaf99c18",
     "1633125475d8c2cf40",
