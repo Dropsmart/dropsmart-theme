@@ -56,6 +56,18 @@
           "disabled": true,
           "settings": {
           }
+        },
+        "b87d85f2-0a2d-4c57-8c33-d74f9e68539a": {
+          "type": "shopify:\/\/apps\/dropsmart-starter-app\/blocks\/ds-block-offer-tag\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+          "settings": {
+            "background_color": "#DA2F20",
+            "sale_text_before": "Em 12x sem juros",
+            "show_percentage": false,
+            "sale_text_after": "",
+            "font_color": "#FFFFFF",
+            "font_size": "0.85",
+            "border_radius": "5px"
+          }
         }
       },
       "block_order": [
@@ -67,7 +79,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "b87d85f2-0a2d-4c57-8c33-d74f9e68539a"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -954,7 +967,7 @@
         "cd9e8e9c-be32-4139-a903-e96141a18385": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -976,8 +989,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -990,7 +1003,7 @@
         "97596271-2077-42b5-91f6-50b07e1af4ac": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -1012,8 +1025,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
@@ -1026,7 +1039,7 @@
         "bc56845f-47f1-434c-a7ea-195804fc6aa6": {
           "type": "feature",
           "settings": {
-            "background-color": "#FFFFFF",
+            "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
             "border-radius": "15px",
             "has-shadow": true,
@@ -1048,8 +1061,8 @@
             "description-font-weight": "400",
             "description-align": "center",
             "has-cta": false,
-            "cta-font-color": "#FFFFFF",
-            "cta-background-color": "#19C149",
+            "cta-font-color": "#ffffff",
+            "cta-background-color": "#19c149",
             "cta-text": "Saiba mais",
             "link": "#",
             "cta-font-weight": "400",
