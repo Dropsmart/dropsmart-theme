@@ -161,7 +161,7 @@
         "16342617969ada473b-0": {
           "type": "h1",
           "settings": {
-            "text": "Lorem Ipsum",
+            "text": "Prova social",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
@@ -170,6 +170,7 @@
         },
         "16342617969ada473b-1": {
           "type": "paragraph",
+          "disabled": true,
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
             "font-color": "#000000",
@@ -177,34 +178,19 @@
             "font-weight": "400",
             "align": "center"
           }
-        },
-        "16342617969ada473b-2": {
-          "type": "cta",
-          "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
-            "link": "#MainContent",
-            "text": "Saiba mais",
-            "font-size": "1",
-            "font-weight": "400",
-            "cta-align": "center",
-            "border-radius": "20px",
-            "pulse": false
-          }
         }
       },
       "block_order": [
         "16342617969ada473b-0",
-        "16342617969ada473b-1",
-        "16342617969ada473b-2"
+        "16342617969ada473b-1"
       ],
       "settings": {
         "heading": "",
-        "background-color": "#f3f3f3",
+        "background-color": "#fff",
         "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
-        "no-padding": "no-padding-bottom",
+        "no-padding": "",
         "container-width": "medium"
       }
     },
@@ -315,11 +301,11 @@
       ],
       "settings": {
         "heading": "provaSocial",
-        "background-color": "#ffffff",
+        "background-color": "#fff",
         "feature-basis": 3,
         "col-number": "one-col",
         "padding": "space-around-large",
-        "no-padding": "",
+        "no-padding": "no-padding-top",
         "container-width": "medium"
       }
     },
@@ -374,6 +360,60 @@
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium"
+      }
+    },
+    "1634261952a223a79d": {
+      "type": "ds-content",
+      "blocks": {
+        "1634261952a223a79d-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Garantias",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "1634261952a223a79d-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "1634261952a223a79d-2": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "1634261952a223a79d-0",
+        "1634261952a223a79d-1",
+        "1634261952a223a79d-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "col-number": "one-col",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "small"
       }
     },
     "1633124247b46225fe": {
@@ -499,7 +539,7 @@
         "feature-basis": 3,
         "col-number": "one-col",
         "padding": "space-around-large",
-        "no-padding": "",
+        "no-padding": "no-padding-top",
         "container-width": "medium"
       }
     }
@@ -513,6 +553,7 @@
     "16342617969ada473b",
     "1633124760eaf99c18",
     "1633125475d8c2cf40",
+    "1634261952a223a79d",
     "1633124247b46225fe"
   ]
 }
