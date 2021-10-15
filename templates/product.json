@@ -1,18 +1,5 @@
 {
   "sections": {
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "disabled": true,
-      "settings": {
-        "heading": "Você também vai gostar:",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
     "main": {
       "type": "ds-main-product",
       "blocks": {
@@ -1166,10 +1153,22 @@
         "no-padding": "",
         "container-width": "medium"
       }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "Você também vai gostar:",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
-    "product-recommendations",
     "main",
     "16331271661a2536dc",
     "16331279802ef961e9",
@@ -1186,6 +1185,7 @@
     "1634078442f84d7a2f",
     "16340782754248816d",
     "1632860390ac093171",
-    "16328605733cd2b562"
+    "16328605733cd2b562",
+    "product-recommendations"
   ]
 }
