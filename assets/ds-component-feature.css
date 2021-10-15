@@ -154,3 +154,31 @@
         flex-direction: column;
     }
 }
+
+.ds-component-feature.flex-basis-1:nth-child(n) {
+    margin-bottom: 4rem;
+}
+
+.ds-component-feature.flex-basis-2:nth-child(2n) {
+    margin-bottom: 4rem;
+}
+
+.ds-component-feature.flex-basis-3:nth-child(3n) {
+    margin-bottom: 4rem;
+}
+
+.ds-component-feature.flex-basis-4:nth-child(4n) {
+    margin-bottom: 4rem;
+}
+
+.ds-component-feature.flex-basis-5:nth-child(5n) {
+    margin-bottom: 4rem;
+}
+
+.ds-component-feature.flex-basis-1:last-child,
+.ds-component-feature.flex-basis-2:last-child,
+.ds-component-feature.flex-basis-3:last-child, 
+.ds-component-feature.flex-basis-4:last-child,
+.ds-component-feature.flex-basis-5:last-child {
+    margin-bottom: 0rem;
+}
