@@ -28,6 +28,17 @@
           "settings": {
           }
         },
+        "e0f56851-20b3-4697-ac66-46f1252dbaf4": {
+          "type": "shopify:\/\/apps\/dropsmart-light-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+          "settings": {
+            "installment_number": "3",
+            "installment_number_font_color": "#121212",
+            "installment_number_font_size": "0.85",
+            "installment_price": "0000",
+            "installment_price_font_color": "#19c149",
+            "installment_price_font_size": "1.5"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -73,6 +84,7 @@
         "title",
         "subtitle",
         "price",
+        "e0f56851-20b3-4697-ac66-46f1252dbaf4",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
