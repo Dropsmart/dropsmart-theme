@@ -1189,6 +1189,59 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1635192216b414bc7d": {
+      "type": "ds-content",
+      "blocks": {
+        "1635192216b414bc7d-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "1635192216b414bc7d-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "1635192216b414bc7d-2": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "1635192216b414bc7d-0",
+        "1635192216b414bc7d-1",
+        "1635192216b414bc7d-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "col-number": "one-col",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
     }
   },
   "order": [
@@ -1209,6 +1262,7 @@
     "16340782754248816d",
     "1632860390ac093171",
     "16328605733cd2b562",
-    "product-recommendations"
+    "product-recommendations",
+    "1635192216b414bc7d"
   ]
 }
