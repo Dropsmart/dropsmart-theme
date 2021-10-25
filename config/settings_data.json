@@ -94,7 +94,21 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "1634853361e1a14034": {
+        "type": "shopify:\/\/apps\/dropsmart-light-app\/blocks\/ds-block-sticky-buy-button\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "16351731908f5cce03": {
+        "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-sticky-buy-button\/732d8add-f649-4104-803b-f0a865215b2f",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
