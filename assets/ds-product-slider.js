@@ -938,8 +938,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
     primarySlider.sync(mobileSlider).mount();
 
     document.querySelector('input[name="id"]').addEventListener('change', function() {
-        if (document.querySelector('.splide-' + document.querySelector('input[name="id"]').value).dataset.position) {
-            primarySlider.go(document.querySelector('.splide-' + document.querySelector('input[name="id"]').value).dataset.position - 1);
+        console.log('changed', document.querySelector('input[name="id"]').value);
+        const position = document.querySelector('.splide-' + document.querySelector('input[name="id"]').value).dataset.position;
+        console.log(position);
+        if (position !== null && position !== undefined && position !== '') {
+            console.log(document.querySelector('.splide-' + document.querySelector('input[name="id"]').value).dataset.position);
+            primarySlider.go(document.querySelector('.splide-' + document.querySelector('input[name="id"]').value).dataset.position);
         }
     });
 });
