@@ -1,6 +1,6 @@
 <!-- DESKTOP -->
 <div id="{{section.settings.heading}}" style="background: {{section.settings.background-color}} {% if section.settings.background-image %} url('{{section.settings.background-image | img_url: 'master'}}') no-repeat center center; background-size: cover {% endif %}
-          ;" class="ds-lp-content {{ section.settings.col-number }} {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
+          ;" class="ds-lp-content one-col {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
     <div class="Container {{section.settings.padding}} {{section.settings.no-padding}}"
         style="align-self: {{section.settings.vertical-align-content}};">
         <div class="center_content container-{{section.settings.container-width}} flex-column">
@@ -422,26 +422,6 @@
           "id":"background-image",
           "type":"image_picker",
           "label":"Imagem de Fundo"
-       },
-       {
-         "type": "header",
-         "content": "Configurações de formatos"
-       },
-       {
-         "type":"select",
-         "id":"col-number",
-         "label":"Tamanho da Seção",
-         "options":[
-            {
-               "value":"one-col",
-               "label":"1 Coluna"
-            },
-            {
-               "value":"two-col",
-               "label":"1/2 Coluna"
-            }
-         ],
-         "default": "one-col"
        },
        {
          "type": "header",
