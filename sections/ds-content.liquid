@@ -10,6 +10,11 @@
                     {% case block.type %}
                         {%- when '@app' -%}
                            {% render block %}
+
+                        {%- when 'padding' -%}
+                           {% render 'ds-component-padding',
+                              padding: block.settings.padding,
+                           %}
                            
                         {% when 'h1' %}
                            {%- render 'ds-component-h1', 
@@ -81,6 +86,32 @@
     "blocks":[
       {
          "type": "@app"
+      },
+      {
+         "type": "padding",
+         "name": "Espaçamento",
+         "settings": [
+            {
+               "type":"select",
+               "id":"padding",
+               "options":[
+                  {
+                     "value":"space-around-small",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"space-around-regular",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"space-around-large",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"space-around-regular",
+               "label":"Espaçamento"
+            }
+         ]
       },
       {
          "type": "h1",
