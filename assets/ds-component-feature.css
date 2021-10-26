@@ -66,6 +66,14 @@
     padding: 1rem 1rem !important;
 }
 
+.flex-row.component-feature.feature-card {
+    padding: 0rem 0rem !important;
+}
+
+.flex-row > .component-feature-image-padding {
+    padding: 0 1rem 1rem !important;
+}
+
 @media (max-width: 768px) {
     .features.flex-row .component-feature.mobile-flex-column {
         align-self: flex-start;
@@ -82,10 +90,23 @@
 
 /* Cards flex-column */
 
-.flex-column.component-feature {
+.flex-column .component-feature {
     align-self: flex-start;
     padding: 3rem 3rem !important;
     margin: 0 1.5rem;
+}
+
+.flex-column > .component-feature-image-padding {
+    padding: 3rem 3rem 0 !important;
+}
+
+.flex-column > .component-feature-padding {
+    padding: 0 3rem 3rem !important;
+}
+
+/* TODO: REFACTOR COMPONENT FEATURE */
+.flex-column.component-feature.feature-card {
+    padding: 0rem 0rem !important;
 }
 
 .flex-column.component-feature.shadow {
@@ -94,6 +115,10 @@
 
 .flex-column.component-feature .image-wrapper img {
     margin-bottom: 2rem !important;
+}
+
+.flex-column.component-feature .image-wrapper {
+    width: 100%;
 }
 
 @media (max-width: 768px) {

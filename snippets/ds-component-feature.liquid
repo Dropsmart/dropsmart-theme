@@ -3,19 +3,25 @@
   class="ds-component ds-component-feature flex flex-basis-{{section.settings.feature-basis}} justify-{{block.settings.align}} {{block.settings.feature-display}}"
 >
   <div
-      style="
-        background: {{block.settings.background-color}};
-        border-radius: {{block.settings.border-radius}};
-      "
-    class="grow-0 flex justify-center {{block.settings.feature-width}} component-feature {{featureDisplay}} {{block.settings.mobile-feature-display}} isCard regular-small no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
+    style="
+      background: {{block.settings.background-color}};
+      border-radius: {{block.settings.border-radius}};
+    "
+    class="grow-0 flex justify-center {{block.settings.feature-width}} component-feature feature-card {{featureDisplay}} {{block.settings.mobile-feature-display}} isCard regular-small no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
     > 
       {% if block.settings.has-icon %}
-      <div class="flex image-wrapper grow-0 justify-center align-items-{{block.settings.image-align}}">
+      <div class="flex image-wrapper {% if block.settings.icon-size != '100%' %} component-feature-image-padding {% endif %} grow-0 justify-center align-items-{{block.settings.image-align}}">
         <img loading="lazy" class="mobile-hide" style="
             width: auto;
-            height: {{block.settings.icon-size}}px;
-            min-height: {{block.settings.icon-size}}px;
-            max-height: {{block.settings.icon-size}}px;
+            {% if block.settings.icon-size != '100%' %}
+              width: {{block.settings.icon-size}}px;
+              min-width: {{block.settings.icon-size}}px;
+              max-width: {{block.settings.icon-size}}px;
+            {% else %}
+              width: {{block.settings.icon-size}};
+              border-top-left-radius: {{block.settings.border-radius}};
+              border-top-right-radius: {{block.settings.border-radius}};
+            {% endif %}
           " 
           src="
           {% if block.settings.has-icon %}
@@ -27,9 +33,13 @@
         <img loading="lazy" class="desktop-hide" style="
             display: flex !important;
             height: auto;
-            width: {{block.settings.mobile-icon-size}}px;
-            min-width: {{block.settings.mobile-icon-size}}px;
-            max-width: {{block.settings.mobile-icon-size}}px;
+            {% if block.settings.icon-size != '100%' %}
+              width: {{block.settings.icon-size}}px;
+              min-width: {{block.settings.icon-size}}px;
+              max-width: {{block.settings.icon-size}}px;
+            {% else %}
+              width: {{block.settings.icon-size}};
+            {% endif %}
           " 
           src="
               {% if block.settings.has-icon-mobile %}
@@ -46,7 +56,7 @@
       </div>
       {% endif %}
       {% if block.settings.text != empty or block.settings.description-text != empty %}
-        <div class="content flex justify-center">
+        <div class="content flex component-feature-padding justify-center">
           {% if block.settings.text != empty %}
             {%- render 'ds-component-h3', 
               fontColor: block.settings.title-font-color, 
