@@ -1,0 +1,27 @@
+main#MainContent .ds-lp-content-two-column {
+    height: 100%;
+}
+
+main#MainContent .ds-lp-content-two-column .content {
+    width: 50%;
+    padding: 0 0.5em;
+}
+
+@media (max-width: 768px) {
+    main#MainContent .ds-lp-content-two-column .content {
+        width: 100%;
+        padding: 1em 0em;
+    }
+}
+
+main#MainContent .ds-lp-content-two-column img {
+    max-width: 100%;
+}
+
+main#MainContent .ds-lp-content-two-columnt .paragraph p {
+    color: inherit !important;
+}
+
+figure {
+    margin: 0;
+}

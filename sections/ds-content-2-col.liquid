@@ -1,0 +1,621 @@
+<!-- DESKTOP -->
+<div id="{{section.settings.heading}}" style="background: {{section.settings.background-color}} {% if section.settings.background-image %} url('{{section.settings.background-image | img_url: 'master'}}') no-repeat center center; background-size: cover {% endif %}
+          ;" class="ds-lp-content-two-column {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
+   <div class="Container {{section.settings.padding}} {{section.settings.no-padding}}"
+        style="align-self: {{section.settings.vertical-align-content}};">
+        <div class="center_content container-{{section.settings.container-width}} flex {% if section.settings.image-pos == 'right' %} flex-reverse {% else %} flex-row {% endif %} mobile-flex-column">
+            <div class="content flex flex-column" style="align-self: {{section.settings.vertical-align-content}};">
+               {% render "ds-component-content-image" style="size:{{block.settings.desktop_content_image_size}}em;", 
+                  contentImage: section.settings.content_image,
+                  mobileContentImage: section.settings.mobile_content_image,
+                  desktop_content_image_size: section.settings.desktop_content_image_size,
+                  mobile_content_image_size: section.settings.mobile_content_image_size
+                  image_align: 'center'
+               %}
+            </div>
+            <div class="content flex flex-column" style="align-self: {{section.settings.vertical-align-content}};">
+                {% for block in section.blocks %}
+                    {% case block.type %}
+                        {%- when '@app' -%}
+                           {% render block %}
+
+                        {%- when 'padding' -%}
+                           {% render 'ds-component-padding',
+                              padding: block.settings.padding,
+                           %}
+                           
+                        {% when 'h1' %}
+                           {%- render 'ds-component-h1', 
+                              fontColor: block.settings.font-color, 
+                              fontSize: block.settings.font-size, 
+                              align: block.settings.align,
+                              fontWeight: block.settings.font-weight,
+                              text: block.settings.text
+                           -%}
+
+                        {% when 'paragraph' %}
+                           {%- render 'ds-component-paragraph', 
+                              fontColor: block.settings.font-color, 
+                              fontSize: block.settings.font-size, 
+                              align: block.settings.align,
+                              fontWeight: block.settings.font-weight,
+                              text: block.settings.text
+                           -%}
+
+                        {% when 'content-image' %}
+                           {% render "ds-component-content-image" style="size:{{block.settings.desktop_content_image_size}}em;", 
+                              contentImage: block.settings.content_image,
+                              mobileContentImage: block.settings.mobile_content_image,
+                              desktop_content_image_size: block.settings.desktop_content_image_size,
+                              mobile_content_image_size: block.settings.mobile_content_image_size
+                              image_align: block.settings.image_align
+                           %}
+
+
+                        {% when 'cta' %}
+                           {%- render 'ds-component-cta',
+                              backgroundColor: block.settings.background-color, 
+                              fontColor: block.settings.font-color, 
+                              fontSize: block.settings.font-size,
+                              fontWeight: block.settings.font-weight 
+                              link: block.settings.link,
+                              borderRadius: block.settings.border-radius,
+                              align: block.settings.cta-align,
+                              text: block.settings.text,
+                              pulse: block.settings.pulse,
+                           -%}
+                    {% endcase %}
+                {% endfor %}
+            </div>    
+        </div>
+    </div>
+</div>
+{% schema %}
+{
+    "name":"DS Conteúdo 2 Colunas",
+    "class":"lp-content",
+    "presets": [
+      {
+        "name": "DS - Conteúdo 2 Colunas",
+        "blocks": [
+            {
+               "type": "h1"
+            },
+            {
+               "type": "paragraph"
+            },
+            {
+               "type": "cta"
+            }
+         ]
+      }
+    ],
+    "blocks":[
+      {
+         "type": "@app"
+      },
+      {
+         "type": "padding",
+         "name": "Espaçamento",
+         "settings": [
+            {
+               "type":"select",
+               "id":"padding",
+               "options":[
+                  {
+                     "value":"space-around-small",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"space-around-regular",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"space-around-large",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"space-around-regular",
+               "label":"Espaçamento"
+            }
+         ]
+      },
+      {
+         "type": "h1",
+         "name": "Título H1",
+         "settings": [
+           {
+               "id": "text",
+               "type": "text",
+               "label": "Título",
+               "default": "Lorem Ipsum"
+           },
+           {
+             "type": "color",
+             "id": "font-color",
+             "label": "Cor da Fonte",
+             "default": "#000000"
+           },
+           {
+               "type": "select",
+               "id": "font-size",
+               "options": [
+                  { "value": "1.5", "label": "Pequeno"},
+                  { "value": "2", "label": "Médio"},
+                  { "value": "2.5", "label": "Grande"}
+               ],
+               "default": "2",
+               "label": "Tamanho da Fonte"
+           },
+           {
+              "type": "select",
+              "id": "font-weight",
+              "options": [
+                 { "value": "300", "label": "Fino"},
+                 { "value": "400", "label": "Normal"},
+                 { "value": "600", "label": "Negrito"},
+                 { "value": "900", "label": "Extra Negrito"}
+              ],
+              "default": "600",
+              "label": "Peso da Fonte"
+           },
+           {
+              "type": "select",
+              "id": "align",
+              "options": [
+                 { "value": "center", "label": "Centralizado"},
+                 { "value": "left", "label": "Esquerda"},
+                 { "value": "right", "label": "Direita"}
+              ],
+              "default": "center",
+              "label": "Alinhamento"
+           }
+         ]
+      },
+      {
+         "type": "paragraph",
+         "name": "Paragráfo",
+         "settings": [
+           {
+             "id": "text",
+             "type": "richtext",
+             "label": "Texto",
+             "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>"
+           },
+           {
+               "type": "color",
+               "id": "font-color",
+               "label": "Cor da Fonte",
+               "default": "#000000"
+           },
+           {
+               "type": "select",
+               "id": "font-size",
+               "options": [
+                  { "value": "0.85", "label": "Pequeno"},
+                  { "value": "1", "label": "Médio"},
+                  { "value": "1.25", "label": "Grande"}
+               ],
+               "default": "1",
+               "label": "Tamanho da Fonte"
+           },
+           {
+              "type": "select",
+              "id": "font-weight",
+              "options": [
+                 { "value": "300", "label": "Fino"},
+                 { "value": "400", "label": "Normal"},
+                 { "value": "600", "label": "Negrito"},
+                 { "value": "900", "label": "Extra Negrito"}
+              ],
+              "default": "400",
+              "label": "Peso da Fonte"
+           },
+           {
+              "type": "select",
+              "id": "align",
+              "options": [
+                 { "value": "center", "label": "Centralizado"},
+                 { "value": "left", "label": "Esquerda"},
+                 { "value": "right", "label": "Direita"}
+              ],
+              "default": "center",
+              "label": "Alinhamento"
+           }
+         ]
+      },
+      {
+         "type": "content-image",
+         "name": "Imagem no conteúdo",
+         "settings": [
+            {
+               "type":"header",
+               "content":"Alinhamento"
+            },
+            {
+               "type":"select",
+               "id":"image_align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento da imagem"
+            }, 
+            {
+               "type":"header",
+               "content":"Imagem em desktop"
+            },
+            {
+               "type": "image_picker",
+               "id": "content_image",
+               "label": "Imagem"
+            },
+            {
+               "type": "select",
+               "id": "desktop_content_image_size",
+               "options":[
+               {
+                     "value":"10%",
+                     "label":"Ícone"
+               },
+               {
+                     "value":"25%",
+                     "label":"Pequeno"
+               },
+               {
+                     "value":"50%",
+                     "label":"Médio"
+               },
+               {
+                     "value":"75%",
+                     "label":"Grande"
+               },
+               {
+                     "value":"100%",
+                     "label":"Máximo"
+               }
+               ],
+               "label": "Tamanho em Desktop",
+               "default": "50%"
+            },
+            {
+               "type":"header",
+               "content":"Imagem em dispositivo móvel"
+            },
+            {
+               "type": "image_picker",
+               "id": "mobile_content_image",
+               "label": "Imagem"
+            },
+            {
+               "type": "select",
+               "id": "mobile_content_image_size",
+               "options":[
+               {
+                     "value":"25%",
+                     "label":"Ícone"
+               },
+               {
+                     "value":"40%",
+                     "label":"Pequeno"
+               },
+               {
+                     "value":"60%",
+                     "label":"Médio"
+               },
+               {
+                     "value":"75%",
+                     "label":"Grande"
+               },
+               {
+                     "value":"100%",
+                     "label":"Máximo"
+               }
+               ],
+               "label": "Tamanho em Dispositivo Móvel",
+               "default": "75%"
+            }
+         ]
+      },
+      {
+         "type": "cta",
+         "name": "Botão (CTA)",
+         "settings": [
+           {
+             "type": "color",
+             "id": "font-color",
+             "label": "Cor da Fonte",
+             "default": "#FFFFFF"
+           },
+           {
+             "type": "color",
+             "id": "background-color",
+             "label": "Cor de Fundo",
+             "default": "#19C149"
+           },
+           {
+             "id": "link",
+             "type": "text",
+             "label": "Link do Botão",
+             "default": "#MainContent"
+           },
+           {
+             "id": "text",
+             "type": "text",
+             "label": "Texto do Botão",
+             "default": "Saiba mais"
+           },
+           {
+               "type": "select",
+               "id": "font-size",
+               "options": [
+                  { "value": "0.75", "label": "Pequeno"},
+                  { "value": "1", "label": "Médio"},
+                  { "value": "1.25", "label": "Grande"}
+               ],
+               "default": "1",
+               "label": "Tamanho da Fonte"
+           },
+           {
+            "type": "select",
+            "id": "font-weight",
+            "options": [
+               { "value": "300", "label": "Fino"},
+               { "value": "400", "label": "Normal"},
+               { "value": "600", "label": "Negrito"},
+               { "value": "900", "label": "Extra Negrito"}
+            ],
+            "default": "400",
+            "label": "Peso da Fonte"
+           },
+           {
+            "type": "select",
+            "id": "cta-align",
+            "options": [
+               { "value": "center", "label": "Centralizado"},
+               { "value": "left", "label": "Esquerda"},
+               { "value": "right", "label": "Direita"}
+            ],
+            "default": "center",
+            "label": "Alinhamento"
+          },
+          {
+               "id": "border-radius",
+               "type": "text",
+               "label": "Arredondamento de Borda",
+               "default": "20px"
+          },
+           {
+               "type":"checkbox",
+               "id": "pulse",
+               "label": "Botão animado (pulsante)",
+               "default": false
+           }
+         ]
+      }
+    ],
+    "settings":[
+       {
+          "id":"heading",
+          "type":"text",
+          "label":"Identificação da Seção"
+       },
+       {
+         "type": "paragraph",
+         "content": "Não utilize espaços! A identificação da seção tem como objetivo utilizar botões de ancoragem para a seção. Ex: Para o caso da identifação da seção ser 'novidades', no campo link do Botão, inserir '#novidades'"
+       },
+       {
+         "type": "header",
+         "content": "Configurações de Fundo"
+       },
+       {
+          "type":"color",
+          "id":"background-color",
+          "label":"Cor de Fundo",
+          "default":"#FFFFFF"
+       },
+       {
+          "id":"background-image",
+          "type":"image_picker",
+          "label":"Imagem de Fundo"
+       },
+       {
+         "type": "header",
+         "content": "Configurações da Imagem"
+       },
+       {
+         "type":"select",
+         "id":"image-pos",
+         "label":"Posição da Imagem",
+         "options":[
+            {
+               "value":"left",
+               "label":"Esquerda"
+            },
+            {
+               "value":"right",
+               "label":"Direita"
+            }
+         ],
+         "default": "right"
+       },
+      {
+         "type":"header",
+         "content":"Imagem em desktop"
+      },
+      {
+         "type": "image_picker",
+         "id": "content_image",
+         "label": "Imagem"
+      },
+      {
+         "type": "select",
+         "id": "desktop_content_image_size",
+         "options":[
+         {
+               "value":"10%",
+               "label":"Ícone"
+         },
+         {
+               "value":"25%",
+               "label":"Pequeno"
+         },
+         {
+               "value":"50%",
+               "label":"Médio"
+         },
+         {
+               "value":"75%",
+               "label":"Grande"
+         },
+         {
+               "value":"100%",
+               "label":"Máximo"
+         }
+         ],
+         "label": "Tamanho em Desktop",
+         "default": "50%"
+      },
+      {
+         "type":"header",
+         "content":"Imagem em dispositivo móvel"
+      },
+      {
+         "type": "image_picker",
+         "id": "mobile_content_image",
+         "label": "Imagem"
+      },
+      {
+         "type": "select",
+         "id": "mobile_content_image_size",
+         "options":[
+            {
+                  "value":"25%",
+                  "label":"Ícone"
+            },
+            {
+                  "value":"40%",
+                  "label":"Pequeno"
+            },
+            {
+                  "value":"60%",
+                  "label":"Médio"
+            },
+            {
+                  "value":"75%",
+                  "label":"Grande"
+            },
+            {
+                  "value":"100%",
+                  "label":"Máximo"
+            }
+         ],
+         "label": "Tamanho em Dispositivo Móvel",
+         "default": "75%"
+       },
+       {
+         "type": "header",
+         "content": "Configurações de tamanhos"
+       },
+       {
+          "type":"select",
+          "id":"vertical-align-content",
+          "options":[
+             {
+                "value":"center",
+                "label":"Centralizado"
+             },
+             {
+                "value":"flex-start",
+                "label":"Superior"
+             },
+             {
+                "value":"flex-end",
+                "label":"Inferior"
+             }
+          ],
+          "default":"flex-start",
+          "label":"Alinhamento Vertical"
+       },
+       {
+          "type":"select",
+          "id":"padding",
+          "options":[
+             {
+                "value":"space-around-small",
+                "label":"Pequeno"
+             },
+             {
+                "value":"space-around-regular",
+                "label":"Médio"
+             },
+             {
+                "value":"space-around-large",
+                "label":"Grande"
+             }
+          ],
+          "default":"space-around-regular",
+          "label":"Espaçamento da Seção"
+       },
+       {
+          "type":"select",
+          "id":"no-padding",
+          "options":[
+             {
+                "value":"no-padding-bottom",
+                "label":"Remover Inferior"
+             },
+             {
+                "value":"no-padding-top",
+                "label":"Remover Superior"
+             },
+             {
+                "value":"no-padding",
+                "label":"Remover Ambos"
+             },
+             {
+                "value":"",
+                "label":"Não Remover"
+             }
+          ],
+          "default":"",
+          "label":"Remover Espaçamento"
+       },
+       {
+          "type":"select",
+          "id":"container-width",
+          "options":[
+             {
+                "value":"full",
+                "label":"Grande"
+             },
+             {
+                "value":"medium",
+                "label":"Médio"
+             },
+             {
+                "value":"small",
+                "label":"Pequeno"
+             }
+          ],
+          "default":"medium",
+          "label":"Largura do conteúdo"
+       }
+    ]
+ }
+{% endschema %}
+
+{% stylesheet %} {% endstylesheet %}
+
+{% javascript %} {% endjavascript %}
