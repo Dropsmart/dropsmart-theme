@@ -15,6 +15,9 @@
                            {% render 'ds-component-padding',
                               padding: block.settings.padding,
                            %}
+
+                        {%- when 'block_custom_html' -%}
+                           {{block.settings.custom_html}}
                            
                         {% when 'h1' %}
                            {%- render 'ds-component-h1', 
@@ -86,6 +89,17 @@
     "blocks":[
       {
          "type": "@app"
+      },
+      {
+         "type": "block_custom_html",
+         "name": "Código HTML",
+         "settings": [
+            {
+               "type": "html",
+               "id": "custom_html",
+               "label": "Código"
+            }
+         ]
       },
       {
          "type": "padding",
