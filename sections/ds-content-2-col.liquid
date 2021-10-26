@@ -1,23 +1,31 @@
 <!-- DESKTOP -->
 <div id="{{section.settings.heading}}" style="background: {{section.settings.background-color}} {% if section.settings.background-image %} url('{{section.settings.background-image | img_url: 'master'}}') no-repeat center center; background-size: cover {% endif %}
-          ;" class="ds-lp-content one-col {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
-    <div class="Container {{section.settings.padding}} {{section.settings.no-padding}}"
+          ;" class="ds-lp-content-two-column {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
+   <div class="Container {{section.settings.padding}} {{section.settings.no-padding}}"
         style="align-self: {{section.settings.vertical-align-content}};">
-        <div class="center_content container-{{section.settings.container-width}} flex-column">
-
-            <div class="content">
+        <div class="center_content container-{{section.settings.container-width}} flex {% if section.settings.image-pos == 'right' %} flex-reverse {% else %} flex-row {% endif %} mobile-flex-column">
+            <div class="content flex flex-column" style="align-self: {{section.settings.vertical-align-content}};">
+               {% render "ds-component-content-image" style="size:{{block.settings.desktop_content_image_size}}em;", 
+                  contentImage: section.settings.content_image,
+                  mobileContentImage: section.settings.mobile_content_image,
+                  desktop_content_image_size: section.settings.desktop_content_image_size,
+                  mobile_content_image_size: section.settings.mobile_content_image_size
+                  image_align: 'center'
+               %}
+            </div>
+            <div class="content flex flex-column" style="align-self: {{section.settings.vertical-align-content}};">
                 {% for block in section.blocks %}
                     {% case block.type %}
                         {%- when '@app' -%}
                            {% render block %}
 
+                        {%- when 'block_custom_html' -%}
+                           {{block.settings.custom_html}}
+
                         {%- when 'padding' -%}
                            {% render 'ds-component-padding',
                               padding: block.settings.padding,
                            %}
-
-                        {%- when 'block_custom_html' -%}
-                           {{block.settings.custom_html}}
                            
                         {% when 'h1' %}
                            {%- render 'ds-component-h1', 
@@ -61,18 +69,17 @@
                            -%}
                     {% endcase %}
                 {% endfor %}
-            </div>
+            </div>    
         </div>
     </div>
 </div>
-
 {% schema %}
 {
-    "name":"Dropsmart Conteúdo",
+    "name":"DS Conteúdo 2 Colunas",
     "class":"lp-content",
     "presets": [
       {
-        "name": "Dropsmart - Conteúdo",
+        "name": "DS - Conteúdo 2 Colunas",
         "blocks": [
             {
                "type": "h1"
@@ -436,6 +443,100 @@
           "id":"background-image",
           "type":"image_picker",
           "label":"Imagem de Fundo"
+       },
+       {
+         "type": "header",
+         "content": "Configurações da Imagem"
+       },
+       {
+         "type":"select",
+         "id":"image-pos",
+         "label":"Posição da Imagem",
+         "options":[
+            {
+               "value":"left",
+               "label":"Esquerda"
+            },
+            {
+               "value":"right",
+               "label":"Direita"
+            }
+         ],
+         "default": "right"
+       },
+      {
+         "type":"header",
+         "content":"Imagem em desktop"
+      },
+      {
+         "type": "image_picker",
+         "id": "content_image",
+         "label": "Imagem"
+      },
+      {
+         "type": "select",
+         "id": "desktop_content_image_size",
+         "options":[
+         {
+               "value":"10%",
+               "label":"Ícone"
+         },
+         {
+               "value":"25%",
+               "label":"Pequeno"
+         },
+         {
+               "value":"50%",
+               "label":"Médio"
+         },
+         {
+               "value":"75%",
+               "label":"Grande"
+         },
+         {
+               "value":"100%",
+               "label":"Máximo"
+         }
+         ],
+         "label": "Tamanho em Desktop",
+         "default": "50%"
+      },
+      {
+         "type":"header",
+         "content":"Imagem em dispositivo móvel"
+      },
+      {
+         "type": "image_picker",
+         "id": "mobile_content_image",
+         "label": "Imagem"
+      },
+      {
+         "type": "select",
+         "id": "mobile_content_image_size",
+         "options":[
+            {
+                  "value":"25%",
+                  "label":"Ícone"
+            },
+            {
+                  "value":"40%",
+                  "label":"Pequeno"
+            },
+            {
+                  "value":"60%",
+                  "label":"Médio"
+            },
+            {
+                  "value":"75%",
+                  "label":"Grande"
+            },
+            {
+                  "value":"100%",
+                  "label":"Máximo"
+            }
+         ],
+         "label": "Tamanho em Dispositivo Móvel",
+         "default": "75%"
        },
        {
          "type": "header",

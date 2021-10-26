@@ -4,8 +4,33 @@
             {% if section.settings.background-image %} 
                url('{{section.settings.background-image | img_url: 'master'}}') no-repeat center center; background-size: cover 
             {% endif %}
-          ;" class="ds-lp-content {{ section.settings.col-number }} {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
+          ;" class="ds-lp-content one-col {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
     <div class="Container {{section.settings.padding}} {{section.settings.no-padding}}">
+      <div class="center_content container-small flex-column">
+         <div class="content">
+                           
+            {% if section.settings.title_text %}
+               {%- render 'ds-component-h1', 
+                  fontColor: section.settings.title_font_color, 
+                  fontSize: section.settings.title_font_size, 
+                  align: section.settings.title_align,
+                  fontWeight: section.settings.title_font_weight,
+                  text: section.settings.title_text
+               -%}
+            {% endif %}
+
+            {% if section.settings.description_text %}
+               {%- render 'ds-component-paragraph', 
+                  fontColor: section.settings.description_font_color, 
+                  fontSize: section.settings.description_font_size, 
+                  align: section.settings.description_align,
+                  fontWeight: section.settings.description_font_weight,
+                  text: section.settings.description_text
+               -%}
+            {% endif %}
+            <span>
+         </div>
+      </div>   
       <div class="center_content container-{{section.settings.container-width}} flex-column">  
         <div class="features flex flex-row mobile-flex-row justify-center">
             {% for block in section.blocks %}
@@ -152,6 +177,10 @@
                   {
                      "value":"128",
                      "label":"grande"
+                  },
+                  {
+                     "value":"100%",
+                     "label":"máximo"
                   }
                ],
                "default":"96",
@@ -172,6 +201,10 @@
                   {
                      "value":"96",
                      "label":"grande"
+                  },
+                  {
+                     "value":"100%",
+                     "label":"máximo"
                   }
                ],
                "default":"64",
@@ -481,22 +514,6 @@
          "default":3
       },
       {
-         "type":"select",
-         "id":"col-number",
-         "label":"Tamanho da Seção",
-         "options":[
-            {
-               "value":"one-col",
-               "label":"1 Coluna"
-            },
-            {
-               "value":"two-col",
-               "label":"1/2 Coluna"
-            }
-         ],
-         "default":"one-col"
-      },
-      {
          "type":"paragraph",
          "content":"É possível criar linhas com duas colunas utilizando essa opção, e também controlar a posição das colunas quando em dispositivos móveis"
       },
@@ -567,6 +584,158 @@
          ],
          "default":"medium",
          "label":"Largura do conteúdo"
+      },
+      {
+         "type":"header",
+         "content":"Título"
+      },
+      {
+         "id":"title_text",
+         "type":"text",
+         "label":"Título",
+         "default": "Lorem Ipsum"
+      },
+      {
+         "type":"color",
+         "id":"title_font_color",
+         "label":"Cor da Fonte",
+         "default":"#000000"
+      },
+      {
+         "type":"select",
+         "id":"title_font_size",
+         "options":[
+            {
+               "value":"1",
+               "label":"Pequeno"
+            },
+            {
+               "value":"1.25",
+               "label":"Médio"
+            },
+            {
+               "value":"1.5",
+               "label":"Grande"
+            }
+         ],
+         "default":"1.25",
+         "label":"Tamanho da fonte"
+      },
+      {
+         "type":"select",
+         "id":"title_font_weight",
+         "options":[
+            {
+               "value":"300",
+               "label":"Fino"
+            },
+            {
+               "value":"400",
+               "label":"Normal"
+            },
+            {
+               "value":"600",
+               "label":"Negrito"
+            }
+         ],
+         "default":"600",
+         "label":"Peso da Fonte"
+      },
+      {
+         "type":"select",
+         "id":"title_align",
+         "options":[
+            {
+               "value":"center",
+               "label":"Centralizado"
+            },
+            {
+               "value":"left",
+               "label":"Esquerda"
+            },
+            {
+               "value":"right",
+               "label":"Direita"
+            }
+         ],
+         "default":"center",
+         "label":"Alinhamento"
+      },
+      {
+         "type":"header",
+         "content":"Descrição"
+      },
+      {
+         "id":"description_text",
+         "type":"richtext",
+         "label":"Descrição",
+         "default":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>"
+      },
+      {
+         "type":"color",
+         "id":"description_font_color",
+         "label":"Cor da Fonte",
+         "default":"#000000"
+      },
+      {
+         "type":"select",
+         "id":"description_font_size",
+         "options":[
+            {
+               "value":"0.7",
+               "label":"Pequeno"
+            },
+            {
+               "value":"0.85",
+               "label":"Médio"
+            },
+            {
+               "value":"1",
+               "label":"Grande"
+            }
+         ],
+         "default":"0.85",
+         "label":"Tamanho da Fonte"
+      },
+      {
+         "type":"select",
+         "id":"description_font_weight",
+         "options":[
+            {
+               "value":"300",
+               "label":"Fino"
+            },
+            {
+               "value":"400",
+               "label":"Normal"
+            },
+            {
+               "value":"600",
+               "label":"Negrito"
+            }
+         ],
+         "default":"400",
+         "label":"Peso da Fonte"
+      },
+      {
+         "type":"select",
+         "id":"description_align",
+         "options":[
+            {
+               "value":"center",
+               "label":"Centralizado"
+            },
+            {
+               "value":"left",
+               "label":"Esquerda"
+            },
+            {
+               "value":"right",
+               "label":"Direita"
+            }
+         ],
+         "default":"center",
+         "label":"Alinhamento"
       }
    ]
 }
