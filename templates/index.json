@@ -253,12 +253,12 @@
         "container-width": "medium",
         "title_text": "Prova Social",
         "title_font_color": "#000000",
-        "title_font_size": "1.25",
+        "title_font_size": "2",
         "title_font_weight": "600",
         "title_align": "center",
         "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p>",
         "description_font_color": "#000000",
-        "description_font_size": "0.85",
+        "description_font_size": "1",
         "description_font_weight": "400",
         "description_align": "center"
       }
@@ -441,12 +441,12 @@
         "container-width": "medium",
         "title_text": "Garantias",
         "title_font_color": "#000000",
-        "title_font_size": "1.5",
+        "title_font_size": "2",
         "title_font_weight": "600",
         "title_align": "center",
         "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p>",
         "description_font_color": "#000000",
-        "description_font_size": "0.85",
+        "description_font_size": "1",
         "description_font_weight": "400",
         "description_align": "center"
       }
