@@ -395,20 +395,13 @@
             "border-radius": "20px",
             "pulse": false
           }
-        },
-        "d0af7cf3-5509-4088-8a94-3a6ad26778aa": {
-          "type": "block_custom_html",
-          "settings": {
-            "custom_html": "<div id=\"rastreio\"><\/div> <script> var a = document.createElement(\"script\"); a.src = \"https:\/\/rastreio.ninja\/w\/app.js?v=\" + Date.now(); document.head.appendChild(a); <\/script>"
-          }
         }
       },
       "block_order": [
         "1634261952a223a79d-0",
         "a3eed016-2e48-42c4-ba05-74fcdbd9c7a9",
         "1634261952a223a79d-1",
-        "1634261952a223a79d-2",
-        "d0af7cf3-5509-4088-8a94-3a6ad26778aa"
+        "1634261952a223a79d-2"
       ],
       "settings": {
         "heading": "",
