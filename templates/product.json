@@ -717,32 +717,6 @@
         "container-width": "small"
       }
     },
-    "1634078442f84d7a2f": {
-      "type": "ds-content",
-      "blocks": {
-        "1634078442f84d7a2f-0": {
-          "type": "h1",
-          "settings": {
-            "text": "Garantias",
-            "font-color": "#000000",
-            "font-size": "2",
-            "font-weight": "600",
-            "align": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1634078442f84d7a2f-0"
-      ],
-      "settings": {
-        "heading": "",
-        "background-color": "#f7f7f7",
-        "vertical-align-content": "flex-start",
-        "padding": "space-around-regular",
-        "no-padding": "no-padding-bottom",
-        "container-width": "medium"
-      }
-    },
     "16340782754248816d": {
       "type": "ds-features",
       "blocks": {
@@ -978,12 +952,12 @@
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium",
-        "title_text": "Lorem Ipsum",
+        "title_text": "Garantias",
         "title_font_color": "#000000",
         "title_font_size": "1.25",
         "title_font_weight": "600",
         "title_align": "center",
-        "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+        "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
         "description_font_color": "#000000",
         "description_font_size": "0.85",
         "description_font_weight": "400",
@@ -1024,7 +998,7 @@
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
-        "container-width": "medium"
+        "container-width": "small"
       }
     },
     "16328605733cd2b562": {
@@ -1060,115 +1034,8 @@
         "background-color": "#ffffff",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
-        "no-padding": "",
-        "container-width": "medium"
-      }
-    },
-    "1635192216b414bc7d": {
-      "type": "ds-content",
-      "blocks": {
-        "1635192216b414bc7d-0": {
-          "type": "h1",
-          "settings": {
-            "text": "Lorem Ipsum",
-            "font-color": "#000000",
-            "font-size": "2",
-            "font-weight": "600",
-            "align": "center"
-          }
-        },
-        "1635192216b414bc7d-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "font-color": "#000000",
-            "font-size": "1",
-            "font-weight": "400",
-            "align": "center"
-          }
-        },
-        "1635192216b414bc7d-2": {
-          "type": "cta",
-          "settings": {
-            "font-color": "#ffffff",
-            "background-color": "#19c149",
-            "link": "#MainContent",
-            "text": "Saiba mais",
-            "font-size": "1",
-            "font-weight": "400",
-            "cta-align": "center",
-            "border-radius": "20px",
-            "pulse": false
-          }
-        }
-      },
-      "block_order": [
-        "1635192216b414bc7d-0",
-        "1635192216b414bc7d-1",
-        "1635192216b414bc7d-2"
-      ],
-      "settings": {
-        "heading": "",
-        "background-color": "#ffffff",
-        "vertical-align-content": "flex-start",
-        "padding": "space-around-regular",
-        "no-padding": "",
-        "container-width": "medium"
-      }
-    },
-    "1635299816d725a696": {
-      "type": "ds-content-2-col",
-      "blocks": {
-        "1635299816d725a696-0": {
-          "type": "h1",
-          "settings": {
-            "text": "Lorem Ipsum",
-            "font-color": "#000000",
-            "font-size": "2",
-            "font-weight": "600",
-            "align": "center"
-          }
-        },
-        "1635299816d725a696-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "font-color": "#000000",
-            "font-size": "1",
-            "font-weight": "400",
-            "align": "center"
-          }
-        },
-        "1635299816d725a696-2": {
-          "type": "cta",
-          "settings": {
-            "font-color": "#ffffff",
-            "background-color": "#19c149",
-            "link": "#MainContent",
-            "text": "Saiba mais",
-            "font-size": "1",
-            "font-weight": "400",
-            "cta-align": "center",
-            "border-radius": "20px",
-            "pulse": false
-          }
-        }
-      },
-      "block_order": [
-        "1635299816d725a696-0",
-        "1635299816d725a696-1",
-        "1635299816d725a696-2"
-      ],
-      "settings": {
-        "heading": "",
-        "background-color": "#ffffff",
-        "image-pos": "left",
-        "desktop_content_image_size": "50%",
-        "mobile_content_image_size": "75%",
-        "vertical-align-content": "flex-start",
-        "padding": "space-around-regular",
-        "no-padding": "",
-        "container-width": "medium"
+        "no-padding": "no-padding-top",
+        "container-width": "small"
       }
     },
     "product-recommendations": {
@@ -1195,12 +1062,9 @@
     "163407788781d4db15",
     "16331284866b5b8180",
     "1634076078a37f165c",
-    "1634078442f84d7a2f",
     "16340782754248816d",
     "1632860390ac093171",
     "16328605733cd2b562",
-    "1635192216b414bc7d",
-    "1635299816d725a696",
     "product-recommendations"
   ]
 }
