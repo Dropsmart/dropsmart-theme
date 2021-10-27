@@ -53,7 +53,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "hide_cart_button": false
           }
         },
@@ -1282,8 +1282,8 @@
         "1635299816d725a696-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Saiba mais",
             "font-size": "1",
@@ -1301,7 +1301,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "image-pos": "left",
         "desktop_content_image_size": "50%",
         "mobile_content_image_size": "75%",
