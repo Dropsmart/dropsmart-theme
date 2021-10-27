@@ -4,9 +4,69 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "1635300079cc52f51d": {
+      "type": "ds-content",
+      "blocks": {
+        "1635300079cc52f51d-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "1635300079cc52f51d-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "1635300079cc52f51d-2": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        },
+        "29981834-f7a9-472d-8a4c-4e0fcd54bc91": {
+          "type": "block_custom_html",
+          "settings": {
+            "custom_html": "<div id=\"rastreio\"><\/div> <script> var a = document.createElement(\"script\"); a.src = \"https:\/\/rastreio.ninja\/w\/app.js?v=\" + Date.now(); document.head.appendChild(a); <\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "1635300079cc52f51d-0",
+        "1635300079cc52f51d-1",
+        "1635300079cc52f51d-2",
+        "29981834-f7a9-472d-8a4c-4e0fcd54bc91"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1635300079cc52f51d"
   ]
 }
