@@ -133,7 +133,6 @@
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-small",
         "no-padding": "no-padding-bottom",
@@ -171,7 +170,6 @@
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -287,10 +285,19 @@
         "heading": "provaSocial",
         "background-color": "#ffffff",
         "feature-basis": 3,
-        "col-number": "one-col",
         "padding": "space-around-large",
         "no-padding": "no-padding-top",
-        "container-width": "medium"
+        "container-width": "medium",
+        "title_text": "Lorem Ipsum",
+        "title_font_color": "#000000",
+        "title_font_size": "1.25",
+        "title_font_weight": "600",
+        "title_align": "center",
+        "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+        "description_font_color": "#000000",
+        "description_font_size": "0.85",
+        "description_font_weight": "400",
+        "description_align": "center"
       }
     },
     "1633125475d8c2cf40": {
@@ -339,7 +346,6 @@
       "settings": {
         "heading": "",
         "background-color": "#f1f1f1",
-        "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -357,6 +363,12 @@
             "font-size": "2",
             "font-weight": "600",
             "align": "center"
+          }
+        },
+        "a3eed016-2e48-42c4-ba05-74fcdbd9c7a9": {
+          "type": "padding",
+          "settings": {
+            "padding": "space-around-large"
           }
         },
         "1634261952a223a79d-1": {
@@ -383,17 +395,24 @@
             "border-radius": "20px",
             "pulse": false
           }
+        },
+        "d0af7cf3-5509-4088-8a94-3a6ad26778aa": {
+          "type": "block_custom_html",
+          "settings": {
+            "custom_html": "<div id=\"rastreio\"><\/div> <script> var a = document.createElement(\"script\"); a.src = \"https:\/\/rastreio.ninja\/w\/app.js?v=\" + Date.now(); document.head.appendChild(a); <\/script>"
+          }
         }
       },
       "block_order": [
         "1634261952a223a79d-0",
+        "a3eed016-2e48-42c4-ba05-74fcdbd9c7a9",
         "1634261952a223a79d-1",
-        "1634261952a223a79d-2"
+        "1634261952a223a79d-2",
+        "d0af7cf3-5509-4088-8a94-3a6ad26778aa"
       ],
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -521,10 +540,19 @@
         "heading": "",
         "background-color": "#ffffff",
         "feature-basis": 3,
-        "col-number": "one-col",
         "padding": "space-around-large",
         "no-padding": "no-padding-top",
-        "container-width": "medium"
+        "container-width": "medium",
+        "title_text": "",
+        "title_font_color": "#000000",
+        "title_font_size": "1.25",
+        "title_font_weight": "600",
+        "title_align": "center",
+        "description_text": "<p><\/p><p><\/p>",
+        "description_font_color": "#000000",
+        "description_font_size": "0.85",
+        "description_font_weight": "400",
+        "description_align": "center"
       }
     }
   },

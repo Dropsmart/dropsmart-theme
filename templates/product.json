@@ -156,7 +156,6 @@
       "settings": {
         "heading": "",
         "background-color": "#f7f7f7",
-        "col-number": "one-col",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -210,7 +209,6 @@
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "col-number": "two-col",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -237,7 +235,6 @@
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "col-number": "two-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -290,7 +287,6 @@
       "settings": {
         "heading": "",
         "background-color": "#f7f7f7",
-        "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -343,7 +339,6 @@
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "col-number": "two-col",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -370,7 +365,6 @@
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "col-number": "two-col",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -409,7 +403,6 @@
       "settings": {
         "heading": "beneficios",
         "background-color": "#f7f7f7",
-        "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "no-padding-bottom",
@@ -574,10 +567,19 @@
         "heading": "",
         "background-color": "#f7f7f7",
         "feature-basis": 4,
-        "col-number": "one-col",
         "padding": "space-around-regular",
         "no-padding": "",
-        "container-width": "full"
+        "container-width": "full",
+        "title_text": "Lorem Ipsum",
+        "title_font_color": "#000000",
+        "title_font_size": "1.25",
+        "title_font_weight": "600",
+        "title_align": "center",
+        "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+        "description_font_color": "#000000",
+        "description_font_size": "0.85",
+        "description_font_weight": "400",
+        "description_align": "center"
       }
     },
     "163407788781d4db15": {
@@ -626,7 +628,6 @@
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -664,7 +665,6 @@
       "settings": {
         "heading": "",
         "background-color": "#f7f7f7",
-        "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "no-padding-bottom",
@@ -777,10 +777,19 @@
         "heading": "provaSocial",
         "background-color": "#f7f7f7",
         "feature-basis": 3,
-        "col-number": "one-col",
         "padding": "space-around-regular",
         "no-padding": "",
-        "container-width": "medium"
+        "container-width": "medium",
+        "title_text": "Lorem Ipsum",
+        "title_font_color": "#000000",
+        "title_font_size": "1.25",
+        "title_font_weight": "600",
+        "title_align": "center",
+        "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+        "description_font_color": "#000000",
+        "description_font_size": "0.85",
+        "description_font_weight": "400",
+        "description_align": "center"
       }
     },
     "1634076078a37f165c": {
@@ -829,7 +838,6 @@
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "col-number": "one-col",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -856,7 +864,6 @@
       "settings": {
         "heading": "",
         "background-color": "#f7f7f7",
-        "col-number": "one-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "no-padding-bottom",
@@ -1095,10 +1102,19 @@
         "heading": "",
         "background-color": "#f7f7f7",
         "feature-basis": 3,
-        "col-number": "one-col",
         "padding": "space-around-regular",
         "no-padding": "",
-        "container-width": "medium"
+        "container-width": "medium",
+        "title_text": "Lorem Ipsum",
+        "title_font_color": "#000000",
+        "title_font_size": "1.25",
+        "title_font_weight": "600",
+        "title_align": "center",
+        "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+        "description_font_color": "#000000",
+        "description_font_size": "0.85",
+        "description_font_weight": "400",
+        "description_align": "center"
       }
     },
     "1632860390ac093171": {
@@ -1132,7 +1148,6 @@
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "col-number": "two-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -1170,7 +1185,6 @@
       "settings": {
         "heading": "",
         "background-color": "#ffffff",
-        "col-number": "two-col",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -1216,8 +1230,8 @@
         "1635192216b414bc7d-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Saiba mais",
             "font-size": "1",
@@ -1235,8 +1249,62 @@
       ],
       "settings": {
         "heading": "",
+        "background-color": "#ffffff",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "1635299816d725a696": {
+      "type": "ds-content-2-col",
+      "blocks": {
+        "1635299816d725a696-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "1635299816d725a696-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "1635299816d725a696-2": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "1635299816d725a696-0",
+        "1635299816d725a696-1",
+        "1635299816d725a696-2"
+      ],
+      "settings": {
+        "heading": "",
         "background-color": "#FFFFFF",
-        "col-number": "one-col",
+        "image-pos": "left",
+        "desktop_content_image_size": "50%",
+        "mobile_content_image_size": "75%",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -1263,6 +1331,7 @@
     "1632860390ac093171",
     "16328605733cd2b562",
     "product-recommendations",
-    "1635192216b414bc7d"
+    "1635192216b414bc7d",
+    "1635299816d725a696"
   ]
 }
