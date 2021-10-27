@@ -544,43 +544,6 @@
         "container-width": "small"
       }
     },
-    "1634078135cf75e541": {
-      "type": "ds-content",
-      "blocks": {
-        "1634078135cf75e541-0": {
-          "type": "h1",
-          "settings": {
-            "text": "Prova social",
-            "font-color": "#000000",
-            "font-size": "2",
-            "font-weight": "600",
-            "align": "center"
-          }
-        },
-        "48346075-1667-48f8-a8da-449b6b40a959": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "font-color": "#000000",
-            "font-size": "1",
-            "font-weight": "400",
-            "align": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1634078135cf75e541-0",
-        "48346075-1667-48f8-a8da-449b6b40a959"
-      ],
-      "settings": {
-        "heading": "",
-        "background-color": "#f7f7f7",
-        "vertical-align-content": "flex-start",
-        "padding": "space-around-regular",
-        "no-padding": "no-padding-bottom",
-        "container-width": "small"
-      }
-    },
     "16331284866b5b8180": {
       "type": "ds-testimonial",
       "blocks": {
@@ -690,12 +653,12 @@
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium",
-        "title_text": "Lorem Ipsum",
+        "title_text": "Prova social",
         "title_font_color": "#000000",
         "title_font_size": "1.25",
         "title_font_weight": "600",
         "title_align": "center",
-        "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+        "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
         "description_font_color": "#000000",
         "description_font_size": "0.85",
         "description_font_weight": "400",
@@ -1230,7 +1193,6 @@
     "1635346888d6dfe42a",
     "1633126998b7f565f1",
     "163407788781d4db15",
-    "1634078135cf75e541",
     "16331284866b5b8180",
     "1634076078a37f165c",
     "1634078442f84d7a2f",
