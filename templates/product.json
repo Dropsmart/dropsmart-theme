@@ -212,6 +212,13 @@
     "16353467996fe1b86c": {
       "type": "ds-content-2-col",
       "blocks": {
+        "0d4e7003-a3d6-444e-a2a8-c0e81733d279": {
+          "type": "padding",
+          "disabled": true,
+          "settings": {
+            "padding": "space-around-regular"
+          }
+        },
         "16353467996fe1b86c-0": {
           "type": "h1",
           "settings": {
@@ -248,6 +255,7 @@
         }
       },
       "block_order": [
+        "0d4e7003-a3d6-444e-a2a8-c0e81733d279",
         "16353467996fe1b86c-0",
         "16353467996fe1b86c-1",
         "16353467996fe1b86c-2"
@@ -1050,6 +1058,120 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1635376690b12db5d6": {
+      "type": "ds-content-2-col",
+      "blocks": {
+        "1635376690b12db5d6-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "1635376690b12db5d6-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "1635376690b12db5d6-2": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "1635376690b12db5d6-0",
+        "1635376690b12db5d6-1",
+        "1635376690b12db5d6-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "image-pos": "right",
+        "desktop_content_image_size": "50%",
+        "mobile_content_image_size": "75%",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
+    },
+    "163537708445937997": {
+      "type": "ds-content",
+      "blocks": {
+        "163537708445937997-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Lorem Ipsum",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "163537708445937997-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "163537708445937997-2": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        },
+        "15d89e8a-be61-4b89-8ef1-2f550bd3dd2b": {
+          "type": "block_custom_html",
+          "settings": {
+            "custom_html": "<div id=\"rastreio\"><\/div> <script> var a = document.createElement(\"script\"); a.src = \"https:\/\/rastreio.ninja\/w\/app.js?v=\" + Date.now(); document.head.appendChild(a); <\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "163537708445937997-0",
+        "163537708445937997-1",
+        "163537708445937997-2",
+        "15d89e8a-be61-4b89-8ef1-2f550bd3dd2b"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
+      }
     }
   },
   "order": [
@@ -1065,6 +1187,8 @@
     "16340782754248816d",
     "1632860390ac093171",
     "16328605733cd2b562",
-    "product-recommendations"
+    "product-recommendations",
+    "1635376690b12db5d6",
+    "163537708445937997"
   ]
 }
