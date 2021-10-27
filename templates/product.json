@@ -125,8 +125,8 @@
         "16353465194c5522ac-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Comprar agora",
             "font-size": "1",
@@ -180,8 +180,8 @@
         "163534652626a1f237-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Comprar agora",
             "font-size": "1",
@@ -199,7 +199,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "image-pos": "left",
         "desktop_content_image_size": "50%",
         "mobile_content_image_size": "75%",
@@ -235,8 +235,8 @@
         "16353467996fe1b86c-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Comprar agora",
             "font-size": "1",
@@ -290,8 +290,8 @@
         "1635346888d6dfe42a-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Comprar agora",
             "font-size": "1",
@@ -309,7 +309,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#FFFFFF",
+        "background-color": "#ffffff",
         "image-pos": "left",
         "desktop_content_image_size": "50%",
         "mobile_content_image_size": "75%",
@@ -655,12 +655,12 @@
         "container-width": "medium",
         "title_text": "Prova social",
         "title_font_color": "#000000",
-        "title_font_size": "1.25",
+        "title_font_size": "2",
         "title_font_weight": "600",
         "title_align": "center",
         "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
         "description_font_color": "#000000",
-        "description_font_size": "0.85",
+        "description_font_size": "1",
         "description_font_weight": "400",
         "description_align": "center"
       }
@@ -954,12 +954,12 @@
         "container-width": "medium",
         "title_text": "Garantias",
         "title_font_color": "#000000",
-        "title_font_size": "1.25",
+        "title_font_size": "2",
         "title_font_weight": "600",
         "title_align": "center",
         "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
         "description_font_color": "#000000",
-        "description_font_size": "0.85",
+        "description_font_size": "1",
         "description_font_weight": "400",
         "description_align": "center"
       }
