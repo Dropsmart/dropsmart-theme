@@ -98,10 +98,10 @@
         "enable_slide_show": true
       }
     },
-    "16331271661a2536dc": {
-      "type": "ds-content",
+    "16353465194c5522ac": {
+      "type": "ds-content-2-col",
       "blocks": {
-        "16331271661a2536dc-0": {
+        "16353465194c5522ac-0": {
           "type": "h1",
           "settings": {
             "text": "Proposta de valor",
@@ -111,32 +111,22 @@
             "align": "center"
           }
         },
-        "19f909f4-4b59-4906-b5c8-71ff3dafb9a2": {
-          "type": "content-image",
-          "settings": {
-            "image_align": "center",
-            "content_image": "shopify:\/\/shop_images\/Image-content-800-600.png",
-            "desktop_content_image_size": "50%",
-            "mobile_content_image": "shopify:\/\/shop_images\/Image-content-800-600.png",
-            "mobile_content_image_size": "100%"
-          }
-        },
-        "16331271661a2536dc-1": {
+        "16353465194c5522ac-1": {
           "type": "paragraph",
           "disabled": true,
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
             "align": "center"
           }
         },
-        "16331271661a2536dc-2": {
+        "16353465194c5522ac-2": {
           "type": "cta",
           "settings": {
-            "font-color": "#ffffff",
-            "background-color": "#19c149",
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
             "link": "#MainContent",
             "text": "Comprar agora",
             "font-size": "1",
@@ -148,14 +138,16 @@
         }
       },
       "block_order": [
-        "16331271661a2536dc-0",
-        "19f909f4-4b59-4906-b5c8-71ff3dafb9a2",
-        "16331271661a2536dc-1",
-        "16331271661a2536dc-2"
+        "16353465194c5522ac-0",
+        "16353465194c5522ac-1",
+        "16353465194c5522ac-2"
       ],
       "settings": {
         "heading": "",
         "background-color": "#f7f7f7",
+        "image-pos": "right",
+        "desktop_content_image_size": "50%",
+        "mobile_content_image_size": "75%",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -1191,19 +1183,6 @@
         "container-width": "medium"
       }
     },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "disabled": true,
-      "settings": {
-        "heading": "Você também vai gostar:",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
-      }
-    },
     "1635192216b414bc7d": {
       "type": "ds-content",
       "blocks": {
@@ -1310,11 +1289,24 @@
         "no-padding": "",
         "container-width": "medium"
       }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "Você também vai gostar:",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
     }
   },
   "order": [
     "main",
-    "16331271661a2536dc",
+    "16353465194c5522ac",
     "16331279802ef961e9",
     "1633128043fab6d108",
     "1634077675d117c890",
@@ -1330,8 +1322,8 @@
     "16340782754248816d",
     "1632860390ac093171",
     "16328605733cd2b562",
-    "product-recommendations",
     "1635192216b414bc7d",
-    "1635299816d725a696"
+    "1635299816d725a696",
+    "product-recommendations"
   ]
 }
