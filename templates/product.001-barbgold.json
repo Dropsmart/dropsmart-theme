@@ -579,8 +579,8 @@
         "1634076078a37f165c-0": {
           "type": "h1",
           "settings": {
-            "text": "Escassez",
-            "font-color": "#000000",
+            "text": "Sucesso nos EUA",
+            "font-color": "#ffffff",
             "font-size": "2",
             "font-weight": "600",
             "align": "center"
@@ -589,8 +589,8 @@
         "1634076078a37f165c-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "font-color": "#000000",
+            "text": "<p>A BarbGold® é sucesso de vendas no Japão e Estados Unidos e agora, <strong>por tempo limitado<\/strong>, temos algumas unidades em estoque. Garanta qualidade e segurança comprando em nossa loja. Nós somos os <strong>revendedores oficiais e exclusivos<\/strong> da BarbGold® no Brasil.<\/p>",
+            "font-color": "#ffffff",
             "font-size": "1",
             "font-weight": "400",
             "align": "center"
@@ -618,7 +618,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#ffffff",
+        "background-color": "#333333",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -865,7 +865,7 @@
         "title_font_size": "2",
         "title_font_weight": "600",
         "title_align": "center",
-        "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
+        "description_text": "",
         "description_font_color": "#000000",
         "description_font_size": "1",
         "description_font_weight": "400",
@@ -888,7 +888,7 @@
         "aa08e51e-ad80-49ec-af8e-0c30be282c89": {
           "type": "paragraph",
           "settings": {
-            "text": "<p><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<br\/><\/strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<\/p>",
+            "text": "<p><strong>Como é o carregamento do BarbGold®?<\/strong><br\/>O carregamento do BarbGold® é feito através de um cabo USB e pode ser carregado em qualquer lugar!<br\/><br\/><strong>O BarbGold® corta qualquer tipo de cabelo?<br\/><\/strong>Sim, o BarbGold® é ideal para qualquer tipo de barba e cabelo!<br\/><br\/><strong>A bateria é durável?<\/strong><br\/>Com certeza! A bateria do BarbGold® dura 6 horas, te dando a tranquilidade de usar em qualquer lugar!<\/p><p><br\/><strong>Tenho garantia?<\/strong><br\/>A Loja Mimus oferece garantia contra qualquer defeito de fábrica durante 90 dias.<\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -906,43 +906,6 @@
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
-        "container-width": "small"
-      }
-    },
-    "16328605733cd2b562": {
-      "type": "ds-content",
-      "blocks": {
-        "55f7b861-e1eb-4ddc-8de8-5d6ed9d09f57": {
-          "type": "h1",
-          "settings": {
-            "text": "Especificações técnicas",
-            "font-color": "#000000",
-            "font-size": "1.5",
-            "font-weight": "600",
-            "align": "left"
-          }
-        },
-        "16328605733cd2b562-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<\/p>",
-            "font-color": "#000000",
-            "font-size": "1",
-            "font-weight": "400",
-            "align": "left"
-          }
-        }
-      },
-      "block_order": [
-        "55f7b861-e1eb-4ddc-8de8-5d6ed9d09f57",
-        "16328605733cd2b562-1"
-      ],
-      "settings": {
-        "heading": "",
-        "background-color": "#ffffff",
-        "vertical-align-content": "flex-start",
-        "padding": "space-around-regular",
-        "no-padding": "no-padding-top",
         "container-width": "small"
       }
     },
@@ -971,7 +934,6 @@
     "1634076078a37f165c",
     "16340782754248816d",
     "1632860390ac093171",
-    "16328605733cd2b562",
     "product-recommendations"
   ]
 }
