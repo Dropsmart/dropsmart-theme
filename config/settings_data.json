@@ -104,7 +104,7 @@
       },
       "16351731908f5cce03": {
         "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-sticky-buy-button\/732d8add-f649-4104-803b-f0a865215b2f",
-        "disabled": false,
+        "disabled": true,
         "settings": {
         }
       }
