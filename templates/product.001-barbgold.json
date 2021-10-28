@@ -104,7 +104,7 @@
         "16353465194c5522ac-0": {
           "type": "h1",
           "settings": {
-            "text": "Proposta de valor",
+            "text": "A solução para peles irritadas pelas giletes comuns!",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
@@ -160,7 +160,7 @@
         "163534652626a1f237-0": {
           "type": "h1",
           "settings": {
-            "text": "Problema",
+            "text": "Cansado da pele irritada e vermelhidão causado pelas giletes comuns?",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
@@ -170,7 +170,7 @@
         "163534652626a1f237-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "text": "<p>O atrito que as giletes comuns têm com a pele não só tiram o pelo de maneira agressiva, como podem causar lesões e até mesmo alergias.<\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -203,7 +203,7 @@
         "image-pos": "left",
         "desktop_content_image_size": "50%",
         "mobile_content_image_size": "75%",
-        "vertical-align-content": "flex-start",
+        "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium"
@@ -212,17 +212,10 @@
     "16353467996fe1b86c": {
       "type": "ds-content-2-col",
       "blocks": {
-        "0d4e7003-a3d6-444e-a2a8-c0e81733d279": {
-          "type": "padding",
-          "disabled": true,
-          "settings": {
-            "padding": "space-around-regular"
-          }
-        },
         "16353467996fe1b86c-0": {
           "type": "h1",
           "settings": {
-            "text": "Causa",
+            "text": "Corte com precisão",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
@@ -232,7 +225,7 @@
         "16353467996fe1b86c-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "text": "<p>A BarbGold® tem o <strong>corte<\/strong> e <strong>precisão<\/strong> ideais para fazer barba e cabelo. Seu corte é fino e rente a pele, como na navalha.<\/p><p>Além de uma finalização <strong>perfeita<\/strong>, a BarbGold® é portátil e possui um motor potente, rápido e silencioso.<\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -255,7 +248,6 @@
         }
       },
       "block_order": [
-        "0d4e7003-a3d6-444e-a2a8-c0e81733d279",
         "16353467996fe1b86c-0",
         "16353467996fe1b86c-1",
         "16353467996fe1b86c-2"
@@ -266,62 +258,7 @@
         "image-pos": "right",
         "desktop_content_image_size": "50%",
         "mobile_content_image_size": "75%",
-        "vertical-align-content": "flex-start",
-        "padding": "space-around-regular",
-        "no-padding": "",
-        "container-width": "medium"
-      }
-    },
-    "1635346888d6dfe42a": {
-      "type": "ds-content-2-col",
-      "blocks": {
-        "1635346888d6dfe42a-0": {
-          "type": "h1",
-          "settings": {
-            "text": "Solução",
-            "font-color": "#000000",
-            "font-size": "2",
-            "font-weight": "600",
-            "align": "center"
-          }
-        },
-        "1635346888d6dfe42a-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "font-color": "#000000",
-            "font-size": "1",
-            "font-weight": "400",
-            "align": "center"
-          }
-        },
-        "1635346888d6dfe42a-2": {
-          "type": "cta",
-          "settings": {
-            "font-color": "#ffffff",
-            "background-color": "#19c149",
-            "link": "#MainContent",
-            "text": "Comprar agora",
-            "font-size": "1",
-            "font-weight": "400",
-            "cta-align": "center",
-            "border-radius": "20px",
-            "pulse": false
-          }
-        }
-      },
-      "block_order": [
-        "1635346888d6dfe42a-0",
-        "1635346888d6dfe42a-1",
-        "1635346888d6dfe42a-2"
-      ],
-      "settings": {
-        "heading": "",
-        "background-color": "#ffffff",
-        "image-pos": "left",
-        "desktop_content_image_size": "50%",
-        "mobile_content_image_size": "75%",
-        "vertical-align-content": "flex-start",
+        "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium"
@@ -483,17 +420,17 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#f7f7f7",
+        "background-color": "#e8e8e8",
         "feature-basis": 4,
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "full",
-        "title_text": "Benefícios",
+        "title_text": "",
         "title_font_color": "#000000",
         "title_font_size": "1.25",
         "title_font_weight": "600",
         "title_align": "center",
-        "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
+        "description_text": "",
         "description_font_color": "#000000",
         "description_font_size": "0.85",
         "description_font_weight": "400",
@@ -1065,7 +1002,6 @@
     "16353465194c5522ac",
     "163534652626a1f237",
     "16353467996fe1b86c",
-    "1635346888d6dfe42a",
     "1633126998b7f565f1",
     "163407788781d4db15",
     "16331284866b5b8180",
