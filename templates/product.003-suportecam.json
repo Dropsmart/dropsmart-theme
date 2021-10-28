@@ -104,11 +104,11 @@
         "16353465194c5522ac-0": {
           "type": "h1",
           "settings": {
-            "text": "Proposta de valor",
+            "text": "Fotos e vídeos profissionais num estalar de dedos!",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
-            "align": "center"
+            "align": "left"
           }
         },
         "16353465194c5522ac-1": {
@@ -131,7 +131,7 @@
             "text": "Comprar agora",
             "font-size": "1",
             "font-weight": "400",
-            "cta-align": "center",
+            "cta-align": "left",
             "border-radius": "20px",
             "pulse": false
           }
@@ -160,21 +160,21 @@
         "163534652626a1f237-0": {
           "type": "h1",
           "settings": {
-            "text": "Problema",
+            "text": "Cansado de não caber todo mundo na foto?",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
-            "align": "center"
+            "align": "left"
           }
         },
         "163534652626a1f237-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "text": "<p><strong>Com certeza<\/strong> você já passou pela situação de se <strong>apertar<\/strong> pra sair na foto ou tirou fotos <strong>tremidas<\/strong> e gravou vídeos<strong> sem estabilidade.<\/strong><\/p><p>Sem um suporte <strong>adequado<\/strong> para tirar fotos e gravar vídeos, as chances de <strong>danificar<\/strong> o celular com quedas <strong>aumentam consideravelmente<\/strong>, além de <strong>não garantir<\/strong> um registro de <strong>qualidade<\/strong>.<\/p><p><\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
-            "align": "center"
+            "align": "left"
           }
         },
         "163534652626a1f237-2": {
