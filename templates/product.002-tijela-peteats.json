@@ -485,7 +485,7 @@
       "settings": {
         "heading": "",
         "background-color": "#f7f7f7",
-        "feature-basis": 4,
+        "feature-basis": 3,
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "full",
