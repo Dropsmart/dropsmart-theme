@@ -406,8 +406,8 @@
         "163407788781d4db15-0": {
           "type": "h1",
           "settings": {
-            "text": "Exclusividade",
-            "font-color": "#000000",
+            "text": "Atenção",
+            "font-color": "#ffffff",
             "font-size": "2",
             "font-weight": "600",
             "align": "center"
@@ -416,8 +416,8 @@
         "163407788781d4db15-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "font-color": "#000000",
+            "text": "<p>O <strong>SuportCan®<\/strong> é vendido no Brasil exclusivamente pela nossa loja. Não nos responsabilizamos por qualquer problema ocasionado por réplicas e\/ou produtos não adquiridos em nosso site.<\/p>",
+            "font-color": "#ffffff",
             "font-size": "1",
             "font-weight": "400",
             "align": "center"
@@ -445,7 +445,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#ffffff",
+        "background-color": "#333333",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -579,8 +579,8 @@
         "1634076078a37f165c-0": {
           "type": "h1",
           "settings": {
-            "text": "Escassez",
-            "font-color": "#000000",
+            "text": "Sucesso nos EUA!",
+            "font-color": "#ffffff",
             "font-size": "2",
             "font-weight": "600",
             "align": "center"
@@ -589,8 +589,8 @@
         "1634076078a37f165c-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
-            "font-color": "#000000",
+            "text": "<p>O SuportCan® é sucesso de vendas nos Estados Unidos e agora, <strong>por tempo limitado<\/strong>, temos algumas unidades em estoque. Garanta qualidade e segurança comprando em nossa loja. Nós somos os <strong>revendedores oficiais e exclusivos<\/strong> do SuportCan® no Brasil.<\/p><p><\/p>",
+            "font-color": "#ffffff",
             "font-size": "1",
             "font-weight": "400",
             "align": "center"
@@ -618,7 +618,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#ffffff",
+        "background-color": "#333333",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
