@@ -115,7 +115,7 @@
           "type": "paragraph",
           "disabled": true,
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -160,7 +160,7 @@
         "163534652626a1f237-0": {
           "type": "h1",
           "settings": {
-            "text": "Problema",
+            "text": "Seu gatinho tem refluxo e vomita?",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
@@ -170,7 +170,7 @@
         "163534652626a1f237-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "text": "<p>Além do <strong>desconforto<\/strong> na hora de comer, seu gatinho precisa <strong>inclinar o pescoço<\/strong> para alcançar o alimento. Com o passar do tempo, isso pode acarretar <strong>dores e lesões<\/strong> sérias na <strong>coluna vertebral<\/strong>.<\/p><p><br\/><br\/><\/p><p><\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -222,7 +222,7 @@
         "16353467996fe1b86c-0": {
           "type": "h1",
           "settings": {
-            "text": "Causa",
+            "text": "Um problema diário",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
@@ -232,7 +232,7 @@
         "16353467996fe1b86c-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "text": "<p><br\/>Com as tigelas comuns, seu gato precisa se <strong>alimentar em pé<\/strong>. Isso faz com que seu esôfago fique abaixo do estômago, contribuindo para que ele tenha <strong>refluxos e vômito após as refeições<\/strong>.<br\/><br\/><\/p><p><\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -278,7 +278,7 @@
         "1635346888d6dfe42a-0": {
           "type": "h1",
           "settings": {
-            "text": "Solução",
+            "text": "Por que comprar a Peteats® se posso elevar minhas tijelas comuns?",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
@@ -288,7 +288,7 @@
         "1635346888d6dfe42a-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "text": "<p>Além da elevação do PetEats®, que permite que as tigelas fiquem na altura <strong>ideal<\/strong> para eles alcançarem água e comida, o PetEats® possui <strong>inclinação de 15 graus<\/strong> nas tijelas, que protegem o <strong>pescoço<\/strong> e <strong>coluna vertebral<\/strong> do seu bichinho!<\/p><p><br\/><br\/><\/p><p><\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -344,12 +344,12 @@
             "image-align": "center",
             "icon-size": "96",
             "mobile-icon-size": "64",
-            "text": "Lorem Ipsum",
+            "text": "Elevado e inclinado",
             "title-font-color": "#000000",
             "font-size": "1.25",
             "font-weight": "600",
             "align": "center",
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p>",
+            "description-text": "<p>O suporte do PetEats® possui elevação de 70mm, que garante a inclinação da tigela em 15 graus, protegendo <strong>efetivamente<\/strong> o pescoço do seu bichinho de estimação.<br\/><br\/><\/p>",
             "description-font-color": "#000000",
             "description-font-size": "0.85",
             "description-font-weight": "400",
@@ -380,12 +380,12 @@
             "image-align": "center",
             "icon-size": "96",
             "mobile-icon-size": "64",
-            "text": "Lorem Ipsum",
+            "text": "Material resistente",
             "title-font-color": "#000000",
             "font-size": "1.25",
             "font-weight": "600",
             "align": "center",
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p>",
+            "description-text": "<p>O PetEats® é feito em Policarbonato, material altamente <strong>resistente<\/strong> e <strong>não tóxico<\/strong>, garantindo a <strong>segurança<\/strong> do seu felino!<br\/><br\/><\/p>",
             "description-font-color": "#000000",
             "description-font-size": "0.85",
             "description-font-weight": "400",
@@ -416,12 +416,12 @@
             "image-align": "center",
             "icon-size": "96",
             "mobile-icon-size": "64",
-            "text": "Lorem Ipsum",
+            "text": "Custo benefício",
             "title-font-color": "#000000",
             "font-size": "1.25",
             "font-weight": "600",
             "align": "center",
-            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<\/p>",
+            "description-text": "<p>Por proteger o pescoço e a coluna vertebral dos gatinhos e ter material <strong>super durável<\/strong>, o PetEats® é <strong>perfeito <\/strong>para gatos idosos!<br\/><br\/><\/p>",
             "description-font-color": "#000000",
             "description-font-size": "0.85",
             "description-font-weight": "400",
@@ -440,6 +440,7 @@
         },
         "8828beb1-5695-45f2-93d6-b6d5c18589e8": {
           "type": "feature",
+          "disabled": true,
           "settings": {
             "background-color": "#ffffff",
             "vertical-align-content": "flex-start",
@@ -506,7 +507,7 @@
         "163407788781d4db15-0": {
           "type": "h1",
           "settings": {
-            "text": "Exclusividade",
+            "text": "Peteats® é único e exclusivo",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
@@ -516,7 +517,7 @@
         "163407788781d4db15-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "text": "<p>Apenas elevar as tigelas comuns <strong>não resolvem o problema.<\/strong> Com o PetEats® seu gato <strong>nunca mais <\/strong>passará por desconforto ao se alimentar!<br\/><br\/><\/p><p><\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -679,7 +680,7 @@
         "1634076078a37f165c-0": {
           "type": "h1",
           "settings": {
-            "text": "Escassez",
+            "text": "Sucesso de vendas nos EUA!",
             "font-color": "#000000",
             "font-size": "2",
             "font-weight": "600",
@@ -689,7 +690,7 @@
         "1634076078a37f165c-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "text": "<p>O PetEats® é sucesso de vendas no Japão e Estados Unidos e agora, por tempo limitado, temos algumas unidades em estoque. Garanta qualidade e segurança comprando em nossa loja. Nós somos os <strong>revendedores oficiais e exclusivos<\/strong> do PetEats® no Brasil.<br\/><br\/><\/p><p><\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -988,7 +989,7 @@
         "aa08e51e-ad80-49ec-af8e-0c30be282c89": {
           "type": "paragraph",
           "settings": {
-            "text": "<p><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<br\/><\/strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<br\/><br\/><strong>Lorem ipsum dolor sit amet?<\/strong><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio.<\/p>",
+            "text": "<p><strong>Quais as cores disponíveis?<\/strong><br\/>Temos modelos nas cores branco, transparente, preto e misto.<br\/><br\/><strong>Qual a diferença do PetEats® para o suporte comum?<\/strong><br\/>O PetEats® possui elevação de 70 mm e inclinação da tigela de 15 graus, permitindo que seu gato não sofra na hora de se alimentar, garantindo a segurança do seu pescoço e coluna vertebral.<br\/><br\/><strong>Qual a capacidade?<\/strong><br\/>A capacidade é de 180g para comida e 120ml para água.<br\/><\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -1025,7 +1026,7 @@
         "16328605733cd2b562-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<br\/><br\/><strong>Lorem ipsum<\/strong><br\/>Lorem ipsum dolor sit amet<\/p>",
+            "text": "<p><strong>Tamanho<\/strong><\/p><p>24cm x 13cm x 7cm<\/p><p><br\/><strong>Inclinação<\/strong><br\/>15°<\/p><p><br\/><strong>Material<\/strong><br\/>Policarbonato, material super resistente e não tóxico<\/p><p><br\/><strong>Cores<\/strong><br\/>Branco, transparente, preto e misto<br\/><\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
