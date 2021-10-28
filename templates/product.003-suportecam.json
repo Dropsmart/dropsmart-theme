@@ -290,7 +290,7 @@
             "font-size": "1.25",
             "font-weight": "600",
             "align": "center",
-            "description-text": "<p>O SuportCan® é portátil, pode ser usado em qualquer lugar e em qualquer superfície!<br\/><br\/><br\/><br\/><\/p>",
+            "description-text": "<p>O SuportCan® é portátil, pode ser <strong>usado em qualquer lugar<\/strong> e em qualquer superfície! Fácil de instalar e fácil de usar.<br\/><br\/><br\/><\/p>",
             "description-font-color": "#000000",
             "description-font-size": "0.85",
             "description-font-weight": "400",
