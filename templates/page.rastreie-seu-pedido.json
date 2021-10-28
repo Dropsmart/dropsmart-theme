@@ -2,11 +2,82 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "1635454835c71f2cc0": {
+      "type": "ds-banner",
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "content_image": "shopify:\/\/shop_images\/Banner-1920-600.png"
+      }
+    },
+    "1635454846ef657fc1": {
+      "type": "ds-content",
+      "blocks": {
+        "1635454846ef657fc1-0": {
+          "type": "h1",
+          "settings": {
+            "text": "Rastreie seu pedido",
+            "font-color": "#000000",
+            "font-size": "2",
+            "font-weight": "600",
+            "align": "center"
+          }
+        },
+        "1635454846ef657fc1-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Adicione o código de rastreio do seu pedido no campo abaixo para localizá-lo.<\/p>",
+            "font-color": "#000000",
+            "font-size": "1",
+            "font-weight": "400",
+            "align": "center"
+          }
+        },
+        "1635454846ef657fc1-2": {
+          "type": "cta",
+          "disabled": true,
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        },
+        "902b5622-11d3-4e90-8cee-8d1cad0d4405": {
+          "type": "block_custom_html",
+          "settings": {
+            "custom_html": "<div id=\"rastreio\"><\/div> <script> var a = document.createElement(\"script\"); a.src = \"https:\/\/rastreio.ninja\/w\/app.js?v=\" + Date.now(); document.head.appendChild(a); <\/script>"
+          }
+        }
+      },
+      "block_order": [
+        "1635454846ef657fc1-0",
+        "1635454846ef657fc1-1",
+        "1635454846ef657fc1-2",
+        "902b5622-11d3-4e90-8cee-8d1cad0d4405"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "vertical-align-content": "flex-start",
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1635454835c71f2cc0",
+    "1635454846ef657fc1"
   ]
 }
