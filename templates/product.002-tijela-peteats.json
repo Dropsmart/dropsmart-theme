@@ -170,7 +170,7 @@
         "163534652626a1f237-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Além do <strong>desconforto<\/strong> na hora de comer, seu gatinho precisa <strong>inclinar o pescoço<\/strong> para alcançar o alimento. Com o passar do tempo, isso pode acarretar <strong>dores e lesões<\/strong> sérias na <strong>coluna vertebral<\/strong>.<\/p><p><br\/><br\/><\/p><p><\/p>",
+            "text": "<p>Além do <strong>desconforto<\/strong> na hora de comer, seu gatinho precisa <strong>inclinar o pescoço<\/strong> para alcançar o alimento. Com o passar do tempo, isso pode acarretar <strong>dores e lesões<\/strong> sérias na <strong>coluna vertebral<\/strong>.<\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -203,7 +203,7 @@
         "image-pos": "left",
         "desktop_content_image_size": "50%",
         "mobile_content_image_size": "75%",
-        "vertical-align-content": "flex-start",
+        "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium"
@@ -212,13 +212,6 @@
     "16353467996fe1b86c": {
       "type": "ds-content-2-col",
       "blocks": {
-        "0d4e7003-a3d6-444e-a2a8-c0e81733d279": {
-          "type": "padding",
-          "disabled": true,
-          "settings": {
-            "padding": "space-around-regular"
-          }
-        },
         "16353467996fe1b86c-0": {
           "type": "h1",
           "settings": {
@@ -232,7 +225,7 @@
         "16353467996fe1b86c-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p><br\/>Com as tigelas comuns, seu gato precisa se <strong>alimentar em pé<\/strong>. Isso faz com que seu esôfago fique abaixo do estômago, contribuindo para que ele tenha <strong>refluxos e vômito após as refeições<\/strong>.<br\/><br\/><\/p><p><\/p>",
+            "text": "<p>Com as tigelas comuns, seu gato precisa se <strong>alimentar em pé<\/strong>. Isso faz com que seu esôfago fique abaixo do estômago, contribuindo para que ele tenha <strong>refluxos e vômito após as refeições<\/strong>.<\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -255,7 +248,6 @@
         }
       },
       "block_order": [
-        "0d4e7003-a3d6-444e-a2a8-c0e81733d279",
         "16353467996fe1b86c-0",
         "16353467996fe1b86c-1",
         "16353467996fe1b86c-2"
@@ -266,7 +258,7 @@
         "image-pos": "right",
         "desktop_content_image_size": "50%",
         "mobile_content_image_size": "75%",
-        "vertical-align-content": "flex-start",
+        "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium"
@@ -288,7 +280,7 @@
         "1635346888d6dfe42a-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Além da elevação do PetEats®, que permite que as tigelas fiquem na altura <strong>ideal<\/strong> para eles alcançarem água e comida, o PetEats® possui <strong>inclinação de 15 graus<\/strong> nas tijelas, que protegem o <strong>pescoço<\/strong> e <strong>coluna vertebral<\/strong> do seu bichinho!<\/p><p><br\/><br\/><\/p><p><\/p>",
+            "text": "<p>Além da elevação do PetEats®, que permite que as tigelas fiquem na altura <strong>ideal<\/strong> para eles alcançarem água e comida, o PetEats® possui <strong>inclinação de 15 graus<\/strong> nas tijelas, que protegem o <strong>pescoço<\/strong> e <strong>coluna vertebral<\/strong> do seu bichinho!<\/p>",
             "font-color": "#000000",
             "font-size": "1",
             "font-weight": "400",
@@ -321,7 +313,7 @@
         "image-pos": "left",
         "desktop_content_image_size": "50%",
         "mobile_content_image_size": "75%",
-        "vertical-align-content": "flex-start",
+        "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
         "container-width": "medium"
@@ -508,7 +500,7 @@
           "type": "h1",
           "settings": {
             "text": "Peteats® é único e exclusivo",
-            "font-color": "#000000",
+            "font-color": "#ffffff",
             "font-size": "2",
             "font-weight": "600",
             "align": "center"
@@ -518,7 +510,7 @@
           "type": "paragraph",
           "settings": {
             "text": "<p>Apenas elevar as tigelas comuns <strong>não resolvem o problema.<\/strong> Com o PetEats® seu gato <strong>nunca mais <\/strong>passará por desconforto ao se alimentar!<br\/><br\/><\/p><p><\/p>",
-            "font-color": "#000000",
+            "font-color": "#ffffff",
             "font-size": "1",
             "font-weight": "400",
             "align": "center"
@@ -546,7 +538,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#ffffff",
+        "background-color": "#333333",
         "vertical-align-content": "flex-start",
         "padding": "space-around-regular",
         "no-padding": "",
@@ -681,7 +673,7 @@
           "type": "h1",
           "settings": {
             "text": "Sucesso de vendas nos EUA!",
-            "font-color": "#000000",
+            "font-color": "#ffffff",
             "font-size": "2",
             "font-weight": "600",
             "align": "center"
@@ -691,7 +683,7 @@
           "type": "paragraph",
           "settings": {
             "text": "<p>O PetEats® é sucesso de vendas no Japão e Estados Unidos e agora, por tempo limitado, temos algumas unidades em estoque. Garanta qualidade e segurança comprando em nossa loja. Nós somos os <strong>revendedores oficiais e exclusivos<\/strong> do PetEats® no Brasil.<br\/><br\/><\/p><p><\/p>",
-            "font-color": "#000000",
+            "font-color": "#ffffff",
             "font-size": "1",
             "font-weight": "400",
             "align": "center"
@@ -719,7 +711,7 @@
       ],
       "settings": {
         "heading": "",
-        "background-color": "#ffffff",
+        "background-color": "#333333",
         "vertical-align-content": "center",
         "padding": "space-around-regular",
         "no-padding": "",
