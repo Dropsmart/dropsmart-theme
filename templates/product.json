@@ -47,7 +47,7 @@
             "shipping_icon": "truck",
             "font_color": "#19c149",
             "font_size": "1",
-            "border_radius": "45"
+            "border_radius": "100px"
           }
         },
         "buy_buttons": {
