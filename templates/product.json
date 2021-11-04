@@ -44,8 +44,8 @@
           "settings": {
             "background_color": "#fbfbfb",
             "shipping_text": "Chegará entre",
-            "min_time": 14,
-            "max_time": 30,
+            "min_time": 38,
+            "max_time": 60,
             "shipping_icon": "truck",
             "font_color": "#19c149",
             "font_size": "0.75",
