@@ -42,13 +42,13 @@
         "9f7556b9-3a72-4a07-91e8-08599b6465dc": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-shipping-time\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "background_color": "#fbfbfb",
+            "background_color": "#ffffff",
             "shipping_text": "Chegará entre",
             "min_time": 10,
             "max_time": 30,
             "shipping_icon": "truck",
             "font_color": "#19c149",
-            "font_size": "0.75",
+            "font_size": "1",
             "border_radius": "100px"
           }
         },
