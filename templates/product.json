@@ -74,9 +74,9 @@
             "installment_number": "3",
             "installment_number_font_color": "#000000",
             "installment_number_font_size": "0.85",
-            "installment_price": "15",
+            "installment_price": "1500",
             "installment_price_font_color": "#000000",
-            "installment_price_font_size": "1.5"
+            "installment_price_font_size": "1.75"
           }
         }
       },
