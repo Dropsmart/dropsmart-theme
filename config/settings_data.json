@@ -100,8 +100,9 @@
         "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-sticky-buy-button\/732d8add-f649-4104-803b-f0a865215b2f",
         "disabled": false,
         "settings": {
-          "button_background_color": "#E5E5E5",
-          "button_position": "fix-top"
+          "button_background_color": "#e5e5e5",
+          "button_desktop_position": "fix-top-desktop",
+          "button_mobile_position": "fix-top-mobile"
         }
       }
     }
