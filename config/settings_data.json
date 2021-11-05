@@ -102,7 +102,7 @@
         "settings": {
           "button_background_color": "#f7f7f7",
           "button_desktop_position": "fix-bottom-desktop",
-          "button_mobile_position": "fix-top-mobile"
+          "button_mobile_position": "fix-bottom-mobile"
         }
       }
     }
