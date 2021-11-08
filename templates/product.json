@@ -75,9 +75,9 @@
             "hours": 5,
             "minutes": 5,
             "seconds": 5,
-            "font_color": "#FFFFFF",
+            "font_color": "#2ae118",
             "font_size": "0.85",
-            "background_color": "#DA2F20"
+            "background_color": "#ffffff"
           }
         }
       },
