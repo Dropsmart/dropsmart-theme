@@ -26,12 +26,12 @@
         "32dbd36f-2219-4451-ad2f-956d44ca9eae": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-urgency-countdown\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "day": 31,
-            "hours": 0,
+            "day": 10,
+            "hours": 18,
             "minutes": 0,
             "secods": 0,
-            "month": 12,
-            "year": 2026,
+            "month": 11,
+            "year": 2021,
             "font_color": "#e22120",
             "font_size": "2",
             "background_color": "#ffffff"
