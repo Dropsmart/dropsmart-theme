@@ -31,7 +31,7 @@
         "f0b30ae8-e12c-400e-8383-268588650106": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-installment\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "installment_number": "1",
+            "installment_number": "5",
             "installment_number_font_color": "#000000",
             "installment_number_font_size": "1",
             "installment_price_font_color": "#2ae118",
