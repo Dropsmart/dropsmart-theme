@@ -33,8 +33,7 @@
             "month": 11,
             "year": 2021,
             "font_color": "#e22120",
-            "font_size": "3",
-            "background_color": "#ffffff"
+            "font_size": "2"
           }
         },
         "price": {
