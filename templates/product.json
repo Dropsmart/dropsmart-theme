@@ -34,9 +34,9 @@
             "installment_number": "1",
             "installment_number_font_color": "#000000",
             "installment_number_font_size": "0.85",
+            "installment_price": "0000",
             "installment_price_font_color": "#2ae118",
-            "installment_price_font_size": "1.75",
-            "interest_rate": 10
+            "installment_price_font_size": "1.75"
           }
         },
         "variant_picker": {
@@ -67,6 +67,18 @@
           "type": "description",
           "settings": {
           }
+        },
+        "32dbd36f-2219-4451-ad2f-956d44ca9eae": {
+          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-urgency-countdown\/732d8add-f649-4104-803b-f0a865215b2f",
+          "settings": {
+            "days": 5,
+            "hours": 5,
+            "minutes": 5,
+            "seconds": 5,
+            "font_color": "#FFFFFF",
+            "font_size": "0.85",
+            "background_color": "#DA2F20"
+          }
         }
       },
       "block_order": [
@@ -79,7 +91,8 @@
         "quantity_selector",
         "buy_buttons",
         "share",
-        "description"
+        "description",
+        "32dbd36f-2219-4451-ad2f-956d44ca9eae"
       ],
       "settings": {
         "enable_sticky_info": true,
