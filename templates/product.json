@@ -33,7 +33,7 @@
           "settings": {
             "installment_number": "5",
             "installment_number_font_color": "#000000",
-            "installment_number_font_size": "1",
+            "installment_number_font_size": "0.85",
             "installment_price_font_color": "#2ae118",
             "installment_price_font_size": "1.75",
             "interest_rate": 10
