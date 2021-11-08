@@ -31,12 +31,12 @@
         "f0b30ae8-e12c-400e-8383-268588650106": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-installment\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "installment_number": "5",
+            "installment_number": "3",
             "installment_number_font_color": "#000000",
             "installment_number_font_size": "0.85",
-            "installment_price": "5000",
             "installment_price_font_color": "#2ae118",
-            "installment_price_font_size": "1.75"
+            "installment_price_font_size": "1.75",
+            "interest_rate": "0%"
           }
         },
         "variant_picker": {
@@ -48,17 +48,6 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
-          }
-        },
-        "9f7556b9-3a72-4a07-91e8-08599b6465dc": {
-          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-shipping-time\/732d8add-f649-4104-803b-f0a865215b2f",
-          "settings": {
-            "shipping_text": "Chegará entre",
-            "min_time": 7,
-            "max_time": 1,
-            "shipping_icon": "truck",
-            "font_color": "#19c149",
-            "font_size": "0.85"
           }
         },
         "buy_buttons": {
@@ -88,7 +77,6 @@
         "f0b30ae8-e12c-400e-8383-268588650106",
         "variant_picker",
         "quantity_selector",
-        "9f7556b9-3a72-4a07-91e8-08599b6465dc",
         "buy_buttons",
         "share",
         "description"
