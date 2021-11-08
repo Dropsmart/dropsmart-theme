@@ -36,7 +36,7 @@
             "installment_number_font_size": "1",
             "installment_price_font_color": "#2ae118",
             "installment_price_font_size": "1.5",
-            "interest_rate": "5"
+            "interest_rate": "10"
           }
         },
         "variant_picker": {
