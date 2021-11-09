@@ -38,7 +38,7 @@
             "margin_bottom": 0,
             "urgency_text": "PARA VOLTAR AO PREÇO NORMAL!",
             "text_font_size": 1.4,
-            "font_weight": "400"
+            "font_weight": "bold"
           }
         },
         "price": {
