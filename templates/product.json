@@ -37,7 +37,7 @@
             "margin_top": 3,
             "margin_bottom": 0,
             "urgency_text": "para encerrar a promoção atual",
-            "text_font_size": "1",
+            "text_font_size": 1.6,
             "font_weight": "bold"
           }
         },
