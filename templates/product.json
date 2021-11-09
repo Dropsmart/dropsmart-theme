@@ -32,11 +32,12 @@
             "secods": 0,
             "month": 11,
             "year": 2021,
-            "font_size": "3",
+            "countdown_font_size": "2.5",
             "font_color": "#e22120",
             "margin_top": 2,
             "margin_bottom": 0,
-            "urgency_text": "Testando o texto"
+            "urgency_text": "Testando o texto",
+            "text_font_size": "0.85"
           }
         },
         "price": {
