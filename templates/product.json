@@ -34,8 +34,8 @@
             "year": 2021,
             "countdown_font_size": "2.5",
             "font_color": "#e22120",
-            "margin_top": 2,
-            "margin_bottom": -1,
+            "margin_top": 3,
+            "margin_bottom": 0,
             "urgency_text": "Para acabar a promoção!",
             "text_font_size": "1"
           }
