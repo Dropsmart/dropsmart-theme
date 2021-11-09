@@ -34,9 +34,9 @@
             "year": 2021,
             "countdown_font_size": "3",
             "font_color": "#e22120",
-            "margin_top": 3,
+            "margin_top": 0,
             "margin_bottom": 0,
-            "urgency_text": "ANTES DE VOLTAR AO PREÇO NORMAL",
+            "urgency_text": "PARA VOLTAR AO PREÇO NORMAL",
             "text_font_size": 1.3,
             "font_weight": "bold"
           }
