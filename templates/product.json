@@ -23,24 +23,6 @@
             "text_style": "subtitle"
           }
         },
-        "32dbd36f-2219-4451-ad2f-956d44ca9eae": {
-          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-urgency-countdown\/732d8add-f649-4104-803b-f0a865215b2f",
-          "settings": {
-            "day": 31,
-            "hours": 0,
-            "minutes": 0,
-            "secods": 0,
-            "month": 11,
-            "year": 2021,
-            "countdown_font_size": "3",
-            "font_color": "#e22120",
-            "margin_top": 3,
-            "margin_bottom": 0,
-            "urgency_text": "RESTANTES DE PROMOÇÃO",
-            "text_font_size": 1.9,
-            "font_weight": "400"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -85,20 +67,30 @@
           "type": "description",
           "settings": {
           }
+        },
+        "b141c4ff-04a0-491e-b277-352bd6a6cdd2": {
+          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-inventory-counter\/732d8add-f649-4104-803b-f0a865215b2f",
+          "settings": {
+            "text_before": "Restam apenas",
+            "show_quantity": false,
+            "text_after": "itens!",
+            "font_color": "#FFFFFF",
+            "font_size": "0.85"
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "subtitle",
-        "32dbd36f-2219-4451-ad2f-956d44ca9eae",
         "price",
         "f0b30ae8-e12c-400e-8383-268588650106",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "share",
-        "description"
+        "description",
+        "b141c4ff-04a0-491e-b277-352bd6a6cdd2"
       ],
       "settings": {
         "enable_sticky_info": true,
