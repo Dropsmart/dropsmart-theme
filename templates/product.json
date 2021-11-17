@@ -26,7 +26,7 @@
         "32dbd36f-2219-4451-ad2f-956d44ca9eae": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-urgency-countdown\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "day": 12,
+            "day": 31,
             "hours": 0,
             "minutes": 0,
             "secods": 0,
