@@ -58,7 +58,7 @@
             "set_quantity": 5,
             "text_after_itens": "itens restantes!",
             "font_color": "#fd1e1e",
-            "font_size": "0.75"
+            "font_size": "0.85"
           }
         },
         "buy_buttons": {
