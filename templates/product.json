@@ -58,7 +58,7 @@
             "set_quantity": 11,
             "text_after_items": "itens restantes!",
             "font_color": "#e32b2a",
-            "font_size": "0.85",
+            "font_size": "1",
             "margin_top": 0,
             "margin_bottom": 0
           }
