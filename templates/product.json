@@ -50,6 +50,16 @@
           "settings": {
           }
         },
+        "b141c4ff-04a0-491e-b277-352bd6a6cdd2": {
+          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-inventory-counter\/732d8add-f649-4104-803b-f0a865215b2f",
+          "settings": {
+            "text_before_itens": "Apenas",
+            "show_quantity": false,
+            "text_after_itens": "itens restantes!",
+            "font_color": "#ffffff",
+            "font_size": "0.85"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -67,16 +77,6 @@
           "type": "description",
           "settings": {
           }
-        },
-        "b141c4ff-04a0-491e-b277-352bd6a6cdd2": {
-          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-inventory-counter\/732d8add-f649-4104-803b-f0a865215b2f",
-          "settings": {
-            "text_before": "Restam apenas",
-            "show_quantity": false,
-            "text_after": "itens!",
-            "font_color": "#FFFFFF",
-            "font_size": "0.85"
-          }
         }
       },
       "block_order": [
@@ -87,10 +87,10 @@
         "f0b30ae8-e12c-400e-8383-268588650106",
         "variant_picker",
         "quantity_selector",
+        "b141c4ff-04a0-491e-b277-352bd6a6cdd2",
         "buy_buttons",
         "share",
-        "description",
-        "b141c4ff-04a0-491e-b277-352bd6a6cdd2"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": true,
