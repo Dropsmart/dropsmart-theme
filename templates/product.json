@@ -54,9 +54,9 @@
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-inventory-counter\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
             "text_before_itens": "Apenas",
-            "show_quantity": false,
+            "show_quantity": "false",
             "text_after_itens": "itens restantes!",
-            "font_color": "#ffffff",
+            "font_color": "#fd1e1e",
             "font_size": "0.85"
           }
         },
