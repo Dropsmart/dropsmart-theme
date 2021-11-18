@@ -54,11 +54,11 @@
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-component-remaining-items\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
             "text_before_items": "Apenas",
-            "show_quantity": "false",
+            "show_quantity": "true",
             "set_quantity": 11,
             "text_after_items": "itens restantes!",
             "font_color": "#e32b2a",
-            "font_size": "1",
+            "font_size": "0.85",
             "margin_top": 0,
             "margin_bottom": 0
           }
