@@ -57,16 +57,16 @@
           "settings": {
           }
         },
-        "a99d5810-a636-42b7-b93c-46317eb64868": {
+        "7d1d1cbb-5ec0-4018-b10a-f9d31f2060ca": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-installment\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "installment_number": "1",
+            "installment_number": "3",
+            "interest_rate": 5,
+            "creditcard_discount": 5,
             "installment_number_font_color": "#000000",
             "installment_number_font_size": "0.85",
             "installment_price_font_color": "#000000",
-            "installment_price_font_size": "1.5",
-            "interest_rate": 5,
-            "creditcard_discount": 5
+            "installment_price_font_size": "1.5"
           }
         }
       },
@@ -80,7 +80,7 @@
         "buy_buttons",
         "description",
         "share",
-        "a99d5810-a636-42b7-b93c-46317eb64868"
+        "7d1d1cbb-5ec0-4018-b10a-f9d31f2060ca"
       ],
       "settings": {
         "enable_sticky_info": true,
