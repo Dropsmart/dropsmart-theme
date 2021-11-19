@@ -50,19 +50,6 @@
           "settings": {
           }
         },
-        "8db43d7a-6649-4304-a92d-bc74107d624e": {
-          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-component-remaining-items\/732d8add-f649-4104-803b-f0a865215b2f",
-          "settings": {
-            "text_before_items": "Apenas",
-            "show_quantity": "true",
-            "set_quantity": 11,
-            "text_after_items": "itens restantes!",
-            "font_color": "#e32b2a",
-            "font_size": "0.85",
-            "margin_top": 0,
-            "margin_bottom": 0
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -80,6 +67,17 @@
           "type": "description",
           "settings": {
           }
+        },
+        "3bbb746a-0229-4017-b94c-d49452c380c5": {
+          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-order-bump\/732d8add-f649-4104-803b-f0a865215b2f",
+          "settings": {
+            "order_bump_background_color": "#FFFFFF",
+            "cart_button_background_color": "#E16C4E",
+            "cart_button_border_radius": "5px",
+            "order_bump_text": "ECONOMIZE",
+            "price_box_background_color": "#F0F0F0",
+            "price_box_border_radius": "5px"
+          }
         }
       },
       "block_order": [
@@ -90,10 +88,10 @@
         "f0b30ae8-e12c-400e-8383-268588650106",
         "variant_picker",
         "quantity_selector",
-        "8db43d7a-6649-4304-a92d-bc74107d624e",
         "buy_buttons",
         "share",
-        "description"
+        "description",
+        "3bbb746a-0229-4017-b94c-d49452c380c5"
       ],
       "settings": {
         "enable_sticky_info": true,
