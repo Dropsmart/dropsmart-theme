@@ -72,7 +72,7 @@
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-order-bump\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
             "order_bump_product": "1x-xiaomi-earphones-s",
-            "button_background_color": "#19c149",
+            "button_background_color": "#ffffff",
             "button_position": "fix-top"
           }
         }
