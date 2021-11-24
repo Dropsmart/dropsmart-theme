@@ -71,12 +71,9 @@
         "c81bb707-b7ef-4c5f-be24-ab33902163ec": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-order-bump\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "order_bump_background_color": "#ffffff",
-            "cart_button_background_color": "#e16c4e",
-            "cart_button_border_radius": "5px",
-            "order_bump_text": "Adicionar ao carrinho - 10% OFF",
-            "price_box_background_color": "#f0f0f0",
-            "price_box_border_radius": "5px"
+            "order_bump_product": "filters-subscription",
+            "button_background_color": "#E5E5E5",
+            "button_position": "fix-top"
           }
         }
       },
