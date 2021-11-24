@@ -103,6 +103,15 @@
           "button_background_color": "#e5e5e5",
           "button_position": "fix-top"
         }
+      },
+      "10490372101623328371": {
+        "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-order-bump\/732d8add-f649-4104-803b-f0a865215b2f",
+        "disabled": false,
+        "settings": {
+          "order_bump_product": "",
+          "button_background_color": "#E5E5E5",
+          "button_position": "fix-top"
+        }
       }
     }
   },
