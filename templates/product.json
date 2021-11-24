@@ -31,10 +31,10 @@
         "f0b30ae8-e12c-400e-8383-268588650106": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-installment\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "installment_number": "6",
+            "installment_number": "5",
             "installment_number_font_color": "#000000",
             "installment_number_font_size": "0.85",
-            "installment_price": "0000",
+            "installment_price": "5000",
             "installment_price_font_color": "#2ae118",
             "installment_price_font_size": "1.75"
           }
@@ -71,7 +71,7 @@
         "c81bb707-b7ef-4c5f-be24-ab33902163ec": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-order-bump\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "order_bump_product": "1x-xiaomi-earphones-s",
+            "order_bump_product": "18x-hero-guard",
             "button_background_color": "#ffffff",
             "button_position": "fix-top"
           }
