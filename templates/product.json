@@ -73,11 +73,11 @@
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-order-bump\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
             "order_bump_product": "test",
-            "button_background_color": "#ffffff",
+            "button_background_color": "#fffcec",
             "cart_button_background_color": "#E16C4E",
             "cart_button_border_radius": "5px",
             "order_bump_text": "ECONOMIZE",
-            "price_box_background_color": "#eac21c",
+            "price_box_background_color": "#ffffff",
             "price_box_border_radius": "5px"
           }
         }
