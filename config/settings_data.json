@@ -108,8 +108,7 @@
         "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-order-bump\/732d8add-f649-4104-803b-f0a865215b2f",
         "disabled": false,
         "settings": {
-          "order_bump_product": "",
-          "button_background_color": "#E5E5E5"
+          "order_bump_product": ""
         }
       }
     }
