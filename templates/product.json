@@ -77,7 +77,7 @@
             "order_bump_border_radius": "10px",
             "cart_button_background_color": "#2ee220",
             "cart_button_border_radius": "5px",
-            "order_bump_text": "ECONOMIZE",
+            "cart_button_text": "Adicionar ao carrinho | 20% OFF",
             "price_box_background_color": "#e22120",
             "price_box_border_radius": "5px"
           }
