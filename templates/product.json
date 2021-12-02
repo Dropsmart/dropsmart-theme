@@ -72,7 +72,7 @@
         "c81bb707-b7ef-4c5f-be24-ab33902163ec": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-order-bump\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "order_bump_product": "test",
+            "order_bump_product": "18x-hero-guard",
             "order_bump_background_color": "#f3f3f3",
             "order_bump_border_radius": "10px",
             "cart_button_background_color": "#2ee220",
