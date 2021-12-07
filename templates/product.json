@@ -46,6 +46,19 @@
             "picker_type": "dropdown"
           }
         },
+        "2683bcfb-381c-42ff-b675-ac0350f5e274": {
+          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-component-remaining-items\/732d8add-f649-4104-803b-f0a865215b2f",
+          "settings": {
+            "text_before_items": "Apenas",
+            "show_quantity": "true",
+            "set_quantity": 29,
+            "text_after_items": "itens restantes!",
+            "font_color": "#E32B2A",
+            "font_size": "1",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -90,6 +103,7 @@
         "price",
         "e0257e38-229a-4812-b32b-381a93ccc559",
         "variant_picker",
+        "2683bcfb-381c-42ff-b675-ac0350f5e274",
         "quantity_selector",
         "buy_buttons",
         "share",
