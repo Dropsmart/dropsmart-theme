@@ -124,6 +124,17 @@
             "text_font_size": 1.5,
             "font_weight": "400"
           }
+        },
+        "9fba545f-dffd-4c0f-9613-0eb485cac6b2": {
+          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-shipping-time\/732d8add-f649-4104-803b-f0a865215b2f",
+          "settings": {
+            "shipping_text": "Chegará em 14 dias, entre",
+            "min_time": 15,
+            "max_time": 30,
+            "shipping_icon": "truck",
+            "font_color": "#181818",
+            "font_size": "0.85"
+          }
         }
       },
       "block_order": [
@@ -140,7 +151,8 @@
         "share",
         "description",
         "c81bb707-b7ef-4c5f-be24-ab33902163ec",
-        "18af0826-e444-46b7-8f5a-ed585ae9532f"
+        "18af0826-e444-46b7-8f5a-ed585ae9532f",
+        "9fba545f-dffd-4c0f-9613-0eb485cac6b2"
       ],
       "settings": {
         "enable_sticky_info": true,
