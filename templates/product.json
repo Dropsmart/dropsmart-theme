@@ -94,19 +94,6 @@
           "settings": {
           }
         },
-        "c81bb707-b7ef-4c5f-be24-ab33902163ec": {
-          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-order-bump\/732d8add-f649-4104-803b-f0a865215b2f",
-          "settings": {
-            "product": "12x-hero-guard",
-            "order_bump_background_color": "#f3f3f3",
-            "order_bump_border_radius": "5px",
-            "cart_button_background_color": "#19c149",
-            "cart_button_border_radius": "5px",
-            "cart_button_text": "Adicionar ao carrinho | 20% OFF",
-            "price_box_background_color": "#e22120",
-            "price_box_border_radius": "50px"
-          }
-        },
         "18af0826-e444-46b7-8f5a-ed585ae9532f": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-urgency-countdown\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
@@ -135,6 +122,19 @@
             "font_color": "#181818",
             "font_size": "0.85"
           }
+        },
+        "c81bb707-b7ef-4c5f-be24-ab33902163ec": {
+          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-order-bump\/732d8add-f649-4104-803b-f0a865215b2f",
+          "settings": {
+            "product": "12x-hero-guard",
+            "order_bump_background_color": "#f8f8f8",
+            "order_bump_border_radius": "15px",
+            "cart_button_background_color": "#19c149",
+            "cart_button_border_radius": "15px",
+            "cart_button_text": "Adicionar ao carrinho",
+            "price_box_background_color": "#e22120",
+            "price_box_border_radius": "50px"
+          }
         }
       },
       "block_order": [
@@ -150,9 +150,9 @@
         "buy_buttons",
         "share",
         "description",
-        "c81bb707-b7ef-4c5f-be24-ab33902163ec",
         "18af0826-e444-46b7-8f5a-ed585ae9532f",
-        "9fba545f-dffd-4c0f-9613-0eb485cac6b2"
+        "9fba545f-dffd-4c0f-9613-0eb485cac6b2",
+        "c81bb707-b7ef-4c5f-be24-ab33902163ec"
       ],
       "settings": {
         "enable_sticky_info": true,
