@@ -35,7 +35,7 @@
             "sale_text_before": "5% de desconto no PIX",
             "show_percentage": false,
             "sale_text_after": "",
-            "font_color": "#FFFFFF",
+            "font_color": "#ffffff",
             "font_size": "0.75",
             "border_radius": "15px"
           }
@@ -43,9 +43,9 @@
         "e0257e38-229a-4812-b32b-381a93ccc559": {
           "type": "shopify:\/\/apps\/dropsmart-light-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
           "settings": {
-            "installment_number": "3",
+            "installment_number": "1",
             "interest_rate": 5,
-            "creditcard_discount": 5,
+            "creditcard_discount": 0,
             "installment_number_font_color": "#000000",
             "installment_number_font_size": "0.85",
             "installment_price_font_color": "#000000",
