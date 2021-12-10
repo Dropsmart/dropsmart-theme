@@ -92,7 +92,7 @@
             "margin_top": 5,
             "margin_bottom": 5,
             "urgency_text": "Lorem Ipsum",
-            "text_font_size": 1.5,
+            "text_font_size": 2,
             "font_weight": "400"
           }
         }
