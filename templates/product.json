@@ -87,7 +87,7 @@
             "background_color": "#393939",
             "border_radius": "5px",
             "urgency_text": "Promoção expira em:",
-            "urgency_text_font_size": 13,
+            "urgency_text_font_size": 16,
             "hours": 0,
             "minutes": 0,
             "secods": 0,
