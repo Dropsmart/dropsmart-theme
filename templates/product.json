@@ -58,19 +58,6 @@
             "picker_type": "dropdown"
           }
         },
-        "2683bcfb-381c-42ff-b675-ac0350f5e274": {
-          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-component-remaining-items\/732d8add-f649-4104-803b-f0a865215b2f",
-          "settings": {
-            "text_before_items": "Apenas",
-            "show_quantity": "false",
-            "set_quantity": 29,
-            "text_after_items": "itens restantes!",
-            "font_color": "#d94f4f",
-            "font_size": "1",
-            "margin_top": 0,
-            "margin_bottom": 0
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -97,12 +84,9 @@
         "18af0826-e444-46b7-8f5a-ed585ae9532f": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-urgency-countdown\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "day": 31,
-            "hours": 0,
-            "minutes": 0,
-            "secods": 0,
-            "month": 12,
-            "year": 2021,
+            "hours": 15,
+            "minutes": 32,
+            "secods": 34,
             "countdown_font_size": "2",
             "font_color": "#181818",
             "margin_top": 5,
@@ -110,30 +94,6 @@
             "urgency_text": "Lorem Ipsum",
             "text_font_size": 1.5,
             "font_weight": "400"
-          }
-        },
-        "9fba545f-dffd-4c0f-9613-0eb485cac6b2": {
-          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-shipping-time\/732d8add-f649-4104-803b-f0a865215b2f",
-          "settings": {
-            "shipping_text": "Chegará em 14 dias, entre",
-            "min_time": 15,
-            "max_time": 30,
-            "shipping_icon": "truck",
-            "font_color": "#181818",
-            "font_size": "0.85"
-          }
-        },
-        "c81bb707-b7ef-4c5f-be24-ab33902163ec": {
-          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-order-bump\/732d8add-f649-4104-803b-f0a865215b2f",
-          "settings": {
-            "product": "12x-hero-guard",
-            "order_bump_background_color": "#f8f8f8",
-            "order_bump_border_radius": "15px",
-            "cart_button_background_color": "#19c149",
-            "cart_button_border_radius": "15px",
-            "cart_button_text": "Adicionar ao carrinho",
-            "price_box_background_color": "#e22120",
-            "price_box_border_radius": "50px"
           }
         }
       },
@@ -145,14 +105,11 @@
         "a6d2ca5a-3c07-4bb4-b916-ab5921ecfce0",
         "e0257e38-229a-4812-b32b-381a93ccc559",
         "variant_picker",
-        "2683bcfb-381c-42ff-b675-ac0350f5e274",
         "quantity_selector",
         "buy_buttons",
         "share",
         "description",
-        "18af0826-e444-46b7-8f5a-ed585ae9532f",
-        "9fba545f-dffd-4c0f-9613-0eb485cac6b2",
-        "c81bb707-b7ef-4c5f-be24-ab33902163ec"
+        "18af0826-e444-46b7-8f5a-ed585ae9532f"
       ],
       "settings": {
         "enable_sticky_info": true,
