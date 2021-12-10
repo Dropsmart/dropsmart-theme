@@ -84,9 +84,9 @@
         "18af0826-e444-46b7-8f5a-ed585ae9532f": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-urgency-countdown\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "hours": 15,
-            "minutes": 32,
-            "secods": 34,
+            "hours": 0,
+            "minutes": 0,
+            "secods": 0,
             "countdown_font_size": "2",
             "font_color": "#181818",
             "margin_top": 5,
