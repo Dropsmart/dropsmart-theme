@@ -81,19 +81,19 @@
           "settings": {
           }
         },
-        "18af0826-e444-46b7-8f5a-ed585ae9532f": {
+        "f8b58deb-0331-470a-942a-818b0af40f12": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-urgency-countdown\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
             "hours": 0,
             "minutes": 0,
             "secods": 0,
             "countdown_font_size": "2",
-            "font_color": "#181818",
+            "font_color": "#FFFFFF",
             "margin_top": 5,
             "margin_bottom": 5,
-            "urgency_text": "Lorem Ipsum",
-            "text_font_size": 2,
-            "font_weight": "400"
+            "urgency_text": "",
+            "text_font_size": 1.5,
+            "font_weight": "bold"
           }
         }
       },
@@ -109,7 +109,7 @@
         "buy_buttons",
         "share",
         "description",
-        "18af0826-e444-46b7-8f5a-ed585ae9532f"
+        "f8b58deb-0331-470a-942a-818b0af40f12"
       ],
       "settings": {
         "enable_sticky_info": true,
