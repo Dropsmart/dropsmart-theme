@@ -85,7 +85,7 @@
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-urgency-countdown\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
             "background_color": "#393939",
-            "border_radius": "30px",
+            "border_radius": "100px",
             "urgency_text": "Promoção expira em:",
             "urgency_text_font_color": "#FFFFFF",
             "urgency_text_font_size": 16,
