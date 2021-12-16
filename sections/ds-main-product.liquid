@@ -239,7 +239,7 @@
               {{- block.settings.text -}}
             </p>
           {%- when 'title' -%}
-            <h1 class="product__title">
+            <h1 class="product__title" style="font-size: 2em;">
               {{ product.title | escape }}
             </h1>
         <div class="review-widget">
@@ -247,7 +247,7 @@
 </div>
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}">
-              {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
+              {%- render 'price', product: product, use_variant: true, show_badges: block.settings.show_badges, price_class: 'price--large' -%}
             </div>
             {%- form 'product', product, id: 'product-form-installment', class: 'installment caption-large' -%}
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
@@ -670,7 +670,15 @@
     {
       "type": "price",
       "name": "t:sections.main-product.blocks.price.name",
-      "limit": 1
+      "limit": 1,
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "show_badges",
+          "label": "Mostrar promoção",
+          "default": false
+        }
+      ]
     },
     {
       "type": "quantity_selector",
