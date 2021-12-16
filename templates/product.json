@@ -92,8 +92,8 @@
             "urgency_text_font_size": 16,
             "number_font_color": "#000000",
             "number_background_color": "#ffffff",
-            "hours": 2,
-            "minutes": 5,
+            "hours": 0,
+            "minutes": 0,
             "seconds": 13
           }
         }
