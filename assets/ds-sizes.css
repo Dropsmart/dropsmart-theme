@@ -8,6 +8,11 @@ main#MainContent .container-full {
     margin: auto;
 }
 
+main#MainContent .container-large {
+    max-width: 1120px !important;
+    margin: auto;
+}
+
 main#MainContent .container-medium {
     max-width: 960px !important;
     margin: auto;
