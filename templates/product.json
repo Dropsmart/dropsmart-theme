@@ -87,7 +87,7 @@
             "background_color": "#393939",
             "border_radius": "5px",
             "urgency_text": "Promoção expira em",
-            "urgency_text_finished": "PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA!",
+            "urgency_text_finished": "PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA!PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA!PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA!PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA!PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA!PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA! PROMOÇÃO EXPIRADA!",
             "urgency_text_font_color": "#ffffff",
             "urgency_text_font_size": 16,
             "number_font_color": "#000000",
