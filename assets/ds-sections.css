@@ -321,7 +321,7 @@ main#MainContent {
 }
 
 main#MainContent>.spaced-section {
-    margin-top: 5rem;
+    margin-top: 2.5rem;
 }
 
 main#MainContent>.spaced-section--full-width:first-child {
