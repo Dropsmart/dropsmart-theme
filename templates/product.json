@@ -92,7 +92,7 @@
             "number_font_color": "#000000",
             "number_background_color": "#ffffff",
             "hours": 0,
-            "minutes": 5,
+            "minutes": 10,
             "seconds": 0
           }
         }
