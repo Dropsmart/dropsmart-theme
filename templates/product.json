@@ -26,6 +26,7 @@
         "price": {
           "type": "price",
           "settings": {
+            "show_badges": false
           }
         },
         "e0257e38-229a-4812-b32b-381a93ccc559": {
@@ -68,6 +69,36 @@
           "type": "description",
           "settings": {
           }
+        },
+        "c2115456-1dbd-4443-a1d8-41d2e24aa502": {
+          "type": "cta",
+          "settings": {
+            "font-color": "#FFFFFF",
+            "background-color": "#19C149",
+            "link": "#MainContent",
+            "text": "Saiba mais",
+            "font-size": "1",
+            "font-weight": "400",
+            "cta-align": "center",
+            "border-radius": "20px",
+            "pulse": false
+          }
+        },
+        "98fc3905-3f9d-40f9-9a2c-7f727020584e": {
+          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-urgency-countdown\/732d8add-f649-4104-803b-f0a865215b2f",
+          "settings": {
+            "background_color": "#393939",
+            "border_radius": "5px",
+            "urgency_text": "Promoção expira em:",
+            "urgency_text_finished": "PROMOÇÃO EXPIRADA!",
+            "urgency_text_font_color": "#FFFFFF",
+            "urgency_text_font_size": 18,
+            "number_font_color": "#FFFFFF",
+            "number_background_color": "#FFFFFF",
+            "hours": 0,
+            "minutes": 2,
+            "seconds": 39
+          }
         }
       },
       "block_order": [
@@ -80,7 +111,9 @@
         "quantity_selector",
         "buy_buttons",
         "share",
-        "description"
+        "description",
+        "c2115456-1dbd-4443-a1d8-41d2e24aa502",
+        "98fc3905-3f9d-40f9-9a2c-7f727020584e"
       ],
       "settings": {
         "enable_sticky_info": true,
