@@ -41,3 +41,10 @@ main#MainContent .component-cta.pulse {
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
 }
+
+/* On Product Page */
+ main#MainContent .product .component-cta {
+    display: inline-block;
+    width: 100%;
+    padding: 0.5em 10%;
+}
