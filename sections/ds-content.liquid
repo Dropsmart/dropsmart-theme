@@ -59,6 +59,14 @@
                               text: block.settings.text,
                               pulse: block.settings.pulse,
                            -%}
+
+                        {% when 'youtube' %}
+                           {%- render 'ds-component-youtube',
+                              video_id: block.settings.video_id,
+                              video_size_desktop: block.settings.video_size_desktop,
+                              video_size_mobile: block.settings.video_size_mobile,
+                              autoplay: block.settings.autoplay                              
+                           -%}
                     {% endcase %}
                 {% endfor %}
             </div>
@@ -124,6 +132,71 @@
                ],
                "default":"space-around-regular",
                "label":"Espaçamento"
+            }
+         ]
+      },
+      {
+         "type": "youtube",
+         "name": "Vídeo do YouTube",
+         "settings": [
+            {
+               "id": "video_id",
+               "type": "text",
+               "label": "Link do Vídeo"
+            },
+            {
+               "type":"select",
+               "id":"video_size_desktop",
+               "options":[
+                  {
+                     "value":"pequeno",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"medio",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"grande",
+                     "label":"Grande"
+                  },
+                  {
+                     "value":"gigante",
+                     "label":"Gigante"
+                  }
+               ],
+               "default":"medio",
+               "label":"Tamanho do Vídeo no Desktop"
+            },
+            {
+               "type":"select",
+               "id":"video_size_mobile",
+               "options":[
+                  {
+                     "value":"pequeno",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"medio",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"grande",
+                     "label":"Grande"
+                  },
+                  {
+                     "value":"máximo",
+                     "label":"Máximo"
+            M    }
+               ],
+               "default":"medio",
+               "label":"Tamanho do Vídeo no Mobile"
+            },                 
+            {
+               "id": "autoplay",
+               "type": "checkbox",
+               "label": "Autoplay",
+               "default": false   
             }
          ]
       },
