@@ -1,0 +1,51 @@
+<div class="video-container 
+    {% if video_size_desktop == "maximo" %}
+    video-maximum-container 
+    {% endif %}
+    video-mobile-container">
+
+
+    {% if video_src == "youtube" %}
+        <iframe
+            class="video
+            {% if video_size_desktop == "pequeno" %}
+            video-short
+            {% elsif video_size_desktop == "medio" %}
+            video-medium
+            {% elsif video_size_desktop == "grande" %}
+            video-large
+            {% elsif video_size_desktop == "maximo" %}
+            video-maximum
+            {% endif %}
+            video-mobile"
+            
+            src="https://www.youtube.com/embed/{{video_id}}{% if autoplay == true %}?autoplay=1{% endif %}"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    {% endif %}
+
+
+    {% if video_src == "vimeo" %}
+        <iframe
+            class="video
+            {% if video_size_desktop == "pequeno" %}
+            video-short
+            {% elsif video_size_desktop == "medio" %}
+            video-medium
+            {% elsif video_size_desktop == "grande" %}
+            video-large
+            {% elsif video_size_desktop == "maximo" %}
+            video-maximum
+            {% endif %}
+            video-mobile"
+            
+            src="https://player.vimeo.com/video/{{video_id}}{% if autoplay == true %}?autoplay=1{% endif %}" 
+            frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    {% endif %} 
+    
+</div>
