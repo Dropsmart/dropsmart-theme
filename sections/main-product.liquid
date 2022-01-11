@@ -205,7 +205,7 @@
                         {%- endfor -%}
                       </fieldset>
                   {%- endfor -%}
-                  <script type="application/json">
+                  <script type="application/json" defer="defer">
                     {{ product.variants | json }}
                   </script>
                 </variant-radios>
@@ -233,7 +233,7 @@
                     </div>
                   {%- endfor -%}
 
-                  <script type="application/json">
+                  <script type="application/json" defer="defer">
                     {{ product.variants | json }}
                   </script>
                 </variant-selects>
@@ -483,7 +483,7 @@
 {% endjavascript %}
 
 {%- if first_3d_model -%}
-  <script type="application/json" id="ProductJSON-{{ product.id }}">
+  <script type="application/json" id="ProductJSON-{{ product.id }}" defer="defer">
     {{ product.media | where: 'media_type', 'model' | json }}
   </script>
 

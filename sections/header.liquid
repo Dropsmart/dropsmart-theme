@@ -520,7 +520,7 @@
   customElements.define('sticky-header', StickyHeader);
 {% endjavascript %}
 
-<script type="application/ld+json">
+<script type="application/ld+json" defer="defer">
   {
     "@context": "http://schema.org",
     "@type": "Organization",
@@ -545,7 +545,7 @@
 
 {%- if request.page_type == 'index' -%}
   {% assign potential_action_target = shop.url | append: routes.search_url | append: "?q={search_term_string}" %}
-  <script type="application/ld+json">
+  <script type="application/ld+json" defer="defer">
     {
       "@context": "http://schema.org",
       "@type": "WebSite",
