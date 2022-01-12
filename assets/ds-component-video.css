@@ -1,0 +1,58 @@
+.video-container {
+    width: fit-content;
+    margin: 0 auto; 
+}
+
+@media (max-width: 959px) {
+    .video-mobile-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+}
+    
+
+
+.video-maximum-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+}
+
+@media (min-width: 960px) {
+                    
+    .video-short {
+        width: 480px; height:270px;
+    }
+
+    .video-medium {
+        width:560px; height:315px;
+    }
+
+    .video-large {
+        width:720px; height:405px;      
+    }
+
+}
+
+@media (max-width: 959px) {
+    .video-mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+}
+    
+
+.video-maximum {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

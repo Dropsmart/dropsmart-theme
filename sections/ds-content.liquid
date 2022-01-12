@@ -1,3 +1,5 @@
+{{ 'ds-component-video.css' | asset_url | stylesheet_tag }}
+
 <!-- DESKTOP -->
 <div id="{{section.settings.heading}}" style="background: {{section.settings.background-color}} {% if section.settings.background-image %} url('{{section.settings.background-image | img_url: 'master'}}') no-repeat center center; background-size: cover {% endif %}
           ;" class="ds-lp-content one-col {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
@@ -58,6 +60,15 @@
                               align: block.settings.cta-align,
                               text: block.settings.text,
                               pulse: block.settings.pulse,
+                           -%}
+
+                        {% when 'video' %}
+                           {%- render 'ds-component-video',
+                              video_id: block.settings.video_id,
+                              video_src: block.settings.video_src,
+                              video_size_desktop: block.settings.video_size_desktop,
+                              video_size_mobile: block.settings.video_size_mobile,
+                              autoplay: block.settings.autoplay                             
                            -%}
                     {% endcase %}
                 {% endfor %}
@@ -124,6 +135,75 @@
                ],
                "default":"space-around-regular",
                "label":"Espaçamento"
+            }
+         ]
+      },
+      {
+         "type": "video",
+         "name": "Vídeo",
+         "settings": [
+         {
+            "type":"select",
+            "id":"video_src",
+            "options":[
+                  {
+                     "value":"youtube",
+                     "label":"YouTube"
+                  },
+                  {
+                     "value":"vimeo",
+                     "label":"Vimeo"
+                  }
+               ],
+               "default":"youtube",
+               "label":"Fonte do Vídeo"
+            },
+            {
+               "id": "video_id",
+               "type": "text",
+               "label": "Id do vídeo"
+            },
+            {
+               "type":"select",
+               "id":"video_size_desktop",
+               "options":[
+                  {
+                     "value":"pequeno",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"medio",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"grande",
+                     "label":"Grande"
+                  },
+                  {
+                     "value":"maximo",
+                     "label":"Máximo"
+                  }
+               ],
+               "default":"medio",
+               "label":"Tamanho do Vídeo no Desktop"
+            },
+            {
+               "type":"select",
+               "id":"video_size_mobile",
+               "options":[
+                  {
+                     "value":"maximo",
+                     "label":"Máximo"
+                  }
+               ],
+               "default":"maximo",
+               "label":"Tamanho do Vídeo no Mobile"
+            },                 
+            {
+               "id": "autoplay",
+               "type": "checkbox",
+               "label": "Autoplay",
+               "default": false   
             }
          ]
       },
