@@ -26,6 +26,7 @@
         "price": {
           "type": "price",
           "settings": {
+            "show_badges": false
           }
         },
         "variant_picker": {
@@ -68,6 +69,52 @@
             "installment_price_font_color": "#000000",
             "installment_price_font_size": "1.5"
           }
+        },
+        "4b96a37e-6a87-4715-a049-f1bbc00a882f": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible tab",
+            "content": "<p>efwefwefwef fefwefwe fewfewfwef<\/p>",
+            "page": "",
+            "icon": "heart"
+          }
+        },
+        "d69c1edc-be97-443e-8d4a-023eea698edd": {
+          "type": "shopify:\/\/apps\/dropsmart-light-app\/blocks\/ds-block-content-image\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+          "settings": {
+            "content_image": "shopify:\/\/shop_images\/Selo_de_pagamento_f1fa2dbe-d294-45a2-8e42-eace9266c2c4.png",
+            "desktop_content_image_size": "75%",
+            "mobile_content_image_size": "75%",
+            "image_align": "center"
+          }
+        },
+        "08997dc5-0519-407d-8d9e-f93c124b57d9": {
+          "type": "shopify:\/\/apps\/dropsmart-light-app\/blocks\/ds-block-installment\/79c7781a-151c-4a0b-8787-33d3543aaddc",
+          "settings": {
+            "installment_number": "3",
+            "interest_rate": 5,
+            "creditcard_discount": 5,
+            "installment_number_font_color": "#000000",
+            "installment_number_font_size": "0.85",
+            "installment_price_font_color": "#000000",
+            "installment_price_font_size": "1.5"
+          }
+        },
+        "3100714b-4f30-4fe4-bd04-ee9557f7ceff": {
+          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-urgency-countdown\/732d8add-f649-4104-803b-f0a865215b2f",
+          "settings": {
+            "background_color": "#393939",
+            "border_radius": "5px",
+            "urgency_text": "Promoção expira em:",
+            "urgency_text_finished": "PROMOÇÃO EXPIRADA!",
+            "urgency_text_font_color": "#FFFFFF",
+            "urgency_text_font_size": 18,
+            "number_font_color": "#FFFFFF",
+            "number_background_color": "#FFFFFF",
+            "hours": 0,
+            "minutes": 16,
+            "seconds": 17
+          }
         }
       },
       "block_order": [
@@ -80,7 +127,11 @@
         "buy_buttons",
         "description",
         "share",
-        "7d1d1cbb-5ec0-4018-b10a-f9d31f2060ca"
+        "7d1d1cbb-5ec0-4018-b10a-f9d31f2060ca",
+        "4b96a37e-6a87-4715-a049-f1bbc00a882f",
+        "d69c1edc-be97-443e-8d4a-023eea698edd",
+        "08997dc5-0519-407d-8d9e-f93c124b57d9",
+        "3100714b-4f30-4fe4-bd04-ee9557f7ceff"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -929,6 +980,74 @@
             "cta-border-radius": "20px",
             "cta-pulse": false
           }
+        },
+        "2e47e4ac-c791-4168-b051-2bfd8e5b786b": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "font-weight": "600",
+            "align": "center",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
+            "description-font-color": "#000000",
+            "description-font-size": "0.85",
+            "description-font-weight": "400",
+            "description-align": "center",
+            "has-cta": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#19C149",
+            "cta-text": "Saiba mais",
+            "link": "#",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
+        },
+        "0e24c533-5373-45e1-8eb1-5e34ce20bf71": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "font-weight": "600",
+            "align": "center",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
+            "description-font-color": "#000000",
+            "description-font-size": "0.85",
+            "description-font-weight": "400",
+            "description-align": "center",
+            "has-cta": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#19C149",
+            "cta-text": "Saiba mais",
+            "link": "#",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
         }
       },
       "block_order": [
@@ -937,7 +1056,9 @@
         "16340782754248816d-2",
         "cd9e8e9c-be32-4139-a903-e96141a18385",
         "97596271-2077-42b5-91f6-50b07e1af4ac",
-        "bc56845f-47f1-434c-a7ea-195804fc6aa6"
+        "bc56845f-47f1-434c-a7ea-195804fc6aa6",
+        "2e47e4ac-c791-4168-b051-2bfd8e5b786b",
+        "0e24c533-5373-45e1-8eb1-5e34ce20bf71"
       ],
       "settings": {
         "heading": "",
@@ -1044,6 +1165,136 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1642183209857a4272": {
+      "type": "ds-features",
+      "blocks": {
+        "16421832096750a927-0": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "font-weight": "600",
+            "align": "center",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-font-color": "#000000",
+            "description-font-size": "0.85",
+            "description-font-weight": "400",
+            "description-align": "center",
+            "has-cta": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#19C149",
+            "cta-text": "Saiba mais",
+            "link": "#",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
+        },
+        "16421832096750a927-1": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "font-weight": "600",
+            "align": "center",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-font-color": "#000000",
+            "description-font-size": "0.85",
+            "description-font-weight": "400",
+            "description-align": "center",
+            "has-cta": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#19C149",
+            "cta-text": "Saiba mais",
+            "link": "#",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
+        },
+        "16421832096750a927-2": {
+          "type": "feature",
+          "settings": {
+            "background-color": "#FFFFFF",
+            "vertical-align-content": "flex-start",
+            "border-radius": "15px",
+            "has-shadow": true,
+            "has-icon": true,
+            "has-icon-mobile": false,
+            "image-align": "center",
+            "icon-size": "96",
+            "mobile-icon-size": "64",
+            "text": "Lorem Ipsum",
+            "title-font-color": "#000000",
+            "font-size": "1.25",
+            "font-weight": "600",
+            "align": "center",
+            "description-text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>",
+            "description-font-color": "#000000",
+            "description-font-size": "0.85",
+            "description-font-weight": "400",
+            "description-align": "center",
+            "has-cta": false,
+            "cta-font-color": "#FFFFFF",
+            "cta-background-color": "#19C149",
+            "cta-text": "Saiba mais",
+            "link": "#",
+            "cta-font-weight": "400",
+            "cta-font-size": "1",
+            "cta-align": "center",
+            "cta-border-radius": "20px",
+            "cta-pulse": false
+          }
+        }
+      },
+      "block_order": [
+        "16421832096750a927-0",
+        "16421832096750a927-1",
+        "16421832096750a927-2"
+      ],
+      "settings": {
+        "heading": "",
+        "background-color": "#FFFFFF",
+        "feature-basis": 3,
+        "padding": "space-around-regular",
+        "no-padding": "",
+        "container-width": "medium",
+        "title_text": "Lorem Ipsum",
+        "title_font_color": "#000000",
+        "title_font_size": "2",
+        "title_font_weight": "600",
+        "title_align": "center",
+        "description_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<\/p><p><\/p>",
+        "description_font_color": "#000000",
+        "description_font_size": "1",
+        "description_font_weight": "400",
+        "description_align": "center"
+      }
     }
   },
   "order": [
@@ -1059,6 +1310,7 @@
     "16340782754248816d",
     "1632860390ac093171",
     "16328605733cd2b562",
-    "product-recommendations"
+    "product-recommendations",
+    "1642183209857a4272"
   ]
 }

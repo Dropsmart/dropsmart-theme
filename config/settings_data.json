@@ -1,8 +1,8 @@
 {
   "current": {
-    "base-font-size": "16",
+    "base-font-size": "14",
     "mobile-font-size": "13",
-    "base-padding-size": "8",
+    "base-padding-size": "20",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#19c149",
     "colors_accent_2": "#eac21c",
