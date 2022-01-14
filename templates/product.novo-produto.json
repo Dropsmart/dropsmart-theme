@@ -110,10 +110,23 @@
             "urgency_text_font_color": "#FFFFFF",
             "urgency_text_font_size": 18,
             "number_font_color": "#FFFFFF",
-            "number_background_color": "#FFFFFF",
+            "number_background_color": "#121212",
             "hours": 0,
             "minutes": 16,
             "seconds": 17
+          }
+        },
+        "afc5e609-a85c-4a05-a20c-d9a073bf05b9": {
+          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-component-remaining-items\/732d8add-f649-4104-803b-f0a865215b2f",
+          "settings": {
+            "text_before_items": "Apenas",
+            "show_quantity": "false",
+            "set_quantity": 2,
+            "text_after_items": "itens restantes!",
+            "font_color": "#E32B2A",
+            "font_size": "0.85",
+            "margin_top": 0,
+            "margin_bottom": 0
           }
         }
       },
@@ -131,7 +144,8 @@
         "4b96a37e-6a87-4715-a049-f1bbc00a882f",
         "d69c1edc-be97-443e-8d4a-023eea698edd",
         "08997dc5-0519-407d-8d9e-f93c124b57d9",
-        "3100714b-4f30-4fe4-bd04-ee9557f7ceff"
+        "3100714b-4f30-4fe4-bd04-ee9557f7ceff",
+        "afc5e609-a85c-4a05-a20c-d9a073bf05b9"
       ],
       "settings": {
         "enable_sticky_info": true,
