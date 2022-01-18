@@ -103,12 +103,10 @@
         "210d106e-3752-48de-9181-d9c4a7616e72": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-bullet-point\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "bullet_point_title": "Por que comprar?",
             "bullet_point_text": "O produto é muito bom o produto é muito bom",
+            "icon_color": "#1878b9",
             "font_color": "#000000",
-            "font_size": "1",
-            "border_radius": "5px",
-            "border_color": "#DFE0E2"
+            "font_size": "1"
           }
         }
       },
