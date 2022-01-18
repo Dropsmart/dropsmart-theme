@@ -73,8 +73,8 @@
         "c2115456-1dbd-4443-a1d8-41d2e24aa502": {
           "type": "cta",
           "settings": {
-            "font-color": "#FFFFFF",
-            "background-color": "#19C149",
+            "font-color": "#ffffff",
+            "background-color": "#19c149",
             "link": "#MainContent",
             "text": "Saiba mais",
             "font-size": "1",
@@ -91,13 +91,24 @@
             "border_radius": "5px",
             "urgency_text": "Promoção expira em:",
             "urgency_text_finished": "PROMOÇÃO EXPIRADA!",
-            "urgency_text_font_color": "#FFFFFF",
+            "urgency_text_font_color": "#ffffff",
             "urgency_text_font_size": 18,
-            "number_font_color": "#FFFFFF",
-            "number_background_color": "#FFFFFF",
+            "number_font_color": "#ffffff",
+            "number_background_color": "#ffffff",
             "hours": 0,
             "minutes": 2,
             "seconds": 39
+          }
+        },
+        "210d106e-3752-48de-9181-d9c4a7616e72": {
+          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-bullet-point\/732d8add-f649-4104-803b-f0a865215b2f",
+          "settings": {
+            "bullet_point_title": "Por que comprar?",
+            "bullet_point_text": "O produto é muito bom o produto é muito bom",
+            "font_color": "#000000",
+            "font_size": "1",
+            "border_radius": "5px",
+            "border_color": "#DFE0E2"
           }
         }
       },
@@ -113,7 +124,8 @@
         "share",
         "description",
         "c2115456-1dbd-4443-a1d8-41d2e24aa502",
-        "98fc3905-3f9d-40f9-9a2c-7f727020584e"
+        "98fc3905-3f9d-40f9-9a2c-7f727020584e",
+        "210d106e-3752-48de-9181-d9c4a7616e72"
       ],
       "settings": {
         "enable_sticky_info": true,
