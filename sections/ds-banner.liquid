@@ -1,14 +1,20 @@
-<div id="{{section.settings.heading}}" style="background: {{section.settings.background-color}} {% if section.settings.background-image %} url('{{section.settings.background-image | img_url: 'master'}}') no-repeat center center; background-size: cover {% endif %}
-          ;" class="ds-lp-content {{ section.settings.col-number }} {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
-    <div class="no-padding"
-        style="align-self: {{section.settings.vertical-align-content}};">
+    {%- liquid
+      assign banner_text = section.settings.banner_text 
+      assign content_image = section.settings.content_image
+    %}
 
-      {% render "ds-component-content-image", 
-         contentImage: section.settings.content_image,
-         mobileContentImage: section.settings.mobile_content_image,
-         desktop_content_image_size: "100%",
-         mobile_content_image_size: "100%",
-         image_align: section.settings.image_align
+<div id="{{section.settings.heading}}"
+   style="background-image: url({{ content_image |  img_url: 'original' }});
+   background-repeat: no-repeat;
+   background-size: 100%;">
+    <div class="no-padding"
+        style="align-self: {{section.settings.vertical-align-content}}; height: 45vh;">
+
+  
+      {% render "ds-component-paragraph", 
+         fontColor: section.settings.font_color,
+         fontSize: section.settings.font_size,
+         text: section.settings.banner_text
       %}
 
     </div>
@@ -60,6 +66,11 @@
          "type": "image_picker",
          "id": "mobile_content_image",
          "label": "Imagem"
+      },
+      {
+         "type": "textarea",
+         "id": "banner_text",
+         "label": "Texto"
       }
     ]
  }
