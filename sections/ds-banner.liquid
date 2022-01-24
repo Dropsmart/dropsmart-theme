@@ -1,21 +1,64 @@
     {%- liquid
-      assign banner_text = section.settings.banner_text 
+
       assign content_image = section.settings.content_image
+
+      assign banner_subtitle = section.settings.banner_subtitle
+      assign banner_subtitle_font_color = section.settings.banner_subtitle_font_color
+      assign banner_subtitle_font_size = section.settings.banner_subtitle_font_size
+
+      assign banner_title = section.settings.banner_title
+      assign banner_title_font_color = section.settings.banner_title_font_color
+      assign banner_title_font_size = section.settings.banner_title_font_size
+
+      assign banner_paragraph = section.settings.banner_paragraph
+      assign banner_paragraph_font_color = section.settings.banner_paragraph_font_color
+      assign banner_paragraph_font_size = section.settings.banner_paragraph_font_size
+      
     %}
 
 <div id="{{section.settings.heading}}"
    style="background-image: url({{ content_image |  img_url: 'original' }});
    background-repeat: no-repeat;
    background-size: 100%;">
-    <div class="no-padding"
-        style="align-self: {{section.settings.vertical-align-content}}; height: 45vh;">
+    <div class="banner-elements no-padding"
+        style="align-self: {{section.settings.vertical-align-content}};
+        height: 45vh;">
 
+      {% render "ds-component-paragraph", 
+         fontColor: section.settings.banner_subtitle_font_color,
+         fontSize: section.settings.banner_subtitle_font_size,
+         text: section.settings.banner_subtitle,
+         text_align : section.settings.subtitle_align
+      %}
+
+      {% render "ds-component-h1", 
+         fontColor: section.settings.banner_title_font_color,
+         fontSize: section.settings.banner_title_font_size,
+         text: section.settings.banner_title,
+         text_align : section.settings.banner_align
+      %}
   
       {% render "ds-component-paragraph", 
-         fontColor: section.settings.font_color,
-         fontSize: section.settings.font_size,
-         text: section.settings.banner_text
+         fontColor: section.settings.banner_paragraph_font_color,
+         fontSize: section.settings.banner_paragraph_font_size,
+         text: section.settings.banner_paragraph_title,
+         text_align : section.settings.banner_paragraph_align
       %}
+      <div class="banner-cta-button">
+         {% render "ds-component-cta", 
+            fontColor: section.settings.font_color,
+            fontSize: section.settings.font_size,
+            text: section.settings.banner_title,
+            text_align : section.settings.align
+         %}
+
+         {% render "ds-component-cta", 
+            fontColor: section.settings.font_color,
+            fontSize: section.settings.font_size,
+            text: section.settings.banner_title,
+            text_align : section.settings.align
+         %}
+      </div>
 
     </div>
 </div>
@@ -68,9 +111,116 @@
          "label": "Imagem"
       },
       {
+         "type": "header",
+         "content": "Subtítulo do banner"
+      },
+      {
+         "type": "text",
+         "id": "banner_subtitle",
+         "label": "Titulo do subtitle"
+      },
+      {
+         "type":"color",
+         "id":"banner_subtitle_font_color",
+         "label":"Cor de Fonte do Título",
+         "default":"#FFFFFF"
+      },
+      {
+         "type":"select",
+         "id":"banner_subtitle_font_size",
+         "options":[
+            {
+               "value":"1",
+               "label":"Pequeno"
+            },
+            {
+               "value":"1.25",
+               "label":"Médio"
+            },
+            {
+               "value":"1.5",
+               "label":"Grande"
+            }
+         ],
+         "default":"1.25",
+         "label":"Tamanho da fonte"
+      },
+
+
+
+      {
+         "type": "header",
+         "content": "Título do Banner"
+      },
+      {
+         "type": "text",
+         "id": "banner_title",
+         "label": "Titulo do Banner"
+      },
+      {
+         "type":"color",
+         "id":"banner_title_font_color",
+         "label":"Cor de Fonte do Título",
+         "default":"#FFFFFF"
+      },
+      {
+         "type":"select",
+         "id":"banner_title_font_size",
+         "options":[
+            {
+               "value":"1.5",
+               "label":"Pequeno"
+            },
+            {
+               "value":"2",
+               "label":"Médio"
+            },
+            {
+               "value":"2.5",
+               "label":"Grande"
+            }
+         ],
+         "default":"2",
+         "label":"Tamanho da fonte"
+      },
+
+
+
+
+      {
+         "type": "header",
+         "content": "Paragrafo do Banner"
+      },
+      {
          "type": "textarea",
-         "id": "banner_text",
-         "label": "Texto"
+         "id": "banner_paragraph",
+         "label": "Paragrafo do Banner"
+      },
+      {
+         "type":"color",
+         "id":"banner_paragraph_font_color",
+         "label":"Cor de Fonte do Paragrafo",
+         "default":"#FFFFFF"
+      },
+      {
+         "type":"select",
+         "id":"banner_paragraph_font_size",
+         "options":[
+            {
+               "value":"1",
+               "label":"Pequeno"
+            },
+            {
+               "value":"1.25",
+               "label":"Médio"
+            },
+            {
+               "value":"1.5",
+               "label":"Grande"
+            }
+         ],
+         "default":"1.25",
+         "label":"Tamanho da fonte"
       }
     ]
  }
