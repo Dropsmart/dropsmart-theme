@@ -1,5 +1,6 @@
 {{ 'ds-component-video.css' | asset_url | stylesheet_tag }}
 
+
 <!-- DESKTOP -->
 <div id="{{section.settings.heading}}" style="background: {{section.settings.background-color}} {% if section.settings.background-image %} url('{{section.settings.background-image | img_url: 'master'}}') no-repeat center center; background-size: cover {% endif %}
           ;" class="ds-lp-content one-col {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
@@ -24,7 +25,8 @@
                         {% when 'h1' %}
                            {%- render 'ds-component-h1', 
                               fontColor: block.settings.font-color, 
-                              fontSize: block.settings.font-size, 
+                              font_size: block.settings.font-size,
+                              line_height: block.settings.line_height, 
                               align: block.settings.align,
                               fontWeight: block.settings.font-weight,
                               text: block.settings.text
@@ -233,6 +235,17 @@
                ],
                "default": "2",
                "label": "Tamanho da Fonte"
+           },
+           {
+               "type": "select",
+               "id": "line_height",
+               "options": [
+                  { "value": "115", "label": "Pequeno"},
+                  { "value": "130", "label": "Médio"},
+                  { "value": "150", "label": "Grande"}
+               ],
+               "default": "130",
+               "label": "Altura da Linha"
            },
            {
               "type": "select",
