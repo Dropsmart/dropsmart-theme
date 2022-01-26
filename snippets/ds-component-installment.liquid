@@ -1,5 +1,7 @@
    
 {{ 'ds-component-installment.css' | asset_url | stylesheet_tag }}
+{% if show_installment == true %}
+
 
 <div class="ds-component ds-component-installment flex mobile-flex-row">
     <div class=" grow-0 weight-600 justify-right installment-number" style="color:{{installment_number_font_color}}; font-size:{{installment_number_font_size}}em;">
@@ -13,3 +15,4 @@
       %}
     </div>
 </div>
+{% endif %}
