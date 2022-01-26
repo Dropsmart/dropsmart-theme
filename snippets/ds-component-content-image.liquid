@@ -1,5 +1,5 @@
 <div class="ds-component ds-component-content-image image">
-  <figure class="flex justify-{{image_align}} mobile-flex-row">
+  <figure class="flex justify-{{image_align}}">
     <img 
       loading="lazy"
       class="{% if mobileContentImage != empty %} mobile-hide {% endif %}" src="{{ contentImage | img_url: 'master' }}"

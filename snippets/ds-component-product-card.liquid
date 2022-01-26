@@ -2,6 +2,8 @@
   style="align-self: {{block.settings.vertical-align-content}};"
   class="ds-component ds-component-feature ds-component-product-card flex flex-basis-{{section.settings.feature-basis}} flex-column"
 >
+
+{{ block.settings.icon-image | json }}
   <div
     style="
       background: {{block.settings.background-color}};
@@ -14,7 +16,7 @@
         {{block.settings.emphasis}}
       </span>
     {% endif %}
-    {% if block.settings.has-icon %}
+    {% if block.settings.icon-image != null %}
         <img loading="lazy" class="mobile-hide" style="
             border-top-right-radius:{{block.settings.border-radius}};
             border-top-left-radius: {{block.settings.border-radius}};
@@ -26,6 +28,8 @@
               {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }}
           {% endif %}"
         />
+      {% endif %}
+      {% if block.settings.mobile-icon-image != null %}
         <img loading="lazy" class="desktop-hide" style="
             display: flex !important;
             border-top-right-radius:{{block.settings.border-radius}};
@@ -36,7 +40,7 @@
                   {{ block.settings.mobile-icon-image | img_url: 'medium'}}
               {% else %}    
                   {% if block.settings.has-icon %}
-                      {{ block.settings.icon-image | img_url: 'medium'}} 
+                      {{ block.settings.mobile-icon-image | img_url: 'medium'}} 
                   {% else %}
                       {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }} 
                   {% endif %}
