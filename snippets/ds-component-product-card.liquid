@@ -27,7 +27,16 @@
               {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }}
           {% endif %}"
         />
-      {% endif %}
+
+    {% else %}
+        <div style="height:3em">
+        </div>
+      
+    {% endif %}
+
+
+
+
       {% if block.settings.mobile-icon-image != null %}
         <img loading="lazy" class="desktop-hide" style="
             display: flex !important;
