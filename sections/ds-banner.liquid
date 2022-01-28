@@ -1,68 +1,482 @@
-<div id="{{section.settings.heading}}" style="background: {{section.settings.background-color}} {% if section.settings.background-image %} url('{{section.settings.background-image | img_url: 'master'}}') no-repeat center center; background-size: cover {% endif %}
-          ;" class="ds-lp-content {{ section.settings.col-number }} {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
-    <div class="no-padding"
-        style="align-self: {{section.settings.vertical-align-content}};">
+    {%- liquid
 
-      {% render "ds-component-content-image", 
-         contentImage: section.settings.content_image,
-         mobileContentImage: section.settings.mobile_content_image,
-         desktop_content_image_size: "100%",
-         mobile_content_image_size: "100%",
-         image_align: section.settings.image_align
-      %}
+      assign content_image = section.settings.content_image
 
-    </div>
+      assign banner_subtitle = section.settings.banner_subtitle
+      assign banner_subtitle_font_color = section.settings.banner_subtitle_font_color
+      assign banner_subtitle_font_size = section.settings.banner_subtitle_font_size
+
+      assign banner_title = section.settings.banner_title
+      assign banner_title_font_color = section.settings.banner_title_font_color
+      assign banner_title_font_size = section.settings.banner_title_font_size
+
+      assign banner_paragraph = section.settings.banner_paragraph
+      assign banner_paragraph_font_color = section.settings.banner_paragraph_font_color
+      assign banner_paragraph_font_size = section.settings.banner_paragraph_font_size
+      
+    %}
+
+<div id="{{section.settings.heading}}"
+   style="background-image: url({{ content_image |  img_url: 'original' }});
+   background-repeat: no-repeat;
+   background-size: 100%;">
+      <div class="banner-elements no-padding"
+        style="align-self: {{section.settings.vertical-align-content}};
+        height: 45vh;">
+
+            <div class="content">
+               {% for block in section.blocks %}
+                    {% case block.type %}
+                        {%- when '@app' -%}
+                           {% render block %}
+
+                          
+                        {% when 'h1' %}
+                           {%- render 'ds-component-h1', 
+                              fontColor: block.settings.font-color, 
+                              fontSize: block.settings.font-size, 
+                              align: block.settings.align,
+                              fontWeight: block.settings.font-weight,
+                              text: block.settings.text
+                           -%}
+
+                        {% when 'paragraph' %}
+                           {%- render 'ds-component-paragraph', 
+                              fontColor: block.settings.font-color, 
+                              fontSize: block.settings.font-size, 
+                              align: block.settings.align,
+                              fontWeight: block.settings.font-weight,
+                              text: block.settings.text
+                           -%}
+
+                        {% when 'cta' %}
+                           {%- render 'ds-component-cta',
+                              backgroundColor: block.settings.background-color, 
+                              fontColor: block.settings.font-color, 
+                              fontSize: block.settings.font-size,
+                              fontWeight: block.settings.font-weight 
+                              link: block.settings.link,
+                              borderRadius: block.settings.border-radius,
+                              align: block.settings.cta-align,
+                              text: block.settings.text,
+                              pulse: block.settings.pulse,
+                           -%}
+                     {% endcase %}
+               {% endfor %}
+            </div>
+      </div>
 </div>
 
 {% schema %}
 {
-    "name":"Dropsmart Banner",
-    "class":"lp-content",
-    "presets": [
+   "name":"DS: Banner",
+   "class":"lp-content",
+   "presets":[
       {
-        "name": "Dropsmart - Banner"
+         "name":"DS: Banner",
+         "blocks":[
+            {
+               "type":"h1"
+            },
+            {  
+               "type":"paragraph"
+            },
+            {
+               "type":"cta"
+            }
+         ]
       }
-    ],
-    "settings":[
-       {
-          "id":"heading",
-          "type":"text",
-          "label":"Identificação da Seção"
-       },
-       {
+   ],
+   "blocks":[
+      {
+         "type":"@app"
+      },
+      {
+         "type":"h1",
+         "name":"Título H1",
+         "settings":[
+            {
+               "id":"text",
+               "type":"text",
+               "label":"Título",
+               "default":"Lorem Ipsum"
+            },
+            {
+               "type":"color",
+               "id":"font-color",
+               "label":"Cor da Fonte",
+               "default":"#000000"
+            },
+            {
+               "type":"select",
+               "id":"font-size",
+               "options":[
+                  {
+                     "value":"1.5",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"2",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"2.5",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"2",
+               "label":"Tamanho da Fonte"
+            },
+            {
+               "type":"select",
+               "id":"font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  },
+                  {
+                     "value":"900",
+                     "label":"Extra Negrito"
+                  }
+               ],
+               "default":"600",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"select",
+               "id":"align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
+            }
+         ]
+      },
+      {
          "type": "paragraph",
-         "content": "Não utilize espaços! A identificação da seção tem como objetivo utilizar botões de ancoragem para a seção. Ex: Para o caso da identifação da seção ser 'novidades', no campo link do Botão, inserir '#novidades'"
-       },
-       {
-         "type": "header",
-         "content": "Configurações de Fundo"
-       },
-       {
-          "type":"color",
-          "id":"background-color",
-          "label":"Cor de Fundo",
-          "default":"#FFFFFF"
-       },
+         "name": "Paragráfo",
+         "settings": [
+           {
+             "id": "text",
+             "type": "richtext",
+             "label": "Texto",
+             "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porttitor cursus pellentesque. In in vehicula odio. Vestibulum convallis tellus leo.<p>"
+           },
+           {
+               "type": "color",
+               "id": "font-color",
+               "label": "Cor da Fonte",
+               "default": "#000000"
+           },
+           {
+               "type": "select",
+               "id": "font-size",
+               "options": [
+                  { "value": "0.85", "label": "Pequeno"},
+                  { "value": "1", "label": "Médio"},
+                  { "value": "1.25", "label": "Grande"}
+               ],
+               "default": "1",
+               "label": "Tamanho da Fonte"
+           },
+           {
+              "type": "select",
+              "id": "font-weight",
+              "options": [
+                 { "value": "300", "label": "Fino"},
+                 { "value": "400", "label": "Normal"},
+                 { "value": "600", "label": "Negrito"},
+                 { "value": "900", "label": "Extra Negrito"}
+              ],
+              "default": "400",
+              "label": "Peso da Fonte"
+           },
+           {
+              "type": "select",
+              "id": "align",
+              "options": [
+                 { "value": "center", "label": "Centralizado"},
+                 { "value": "left", "label": "Esquerda"},
+                 { "value": "right", "label": "Direita"}
+              ],
+              "default": "center",
+              "label": "Alinhamento"
+           }
+         ]
+      },
+      {
+         "type":"cta",
+         "name":"Botão (CTA)",
+         "settings":[
+            {
+               "type":"color",
+               "id":"font-color",
+               "label":"Cor da Fonte",
+               "default":"#FFFFFF"
+            },
+            {
+               "type":"color",
+               "id":"background-color",
+               "label":"Cor de Fundo",
+               "default":"#19C149"
+            },
+            {
+               "id":"link",
+               "type":"text",
+               "label":"Link do Botão",
+               "default":"#MainContent"
+            },
+            {
+               "id":"text",
+               "type":"text",
+               "label":"Texto do Botão",
+               "default":"Saiba mais"
+            },
+            {
+               "type":"select",
+               "id":"font-size",
+               "options":[
+                  {
+                     "value":"0.75",
+                     "label":"Pequeno"
+                  },
+                  {
+                     "value":"1",
+                     "label":"Médio"
+                  },
+                  {
+                     "value":"1.25",
+                     "label":"Grande"
+                  }
+               ],
+               "default":"1",
+               "label":"Tamanho da Fonte"
+            },
+            {
+               "type":"select",
+               "id":"font-weight",
+               "options":[
+                  {
+                     "value":"300",
+                     "label":"Fino"
+                  },
+                  {
+                     "value":"400",
+                     "label":"Normal"
+                  },
+                  {
+                     "value":"600",
+                     "label":"Negrito"
+                  },
+                  {
+                     "value":"900",
+                     "label":"Extra Negrito"
+                  }
+               ],
+               "default":"400",
+               "label":"Peso da Fonte"
+            },
+            {
+               "type":"select",
+               "id":"cta-align",
+               "options":[
+                  {
+                     "value":"center",
+                     "label":"Centralizado"
+                  },
+                  {
+                     "value":"left",
+                     "label":"Esquerda"
+                  },
+                  {
+                     "value":"right",
+                     "label":"Direita"
+                  }
+               ],
+               "default":"center",
+               "label":"Alinhamento"
+            },
+            {
+               "id":"border-radius",
+               "type":"text",
+               "label":"Arredondamento de Borda",
+               "default":"20px"
+            },
+            {
+               "type":"checkbox",
+               "id":"pulse",
+               "label":"Botão animado (pulsante)",
+               "default":false
+            }
+         ]
+      }
+   ],
+   "settings":[
+      {
+         "id":"heading",
+         "type":"text",
+         "label":"Identificação da Seção"
+      },
+      {
+         "type":"paragraph",
+         "content":"Não utilize espaços! A identificação da seção tem como objetivo utilizar botões de ancoragem para a seção. Ex: Para o caso da identifação da seção ser 'novidades', no campo link do Botão, inserir '#novidades'"
+      },
+      {
+         "type":"header",
+         "content":"Configurações de Fundo"
+      },
+      {
+         "type":"color",
+         "id":"background-color",
+         "label":"Cor de Fundo",
+         "default":"#FFFFFF"
+      },
       {
          "type":"header",
          "content":"Imagem em desktop"
       },
       {
-         "type": "image_picker",
-         "id": "content_image",
-         "label": "Imagem"
+         "type":"image_picker",
+         "id":"content_image",
+         "label":"Imagem"
       },
       {
          "type":"header",
          "content":"Imagem em dispositivo móvel"
       },
       {
-         "type": "image_picker",
-         "id": "mobile_content_image",
-         "label": "Imagem"
+         "type":"image_picker",
+         "id":"mobile_content_image",
+         "label":"Imagem"
+      },
+      {
+         "type":"header",
+         "content":"Subtítulo do banner"
+      },
+      {
+         "type":"text",
+         "id":"banner_subtitle",
+         "label":"Titulo do subtitle"
+      },
+      {
+         "type":"color",
+         "id":"banner_subtitle_font_color",
+         "label":"Cor de Fonte do Título",
+         "default":"#FFFFFF"
+      },
+      {
+         "type":"select",
+         "id":"banner_subtitle_font_size",
+         "options":[
+            {
+               "value":"1",
+               "label":"Pequeno"
+            },
+            {
+               "value":"1.25",
+               "label":"Médio"
+            },
+            {
+               "value":"1.5",
+               "label":"Grande"
+            }
+         ],
+         "default":"1.25",
+         "label":"Tamanho da fonte"
+      },
+      {
+         "type":"header",
+         "content":"Título do Banner"
+      },
+      {
+         "type":"text",
+         "id":"banner_title",
+         "label":"Titulo do Banner"
+      },
+      {
+         "type":"color",
+         "id":"banner_title_font_color",
+         "label":"Cor de Fonte do Título",
+         "default":"#FFFFFF"
+      },
+      {
+         "type":"select",
+         "id":"banner_title_font_size",
+         "options":[
+            {
+               "value":"1.5",
+               "label":"Pequeno"
+            },
+            {
+               "value":"2",
+               "label":"Médio"
+            },
+            {
+               "value":"2.5",
+               "label":"Grande"
+            }
+         ],
+         "default":"2",
+         "label":"Tamanho da fonte"
+      },
+      {
+         "type":"header",
+         "content":"Paragrafo do Banner"
+      },
+      {
+         "type":"textarea",
+         "id":"banner_paragraph",
+         "label":"Paragrafo do Banner"
+      },
+      {
+         "type":"color",
+         "id":"banner_paragraph_font_color",
+         "label":"Cor de Fonte do Paragrafo",
+         "default":"#FFFFFF"
+      },
+      {
+         "type":"select",
+         "id":"banner_paragraph_font_size",
+         "options":[
+            {
+               "value":"1",
+               "label":"Pequeno"
+            },
+            {
+               "value":"1.25",
+               "label":"Médio"
+            },
+            {
+               "value":"1.5",
+               "label":"Grande"
+            }
+         ],
+         "default":"1.25",
+         "label":"Tamanho da fonte"
       }
-    ]
- }
+   ]
+}
 {% endschema %}
 
 {% stylesheet %} {% endstylesheet %}
