@@ -116,11 +116,11 @@
         "33252fe3-c8f3-4e74-ad76-ab42e2ef072f": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-offer-tag\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "background_color": "#ffffff",
+            "background_color": "#039515",
             "sale_text_before": "ECONOMIZE",
             "show_percentage": true,
             "sale_text_after": "",
-            "font_color": "#ff0000",
+            "font_color": "#ffffff",
             "border_radius": "10px",
             "tag_border": false,
             "tag_border_color": "#DA2F20"
