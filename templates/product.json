@@ -119,10 +119,10 @@
             "background_color": "#ffffff",
             "sale_text_before": "ECONOMIZE",
             "show_percentage": true,
-            "sale_text_after": "OFF",
+            "sale_text_after": "",
             "font_color": "#ff0000",
             "border_radius": "10px",
-            "tag_border": true,
+            "tag_border": false,
             "tag_border_color": "#DA2F20"
           }
         }
