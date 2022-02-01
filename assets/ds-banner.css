@@ -1,6 +1,0 @@
-@media (min-width: 800px)
-   {
-    .ds-banner {
-      height: {{content_image.height}} px;
-    }
-};
