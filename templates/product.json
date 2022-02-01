@@ -108,7 +108,9 @@
             "show_percentage": true,
             "sale_text_after": "",
             "font_color": "#ffffff",
-            "border_radius": "5px"
+            "border_radius": "5px",
+            "tag_border": false,
+            "tag_border_color": "#DA2F20"
           }
         },
         "33252fe3-c8f3-4e74-ad76-ab42e2ef072f": {
@@ -119,7 +121,9 @@
             "show_percentage": true,
             "sale_text_after": "OFF",
             "font_color": "#ff0000",
-            "border_radius": "10px"
+            "border_radius": "10px",
+            "tag_border": true,
+            "tag_border_color": "#DA2F20"
           }
         }
       },
