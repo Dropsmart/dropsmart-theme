@@ -119,7 +119,7 @@
             "show_percentage": true,
             "sale_text_after": "OFF",
             "font_color": "#ff0000",
-            "border_radius": "5px"
+            "border_radius": "10px"
           }
         }
       },
