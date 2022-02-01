@@ -1,6 +1,7 @@
     {%- liquid
 
       assign content_image = section.settings.content_image
+      assign mobile_content_image = section.settings.mobile_content_image
 
       assign banner_subtitle = section.settings.banner_subtitle
       assign banner_subtitle_font_color = section.settings.banner_subtitle_font_color
@@ -16,21 +17,78 @@
       
     %}
 
-<div id="{{section.settings.heading}}"
-   style="background-image: url({{ content_image |  img_url: 'original' }});
-   background-repeat: no-repeat;
-   background-size: 100%;">
-      <div class="banner-elements no-padding"
-        style="align-self: {{section.settings.vertical-align-content}};
-        height: 45vh;">
+<style>
 
+@media (min-width: 1800px)
+{
+  .ds-banner
+   {
+    height: calc( 1.1 * {{content_image.height}}px);
+   }
+}
+
+@media (max-width: 1799px)
+{
+  .ds-banner
+   {
+    height: {{content_image.height}}px;
+   }
+}
+
+@media (max-width: 1200px)
+{
+  .ds-banner
+   {
+    height: calc( 0.9 * {{content_image.height}}px);
+   }
+}
+
+@media (max-width: 1060px)
+{
+  .ds-banner
+   {
+    height: calc( 0.8 * {{content_image.height}}px);
+   }
+}
+
+@media (max-width: 930px)
+{
+  .ds-banner
+   {
+    height: calc( 0.7 * {{content_image.height}}px);
+   }
+}
+
+@media (max-width: 800px)
+{
+  .ds-banner
+   {
+    height: calc( 0.6 * {{content_image.height}}px);
+   }
+}
+
+</style>
+
+
+<div class = "mobile-hide ds-banner" id="{{section.settings.heading}}"
+   style="background-image: url({{ content_image |  img_url: 'original' }});
+   background-size: 100%;
+   background-position: center center;
+   background-repeat: no-repeat;
+   border: 2px solid green;
+   "
+   >
+
+      <div class="banner-elements no-padding"
+      style="align-self: {{section.settings.vertical-align-content}};">
+            
             <div class="content">
                {% for block in section.blocks %}
-                    {% case block.type %}
+                  {% case block.type %}
                         {%- when '@app' -%}
                            {% render block %}
 
-                          
+                        
                         {% when 'h1' %}
                            {%- render 'ds-component-h1', 
                               fontColor: block.settings.font-color, 
@@ -66,6 +124,64 @@
             </div>
       </div>
 </div>
+
+<div class = "desktop-hide" id="{{section.settings.heading}}"
+   style="background-image: url({{ mobile_content_image |  img_url: 'original' }});
+   background-size: 100%;
+   background-position: center center;
+   background-repeat: no-repeat;
+   border: 2px solid green;
+   height: {{mobile_content_image_height}}px;
+   
+   "
+   >
+
+      <div class="banner-elements no-padding"
+      style="align-self: {{section.settings.vertical-align-content}};">
+            
+            <div class="content">
+               {% for block in section.blocks %}
+                  {% case block.type %}
+                        {%- when '@app' -%}
+                           {% render block %}
+
+                        
+                        {% when 'h1' %}
+                           {%- render 'ds-component-h1', 
+                              fontColor: block.settings.font-color, 
+                              fontSize: block.settings.font-size, 
+                              align: block.settings.align,
+                              fontWeight: block.settings.font-weight,
+                              text: block.settings.text
+                           -%}
+
+                        {% when 'paragraph' %}
+                           {%- render 'ds-component-paragraph', 
+                              fontColor: block.settings.font-color, 
+                              fontSize: block.settings.font-size, 
+                              align: block.settings.align,
+                              fontWeight: block.settings.font-weight,
+                              text: block.settings.text
+                           -%}
+
+                        {% when 'cta' %}
+                           {%- render 'ds-component-cta',
+                              backgroundColor: block.settings.background-color, 
+                              fontColor: block.settings.font-color, 
+                              fontSize: block.settings.font-size,
+                              fontWeight: block.settings.font-weight 
+                              link: block.settings.link,
+                              borderRadius: block.settings.border-radius,
+                              align: block.settings.cta-align,
+                              text: block.settings.text,
+                              pulse: block.settings.pulse,
+                           -%}
+                     {% endcase %}
+               {% endfor %}
+            </div>
+      </div>
+</div>
+
 
 {% schema %}
 {
