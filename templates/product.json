@@ -121,7 +121,7 @@
             "show_percentage": true,
             "sale_text_after": "",
             "font_color": "#ffffff",
-            "border_radius": "10px",
+            "border_radius": "20px",
             "tag_border": false,
             "tag_border_color": "#DA2F20"
           }
