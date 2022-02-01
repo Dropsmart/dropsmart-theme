@@ -100,31 +100,14 @@
             "seconds": 39
           }
         },
-        "210d106e-3752-48de-9181-d9c4a7616e72": {
-          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-bullet-point\/732d8add-f649-4104-803b-f0a865215b2f",
-          "settings": {
-            "bullet_point_text": "O produto é muito bom O produto é muito bom O produto é muito bom",
-            "icon_color": "#18b939",
-            "font_color": "#121212"
-          }
-        },
-        "ea100f2e-7400-4e70-96fc-db736deb6b5b": {
-          "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-bullet-point\/732d8add-f649-4104-803b-f0a865215b2f",
-          "settings": {
-            "bullet_point_text": "O produto é muito bom o produto é muito bom",
-            "icon_color": "#19c149",
-            "font_color": "#000000"
-          }
-        },
         "aac00ac0-e0f5-4963-9d01-da4efc4623e7": {
           "type": "shopify:\/\/apps\/dropsmart-development-app\/blocks\/ds-block-offer-tag\/732d8add-f649-4104-803b-f0a865215b2f",
           "settings": {
-            "background_color": "#DA2F20",
+            "background_color": "#da2f20",
             "sale_text_before": "ECONOMIZE",
-            "show_percentage": false,
+            "show_percentage": true,
             "sale_text_after": "",
-            "font_color": "#FFFFFF",
-            "font_size": "0.85",
+            "font_color": "#ffffff",
             "border_radius": "5px"
           }
         }
@@ -142,8 +125,6 @@
         "description",
         "c2115456-1dbd-4443-a1d8-41d2e24aa502",
         "98fc3905-3f9d-40f9-9a2c-7f727020584e",
-        "210d106e-3752-48de-9181-d9c4a7616e72",
-        "ea100f2e-7400-4e70-96fc-db736deb6b5b",
         "aac00ac0-e0f5-4963-9d01-da4efc4623e7"
       ],
       "settings": {
