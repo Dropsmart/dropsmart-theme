@@ -30,7 +30,8 @@
                         {% when 'h1' %}
                            {%- render 'ds-component-h1', 
                               fontColor: block.settings.font-color, 
-                              fontSize: block.settings.font-size, 
+                              font_size: block.settings.font-size, 
+                              line_height: block.settings.line_height,
                               align: block.settings.align,
                               fontWeight: block.settings.font-weight,
                               text: block.settings.text
@@ -160,6 +161,17 @@
                ],
                "default": "2",
                "label": "Tamanho da Fonte"
+           },
+           {
+               "type": "select",
+               "id": "line_height",
+               "options": [
+                  { "value": "115%", "label": "Pequeno"},
+                  { "value": "130%", "label": "Médio"},
+                  { "value": "150%", "label": "Grande"}
+               ],
+               "default": "130%",
+               "label": "Altura da Linha"
            },
            {
               "type": "select",

@@ -12,7 +12,8 @@
             {% if section.settings.title_text %}
                {%- render 'ds-component-h1', 
                   fontColor: section.settings.title_font_color, 
-                  fontSize: section.settings.title_font_size, 
+                  font_size: section.settings.title_font_size, 
+                  line_height: block.settings.line_height, 
                   align: section.settings.title_align,
                   fontWeight: section.settings.title_font_weight,
                   text: section.settings.title_text

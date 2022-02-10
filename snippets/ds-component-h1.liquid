@@ -1,5 +1,16 @@
 <div class="ds-component ds-h1 justify-{{align}} grow-0">
-    <h1 style="color:{{fontColor}}; font-size:{{fontSize}}em;" class="weight-{{fontWeight}}">
+    <h1 style="color:{{fontColor}}; font-size:{{font_size}}em; line-height:{{line_height}}%;
+    {% if font_size == "2.5" %}
+            {% if line_height == 150 %}
+            line-height: 160%;
+            {% elsif line_height == 130 %}
+            line-height: 140%;
+            {% else %}
+            line-height: 110%;
+            {% endif %}
+    {% endif %}"
+    
+    class="weight-{{fontWeight}}">
         {{ text }}
     </h1>
 </div>
