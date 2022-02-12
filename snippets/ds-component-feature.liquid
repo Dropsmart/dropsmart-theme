@@ -11,52 +11,60 @@
     > 
       {% if block.settings.has-icon %}
       <div class="flex image-wrapper {% if block.settings.icon-size != '100%' %} component-feature-image-padding {% endif %} grow-0 justify-center align-items-{{block.settings.image-align}}">
-        <img loading="lazy" class="mobile-hide" style="
-            width: auto;
-            {% if block.settings.icon-size != '100%' %}
-              width: {{block.settings.icon-size}}px;
-              min-width: {{block.settings.icon-size}}px;
-              max-width: {{block.settings.icon-size}}px;
-            {% else %}
-              width: {{block.settings.icon-size}};
-              border-top-left-radius: {{block.settings.border-radius}};
-              border-top-right-radius: {{block.settings.border-radius}};
-            {% endif %}
-          " 
-          src="
-          {% if block.settings.has-icon %}
-              {{ block.settings.icon-image | image_url: height: 500}}
-          {% else %}
-              {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }}
-          {% endif %}"
-        />
-        <img loading="lazy" class="desktop-hide" style="
-            display: flex !important;
-            height: auto;
-            {% if block.settings.mobile-icon-size != '100%' %}
-              width: {{block.settings.mobile-icon-size}}px;
-              padding-top: 1em;
-              min-width: {{block.settings.mobile-icon-size}}px;
-              max-width: {{block.settings.mobile-icon-size}}px;
-            {% else %}
-              width: {{block.settings.mobile-icon-size}};
-              border-top-left-radius: {{block.settings.border-radius}};
-              border-top-right-radius: {{block.settings.border-radius}};
-            {% endif %}
-          " 
-          src="
-              {% if block.settings.has-icon-mobile %}
-                  {{ block.settings.icon-image | image_url: height: 500}}
-              {% else %}    
-                  {% if block.settings.has-icon %}
-                      {{ block.settings.icon-image | image_url: height: 500}} 
-                  {% else %}
-                      {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }} 
-                  {% endif %}
+      
+        {% if block.settings.icon-image != null %}
+          <img loading="lazy" class="mobile-hide" style="
+              width: auto;
+              {% if block.settings.icon-size != '100%' %}
+                width: {{block.settings.icon-size}}px;
+                min-width: {{block.settings.icon-size}}px;
+                max-width: {{block.settings.icon-size}}px;
+              {% else %}
+                width: {{block.settings.icon-size}};
+                border-top-left-radius: {{block.settings.border-radius}};
+                border-top-right-radius: {{block.settings.border-radius}};
               {% endif %}
-          "
-        />
+            " 
+            src="
+            {% if block.settings.has-icon %}
+                {{ block.settings.icon-image | image_url: height: 500}}
+            {% else %}
+                {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }}
+            {% endif %}"
+          />
+        {% endif %}
+
+        {% if block.settings.mobile-icon-image != null %}
+          <img loading="lazy" class="desktop-hide" style="
+              display: flex !important;
+              height: auto;
+              {% if block.settings.mobile-icon-size != '100%' %}
+                width: {{block.settings.mobile-icon-size}}px;
+                padding-top: 1em;
+                min-width: {{block.settings.mobile-icon-size}}px;
+                max-width: {{block.settings.mobile-icon-size}}px;
+              {% else %}
+                width: {{block.settings.mobile-icon-size}};
+                border-top-left-radius: {{block.settings.border-radius}};
+                border-top-right-radius: {{block.settings.border-radius}};
+              {% endif %}
+            " 
+            src="
+                {% if block.settings.has-icon-mobile %}
+                    {{ block.settings.mobile-icon-image | image_url: height: 500}}
+                {% else %}    
+                    {% if block.settings.has-icon %}
+                        {{ block.settings.icon-image | image_url: height: 500}} 
+                    {% else %}
+                        {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }} 
+                    {% endif %}
+                {% endif %}
+            "
+          />
+          {% endif %}
+
       </div>
+
       {% endif %}
       {% if block.settings.text != empty or block.settings.description-text != empty %}
         <div class="content flex component-feature-padding justify-center">
