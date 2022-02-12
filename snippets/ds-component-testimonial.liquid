@@ -11,6 +11,8 @@
     > 
       {% if block.settings.has-icon %}
       <div class="flex image-wrapper grow-0 justify-center align-items-{{block.settings.image-align}}">
+      
+      {% if block.settings.icon-image != null %}
         <img loading="lazy" class="mobile-hide" style="
             width: auto;
             height: {{block.settings.icon-size}}px;
@@ -21,6 +23,9 @@
             {{ block.settings.icon-image | img_url: 'medium'}}
           "
         />
+      {% endif %}
+      
+      {% if block.settings.mobile-icon-image != null %}
         <img loading="lazy" class="desktop-hide" style="
             display: flex !important;
             height: auto;
@@ -36,6 +41,8 @@
               {% endif %}
           "
         />
+      {% endif %}
+
       </div>
       {% endif %}
       {% if block.settings.text != empty %}
