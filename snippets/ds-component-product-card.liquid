@@ -11,7 +11,8 @@
     class="flex full-width flex-column no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
   > 
     {% if block.settings.emphasis != empty %}
-      <span class="emphasis weight-{{block.settings.emphasis-font-weight}}" style="background: {{block.settings.emphasis-background-color}}; color: {{block.settings.emphasis-font-color}}; font-size:{{block.settings.emphasis-font-size}}em;">
+      <span class="emphasis weight-{{block.settings.emphasis-font-weight}}"
+      style="background: {{block.settings.emphasis-background-color}}; color: {{block.settings.emphasis-font-color}}; font-size:{{block.settings.emphasis-font-size}}em;">
         {{block.settings.emphasis}}
       </span>
     {% endif %}
@@ -29,7 +30,7 @@
         />
 
     {% else %}
-        <div style="height:3em">
+        <div class="mobile-hide" style="height:3em">
         </div>
       
     {% endif %}
@@ -55,6 +56,10 @@
               {% endif %}
           "
         />
+
+      {% else %}
+        <div class="desktop-hide" style="height:3em">
+      </div>
       {% endif %}
         <div class="component-product-card justify-center">
             {%- render 'ds-component-h3', 
