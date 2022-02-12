@@ -17,59 +17,6 @@
       
     %}
 
-<style>
-
-@media (min-width: 1800px)
-{
-  .ds-banner
-   {
-    height: calc( 1.1 * {{content_image.height}}px);
-   }
-}
-
-@media (max-width: 1799px)
-{
-  .ds-banner
-   {
-    height: {{content_image.height}}px;
-   }
-}
-
-@media (max-width: 1200px)
-{
-  .ds-banner
-   {
-    height: calc( 0.9 * {{content_image.height}}px);
-   }
-}
-
-@media (max-width: 1060px)
-{
-  .ds-banner
-   {
-    height: calc( 0.8 * {{content_image.height}}px);
-   }
-}
-
-@media (max-width: 930px)
-{
-  .ds-banner
-   {
-    height: calc( 0.7 * {{content_image.height}}px);
-   }
-}
-
-@media (max-width: 800px)
-{
-  .ds-banner
-   {
-    height: calc( 0.6 * {{content_image.height}}px);
-   }
-}
-
-</style>
-
-
 <div class = "mobile-hide ds-banner" id="{{section.settings.heading}}"
    style="background-image: url({{ content_image |  img_url: 'original' }});
    background-size: cover;
