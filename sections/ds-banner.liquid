@@ -22,7 +22,6 @@
    background-size: cover;
    background-position: center center;
    background-repeat: no-repeat;
-   border: 2px solid green;
    height: calc(100vw / {{content_image.aspect_ratio}})
    "
    >
@@ -83,9 +82,7 @@
    background-size: cover;
    background-position: center center;
    background-repeat: no-repeat;
-   border: 2px solid green;
-   height: {{mobile_content_image_height}}px;
-   
+   height: calc(100vw / {{mobile_content_image.aspect_ratio}})   
    "
    >
 
