@@ -41,7 +41,9 @@
                               text: block.settings.text
                            -%}
 
+                        
                         {% when 'content-image' %}
+                         {% if block.settings.has-icon %}
                            {% render "ds-component-content-image" style="size:{{block.settings.desktop_content_image_size}}em;", 
                               content_image: block.settings.content_image,
                               mobile_content_image: block.settings.mobile_content_image,
@@ -49,6 +51,7 @@
                               mobile_content_image_size: block.settings.mobile_content_image_size
                               image_align: block.settings.image_align
                            %}
+                        {% endif %}
                                        
                         {% when 'cta' %}
                            {%- render 'ds-component-cta',
@@ -350,6 +353,12 @@
                ],
                "default":"center",
                "label":"Alinhamento da imagem"
+            },
+            {
+               "id":"has-icon",
+               "type":"checkbox",
+               "label":"Utilizar Foto",
+               "default": true
             }, 
             {
                "type":"header",

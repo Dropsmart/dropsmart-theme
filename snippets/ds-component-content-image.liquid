@@ -20,6 +20,17 @@
       height="{{mobile_content_image_size}}"
       width="{{mobile_content_image_size}}"
     />
+
+    {% else if mobile_content_image == null %}
+      <img 
+      loading="lazy" 
+      class="desktop-hide" 
+      src="{{ content_image | img_url: 'master' }}"
+      data-src="{{ content_image | img_url: 'master' }}" 
+      alt="Component Content Image"
+      height="{{mobile_content_image_size}}"
+      width="{{mobile_content_image_size}}"
+      />
   {% endif %}
   </figure>
 </div>
