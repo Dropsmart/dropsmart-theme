@@ -52,7 +52,7 @@
             src="
                 {% if block.settings.has-icon-mobile %}
                     {{ block.settings.mobile-icon-image | image_url: height: 500}}
-                {% else %}    
+                {% else if %}    
                     {% if block.settings.has-icon %}
                         {{ block.settings.icon-image | image_url: height: 500}} 
                     {% else %}

@@ -34,13 +34,29 @@
             max-width: {{block.settings.mobile-icon-size}}px;
           " 
           src="
-              {% if block.settings.has-icon-mobile %}
+              {% if block.settings.mobile-icon-image != null %}
                 {{ block.settings.mobile-icon-image | img_url: 'medium'}}
               {% else %}    
                 {{ block.settings.icon-image | img_url: 'medium'}} 
               {% endif %}
           "
         />
+
+      {% else if block.settings.mobile-icon-image == null %}
+        <img loading="lazy" class="desktop-hide" style="
+            display: flex !important;
+            height: auto;
+            width: {{block.settings.mobile-icon-size}}px;
+            min-width: {{block.settings.mobile-icon-size}}px;
+            max-width: {{block.settings.mobile-icon-size}}px;
+          " 
+          src="
+          {% if block.settings.icon-image != null %}
+            {{ block.settings.icon-image | img_url: 'medium'}} 
+          {% endif %}
+            "
+        />
+        
       {% endif %}
 
       </div>
