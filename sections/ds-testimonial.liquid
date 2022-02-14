@@ -8,11 +8,12 @@
     <div class="Container {{section.settings.padding}} {{section.settings.no-padding}}">
       <div class="center_content container-small flex-column">
          <div class="content">
-                           
+                         
             {% if section.settings.title_text %}
                {%- render 'ds-component-h1', 
                   fontColor: section.settings.title_font_color, 
-                  fontSize: section.settings.title_font_size, 
+                  font_size: section.settings.title_font_size, 
+                  line_height: block.settings.line_height, 
                   align: section.settings.title_align,
                   fontWeight: section.settings.title_font_weight,
                   text: section.settings.title_text
@@ -171,11 +172,6 @@
                "type":"checkbox",
                "label":"Utilizar Foto",
                "default": true
-            },
-            {
-               "id":"has-icon-mobile",
-               "type":"checkbox",
-               "label":"Utilizar foto diferente para dispositivo móveis"
             },
             {
                "id":"icon-image",

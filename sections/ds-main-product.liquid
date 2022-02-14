@@ -238,8 +238,9 @@
           {% when 'h1' %}
               {%- render 'ds-component-h1', 
                 fontColor: block.settings.font-color, 
-                fontSize: block.settings.font-size, 
+                font_size: block.settings.font-size, 
                 align: block.settings.align,
+                line_height: block.settings.line_height, 
                 fontWeight: block.settings.font-weight,
                 text: block.settings.text
               -%}
