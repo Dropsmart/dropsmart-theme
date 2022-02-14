@@ -5,13 +5,15 @@
         style="align-self: {{section.settings.vertical-align-content}};">
         <div class="center_content container-{{section.settings.container-width}} flex {% if section.settings.image-pos == 'right' %} flex-reverse {% else %} flex-row {% endif %} mobile-flex-column">
             <div class="content flex flex-column" style="align-self: {{section.settings.vertical-align-content}};">
+              
                {% render "ds-component-content-image" style="size:{{block.settings.desktop_content_image_size}}em;", 
-                  contentImage: section.settings.content_image,
-                  mobileContentImage: section.settings.mobile_content_image,
+                  content_image: section.settings.content_image,
+                  mobile_content_image: section.settings.mobile_content_image,
                   desktop_content_image_size: section.settings.desktop_content_image_size,
                   mobile_content_image_size: section.settings.mobile_content_image_size
                   image_align: 'center'
                %}
+               
             </div>
             <div class="content flex flex-column" style="align-self: {{section.settings.vertical-align-content}};">
                 {% for block in section.blocks %}
@@ -48,8 +50,8 @@
 
                         {% when 'content-image' %}
                            {% render "ds-component-content-image" style="size:{{block.settings.desktop_content_image_size}}em;", 
-                              contentImage: block.settings.content_image,
-                              mobileContentImage: block.settings.mobile_content_image,
+                              content_image: block.settings.content_image,
+                              mobile_content_image: block.settings.mobile_content_image,
                               desktop_content_image_size: block.settings.desktop_content_image_size,
                               mobile_content_image_size: block.settings.mobile_content_image_size
                               image_align: block.settings.image_align
