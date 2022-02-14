@@ -16,48 +16,60 @@
         {{block.settings.emphasis}}
       </span>
     {% endif %}
-    {% if block.settings.icon-image != null %}
+
+    {% if block.settings.has-icon %}
+     {% if block.settings.icon-image != null %}
         <img loading="lazy" class="mobile-hide" style="
-            border-top-right-radius:{{block.settings.border-radius}};
-            border-top-left-radius: {{block.settings.border-radius}};
+            width: auto;
+            height: {{block.settings.icon-size}}px;
+            min-height: {{block.settings.icon-size}}px;
+            max-height: {{block.settings.icon-size}}px;
           " 
           src="
-          {% if block.settings.has-icon %}
-              {{ block.settings.icon-image | img_url: 'medium'}}
-          {% else %}
-              {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }}
-          {% endif %}"
+            {{ block.settings.icon-image | img_url: 'medium'}}
+          "
         />
-
-    {% else %}
-        <div class="mobile-hide" style="height:3em">
-        </div>
+      {% endif %}
       
-    {% endif %}
-    
       {% if block.settings.mobile-icon-image != null %}
         <img loading="lazy" class="desktop-hide" style="
             display: flex !important;
-            border-top-right-radius:{{block.settings.border-radius}};
-            border-top-left-radius: {{block.settings.border-radius}};
-          "
+            height: auto;
+            width: {{block.settings.mobile-icon-size}}px;
+            min-width: {{block.settings.mobile-icon-size}}px;
+            max-width: {{block.settings.mobile-icon-size}}px;
+          " 
           src="
-              {% if block.settings.has-icon-mobile %}
-                  {{ block.settings.mobile-icon-image | img_url: 'medium'}}
+              {% if block.settings.mobile-icon-image != null %}
+                {{ block.settings.mobile-icon-image | img_url: 'medium'}}
               {% else %}    
-                  {% if block.settings.has-icon %}
-                      {{ block.settings.mobile-icon-image | img_url: 'medium'}} 
-                  {% else %}
-                      {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }} 
-                  {% endif %}
+                {{ block.settings.icon-image | img_url: 'medium'}} 
               {% endif %}
           "
         />
 
-      {% else %}
-        <div class="desktop-hide" style="height:3em">
-      </div>
+      {% else if block.settings.mobile-icon-image == null %}
+        <img loading="lazy" class="desktop-hide" style="
+            display: flex !important;
+            height: auto;
+            width: {{block.settings.mobile-icon-size}}px;
+            min-width: {{block.settings.mobile-icon-size}}px;
+            max-width: {{block.settings.mobile-icon-size}}px;
+          " 
+          src="
+          {% if block.settings.icon-image != null %}
+            {{ block.settings.icon-image | img_url: 'medium'}} 
+          {% endif %}
+            "
+        />
       {% endif %}
+    {% endif %}
+
+
+      {% comment %} {% else %}
+        <div class="desktop-hide" style="height:3em">
+      </div> {% endcomment %}
+      
         <div class="component-product-card justify-center">
             {%- render 'ds-component-h3', 
               fontColor: block.settings.title-font-color, 
