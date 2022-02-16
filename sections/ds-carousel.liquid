@@ -1,0 +1,88 @@
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}    
+
+{%- liquid
+
+assign content_image = section.settings.content_image
+assign mobile_content_image = section.settings.mobile_content_image
+
+%}
+
+
+<div class="mobile-hide ds-banner">
+    <div class="Container {{section.settings.padding}} {{section.settings.no-padding}}"
+        style="align-self: {{section.settings.vertical-align-content}};
+        background-image: url({{ content_image |  img_url: 'original' }});
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: calc(100vw / {{content_image.aspect_ratio}})">
+        <div class="splide center_content container-{{section.settings.container-width}} flex-column">
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        {% for block in section.blocks %}
+                            {% case block.type %}
+                                {%- when '@app' -%}
+                                    {% render block %}
+                                    <li class="splide__slide">
+                                    {% when 'content-image' %}
+                                    {% render "ds-component-content-image", 
+                                        contentImage: block.settings.content_image,
+                                        mobileContentImage: block.settings.mobile_content_image
+                                    %}
+                                    </li>
+                            {% endcase %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ 'ds-carousel.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+    "name":"DS: Carrossel",
+    "class":"lp-content",
+    "presets": [
+      {
+        "name": "DS: Carrossel"
+      }
+    ],
+    "blocks":[
+      {
+         "type": "@app"
+      },
+      {
+         "type": "content-image",
+         "name": "Imagem no conteúdo",
+         "settings": [
+            {
+               "type":"header",
+               "content":"Imagem em desktop"
+            },
+            {
+               "type": "image_picker",
+               "id": "content_image",
+               "label": "Imagem"
+            },
+            {
+               "type":"header",
+               "content":"Imagem em dispositivo móvel"
+            },
+            {
+               "type": "image_picker",
+               "id": "mobile_content_image",
+               "label": "Imagem"
+            }
+         ]
+      }
+     ]
+ }
+{% endschema %}
+
+{% stylesheet %} {% endstylesheet %}
+
+{% javascript %} {% endjavascript %}
