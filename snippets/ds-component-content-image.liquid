@@ -1,8 +1,8 @@
-<div class="ds-component ds-component-content-image image">
-  <figure class="flex justify-{{image_align}}">
+<div class="ds-component ds-component-content-image image ">
+  <figure class="justify-{{image_align}}">
     <img 
       loading="lazy"
-      class="{% if mobileContentImage != empty %} mobile-hide {% endif %}" src="{{ contentImage | img_url: 'master' }}"
+      class="{% if mobileContentImage != empty %} mobile-hide {% endif %} justify-{{image_align}}" src="{{ contentImage | img_url: 'master' }}"
       data-src="{{ contentImage | img_url: 'master' }} "
       alt="Component Content Image"
       height="{{desktop_content_image_size}}"

@@ -7,7 +7,7 @@
         style="align-self: {{section.settings.vertical-align-content}};">
         <div class="center_content container-{{section.settings.container-width}} flex-column">
 
-            <div class="content">
+            <div class="content justify-{{section.settings.section_default_align}}">
                 {% for block in section.blocks %}
                     {% case block.type %}
                         {%- when '@app' -%}
@@ -22,7 +22,7 @@
                            {{block.settings.custom_html}}
                            
                         {% when 'h1' %}
-                           {%- render 'ds-component-h1', 
+                           {%- render 'ds-component-h1',
                               fontColor: block.settings.font-color, 
                               fontSize: block.settings.font-size, 
                               align: block.settings.align,
@@ -252,9 +252,10 @@
               "options": [
                  { "value": "center", "label": "Centralizado"},
                  { "value": "left", "label": "Esquerda"},
-                 { "value": "right", "label": "Direita"}
+                 { "value": "right", "label": "Direita"},
+                 { "value": "default", "label": "Padrão"}
               ],
-              "default": "center",
+              "default": "default",
               "label": "Alinhamento"
            }
          ]
@@ -304,9 +305,10 @@
               "options": [
                  { "value": "center", "label": "Centralizado"},
                  { "value": "left", "label": "Esquerda"},
-                 { "value": "right", "label": "Direita"}
+                 { "value": "right", "label": "Direita"},
+                 { "value": "default", "label": "Padrão"}
               ],
-              "default": "center",
+              "default": "default",
               "label": "Alinhamento"
            }
          ]
@@ -334,9 +336,13 @@
                   {
                      "value":"right",
                      "label":"Direita"
+                  },
+                  { 
+                     "value": "default",
+                     "label": "Padrão"
                   }
-               ],
-               "default":"center",
+              ],
+              "default": "default",
                "label":"Alinhamento da imagem"
             }, 
             {
@@ -472,9 +478,10 @@
             "options": [
                { "value": "center", "label": "Centralizado"},
                { "value": "left", "label": "Esquerda"},
-               { "value": "right", "label": "Direita"}
-            ],
-            "default": "center",
+               { "value": "right", "label": "Direita"},
+               { "value": "default", "label": "Padrão"}
+              ],
+              "default": "default",
             "label": "Alinhamento"
           },
           {
@@ -516,6 +523,30 @@
           "id":"background-image",
           "type":"image_picker",
           "label":"Imagem de Fundo"
+       },
+       {
+         "type": "header",
+         "content": "Alinhamento padrão da Seção"
+       },
+       {
+          "type":"select",
+          "id":"section_default_align",
+          "options":[
+             {
+                "value":"left",
+                "label":"Esquerda"
+             },
+             {
+                "value":"center",
+                "label":"Centralizado"
+             },
+             {
+                "value":"right",
+                "label":"Direita"
+             }
+          ],
+          "default":"center",
+          "label":"Alinhamento padrão dos blocos"
        },
        {
          "type": "header",

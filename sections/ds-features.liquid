@@ -7,7 +7,7 @@
           ;" class="ds-lp-content one-col {% if section.settings.reverse-on-mobile %}mobile-reverse{% endif %}">
     <div class="Container {{section.settings.padding}} {{section.settings.no-padding}}">
       <div class="center_content container-small flex-column">
-         <div class="content">
+         <div class="content justify-{{section.settings.section_default_align}}">
                            
             {% if section.settings.title_text %}
                {%- render 'ds-component-h1', 
@@ -647,9 +647,13 @@
             {
                "value":"right",
                "label":"Direita"
+            },
+            {
+            "value": "default",
+            "label": "Padrão"
             }
          ],
-         "default":"center",
+         "default": "default",
          "label":"Alinhamento"
       },
       {
@@ -714,9 +718,13 @@
             {
                "value":"right",
                "label":"Direita"
+            },
+            {
+               "value": "default",
+               "label": "Padrão"
             }
          ],
-         "default":"center",
+         "default": "default",
          "label":"Alinhamento"
       }
    ]

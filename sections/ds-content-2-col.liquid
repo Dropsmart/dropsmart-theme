@@ -13,7 +13,7 @@
                   image_align: 'center'
                %}
             </div>
-            <div class="content flex flex-column" style="align-self: {{section.settings.vertical-align-content}};">
+            <div class="content flex flex-column justify-{{section.settings.section_default_align}}" style="align-self: {{section.settings.vertical-align-content}};">
                 {% for block in section.blocks %}
                     {% case block.type %}
                         {%- when '@app' -%}
@@ -179,9 +179,10 @@
               "options": [
                  { "value": "center", "label": "Centralizado"},
                  { "value": "left", "label": "Esquerda"},
-                 { "value": "right", "label": "Direita"}
+                 { "value": "right", "label": "Direita"},
+                 { "value": "default", "label": "Padrão"}
               ],
-              "default": "center",
+              "default": "default",
               "label": "Alinhamento"
            }
          ]
@@ -231,9 +232,10 @@
               "options": [
                  { "value": "center", "label": "Centralizado"},
                  { "value": "left", "label": "Esquerda"},
-                 { "value": "right", "label": "Direita"}
+                 { "value": "right", "label": "Direita"},
+                 { "value": "default", "label": "Padrão"}
               ],
-              "default": "center",
+              "default": "default",
               "label": "Alinhamento"
            }
          ]
@@ -261,9 +263,13 @@
                   {
                      "value":"right",
                      "label":"Direita"
+                  },
+                  { 
+                     "value": "default",
+                     "label": "Padrão"
                   }
-               ],
-               "default":"center",
+              ],
+              "default": "default",
                "label":"Alinhamento da imagem"
             }, 
             {
@@ -399,9 +405,10 @@
             "options": [
                { "value": "center", "label": "Centralizado"},
                { "value": "left", "label": "Esquerda"},
-               { "value": "right", "label": "Direita"}
-            ],
-            "default": "center",
+               { "value": "right", "label": "Direita"},
+               { "value": "default", "label": "Padrão"}
+              ],
+            "default": "default",
             "label": "Alinhamento"
           },
           {
@@ -537,6 +544,30 @@
          ],
          "label": "Tamanho em Dispositivo Móvel",
          "default": "75%"
+       },
+       {
+         "type": "header",
+         "content": "Alinhamento padrão da Seção"
+       },
+       {
+          "type":"select",
+          "id":"section_default_align",
+          "options":[
+             {
+                "value":"left",
+                "label":"Esquerda"
+             },
+             {
+                "value":"center",
+                "label":"Centralizado"
+             },
+             {
+                "value":"right",
+                "label":"Direita"
+             },
+         ],
+         "default": "center",
+          "label":"Alinhamento padrão dos blocos"
        },
        {
          "type": "header",
