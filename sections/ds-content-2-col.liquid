@@ -13,7 +13,7 @@
                   image_align: 'center'
                %}
             </div>
-            <div class="content flex flex-column justify-{{section.settings.section_default_align}}" style="align-self: {{section.settings.vertical-align-content}};">
+            <div class="content flex flex-column justify-{{section.settings.section_default_align}}" style="align-self: {{section.settings.vertical-align-content}}; display: inline">
                 {% for block in section.blocks %}
                     {% case block.type %}
                         {%- when '@app' -%}
@@ -565,9 +565,13 @@
                 "value":"right",
                 "label":"Direita"
              },
+             {
+                "value": "default",
+                "label": "Padrão"
+            }
          ],
-         "default": "center",
-          "label":"Alinhamento padrão dos blocos"
+         "default": "default",
+         "label":"Alinhamento padrão dos blocos"
        },
        {
          "type": "header",
