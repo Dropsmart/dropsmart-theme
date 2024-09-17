@@ -2,6 +2,7 @@
   style="align-self: {{block.settings.vertical-align-content}};"
   class="ds-component ds-component-feature ds-component-product-card flex flex-basis-{{section.settings.feature-basis}} flex-column"
 >
+
   <div
     style="
       background: {{block.settings.background-color}};
@@ -10,40 +11,65 @@
     class="flex full-width flex-column no-padding {% if block.settings.has-shadow %} shadow {% endif %}"
   > 
     {% if block.settings.emphasis != empty %}
-      <span class="emphasis weight-{{block.settings.emphasis-font-weight}}" style="background: {{block.settings.emphasis-background-color}}; color: {{block.settings.emphasis-font-color}}; font-size:{{block.settings.emphasis-font-size}}em;">
+      <span class="emphasis weight-{{block.settings.emphasis-font-weight}}"
+      style="background: {{block.settings.emphasis-background-color}}; color: {{block.settings.emphasis-font-color}}; font-size:{{block.settings.emphasis-font-size}}em;">
         {{block.settings.emphasis}}
       </span>
     {% endif %}
+
     {% if block.settings.has-icon %}
+     {% if block.settings.icon-image != null %}
         <img loading="lazy" class="mobile-hide" style="
-            border-top-right-radius:{{block.settings.border-radius}};
-            border-top-left-radius: {{block.settings.border-radius}};
+            width: auto;
+            height: {{block.settings.icon-size}}px;
+            min-height: {{block.settings.icon-size}}px;
+            max-height: {{block.settings.icon-size}}px;
           " 
           src="
-          {% if block.settings.has-icon %}
-              {{ block.settings.icon-image | img_url: 'medium'}}
-          {% else %}
-              {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }}
-          {% endif %}"
-        />
-        <img loading="lazy" class="desktop-hide" style="
-            display: flex !important;
-            border-top-right-radius:{{block.settings.border-radius}};
-            border-top-left-radius: {{block.settings.border-radius}};
-          "
-          src="
-              {% if block.settings.has-icon-mobile %}
-                  {{ block.settings.mobile-icon-image | img_url: 'medium'}}
-              {% else %}    
-                  {% if block.settings.has-icon %}
-                      {{ block.settings.icon-image | img_url: 'medium'}} 
-                  {% else %}
-                      {{ 'ds-img-symbol.png' | asset_img_url: 'medium' }} 
-                  {% endif %}
-              {% endif %}
+            {{ block.settings.icon-image | img_url: 'medium'}}
           "
         />
       {% endif %}
+      
+      {% if block.settings.mobile-icon-image != null %}
+        <img loading="lazy" class="desktop-hide" style="
+            display: flex !important;
+            height: auto;
+            width: {{block.settings.mobile-icon-size}}px;
+            min-width: {{block.settings.mobile-icon-size}}px;
+            max-width: {{block.settings.mobile-icon-size}}px;
+          " 
+          src="
+              {% if block.settings.mobile-icon-image != null %}
+                {{ block.settings.mobile-icon-image | img_url: 'medium'}}
+              {% else %}    
+                {{ block.settings.icon-image | img_url: 'medium'}} 
+              {% endif %}
+          "
+        />
+
+      {% else if block.settings.mobile-icon-image == null %}
+        <img loading="lazy" class="desktop-hide" style="
+            display: flex !important;
+            height: auto;
+            width: {{block.settings.mobile-icon-size}}px;
+            min-width: {{block.settings.mobile-icon-size}}px;
+            max-width: {{block.settings.mobile-icon-size}}px;
+          " 
+          src="
+          {% if block.settings.icon-image != null %}
+            {{ block.settings.icon-image | img_url: 'medium'}} 
+          {% endif %}
+            "
+        />
+      {% endif %}
+    {% endif %}
+
+
+      {% comment %} {% else %}
+        <div class="desktop-hide" style="height:3em">
+      </div> {% endcomment %}
+      
         <div class="component-product-card justify-center">
             {%- render 'ds-component-h3', 
               fontColor: block.settings.title-font-color, 
@@ -87,6 +113,7 @@
               installment_number_font_color: block.settings.installment_number_font_color
               installment_number_font_size: block.settings.installment_number_font_size
               installment_price: block.settings.installment_price
+              show_installment: block.settings.show_installment
               installment_price_font_color: block.settings.installment_price_font_color
               installment_price_font_size: block.settings.installment_price_font_size
             -%}

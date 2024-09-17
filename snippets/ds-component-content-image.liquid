@@ -1,23 +1,36 @@
 <div class="ds-component ds-component-content-image image">
   <figure class="flex justify-{{image_align}}">
+  {% if content_image != null %}
     <img 
       loading="lazy"
-      class="{% if mobileContentImage != empty %} mobile-hide {% endif %}" src="{{ contentImage | img_url: 'master' }}"
-      data-src="{{ contentImage | img_url: 'master' }} "
+      class="{% if mobile_content_image != empty %} mobile-hide {% endif %}" src="{{ content_image | img_url: 'master' }}"
+      data-src="{{ content_image | img_url: 'master' }} "
       alt="Component Content Image"
       height="{{desktop_content_image_size}}"
       width="{{desktop_content_image_size}}"
     />
-    {% if mobileContentImage != empty %}
+  {% endif %}
+  {% if mobile_content_image != null %}
     <img 
       loading="lazy" 
       class="desktop-hide" 
-      src="{{ mobileContentImage | img_url: 'master' }}"
-      data-src="{{ mobileContentImage | img_url: 'master' }}" 
+      src="{{ mobile_content_image | img_url: 'master' }}"
+      data-src="{{ mobile_content_image | img_url: 'master' }}" 
       alt="Component Content Image"
       height="{{mobile_content_image_size}}"
       width="{{mobile_content_image_size}}"
     />
-    {% endif %}
+
+    {% else if mobile_content_image == null %}
+      <img 
+      loading="lazy" 
+      class="desktop-hide" 
+      src="{{ content_image | img_url: 'master' }}"
+      data-src="{{ content_image | img_url: 'master' }}" 
+      alt="Component Content Image"
+      height="{{mobile_content_image_size}}"
+      width="{{mobile_content_image_size}}"
+      />
+  {% endif %}
   </figure>
 </div>
