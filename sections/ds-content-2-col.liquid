@@ -5,13 +5,7 @@
         style="align-self: {{section.settings.vertical-align-content}};">
         <div class="center_content container-{{section.settings.container-width}} flex {% if section.settings.image-pos == 'right' %} flex-reverse {% else %} flex-row {% endif %} mobile-flex-column">
             <div class="content flex flex-column" style="align-self: {{section.settings.vertical-align-content}};">
-               {% render "ds-component-content-image" style="size:{{block.settings.desktop_content_image_size}}em;", 
-                  contentImage: section.settings.content_image,
-                  mobileContentImage: section.settings.mobile_content_image,
-                  desktop_content_image_size: section.settings.desktop_content_image_size,
-                  mobile_content_image_size: section.settings.mobile_content_image_size
-                  image_align: 'center'
-               %}
+               {% render "ds-component-content-image", size: block.settings.desktop_content_image_size.em, contentImage: section.settings.content_image, mobileContentImage: section.settings.mobile_content_image, desktop_content_image_size: section.settings.desktop_content_image_size, mobile_content_image_size: section.settings.mobile_content_image_size, image_align: 'center' %}
             </div>
             <div class="content flex flex-column" style="align-self: {{section.settings.vertical-align-content}};">
                 {% for block in section.blocks %}
@@ -46,13 +40,7 @@
                            -%}
 
                         {% when 'content-image' %}
-                           {% render "ds-component-content-image" style="size:{{block.settings.desktop_content_image_size}}em;", 
-                              contentImage: block.settings.content_image,
-                              mobileContentImage: block.settings.mobile_content_image,
-                              desktop_content_image_size: block.settings.desktop_content_image_size,
-                              mobile_content_image_size: block.settings.mobile_content_image_size
-                              image_align: block.settings.image_align
-                           %}
+                           {% render "ds-component-content-image", size: block.settings.desktop_content_image_size.em, contentImage: block.settings.content_image, mobileContentImage: block.settings.mobile_content_image, desktop_content_image_size: block.settings.desktop_content_image_size, mobile_content_image_size: block.settings.mobile_content_image_size, image_align: block.settings.image_align %}
 
 
                         {% when 'cta' %}
@@ -632,4 +620,33 @@
 
 {% stylesheet %} {% endstylesheet %}
 
-{% javascript %} {% endjavascript %}
+{% javascript %} {% endjavascript %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render \"ds-component-content-image\" style=\"size:{{block.settings.desktop_content_image_size}}em;\",
+    \n                  contentImage: section.settings.content_image,\n                  mobileContentImage:
+    section.settings.mobile_content_image,\n                  desktop_content_image_size:
+    section.settings.desktop_content_image_size,\n                  mobile_content_image_size:
+    section.settings.mobile_content_image_size\n                  image_align: 'center'\n
+    \              %}"
+  to: '{% render "ds-component-content-image", size: block.settings.desktop_content_image_size.em,
+    contentImage: section.settings.content_image, mobileContentImage: section.settings.mobile_content_image,
+    desktop_content_image_size: section.settings.desktop_content_image_size, mobile_content_image_size:
+    section.settings.mobile_content_image_size, image_align: ''center'' %}'
+  position: 889..1254
+- from: "{% render \"ds-component-content-image\" style=\"size:{{block.settings.desktop_content_image_size}}em;\",
+    \n                              contentImage: block.settings.content_image,\n
+    \                             mobileContentImage: block.settings.mobile_content_image,\n
+    \                             desktop_content_image_size: block.settings.desktop_content_image_size,\n
+    \                             mobile_content_image_size: block.settings.mobile_content_image_size\n
+    \                             image_align: block.settings.image_align\n                           %}"
+  to: '{% render "ds-component-content-image", size: block.settings.desktop_content_image_size.em,
+    contentImage: block.settings.content_image, mobileContentImage: block.settings.mobile_content_image,
+    desktop_content_image_size: block.settings.desktop_content_image_size, mobile_content_image_size:
+    block.settings.mobile_content_image_size, image_align: block.settings.image_align
+    %}'
+  position: 2912..3287
+{%- endcomment -%}

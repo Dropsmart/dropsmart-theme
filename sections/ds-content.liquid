@@ -40,13 +40,7 @@
                            -%}
 
                         {% when 'content-image' %}
-                           {% render "ds-component-content-image" style="size:{{block.settings.desktop_content_image_size}}em;", 
-                              contentImage: block.settings.content_image,
-                              mobileContentImage: block.settings.mobile_content_image,
-                              desktop_content_image_size: block.settings.desktop_content_image_size,
-                              mobile_content_image_size: block.settings.mobile_content_image_size
-                              image_align: block.settings.image_align
-                           %}
+                           {% render "ds-component-content-image", size: block.settings.desktop_content_image_size.em, contentImage: block.settings.content_image, mobileContentImage: block.settings.mobile_content_image, desktop_content_image_size: block.settings.desktop_content_image_size, mobile_content_image_size: block.settings.mobile_content_image_size, image_align: block.settings.image_align %}
 
 
                         {% when 'cta' %}
@@ -611,4 +605,22 @@
 
 {% stylesheet %} {% endstylesheet %}
 
-{% javascript %} {% endjavascript %}
+{% javascript %} {% endjavascript %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{% render \"ds-component-content-image\" style=\"size:{{block.settings.desktop_content_image_size}}em;\",
+    \n                              contentImage: block.settings.content_image,\n
+    \                             mobileContentImage: block.settings.mobile_content_image,\n
+    \                             desktop_content_image_size: block.settings.desktop_content_image_size,\n
+    \                             mobile_content_image_size: block.settings.mobile_content_image_size\n
+    \                             image_align: block.settings.image_align\n                           %}"
+  to: '{% render "ds-component-content-image", size: block.settings.desktop_content_image_size.em,
+    contentImage: block.settings.content_image, mobileContentImage: block.settings.mobile_content_image,
+    desktop_content_image_size: block.settings.desktop_content_image_size, mobile_content_image_size:
+    block.settings.mobile_content_image_size, image_align: block.settings.image_align
+    %}'
+  position: 2270..2645
+{%- endcomment -%}
